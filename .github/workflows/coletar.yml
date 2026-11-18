@@ -2,8 +2,8 @@ name: Coletar promocoes de milhas
 
 on:
   schedule:
-    # A cada 2 horas entre 9h e 23h (BRT). Cron do GitHub roda em UTC.
-    - cron: '7 12-23,0-2 * * *'
+    # De hora em hora, 24h por dia, aos 7 minutos da hora.
+        - cron: '7 * * * *'
   workflow_dispatch:
 
 permissions:
