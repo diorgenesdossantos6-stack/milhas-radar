@@ -30,7 +30,8 @@ function quando(ate) {
 }
 
 function rotaDe(c) {
-  return c.origens.length ? `${c.origens.join(' e ')} → ${c.destino}` : c.destino;
+  const origens = c.origens.filter((o) => o !== c.destino);
+  return origens.length ? `${origens.join(' e ')} → ${c.destino}` : c.destino;
 }
 
 function vereditoDe(c) {
@@ -187,7 +188,7 @@ function renderPe() {
 
 carregar().then(() => {
   const todas = ativas();
-  document.getElementById('estado').textContent =
+  document.querySelector('.estado').textContent =
     `${todas.length} em aberto, lido às ${new Date(DADOS.atualizadoEm).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })}`;
 
   const sel = document.getElementById('cPrograma');
@@ -205,7 +206,7 @@ carregar().then(() => {
   }
   sel.addEventListener('change', calcular);
 }).catch((e) => {
-  document.getElementById('estado').textContent = 'falhou a leitura';
+  document.querySelector('.estado').textContent = 'falhou a leitura';
   document.getElementById('lista').innerHTML =
     `<li class="nada">Não consegui ler os dados (${e.message}). Rode <code>node src/coletar.mjs</code> e recarregue.</li>`;
 });

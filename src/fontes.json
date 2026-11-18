@@ -133,7 +133,7 @@
   "tipos": [
     {
       "id": "transferencia_bonificada",
-      "nome": "Transferencia bonificada",
+      "nome": "Transferência bonificada",
       "prioridade": 1,
       "exige": [
         "bonus",
@@ -195,7 +195,7 @@
     },
     {
       "id": "pointsback",
-      "nome": "Pointsback / cashback em pontos",
+      "nome": "Pointsback",
       "prioridade": 3,
       "exige": [
         "pointsback",
@@ -206,7 +206,7 @@
     },
     {
       "id": "acumulo",
-      "nome": "Acumulo acelerado em parceiro",
+      "nome": "Acúmulo acelerado em parceiro",
       "prioridade": 4,
       "exige": [
         "pontos por real",

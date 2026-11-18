@@ -1,10 +1,10 @@
 {
-  "atualizadoEm": "2026-11-18T05:36:51.163Z",
+  "atualizadoEm": "2026-11-18T06:22:42.901Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|90|transferencia_bonificada|2026-11-19",
       "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferencia bonificada",
+      "tipoNome": "Transferência bonificada",
       "destino": "Azul Fidelidade",
       "origens": [],
       "percentual": 90,
@@ -32,7 +32,7 @@
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-18",
       "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferencia bonificada",
+      "tipoNome": "Transferência bonificada",
       "destino": "Smiles",
       "origens": [
         "Esfera"
@@ -68,7 +68,7 @@
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-20",
       "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferencia bonificada",
+      "tipoNome": "Transferência bonificada",
       "destino": "Smiles",
       "origens": [
         "Caixa"
@@ -190,7 +190,7 @@
     {
       "id": "azul fidelidade|x|acumulo|2026-11-20",
       "tipo": "acumulo",
-      "tipoNome": "Acumulo acelerado em parceiro",
+      "tipoNome": "Acúmulo acelerado em parceiro",
       "destino": "Azul Fidelidade",
       "origens": [],
       "percentual": null,
@@ -240,12 +240,6 @@
           "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-600-mil-pontos-upgrade-clube/",
           "titulo": "Azul Friday! Azul Fidelidade oferece até 600 mil pontos no upgrade do clube",
           "publicado": "2026-11-17T17:00:29.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ganhe-ate-600-mil-pontos-no-ano-ao-fazer-upgrade-do-clube-azul-milheiro-a-partir-de-r-1281/",
-          "titulo": "Ganhe até 600 mil pontos no ano ao fazer upgrade do Clube Azul - Milheiro a partir de R$ 12,81",
-          "publicado": "2026-11-17T15:00:15.000Z"
         },
         {
           "fonte": "Cartões de Crédito",

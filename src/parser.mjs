@@ -206,7 +206,9 @@ export function agruparCampanhas(promos) {
     }
     const g = grupos.get(k);
     for (const o of p.origem || []) if (!g.origens.includes(o)) g.origens.push(o);
-    g.fontes.push({ fonte: p.fonteNome, link: p.link, titulo: p.titulo, publicado: p.publicado });
+    if (!g.fontes.some((f) => f.fonte === p.fonteNome)) {
+      g.fontes.push({ fonte: p.fonteNome, link: p.link, titulo: p.titulo, publicado: p.publicado });
+    }
     g.nota = Math.max(g.nota, p.nota);
     if (p.confiancaPrazo === 'alta' && g.confiancaPrazo !== 'alta') {
       g.confiancaPrazo = 'alta';
