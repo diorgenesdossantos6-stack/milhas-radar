@@ -1,3 +1,8 @@
 node_modules/
 build/
 .DS_Store
+
+# Gerados pelo build na Netlify. Ficam fora do Git para nao conflitar
+# com os commits automaticos do coletor.
+site/promocoes.json
+site/referencia.json

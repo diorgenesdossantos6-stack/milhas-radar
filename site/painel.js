@@ -30,15 +30,22 @@ function quando(ate) {
 }
 
 function rotaDe(c) {
+  if (c.tipo === 'acumulo' && c.acumulo?.loja) return `${c.acumulo.loja} → ${c.destino}`;
   const origens = c.origens.filter((o) => o !== c.destino);
   return origens.length ? `${origens.join(' e ')} → ${c.destino}` : c.destino;
 }
 
+/** Número que resume a oferta: bônus em %, ou pontos por real no acúmulo. */
+function figuraDe(c) {
+  if (c.percentual) return `${c.percentual}%`;
+  if (c.acumulo?.porReal) return `${String(c.acumulo.porReal).replace('.', ',')}<small>pts/R$</small>`;
+  return '—';
+}
+
 function vereditoDe(c) {
   if (!c.veredito) return null;
-  const mapa = { 'vale': ['Vale a pena', 'v-vale'], 'limite': ['No limite', 'v-limite'], 'nao vale': ['Não vale', 'v-ruim'] };
-  const [txt, cls] = mapa[c.veredito] || [];
-  return txt ? { txt, cls } : null;
+  const cls = { 'vale': 'v-vale', 'limite': 'v-limite', 'nao vale': 'v-ruim' }[c.veredito];
+  return cls ? { txt: c.rotulo || '', cls, motivo: c.motivo || '' } : null;
 }
 
 function ativas() {
@@ -55,18 +62,19 @@ function renderMelhor(c) {
 
   const fatos = [];
   if (c.custoMilheiro) fatos.push(`<div><span>seu milheiro sai a</span><b>${brl(c.custoMilheiro)}</b></div>`);
-  if (ref) fatos.push(`<div><span>o mercado paga</span><b>${brl(ref.min)} a ${brl(ref.max)}</b></div>`);
+  if (ref && c.custoMilheiro) fatos.push(`<div><span>o mercado paga</span><b>${brl(ref.min)} a ${brl(ref.max)}</b></div>`);
   fatos.push(`<div><span>prazo</span><b>${q.txt}</b></div>`);
-  if (v) fatos.push(`<div><span>leitura</span><b class="${v.cls}">${v.txt}</b></div>`);
+  if (v) fatos.push(`<div><span>compensa?</span><b class="${v.cls}">${v.txt}</b></div>`);
 
   alvo.innerHTML = `
     <p class="chamada">A oportunidade mais forte agora</p>
     <div class="linha1">
-      <span class="figura">${c.percentual ? c.percentual + '%' : '—'}</span>
+      <span class="figura">${figuraDe(c)}</span>
       <span class="rota">${rotaDe(c)}</span>
     </div>
     <p class="sub">${c.titulo}</p>
     <div class="fatos">${fatos.join('')}</div>
+    ${v?.motivo ? `<p class="motivo ${v.cls}">${v.motivo.charAt(0).toUpperCase() + v.motivo.slice(1)}.</p>` : ''}
     <div class="fontes">${c.fontes.map((f) => `<a href="${f.link}" target="_blank" rel="noopener">${f.fonte}</a>`).join('')}</div>`;
 }
 
@@ -86,11 +94,12 @@ function renderLista() {
     const q = quando(c.ate);
     const v = vereditoDe(c);
     const partes = [];
-    if (c.custoMilheiro) partes.push(`milheiro a ${brl(c.custoMilheiro)}`);
     if (v) partes.push(`<span class="vereditinho ${v.cls}">${v.txt}</span>`);
-    partes.push(c.tipoNome.toLowerCase());
+    if (v?.motivo) partes.push(v.motivo);
+    else if (c.custoMilheiro) partes.push(`milheiro a ${brl(c.custoMilheiro)}`);
+    else partes.push(c.tipoNome.toLowerCase());
     return `<li><button class="item" data-id="${c.id}">
-      <span class="figura">${c.percentual ? c.percentual + '%' : '—'}</span>
+      <span class="figura">${figuraDe(c)}</span>
       <span class="rota">${rotaDe(c)}</span>
       <span class="quando ${q.perto ? 'perto' : ''}">${q.txt}</span>
       <span class="detalhe">${partes.join('<span class="sep"></span>')}
