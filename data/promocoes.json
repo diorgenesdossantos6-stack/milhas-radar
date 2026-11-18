@@ -1,14 +1,14 @@
 {
-  "atualizadoEm": "2026-11-18T18:47:37.922Z",
-  "totalAtivas": 25,
-  "totalCampanhasAtivas": 18,
+  "atualizadoEm": "2026-11-18T23:21:41.038Z",
+  "totalAtivas": 29,
+  "totalCampanhasAtivas": 20,
   "combinacoes": [],
   "erros": [],
   "historico": {
     "Esfera -> Smiles": {
       "maxPercentual": 80,
-      "ocorrencias": 3,
-      "ultimaEm": "2026-11-18T12:51:51.000Z"
+      "ocorrencias": 4,
+      "ultimaEm": "2026-11-18T21:00:28.000Z"
     },
     "Caixa -> Smiles": {
       "maxPercentual": 80,
@@ -116,65 +116,69 @@
   ],
   "regua": {
     "Livelo": {
-      "valor": 14,
-      "base": "observado",
-      "amostras": 5,
-      "menor": 12.81,
-      "maior": 15.8,
-      "texto": "mediana de 5 preços vistos em 90 dias"
+      "valor": 18.9,
+      "base": "mercado",
+      "amostras": 0,
+      "texto": "base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%"
     },
     "Esfera": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "Itau": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "Bradesco": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "C6 Bank": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "BTG Pactual": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "Santander": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "Banco do Brasil": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "Caixa": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 4,
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     },
     "Inter": {
       "valor": 19,
       "base": "padrao",
-      "amostras": 3,
+      "amostras": 0,
+      "texto": "sem base ainda, usando um valor de partida"
+    },
+    "Premmia": {
+      "valor": 19,
+      "base": "padrao",
+      "amostras": 0,
       "texto": "sem base ainda, usando um valor de partida"
     }
   },
@@ -239,6 +243,12 @@
       "publicado": "2026-11-17T18:40:12.000Z",
       "fontes": [
         {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/ultimas-horas-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-parceiros/",
+          "titulo": "Últimas horas! Smiles oferece até 80% de bônus na transferência de pontos com parceiros",
+          "publicado": "2026-11-18T21:00:28.000Z"
+        },
+        {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/prorrogado-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
           "titulo": "Prorrogado! Smiles oferece até 80% de bônus nas transferências de pontos dos cartões de crédito",
@@ -249,12 +259,6 @@
           "link": "https://www.cartoesdecredito.me/noticia/smiles-oferece-ate-80-de-bonus-nas-transferencias-9/",
           "titulo": "Smiles oferece até 80% de bônus nas transferências",
           "publicado": "2026-11-17T19:30:17.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/orange-friday-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos/",
-          "titulo": "Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos",
-          "publicado": "2026-11-17T18:40:12.000Z"
         }
       ],
       "referencia": {
@@ -628,6 +632,64 @@
       }
     },
     {
+      "id": "esfera|x|clube|2026-11-21",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-21T22:33:08.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+      "publicado": "2026-11-18T22:33:08.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
+          "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+          "publicado": "2026-11-18T22:33:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "azul fidelidade|x|clube|2026-11-29",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": null,
+      "ate": "2026-11-29T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+      "publicado": "2026-11-18T21:20:45.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+          "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+          "publicado": "2026-11-18T21:20:45.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|clube|2026-11-21",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -666,18 +728,24 @@
       "destino": "Azul Fidelidade",
       "origens": [],
       "percentual": null,
-      "ate": "2026-11-21T12:00:32.000Z",
+      "ate": "2026-11-21T20:40:23.000Z",
       "confiancaPrazo": "baixa",
       "nota": 10,
       "custoMilheiro": null,
       "acumulo": {
-        "porReal": 12,
-        "loja": "Renner"
+        "porReal": 24,
+        "loja": "Assist Card"
       },
       "clube": null,
       "titulo": "Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
       "publicado": "2026-11-18T12:00:32.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
+          "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
+          "publicado": "2026-11-18T20:40:23.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-12-pontos-real-compras-renner/",
@@ -875,7 +943,7 @@
         },
         "programa": "Azul Fidelidade"
       },
-      "titulo": "Clube Azul: até 600.000 pontos ao fazer upgrade",
+      "titulo": "Ganhe até 600 mil pontos no ano ao fazer upgrade do Clube Azul - Milheiro a partir de R$ 12,81",
       "publicado": "2026-11-17T12:36:50.000Z",
       "fontes": [
         {
@@ -911,6 +979,109 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera",
+      "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+      "link": "https://pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-18T22:33:08.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T22:33:08.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Ainda dá tempo de aproveitar a promoção do Clube Esfera! Quem realizar uma nova assinatura ou upgrade de plano pode acumular até 60 mil pontos bônus ao longo de 12 meses. Confira os detalhes da campanha e saiba quem pode participar. Clube Esfera em promoção Esta promoção de assinatura ou upgrade do Clube Esfera está…",
+      "coletadoEm": "2026-11-18T23:21:41.038Z",
+      "nota": 10
+    },
+    {
+      "id": "passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau",
+      "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+      "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T21:20:45.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Começou a Black Friday do cartão Azul Itaú! Ao solicitar um dos cartões, você pode ganhar até 80.000 pontos bônus ao cumprir as metas de gastos até 29 de novembro. A promoção é válida para os cartões Azul Itaú Visa Infinite, Mastercard Skyline e Platinum, com bônus adicionais ao assinar o Clube Azul. O post Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú apareceu primei",
+      "coletadoEm": "2026-11-18T23:21:41.038Z",
+      "nota": 10
+    },
+    {
+      "id": "pontospravoar.com/ultimas-horas-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-parceiros",
+      "titulo": "Últimas horas! Smiles oferece até 80% de bônus na transferência de pontos com parceiros",
+      "link": "https://pontospravoar.com/ultimas-horas-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-parceiros/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-18T21:00:28.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Esfera -> Smiles",
+      "percentual": 80,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-18T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Último dia para aproveitar! Como parte das ofertas da Orange Friday, a Smiles está oferecendo até 80% de bônus na transferência de pontos de todos os parceiros, exceto Esfera. A promoção termina hoje, 18 de novembro, e pode ser uma oportunidade para aumentar seu saldo de milhas. Confira os percentuais oferecidos, as condições da campanha…",
+      "coletadoEm": "2026-11-18T23:21:41.038Z",
+      "nota": 88
+    },
+    {
+      "id": "passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner",
+      "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
+      "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T20:40:23.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 24,
+        "loja": "Assist Card"
+      },
+      "clube": null,
+      "ate": "2026-11-21T20:40:23.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Fidelidade está oferecendo até 24 pontos por real gasto em compras na Assist Card e na Renner até domingo (22). Assinantes do Clube Azul acumulam 24 pontos na Assist Card e 12 pontos na Renner, enquanto clientes comuns acumulam 15 e 6 pontos, respectivamente. Aproveite as ofertas e garanta seus pontos! O post Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner apareceu pr",
+      "coletadoEm": "2026-11-18T23:21:41.038Z",
+      "nota": 10
+    },
     {
       "id": "melhorescartoes.com.br/livelo-parceiros-compras-13-pontos-nov26.html",
       "titulo": "Ganhe até 13 pontos Livelo por real em compras na Insider, Carrefour Mercado, Petlove e mais parceiros",
