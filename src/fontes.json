@@ -1,0 +1,245 @@
+{
+  "feeds": [
+    {
+      "id": "melhoresdestinos",
+      "nome": "Melhores Destinos",
+      "url": "https://www.melhoresdestinos.com.br/feed"
+    },
+    {
+      "id": "passageirodeprimeira",
+      "nome": "Passageiro de Primeira",
+      "url": "https://passageirodeprimeira.com/feed/"
+    },
+    {
+      "id": "pontospravoar",
+      "nome": "Pontos pra Voar",
+      "url": "https://pontospravoar.com/feed/"
+    },
+    {
+      "id": "melhorescartoes",
+      "nome": "Melhores Cartões",
+      "url": "https://www.melhorescartoes.com.br/feed/"
+    },
+    {
+      "id": "cartoesdecredito",
+      "nome": "Cartões de Crédito",
+      "url": "https://www.cartoesdecredito.me/feed/"
+    }
+  ],
+  "programas": {
+    "origem": {
+      "Livelo": [
+        "livelo"
+      ],
+      "Esfera": [
+        "esfera"
+      ],
+      "Itau": [
+        "itau",
+        "itaú",
+        "iupp"
+      ],
+      "Bradesco": [
+        "bradesco"
+      ],
+      "C6 Bank": [
+        "c6 bank",
+        "c6bank",
+        "atomos",
+        "átomos"
+      ],
+      "BTG Pactual": [
+        "btg"
+      ],
+      "Santander": [
+        "santander"
+      ],
+      "Banco do Brasil": [
+        "banco do brasil",
+        "ourocard"
+      ],
+      "Caixa": [
+        "caixa"
+      ],
+      "Inter": [
+        "inter loop",
+        "banco inter"
+      ]
+    },
+    "destino": {
+      "Smiles": [
+        "smiles"
+      ],
+      "Latam Pass": [
+        "latam pass",
+        "latampass",
+        "latam"
+      ],
+      "Azul Fidelidade": [
+        "azul fidelidade",
+        "tudoazul",
+        "tudo azul",
+        "azul"
+      ],
+      "ConnectMiles": [
+        "connectmiles",
+        "copa airlines"
+      ],
+      "Aeroplan": [
+        "aeroplan",
+        "air canada"
+      ],
+      "Miles & More": [
+        "miles & more",
+        "miles and more",
+        "lufthansa"
+      ],
+      "TAP Miles&Go": [
+        "tap miles",
+        "miles&go",
+        "milesandgo"
+      ],
+      "Flying Blue": [
+        "flying blue",
+        "air france",
+        "klm"
+      ],
+      "AAdvantage": [
+        "aadvantage",
+        "american airlines"
+      ],
+      "Iberia Plus": [
+        "iberia plus",
+        "iberia"
+      ],
+      "Emirates Skywards": [
+        "skywards",
+        "emirates"
+      ],
+      "Qatar Privilege": [
+        "privilege club",
+        "qatar"
+      ],
+      "Accor ALL": [
+        "accor",
+        "all - accor"
+      ],
+      "Marriott Bonvoy": [
+        "bonvoy",
+        "marriott"
+      ]
+    }
+  },
+  "tipos": [
+    {
+      "id": "transferencia_bonificada",
+      "nome": "Transferencia bonificada",
+      "prioridade": 1,
+      "exige": [
+        "bonus",
+        "bônus",
+        "bonificada",
+        "bonificado"
+      ],
+      "contexto": [
+        "transferencia",
+        "transferência",
+        "transferir",
+        "envio de pontos",
+        "enviar pontos"
+      ]
+    },
+    {
+      "id": "compra_pontos",
+      "nome": "Compra de pontos com desconto",
+      "prioridade": 2,
+      "exige": [
+        "desconto",
+        "off",
+        "%"
+      ],
+      "contexto": [
+        "compra de pontos",
+        "comprar pontos",
+        "compre pontos",
+        "pontos com desconto"
+      ]
+    },
+    {
+      "id": "pontos_dinheiro",
+      "nome": "Pontos + dinheiro",
+      "prioridade": 2,
+      "exige": [
+        "pontos + dinheiro",
+        "pontos mais dinheiro",
+        "pontos+dinheiro"
+      ],
+      "contexto": []
+    },
+    {
+      "id": "clube",
+      "nome": "Clube / assinatura",
+      "prioridade": 3,
+      "exige": [
+        "clube",
+        "assine",
+        "assinatura"
+      ],
+      "contexto": [
+        "bonus",
+        "bônus",
+        "milhas",
+        "pontos",
+        "desconto"
+      ]
+    },
+    {
+      "id": "pointsback",
+      "nome": "Pointsback / cashback em pontos",
+      "prioridade": 3,
+      "exige": [
+        "pointsback",
+        "points back",
+        "cashback em pontos"
+      ],
+      "contexto": []
+    },
+    {
+      "id": "acumulo",
+      "nome": "Acumulo acelerado em parceiro",
+      "prioridade": 4,
+      "exige": [
+        "pontos por real",
+        "pontos por r$",
+        "turbo",
+        "multiplique"
+      ],
+      "contexto": []
+    }
+  ],
+  "ruido": [
+    "passagens a partir de",
+    "voe de",
+    "voe para",
+    "voos diretos",
+    "pacotes de viagem",
+    "alugue carro",
+    "cruzeiro",
+    "hotel a partir de",
+    "programacao",
+    "programação",
+    "inaugura",
+    "aniversario de",
+    "aniversário de",
+    "como emitir",
+    "o que fazer em",
+    "radar ppv",
+    "resumo das promocoes",
+    "resumo das promoções",
+    "meu resgate favorito",
+    "desconto na assinatura",
+    "assinatura do",
+    "meus resgates",
+    "oferece 30% de desconto na assinatura"
+  ]
+}

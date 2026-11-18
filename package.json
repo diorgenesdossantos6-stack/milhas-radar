@@ -1,0 +1,19 @@
+{
+  "name": "milhas-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Coletor e painel de promocoes de milhas, pontos e transferencias bonificadas",
+  "scripts": {
+    "coletar": "node src/coletar.mjs",
+    "seco": "node src/coletar.mjs --seco",
+    "cotacao": "node src/cotacao.mjs",
+    "build": "node src/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jsdom": "^31.0.1"
+  }
+}

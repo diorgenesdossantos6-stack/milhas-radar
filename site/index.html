@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Milhas</title>
+<meta name="description" content="Promoções de transferência de pontos e milhas, com custo do milheiro e comparação com o mercado.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --tinta: #132a33;
+    --tinta-fraca: #5b7079;
+    --nevoa: #e8ebe6;
+    --papel: #f9faf8;
+    --regua: #c9d1cc;
+    --magenta: #c2185b;
+    --jade: #0f6f52;
+    --ambar: #7d6118;
+    --ferrugem: #9b3425;
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --grot: "Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --tinta: #e4eae7; --tinta-fraca: #94a6a2; --nevoa: #0e1a1f;
+      --papel: #14242a; --regua: #2a3d44;
+      --magenta: #ff5c93; --jade: #4fc39b; --ambar: #d9b24c; --ferrugem: #e58070;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--nevoa); color: var(--tinta);
+    font-family: var(--serif); font-size: 17px; line-height: 1.55;
+  }
+  .folha { max-width: 760px; margin: 0 auto; padding: 28px 20px 72px; }
+
+  /* Cabecalho */
+  .topo { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .topo h1 {
+    font-family: var(--grot); font-size: 1.45rem; font-weight: 700;
+    letter-spacing: -.025em; margin: 0;
+  }
+  .estado { font-family: var(--grot); font-size: .8rem; color: var(--tinta-fraca); font-variant-numeric: tabular-nums; }
+
+  /* Destaque unico: a melhor oportunidade */
+  .melhor {
+    margin: 22px 0 36px; padding: 20px 0 18px;
+    border-top: 3px solid var(--magenta); border-bottom: 1px solid var(--regua);
+  }
+  .melhor .chamada { font-size: 1.02rem; font-style: italic; color: var(--tinta-fraca); margin: 0 0 12px; }
+  .melhor .linha1 { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .melhor .figura {
+    font-family: var(--grot); font-size: 3.4rem; font-weight: 700; line-height: .9;
+    letter-spacing: -.045em; color: var(--magenta); font-variant-numeric: tabular-nums;
+  }
+  .melhor .rota { font-family: var(--grot); font-size: 1.1rem; font-weight: 600; letter-spacing: -.01em; }
+  .melhor .sub { font-size: .95rem; color: var(--tinta-fraca); margin: 6px 0 0; }
+  .melhor .fatos { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 14px; font-family: var(--grot); font-size: .88rem; }
+  .melhor .fatos div span { display: block; font-size: .72rem; color: var(--tinta-fraca); }
+  .melhor .fatos div b { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  /* Lista ranqueada */
+  .secao { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin: 0 0 6px; }
+  .secao h2 { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; margin: 0; }
+  .controles { display: flex; gap: 8px; }
+  select {
+    font-family: var(--grot); font-size: .82rem; color: var(--tinta);
+    background: var(--papel); border: 1px solid var(--regua); border-radius: 3px; padding: 5px 8px;
+  }
+  select:focus-visible, button:focus-visible, input:focus-visible, .item:focus-visible {
+    outline: 2px solid var(--magenta); outline-offset: 2px;
+  }
+
+  .lista { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--regua); }
+  .item {
+    display: grid; grid-template-columns: 76px 1fr auto; gap: 4px 16px; align-items: baseline;
+    width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--regua);
+    padding: 15px 2px; color: inherit; font: inherit; cursor: pointer;
+  }
+  .item:hover { background: var(--papel); }
+  .item .figura {
+    grid-row: span 2; font-family: var(--grot); font-size: 1.85rem; font-weight: 700;
+    letter-spacing: -.04em; font-variant-numeric: tabular-nums;
+  }
+  .item .rota { font-family: var(--grot); font-size: .98rem; font-weight: 600; letter-spacing: -.01em; }
+  .item .quando { font-family: var(--grot); font-size: .8rem; color: var(--tinta-fraca); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .item .quando.perto { color: var(--ferrugem); font-weight: 600; }
+  .item .detalhe { grid-column: 2 / span 2; font-size: .9rem; color: var(--tinta-fraca); }
+  .vereditinho { font-family: var(--grot); font-weight: 600; font-size: .82rem; }
+  .v-vale { color: var(--jade); } .v-limite { color: var(--ambar); } .v-ruim { color: var(--ferrugem); }
+.sep { display: inline-block; width: 1.4em; }
+  .fontes { margin-top: 6px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .fontes a { font-family: var(--grot); font-size: .76rem; color: var(--tinta-fraca); text-decoration: none; border-bottom: 1px solid var(--regua); }
+  .fontes a:hover { color: var(--magenta); border-color: var(--magenta); }
+
+  /* Calculadora */
+  .conta { margin-top: 44px; padding-top: 4px; }
+  .campos { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(146px, 1fr)); margin: 14px 0 0; }
+  .campos label { display: flex; flex-direction: column; gap: 3px; font-family: var(--grot); font-size: .8rem; color: var(--tinta-fraca); }
+  .campos input, .campos select { font-size: .95rem; padding: 7px 9px; font-variant-numeric: tabular-nums; }
+  .campos input { font-family: var(--grot); background: var(--papel); border: 1px solid var(--regua); border-radius: 3px; color: var(--tinta); }
+  .dica { font-family: var(--grot); font-size: .74rem; color: var(--tinta-fraca); margin-top: 8px; }
+  .resultado { margin-top: 20px; border-top: 1px solid var(--regua); padding-top: 16px; }
+  .resultado .fatos { display: flex; gap: 28px; flex-wrap: wrap; font-family: var(--grot); }
+  .resultado .fatos div span { display: block; font-size: .74rem; color: var(--tinta-fraca); }
+  .resultado .fatos div b { font-size: 1.35rem; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .resultado .mercado { margin-top: 12px; font-size: .92rem; color: var(--tinta-fraca); }
+
+  /* Historico */
+  .hist { margin-top: 44px; }
+  .hist table { width: 100%; border-collapse: collapse; font-family: var(--grot); font-size: .88rem; }
+  .hist th { text-align: left; font-weight: 600; font-size: .78rem; color: var(--tinta-fraca); padding: 6px 2px; border-bottom: 1px solid var(--regua); }
+  .hist td { padding: 8px 2px; border-bottom: 1px solid var(--regua); font-variant-numeric: tabular-nums; }
+  .hist td:first-child { font-family: var(--serif); font-size: .95rem; }
+
+  .nada { color: var(--tinta-fraca); font-style: italic; padding: 18px 0; }
+  .pe { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--regua);
+        font-size: .82rem; color: var(--tinta-fraca); line-height: 1.6; }
+  .pe a { color: inherit; }
+  code { font-size: .85em; }
+  @media (max-width: 420px) {
+    body { font-size: 16px; }
+    .melhor .figura { font-size: 2.7rem; }
+    .item { grid-template-columns: 60px 1fr; }
+    .item .quando { grid-column: 2; }
+    .item .detalhe { grid-column: 2; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .item, .fontes a { transition: background-color .12s ease, color .12s ease, border-color .12s ease; }
+  }
+</style>
+</head>
+<body>
+<div class="folha">
+  <header class="topo">
+    <h1>Radar de Milhas</h1>
+    <p class="estado" id="estado">carregando</p>
+  </header>
+
+  <section class="melhor" id="melhor" hidden></section>
+
+  <section>
+    <div class="secao">
+      <h2>Outras promoções em aberto</h2>
+      <div class="controles" id="controles"></div>
+    </div>
+    <ul class="lista" id="lista"></ul>
+  </section>
+
+  <section class="conta">
+    <div class="secao"><h2>Quanto vai sair o seu milheiro</h2></div>
+    <div class="campos">
+      <label>Pontos a transferir
+        <input id="cPontos" type="text" value="50000" inputmode="numeric" autocomplete="off"></label>
+      <label>Custo dos seus pontos, por mil
+        <input id="cCusto" type="text" value="30,00" inputmode="decimal" autocomplete="off"></label>
+      <label>Bônus
+        <input id="cBonus" type="text" value="80" inputmode="numeric" autocomplete="off"></label>
+      <label>Pontos por milha
+        <input id="cDesagio" type="text" value="1" inputmode="decimal" autocomplete="off"></label>
+      <label>Programa de destino
+        <select id="cPrograma"><option value="">sem comparação</option></select></label>
+    </div>
+    <p class="dica">Toque numa promoção da lista para trazer o bônus e o programa dela para cá.
+      Pontos por milha é o deságio: em transferências 3 por 1, use 3.</p>
+    <div class="resultado" id="resultado"></div>
+  </section>
+
+  <section class="hist">
+    <div class="secao"><h2>Maior bônus já visto em cada rota</h2></div>
+    <div id="historico"></div>
+  </section>
+
+  <p class="pe" id="pe"></p>
+</div>
+<script src="./painel.js"></script>
+</body>
+</html>
