@@ -200,6 +200,7 @@ export function agruparCampanhas(promos) {
         nota: p.nota,
         custoMilheiro: p.custoMilheiro ?? null,
         acumulo: p.acumulo ?? null,
+        clube: p.clube ?? null,
         titulo: p.titulo,
         publicado: p.publicado,
         fontes: []
@@ -217,6 +218,7 @@ export function agruparCampanhas(promos) {
     }
     if (p.custoMilheiro && (!g.custoMilheiro || p.custoMilheiro < g.custoMilheiro)) g.custoMilheiro = p.custoMilheiro;
     if (p.acumulo && (!g.acumulo || (p.acumulo.porReal || 0) > (g.acumulo.porReal || 0))) g.acumulo = p.acumulo;
+    if (p.clube && (!g.clube || p.clube.milheiro < g.clube.milheiro)) g.clube = p.clube;
     if (p.titulo.length < g.titulo.length) g.titulo = p.titulo;
     if (p.publicado && (!g.publicado || p.publicado < g.publicado)) g.publicado = p.publicado;
   }
@@ -295,4 +297,108 @@ export function avaliar(campanha, referencia, tetos, historico) {
   }
 
   return null;
+}
+
+/**
+ * Assinatura de clube: calcula quanto sai o milheiro.
+ * Prefere o número que a própria matéria publica; só então tenta deduzir
+ * de mensalidade e pontos. Sem base para calcular, devolve null em vez de chutar.
+ */
+export function avaliarClube(item, custoJaCalculado, valorJusto) {
+  const texto = `${item.titulo} ${item.resumo}`;
+  const norm = normalizar(texto);
+
+  let milheiro = custoJaCalculado || null;
+  let origem = milheiro ? 'publicado na matéria' : null;
+
+  if (!milheiro) {
+    const mMensal = norm.match(/(?:12x\s*de\s*)?r\$\s*([\d.]+,\d{2}|\d+)\s*(?:\/|por\s*)?m[eê]s/) ||
+                    norm.match(/por\s*apenas\s*r\$\s*([\d.]+,\d{2}|\d+)/);
+    // Os pontos vêm por mês ou no total do ano. A frase diz qual.
+    const mMensais = norm.match(/(\d{1,3}(?:[.,]\d{3})*|\d+)\s*(mil\s*)?pontos\s*(?:por\s*m[eê]s|\/m[eê]s|mensais|ao\s*m[eê]s)/);
+    const mTotais = norm.match(/(\d{1,3}(?:[.,]\d{3})*|\d+)\s*(mil\s*)?pontos/);
+    const mPontos = mMensais || mTotais;
+    if (mMensal && mPontos) {
+      const mensal = Number(mMensal[1].replace(/\./g, '').replace(',', '.'));
+      let pontos = Number(String(mPontos[1]).replace(/[.,]/g, ''));
+      if (mPontos[2]) pontos *= 1000;
+      const porMes = Boolean(mMensais);
+      if (mensal > 0 && pontos > 0) {
+        const bruto = porMes ? (mensal / pontos) * 1000 : ((mensal * 12) / pontos) * 1000;
+        // Resultado absurdo quase sempre é erro de leitura: melhor não afirmar nada.
+        if (bruto > 0 && bruto < 200) {
+          milheiro = Number(bruto.toFixed(2));
+          origem = porMes
+            ? 'calculado da mensalidade e dos pontos mensais'
+            : 'calculado da mensalidade e do total de pontos';
+        }
+      }
+    }
+  }
+  if (!milheiro) return null;
+
+  const justo = valorJusto || 19;
+  const veredito = milheiro <= justo * 0.85 ? 'vale' : milheiro <= justo * 1.05 ? 'limite' : 'nao vale';
+  const rotulo = veredito === 'vale' ? 'Bom preço' : veredito === 'limite' ? 'No limite' : 'Caro';
+  const motivo = `milheiro a R$ ${milheiro.toFixed(2).replace('.', ',')} contra R$ ${justo.toFixed(2).replace('.', ',')} que você considera justo`;
+  return { milheiro, origem, veredito, rotulo, motivo, base: 'clube' };
+}
+
+/**
+ * Vale esperar? Compara o intervalo desde a última campanha forte da rota
+ * com a cadência conhecida daquele destino.
+ */
+export function valeEsperar(campanha, historico, cadencia) {
+  if (campanha.tipo !== 'transferencia_bonificada' || !campanha.percentual) return null;
+  const dias = cadencia?.[campanha.destino];
+  if (!dias) return null;
+
+  const chaves = Object.keys(historico || {}).filter((k) => k.endsWith(`-> ${campanha.destino}`) || k === campanha.destino);
+  let ultima = null;
+  for (const k of chaves) {
+    const h = historico[k];
+    if (h?.ultimaEm && (!ultima || h.ultimaEm > ultima)) ultima = h.ultimaEm;
+  }
+  if (!ultima) return { cadencia: dias, texto: `campanhas desse destino costumam repetir a cada ${dias} dias` };
+
+  const passados = Math.round((Date.now() - new Date(ultima)) / 864e5);
+  if (passados <= 2) return { cadencia: dias, desde: passados, texto: `costuma repetir a cada ${dias} dias` };
+  const falta = Math.max(0, dias - passados);
+  return {
+    cadencia: dias, desde: passados, falta,
+    texto: falta > 14
+      ? `a próxima costuma demorar mais ${falta} dias, então esperar tem custo`
+      : `a próxima pode vir em cerca de ${falta} dias`
+  };
+}
+
+/**
+ * Combinação: comprar pontos com desconto e transferir com bônus na mesma rota.
+ * É assim que saem os melhores custos, e nenhuma das duas promoções sozinha mostra isso.
+ */
+export function combinar(campanhas) {
+  const compras = campanhas.filter((c) => c.tipo === 'compra_pontos' && c.percentual);
+  const transfs = campanhas.filter((c) => c.tipo === 'transferencia_bonificada' && c.percentual);
+  const saida = [];
+
+  for (const t of transfs) {
+    const origem = t.origens[0];
+    if (!origem) continue;
+    const compra = compras.find((c) => c.origens.includes(origem) || c.destino === origem);
+    if (!compra) continue;
+    const ate = new Date(t.ate) < new Date(compra.ate) ? t.ate : compra.ate;
+    saida.push({
+      id: `combo|${compra.id}|${t.id}`,
+      origem,
+      destino: t.destino,
+      descontoCompra: compra.percentual,
+      bonusTransferencia: t.percentual,
+      ate,
+      partes: [
+        { papel: 'compra', titulo: compra.titulo, fontes: compra.fontes },
+        { papel: 'transferência', titulo: t.titulo, fontes: t.fontes }
+      ]
+    });
+  }
+  return saida;
 }

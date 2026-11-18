@@ -44,6 +44,50 @@
   .estado { font-size: .8rem; font-weight: 600; color: var(--texto-fraco); font-variant-numeric: tabular-nums; }
 
   /* Destaque: a decisão do momento */
+  /* Resumo: a resposta antes da pergunta */
+  .resumo { margin-bottom: 20px; }
+  .resumo p { margin: 0; font-size: 1.15rem; line-height: 1.45; max-width: 46ch; }
+  .resumo b { font-weight: 700; color: var(--ciano); }
+  .resumo b.urge { color: var(--alerta); }
+
+  .meu { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+         background: rgba(255,255,255,.03); border-radius: 10px; padding: 16px; margin-bottom: 28px; }
+  .meu label { display: flex; flex-direction: column; gap: 4px; font-size: .76rem; font-weight: 600; color: var(--texto-fraco); }
+  .meu input { font-family: var(--fonte); font-weight: 600; font-size: .95rem; padding: 8px 10px;
+               background: var(--azul); border: 1px solid var(--azul-linha); border-radius: 6px;
+               color: var(--texto); font-variant-numeric: tabular-nums; }
+  .meu input:focus-visible { outline: 2px solid var(--ciano); outline-offset: 2px; }
+  .meu-nota { grid-column: 1 / -1; margin: 0; font-size: .74rem; color: var(--texto-fraco); }
+
+  /* Barra: bônus de hoje contra o teto da rota */
+  .vencimento { background: rgba(255,255,255,.03); border-radius: 10px; padding: 0 16px; margin-bottom: 28px; }
+  .vencimento summary { cursor: pointer; padding: 14px 0; font-size: .86rem; font-weight: 600; color: var(--texto-fraco); }
+  .vencimento summary::marker { color: var(--lilas); }
+  .vencimento[open] summary { color: var(--texto); }
+  .venc-campos { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); padding-bottom: 6px; }
+  .venc-campos label { display: flex; flex-direction: column; gap: 4px; font-size: .76rem; font-weight: 600; color: var(--texto-fraco); }
+  .venc-campos input { font-family: var(--fonte); font-weight: 600; font-size: .9rem; padding: 7px 9px;
+                       background: var(--azul); border: 1px solid var(--azul-linha); border-radius: 6px; color: var(--texto); }
+  .vencimento .meu-nota { padding-bottom: 14px; }
+  .venc-alerta { display: inline-block; font-size: .72rem; font-weight: 700; color: var(--alerta);
+                 background: rgba(255,143,163,.12); border-radius: 4px; padding: 2px 7px; margin-left: 8px; }
+
+  .combo { background: var(--azul-painel); border-radius: 10px; padding: 18px 20px; margin-bottom: 10px;
+           border-left: 3px solid var(--roxo); }
+  .combo h3 { margin: 0 0 4px; font-size: 1.05rem; font-weight: 700; letter-spacing: -.01em; }
+  .combo .conta-combo { font-size: .88rem; color: var(--texto-fraco); margin: 0 0 10px; }
+  .combo .conta-combo b { color: var(--ciano); font-weight: 700; }
+  .combo ol { margin: 0; padding-left: 18px; font-size: .84rem; color: var(--texto-fraco); }
+  .combo li { margin-bottom: 4px; }
+  .combo li b { color: var(--texto); font-weight: 600; }
+  .esperar { display: block; margin-top: 4px; font-size: .78rem; color: var(--lilas); }
+
+  .barra { grid-column: 2 / span 2; display: flex; align-items: center; gap: 10px; margin: 8px 0 2px; }
+  .trilho { flex: 1; max-width: 220px; height: 6px; background: rgba(255,255,255,.08); border-radius: 3px; overflow: hidden; }
+  .preenche { display: block; height: 100%; background: var(--ciano); border-radius: 0 3px 3px 0;
+              transform-origin: left; }
+  .topo-rota { font-size: .68rem; font-weight: 600; color: var(--texto-fraco); white-space: nowrap; }
+
   .melhor { background: var(--azul-painel); border-radius: 10px; padding: 24px; margin-bottom: 40px; position: relative; overflow: hidden; }
   .melhor::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: var(--gradiente); }
   .melhor .chamada { font-size: .82rem; font-weight: 600; color: var(--texto-fraco); margin: 0 0 14px; }
@@ -75,6 +119,7 @@
     border-left: 3px solid transparent;
   }
   .item:hover { border-left-color: var(--roxo); }
+  .sem-num { font-size: .42em; font-weight: 600; color: var(--texto-fraco); letter-spacing: 0; }
   .figura small { font-size: .32em; font-weight: 600; letter-spacing: 0; margin-left: 2px; }
   .item .figura { grid-row: span 2; font-size: 2rem; font-weight: 700; letter-spacing: -.035em; color: var(--ciano); font-variant-numeric: tabular-nums; }
   .item .rota { font-size: 1rem; font-weight: 600; letter-spacing: -.01em; }
@@ -164,7 +209,16 @@
     .resultado .fatos { gap: 20px; }
   }
   @media (prefers-reduced-motion: no-preference) {
-    .item, .fontes a { transition: border-color .15s ease, background-color .15s ease, color .15s ease; }
+    .item, .fontes a, .lojas li { transition: border-color .15s ease, background-color .15s ease, color .15s ease; }
+    .preenche { transition: width .5s cubic-bezier(.22,.61,.36,1); }
+    /* Uma única entrada, só na primeira pintura. */
+    .entrada > * { animation: surgir .45s cubic-bezier(.22,.61,.36,1) backwards; }
+    .entrada > *:nth-child(1) { animation-delay: .02s; }
+    .entrada > *:nth-child(2) { animation-delay: .07s; }
+    .entrada > *:nth-child(3) { animation-delay: .12s; }
+    .entrada > *:nth-child(4) { animation-delay: .17s; }
+    .entrada > *:nth-child(n+5) { animation-delay: .22s; }
+    @keyframes surgir { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
   }
 </style>
 </head>
@@ -175,7 +229,39 @@
     <p class="estado">carregando</p>
   </header>
 
+  <div class="resumo" id="resumo"></div>
+
+  <div class="meu">
+    <label>Seus pontos na Livelo
+      <input id="mSaldo" type="text" inputmode="numeric" placeholder="ex.: 120.000" autocomplete="off"></label>
+    <label>De onde vieram
+      <select id="mOrigem">
+        <option value="cartao">Gasto no cartão</option>
+        <option value="clube">Assinatura de clube</option>
+        <option value="comprados">Comprados em promoção</option>
+      </select></label>
+    <label id="lMensal" hidden>Mensalidade
+      <input id="mMensal" type="text" inputmode="decimal" placeholder="ex.: 49,90" autocomplete="off"></label>
+    <label id="lPontosMes" hidden>Pontos por mês
+      <input id="mPontosMes" type="text" inputmode="numeric" placeholder="ex.: 2.000" autocomplete="off"></label>
+    <label id="lComprado" hidden>Quanto pagou por mil
+      <input id="mCusto" type="text" inputmode="decimal" placeholder="ex.: 18,00" autocomplete="off"></label>
+    <p class="meu-nota" id="meuNota">Fica salvo só neste navegador.</p>
+  </div>
+
+  <details class="vencimento">
+    <summary>Quando suas milhas vencem</summary>
+    <div class="venc-campos" id="vencCampos"></div>
+    <p class="meu-nota">Deixar milhas vencerem é o erro mais caro do ramo. Preencha uma vez e o painel passa a avisar,
+      priorizando as promoções dos programas que estão perto do prazo.</p>
+  </details>
+
   <section class="melhor" id="melhor" hidden></section>
+
+  <section id="combos-sec" hidden>
+    <div class="secao"><h2>Vale combinar</h2></div>
+    <div id="combos"></div>
+  </section>
 
   <section>
     <div class="secao">

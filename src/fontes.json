@@ -266,5 +266,17 @@
     "Qatar Privilege": 40,
     "Accor ALL": 40,
     "Marriott Bonvoy": 40
+  },
+  "cadencia": {
+    "_comentario": "Intervalo tipico, em dias, entre campanhas fortes de cada destino. Semente de mercado; o historico real refina com o tempo.",
+    "Smiles": 90,
+    "Latam Pass": 60,
+    "Azul Fidelidade": 60,
+    "ConnectMiles": 120
+  },
+  "valorJusto": {
+    "_comentario": "Quanto voce considera que mil pontos valem. Regua para julgar assinatura de clube e compra de pontos. Ajuste ao seu criterio.",
+    "Livelo": 19.0,
+    "Esfera": 19.0
   }
 }

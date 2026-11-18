@@ -9,7 +9,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
-import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar } from './parser.mjs';
+import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
@@ -128,6 +128,9 @@ async function main() {
         percentual: percentual(item),
         custoMilheiro: custoMilheiro(item),
         acumulo: acumuloLoja(item, tipo.id),
+        clube: tipo.id === 'clube'
+          ? avaliarClube(item, custoMilheiro(item), cfg.valorJusto?.[pg.origem[0]] ?? cfg.valorJusto?.Livelo)
+          : null,
         ate: pz.ate,
         confiancaPrazo: pz.confianca,
         resumo: item.resumo.slice(0, 400),
@@ -159,14 +162,20 @@ async function main() {
   const campanhasAtivas = agruparCampanhas(ativas).map((c) => {
     const ref = referencia.programas[c.destino];
     if (ref) c.referencia = { min: ref.min, max: ref.max, mediana: ref.mediana, fonte: ref.fonte };
-    const a = avaliar(c, referencia.programas, cfg.tetos, base.historico);
-    if (a) { c.veredito = a.veredito; c.rotulo = a.rotulo; c.motivo = a.motivo; c.baseVeredito = a.base; }
+    const a = c.clube
+      ? { ...c.clube, teto: null }
+      : avaliar(c, referencia.programas, cfg.tetos, base.historico);
+    if (a) { c.veredito = a.veredito; c.rotulo = a.rotulo; c.motivo = a.motivo; c.baseVeredito = a.base; c.teto = a.teto ?? null; }
+    const esperar = valeEsperar(c, base.historico, cfg.cadencia);
+    if (esperar) c.esperar = esperar;
     return c;
   });
+  const combinacoes = combinar(campanhasAtivas);
   const saida = {
     atualizadoEm: AGORA.toISOString(),
     totalAtivas: ativas.length,
     totalCampanhasAtivas: campanhasAtivas.length,
+    combinacoes,
     erros,
     historico: base.historico,
     campanhasAtivas,

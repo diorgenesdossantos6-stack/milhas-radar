@@ -2,6 +2,53 @@ const brl = (n) => n == null ? '—' : n.toLocaleString('pt-BR', { style: 'curre
 const num = (n) => n.toLocaleString('pt-BR');
 
 let DADOS = null, REF = { programas: {} }, LIVELO = { parceiros: [] };
+
+/** Saldo e custo do ponto ficam no navegador: é o que personaliza tudo. */
+const MEU = { saldo: 0, custo: 0, origem: 'cartao', mensal: 0, pontosMes: 0, vencimentos: {} };
+function lerMeu() {
+  try {
+    const g = JSON.parse(localStorage.getItem('radar-milhas-meu') || '{}');
+    MEU.saldo = Number(g.saldo) || 0;
+    MEU.custo = Number(g.custo) || 0;
+    MEU.origem = g.origem || 'cartao';
+    MEU.mensal = Number(g.mensal) || 0;
+    MEU.pontosMes = Number(g.pontosMes) || 0;
+    MEU.vencimentos = g.vencimentos || {};
+  } catch { /* navegador sem storage, segue sem personalizar */ }
+}
+
+/** O custo do ponto, deduzido da origem em vez de perguntado de novo. */
+function custoDoPonto() {
+  if (MEU.origem === 'clube' && MEU.mensal > 0 && MEU.pontosMes > 0) {
+    return (MEU.mensal / MEU.pontosMes) * 1000;
+  }
+  if (MEU.origem === 'comprados' && MEU.custo > 0) return MEU.custo;
+  return 0; // cartão: o ponto não saiu do bolso
+}
+
+const PROGRAMAS_VENC = ['Smiles', 'Latam Pass', 'Azul Fidelidade', 'Livelo'];
+
+/** Dias até o vencimento informado, quando houver. */
+function vencimentoDe(programa) {
+  const d = MEU.vencimentos?.[programa];
+  if (!d) return null;
+  const dt = new Date(`${d}T23:59:00-03:00`);
+  if (isNaN(dt)) return null;
+  const dias = Math.ceil((dt - new Date()) / 864e5);
+  return { dias, data: dt };
+}
+function gravarMeu() {
+  try { localStorage.setItem('radar-milhas-meu', JSON.stringify(MEU)); } catch { /* ok */ }
+}
+
+/** O que o saldo do usuário vira nessa campanha. */
+function simular(c) {
+  if (!MEU.saldo || !c.percentual || c.tipo !== 'transferencia_bonificada') return null;
+  const milhas = Math.round(MEU.saldo * (1 + c.percentual / 100));
+  const custo = custoDoPonto();
+  const milheiro = custo ? ((MEU.saldo / 1000) * custo / milhas) * 1000 : null;
+  return { milhas, milheiro };
+}
 const filtro = { programa: 'todos', tipo: 'todos' };
 
 async function carregar() {
@@ -41,7 +88,7 @@ function rotaDe(c) {
 function figuraDe(c) {
   if (c.percentual) return `${c.percentual}%`;
   if (c.acumulo?.porReal) return `${String(c.acumulo.porReal).replace('.', ',')}<small>pts/R$</small>`;
-  return '—';
+  return '<span class="sem-num">sem %</span>';
 }
 
 function vereditoDe(c) {
@@ -54,6 +101,32 @@ function ativas() {
   return (DADOS.campanhasAtivas || []).filter((c) => quando(c.ate).viva);
 }
 
+function renderResumo(todas) {
+  const alvo = document.getElementById('resumo');
+  if (!alvo) return;
+  const acabamHoje = todas.filter((c) => quando(c.ate).perto).length;
+  const bons = todas.filter((c) => c.veredito === 'vale').length;
+  const lojas = (LIVELO.parceiros || []).filter((p) => (p.multiplicador || 0) >= 5).length;
+
+  const frases = [];
+  if (bons) frases.push(`<b>${bons}</b> ${bons > 1 ? 'valem' : 'vale'} a pena agora`);
+  if (acabamHoje) frases.push(`<b class="urge">${acabamHoje}</b> ${acabamHoje > 1 ? 'acabam' : 'acaba'} nas próximas horas`);
+  if (lojas) frases.push(`<b>${lojas}</b> ${lojas > 1 ? 'lojas pontuam' : 'loja pontua'} 5x ou mais`);
+  if (!frases.length) frases.push('nada de excepcional no momento');
+
+  const vencendo = PROGRAMAS_VENC
+    .map((p) => ({ prog: p, v: vencimentoDe(p) }))
+    .filter((x) => x.v && x.v.dias <= 90)
+    .sort((a, b) => a.v.dias - b.v.dias);
+
+  const aviso = vencendo.length
+    ? `<p class="venc-aviso">Atenção ao prazo: ${vencendo.map((x) =>
+        `<b>${x.prog}</b> ${x.v.dias <= 0 ? 'já venceu' : `vence em ${x.v.dias} dia${x.v.dias > 1 ? 's' : ''}`}`).join(', ')}.</p>`
+    : '';
+
+  alvo.innerHTML = `<p>De <b>${todas.length}</b> promoções abertas, ${frases.join(', ')}.</p>${aviso}`;
+}
+
 function renderMelhor(c) {
   const alvo = document.getElementById('melhor');
   if (!c) { alvo.hidden = true; return; }
@@ -63,7 +136,13 @@ function renderMelhor(c) {
   const ref = c.referencia;
 
   const fatos = [];
-  if (c.custoMilheiro) fatos.push(`<div><span>seu milheiro sai a</span><b>${brl(c.custoMilheiro)}</b></div>`);
+  const sim = simular(c);
+  if (sim) {
+    fatos.push(`<div><span>seus pontos viram</span><b>${num(sim.milhas)} milhas</b></div>`);
+    if (sim.milheiro) fatos.push(`<div><span>custo de cada mil</span><b>${brl(sim.milheiro)}</b></div>`);
+  } else if (c.custoMilheiro) {
+    fatos.push(`<div><span>seu milheiro sai a</span><b>${brl(c.custoMilheiro)}</b></div>`);
+  }
   if (ref && c.custoMilheiro) fatos.push(`<div><span>o mercado paga</span><b>${brl(ref.min)} a ${brl(ref.max)}</b></div>`);
   fatos.push(`<div><span>prazo</span><b>${q.txt}</b></div>`);
   if (v) fatos.push(`<div><span>compensa?</span><b class="${v.cls}">${v.txt}</b></div>`);
@@ -77,6 +156,7 @@ function renderMelhor(c) {
     <p class="sub">${c.titulo}</p>
     <div class="fatos">${fatos.join('')}</div>
     ${v?.motivo ? `<p class="motivo ${v.cls}">${v.motivo.charAt(0).toUpperCase() + v.motivo.slice(1)}.</p>` : ''}
+    ${c.esperar ? `<p class="esperar">Ritmo da rota: ${c.esperar.texto}.</p>` : ''}
     <div class="fontes">${c.fontes.map((f) => `<a href="${f.link}" target="_blank" rel="noopener">${f.fonte}</a>`).join('')}</div>`;
 }
 
@@ -88,6 +168,8 @@ function renderLista() {
     (filtro.tipo === 'todos' || c.tipoNome === filtro.tipo));
 
   const lista = document.getElementById('lista');
+  if (!lista.dataset.pintou) { lista.classList.add('entrada'); lista.dataset.pintou = '1'; }
+  else lista.classList.remove('entrada');
   if (!vis.length) {
     lista.innerHTML = `<li class="nada">${resto.length ? 'Nada com esse filtro.' : 'Só a de cima está aberta agora.'}</li>`;
     return;
@@ -97,13 +179,20 @@ function renderLista() {
     const v = vereditoDe(c);
     const partes = [];
     if (v) partes.push(`<span class="vereditinho ${v.cls}">${v.txt}</span>`);
-    if (v?.motivo) partes.push(v.motivo);
+    const sim = simular(c);
+    if (sim) partes.push(`seus pontos viram <b>${num(sim.milhas)}</b> milhas${sim.milheiro ? ` a ${brl(sim.milheiro)}` : ''}`);
+    else if (v?.motivo) partes.push(v.motivo);
     else if (c.custoMilheiro) partes.push(`milheiro a ${brl(c.custoMilheiro)}`);
     else partes.push(c.tipoNome.toLowerCase());
     return `<li><button class="item" data-id="${c.id}">
       <span class="figura">${figuraDe(c)}</span>
       <span class="rota">${rotaDe(c)}</span>
       <span class="quando ${q.perto ? 'perto' : ''}">${q.txt}</span>
+      ${c.teto && c.percentual ? `<span class="barra" role="img"
+          aria-label="${c.percentual}% de um teto de ${c.teto}% nessa rota">
+          <span class="trilho"><span class="preenche" style="width:${Math.min(100, Math.round(c.percentual / c.teto * 100))}%"></span></span>
+          <span class="topo-rota">teto ${c.teto}%</span>
+        </span>` : ''}
       <span class="detalhe">${partes.join('<span class="sep"></span>')}
         <span class="fontes">${c.fontes.map((f) => `<a href="${f.link}" target="_blank" rel="noopener">${f.fonte}</a>`).join('')}</span>
       </span>
@@ -231,6 +320,59 @@ function renderLivelo() {
     </div>`;
 }
 
+/** Redesenha tudo que depende do estado do usuário. */
+function repintar() {
+  const agora = ativas();
+  renderResumo(agora);
+  renderMelhor(agora[0]);
+  renderCombos();
+  renderLista();
+  calcular();
+}
+
+function renderCombos() {
+  const sec = document.getElementById('combos-sec');
+  const alvo = document.getElementById('combos');
+  const combos = (DADOS.combinacoes || []).filter((c) => quando(c.ate).viva);
+  if (!combos.length) { sec.hidden = true; return; }
+  sec.hidden = false;
+
+  alvo.innerHTML = combos.map((k) => {
+    const q = quando(k.ate);
+    const custo = custoDoPonto();
+    // Comprar com desconto e transferir com bônus: o custo final é o que importa.
+    const linha = custo
+      ? `Pagando ${brl(custo)} por mil com ${k.descontoCompra}% de desconto e ganhando ${k.bonusTransferencia}% de bônus,
+         cada mil milhas ${k.destino} sai a <b>${brl(custo / (1 + k.bonusTransferencia / 100))}</b>.`
+      : `${k.descontoCompra}% de desconto na compra somado a ${k.bonusTransferencia}% de bônus na transferência.
+         Informe de onde vêm seus pontos acima para eu calcular o custo final.`;
+    return `<article class="combo">
+      <h3>${k.origem} → ${k.destino}</h3>
+      <p class="conta-combo">${linha}</p>
+      <ol>${k.partes.map((pt) => `<li><b>${pt.papel}:</b> ${pt.titulo}
+        <span class="fontes">${(pt.fontes || []).map((f) => `<a href="${f.link}" target="_blank" rel="noopener">${f.fonte}</a>`).join('')}</span></li>`).join('')}</ol>
+      <p class="conta-combo" style="margin:10px 0 0">Vale enquanto as duas estiverem de pé: ${q.txt}.
+        Cadastre-se nas duas campanhas antes de comprar ou transferir.</p>
+    </article>`;
+  }).join('');
+}
+
+function renderVencimentos() {
+  const alvo = document.getElementById('vencCampos');
+  if (!alvo) return;
+  alvo.innerHTML = PROGRAMAS_VENC.map((prog) => `
+    <label>${prog}
+      <input type="date" data-prog="${prog}" value="${MEU.vencimentos?.[prog] || ''}"></label>`).join('');
+  for (const i of alvo.querySelectorAll('input[type=date]')) {
+    i.addEventListener('change', () => {
+      MEU.vencimentos = { ...MEU.vencimentos, [i.dataset.prog]: i.value };
+      if (!i.value) delete MEU.vencimentos[i.dataset.prog];
+      gravarMeu();
+      repintar();
+    });
+  }
+}
+
 function renderPe() {
   const ref = Object.values(REF.programas || {})[0];
   document.getElementById('pe').innerHTML =
@@ -241,8 +383,13 @@ function renderPe() {
      Quando a promoção exige cadastro, faça o cadastro antes de transferir: depois não tem como corrigir.`;
 }
 
+lerMeu();
 carregar().then(() => {
   const todas = ativas();
+  if (MEU.saldo) document.getElementById('cPontos').value = num(MEU.saldo);
+  const custoInicial = custoDoPonto();
+  if (custoInicial) document.getElementById('cCusto').value = custoInicial.toFixed(2).replace('.', ',');
+  renderResumo(todas);
   document.querySelector('.estado').textContent =
     `${todas.length} em aberto, lido às ${new Date(DADOS.atualizadoEm).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })}`;
 
@@ -252,6 +399,8 @@ carregar().then(() => {
   renderMelhor(todas[0]);
   renderControles();
   renderLista();
+  renderCombos();
+  renderVencimentos();
   renderHistorico();
   renderLivelo();
   renderPe();
@@ -261,8 +410,53 @@ carregar().then(() => {
     document.getElementById(id).addEventListener('input', calcular);
   }
   sel.addEventListener('change', calcular);
+
+  // Saldo e origem dos pontos: mudou, o painel inteiro se reescreve.
+  const soNumero = (v) => Number(String(v).replace(/[^\d,]/g, '').replace(',', '.')) || 0;
+  const el = (id) => document.getElementById(id);
+  const campoSaldo = el('mSaldo'), campoOrigem = el('mOrigem');
+  const campoMensal = el('mMensal'), campoPontosMes = el('mPontosMes'), campoCusto = el('mCusto');
+
+  const mostrarCampos = () => {
+    el('lMensal').hidden = MEU.origem !== 'clube';
+    el('lPontosMes').hidden = MEU.origem !== 'clube';
+    el('lComprado').hidden = MEU.origem !== 'comprados';
+    const custo = custoDoPonto();
+    el('meuNota').textContent = MEU.origem === 'cartao'
+      ? 'Ponto de cartão não saiu do bolso, então a régua aqui é quanto o mercado paga, não quanto custou. Fica salvo só neste navegador.'
+      : custo
+        ? `Seus pontos custam ${brl(custo)} por mil. É com esse número que eu julgo cada promoção. Fica salvo só neste navegador.`
+        : 'Preencha os campos acima para eu calcular quanto custa o seu ponto. Fica salvo só neste navegador.';
+  };
+
+  const aplicar = () => {
+    MEU.saldo = soNumero(campoSaldo.value);
+    MEU.origem = campoOrigem.value;
+    MEU.mensal = soNumero(campoMensal.value);
+    MEU.pontosMes = soNumero(campoPontosMes.value);
+    MEU.custo = soNumero(campoCusto.value);
+    gravarMeu();
+    mostrarCampos();
+    const custo = custoDoPonto();
+    if (MEU.saldo) el('cPontos').value = num(MEU.saldo);
+    if (custo) el('cCusto').value = custo.toFixed(2).replace('.', ',');
+    repintar();
+  };
+
+  campoSaldo.value = MEU.saldo ? num(MEU.saldo) : '';
+  campoOrigem.value = MEU.origem;
+  campoMensal.value = MEU.mensal ? MEU.mensal.toFixed(2).replace('.', ',') : '';
+  campoPontosMes.value = MEU.pontosMes ? num(MEU.pontosMes) : '';
+  campoCusto.value = MEU.custo ? MEU.custo.toFixed(2).replace('.', ',') : '';
+  mostrarCampos();
+
+  for (const c of [campoSaldo, campoMensal, campoPontosMes, campoCusto]) c.addEventListener('change', aplicar);
+  campoOrigem.addEventListener('change', aplicar);
+  campoSaldo.addEventListener('blur', () => { if (MEU.saldo) campoSaldo.value = num(MEU.saldo); });
 }).catch((e) => {
   document.querySelector('.estado').textContent = 'falhou a leitura';
-  document.getElementById('lista').innerHTML =
+  const lista0 = document.getElementById('lista');
+  if (!lista0.dataset.pintou) { lista0.classList.add('entrada'); lista0.dataset.pintou = '1'; }
+  lista0.innerHTML =
     `<li class="nada">Não consegui ler os dados (${e.message}). Rode <code>node src/coletar.mjs</code> e recarregue.</li>`;
 });
