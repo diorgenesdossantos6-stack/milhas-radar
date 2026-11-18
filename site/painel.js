@@ -1,20 +1,22 @@
 const brl = (n) => n == null ? '—' : n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 const num = (n) => n.toLocaleString('pt-BR');
 
-let DADOS = null, REF = { programas: {} };
+let DADOS = null, REF = { programas: {} }, LIVELO = { parceiros: [] };
 const filtro = { programa: 'todos', tipo: 'todos' };
 
 async function carregar() {
   if (window.DADOS_EMBUTIDOS) {
     DADOS = window.DADOS_EMBUTIDOS;
     REF = window.REF_EMBUTIDA || REF;
+    LIVELO = window.LIVELO_EMBUTIDA || LIVELO;
     return;
   }
-  const [a, b] = await Promise.all([
+  const [a, b, c] = await Promise.all([
     fetch('./promocoes.json').then((r) => r.json()),
-    fetch('./referencia.json').then((r) => r.json()).catch(() => REF)
+    fetch('./referencia.json').then((r) => r.json()).catch(() => REF),
+    fetch('./livelo-parceiros.json').then((r) => r.json()).catch(() => LIVELO)
   ]);
-  DADOS = a; REF = b;
+  DADOS = a; REF = b; LIVELO = c;
 }
 
 /** Tempo restante em linguagem de decisão, não em data. */
@@ -185,6 +187,50 @@ function renderHistorico() {
     : '<p class="nada">O histórico se forma a cada coleta.</p>';
 }
 
+function renderLivelo() {
+  const alvo = document.getElementById('livelo');
+  const ps = (LIVELO.parceiros || []).filter((p) => p.pontosPorReal || p.pontosClube);
+  if (!ps.length) {
+    alvo.innerHTML = `<p class="nada">Não consegui ler as ofertas da Livelo${LIVELO.erro ? ` (${LIVELO.erro})` : ''}.</p>`;
+    return;
+  }
+  const lido = LIVELO.lidoEm
+    ? new Date(LIVELO.lidoEm).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })
+    : 'data desconhecida';
+
+  const alerta = LIVELO.ok === false
+    ? `<div class="obs aviso"><p><b>Esta lista está congelada.</b> A última leitura da Livelo falhou
+         (${LIVELO.erro || 'motivo não registrado'}), então o que você vê é de ${lido} e pode estar desatualizado.</p></div>`
+    : '';
+
+  const linhas = ps.slice(0, 24).map((p) => {
+    const melhor = Math.max(p.pontosPorReal || 0, p.pontosClube || 0);
+    const soClube = (p.pontosClube || 0) > (p.pontosPorReal || 0);
+    const q = p.ate ? quando(p.ate) : null;
+    return `<li>
+      <span class="pts">${String(melhor).replace('.', ',')}<small>pts/R$</small></span>
+      <span class="loja">
+        ${p.link ? `<a href="${p.link}" target="_blank" rel="noopener">${p.loja}</a>` : p.loja}
+        <em>${soClube ? `${p.pontosPorReal} sem o Clube Livelo` : ''}${p.pontosNormal ? `${soClube ? ', ' : ''}normal é ${p.pontosNormal}` : ''}</em>
+      </span>
+      ${p.multiplicador && p.multiplicador > 1 ? `<span class="mult">${String(p.multiplicador).replace('.', ',')}x</span>` : ''}
+      ${q ? `<span class="prazo-loja ${q.perto ? 'perto' : ''}">${q.txt}</span>` : ''}
+    </li>`;
+  }).join('');
+
+  alvo.innerHTML = `${alerta}
+    <ul class="lojas">${linhas}</ul>
+    <div class="obs">
+      <p>O número grande é a melhor pontuação da campanha, somando o Clube Livelo quando ele paga mais.
+        O <b>multiplicador</b> compara com a pontuação normal da loja: é ele que diz se a oferta é boa de verdade,
+        porque 5 pontos por real numa loja que já dá 4 vale bem menos que 5 numa que dá 1.</p>
+      <p>Só pontua entrando pelo site da Livelo com a conta logada, não indo direto na loja. Lido em ${lido}
+        de <a href="${LIVELO.fonte || 'https://www.livelo.com.br/ofertas'}" target="_blank" rel="noopener">livelo.com.br/ofertas</a>.</p>
+      <p>Aqui não há veredito de compensar ou não: acúmulo em loja não tem custo de milheiro,
+        é ponto sobre uma compra que você já ia fazer. O que vale comparar é o preço do produto.</p>
+    </div>`;
+}
+
 function renderPe() {
   const ref = Object.values(REF.programas || {})[0];
   document.getElementById('pe').innerHTML =
@@ -207,6 +253,7 @@ carregar().then(() => {
   renderControles();
   renderLista();
   renderHistorico();
+  renderLivelo();
   renderPe();
   calcular();
 

@@ -8,6 +8,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
+import { coletarLivelo } from './livelo.mjs';
 import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
@@ -75,6 +76,10 @@ async function main() {
   let referencia = { programas: {} };
   try { referencia = await montarReferencia(); }
   catch (e) { console.error('Referencia de cotacao indisponivel:', e.message); }
+
+  let livelo = null;
+  try { livelo = await coletarLivelo(); console.log(`Livelo: ${livelo.total} parceiro(s), ${livelo.emCampanha} em campanha`); }
+  catch (e) { console.error('Livelo indisponivel:', e.message); }
 
   let base = { atualizadoEm: null, historico: {}, promocoes: [] };
   try {
