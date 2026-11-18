@@ -74,6 +74,11 @@ export function classificar(item, cfg) {
   const texto = normalizar(`${item.titulo} ${item.resumo} ${item.categorias.join(' ')}`);
   const tituloNorm = normalizar(item.titulo);
 
+  // Matéria de inspiração de viagem não é anúncio de promoção, mesmo que cite
+  // o bônus no corpo. O título é que diz para que a matéria existe.
+  const ehInspiracao = /(sugesto|sugestao|voos em |voos de |trecho de |passagens? (para|de) |roteiro|o que fazer em|dicas de viagem|onde ficar)/.test(tituloNorm);
+  if (ehInspiracao) return null;
+
   // Descarta ruido obvio quando nao ha sinal forte de bonificacao no titulo.
   const temSinalForte = /(bonus|bonificad)/.test(tituloNorm) &&
     /(transferenc|transferir|envio de pontos|enviar pontos)/.test(texto);
@@ -209,6 +214,25 @@ export function chave(link) {
  * Agrupa promocoes que sao a mesma campanha noticiada por varias fontes.
  * Chave: destino principal + percentual + tipo + dia do prazo.
  */
+/**
+ * Entre títulos da mesma campanha, escolhe o que explica a oferta.
+ * O mais curto nem sempre é o melhor: pode ser uma matéria de sugestão de voos
+ * que só encostou no agrupamento.
+ */
+function notaTitulo(titulo) {
+  const t = normalizar(titulo);
+  let nota = 0;
+  if (/\d+%/.test(t)) nota += 4;
+  if (/(bonus|bonificad)/.test(t)) nota += 3;
+  if (/milheiro/.test(t)) nota += 3;
+  if (/(transferenc|transferir|assine|clube|compre|desconto)/.test(t)) nota += 2;
+  // Matérias de inspiração de viagem não descrevem a promoção.
+  if (/(sugesto|sugestao|voos em|passagens para|trecho de|roteiro|dicas de)/.test(t)) nota -= 6;
+  // Em empate, o título mais curto é o mais direto.
+  nota -= Math.min(2, titulo.length / 90);
+  return nota;
+}
+
 export function agruparCampanhas(promos) {
   const grupos = new Map();
   for (const p of promos) {
@@ -247,7 +271,7 @@ export function agruparCampanhas(promos) {
     if (p.custoMilheiro && (!g.custoMilheiro || p.custoMilheiro < g.custoMilheiro)) g.custoMilheiro = p.custoMilheiro;
     if (p.acumulo && (!g.acumulo || (p.acumulo.porReal || 0) > (g.acumulo.porReal || 0))) g.acumulo = p.acumulo;
     if (p.clube && (!g.clube || p.clube.milheiro < g.clube.milheiro)) g.clube = p.clube;
-    if (p.titulo.length < g.titulo.length) g.titulo = p.titulo;
+    if (notaTitulo(p.titulo) > notaTitulo(g.titulo)) g.titulo = p.titulo;
     if (p.publicado && (!g.publicado || p.publicado < g.publicado)) g.publicado = p.publicado;
   }
   return [...grupos.values()].sort((a, b) => b.nota - a.nota || new Date(b.publicado || 0) - new Date(a.publicado || 0));
@@ -461,13 +485,16 @@ export function combinar(campanhas) {
  * Com poucas observações, assume o teto de mercado com desconto e diz que
  * a base é fraca, em vez de fingir precisão.
  */
-export function valorJustoAuto(observacoes, referenciaPrograma, manual, dias = 90) {
+export function valorJustoAuto(observacoes, referenciaPrograma, manual, programa, dias = 90) {
   if (manual) {
     return { valor: manual, base: 'manual', amostras: null, texto: 'definido por você' };
   }
 
   const corte = Date.now() - dias * 864e5;
+  // Só preços do próprio programa. Um milheiro Smiles não diz nada sobre
+  // quanto custa um ponto Livelo, e misturar os dois inventa uma régua falsa.
   const vals = (observacoes || [])
+    .filter((o) => o.destino === programa)
     .filter((o) => new Date(o.em).getTime() > corte && o.valor > 0)
     .map((o) => o.valor)
     .sort((a, b) => a - b);
@@ -484,7 +511,7 @@ export function valorJustoAuto(observacoes, referenciaPrograma, manual, dias = 9
       amostras: vals.length,
       menor: vals[0],
       maior: vals[vals.length - 1],
-      texto: `mediana de ${vals.length} preços vistos em ${dias} dias`
+      texto: `mediana de ${vals.length} preços de ${programa} vistos em ${dias} dias`
     };
   }
 
@@ -493,7 +520,7 @@ export function valorJustoAuto(observacoes, referenciaPrograma, manual, dias = 9
       valor: Number((teto * 0.9).toFixed(2)),
       base: 'mercado',
       amostras: vals.length,
-      texto: `base fraca, ${vals.length} preço(s) visto(s); por ora uso o que o mercado paga menos 10%`
+      texto: `base fraca, ${vals.length} preço(s) de ${programa} visto(s); por ora uso o que o mercado paga menos 10%`
     };
   }
 

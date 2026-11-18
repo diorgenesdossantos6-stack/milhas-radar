@@ -108,6 +108,10 @@ async function main() {
       if (vistos.has(id)) continue;
 
       const pg = programas(item, cfg);
+      // Sem nenhum programa nomeado, não é promoção de pontos: é outro assunto
+      // que por acaso usa as mesmas palavras (clube de compras, assinatura de loja).
+      if (!pg.origem.length && !pg.destino.length) continue;
+
       const pz = prazo(item, item.publicado);
       const par = pg.origem.length && pg.destino.length
         ? `${pg.origem[0]} -> ${pg.destino[0]}`
@@ -184,9 +188,10 @@ async function main() {
   const regua = {};
   for (const prog of Object.keys(cfg.programas.origem)) {
     regua[prog] = valorJustoAuto(
-      (base.observacoes || []).filter((o) => !o.programa || o.programa === prog),
+      base.observacoes || [],
       referencia.programas[prog],
-      cfg.valorJusto?.[prog] && cfg.valorJusto[prog] > 0 ? cfg.valorJusto[prog] : null
+      cfg.valorJusto?.[prog] && cfg.valorJusto[prog] > 0 ? cfg.valorJusto[prog] : null,
+      prog
     );
   }
 
