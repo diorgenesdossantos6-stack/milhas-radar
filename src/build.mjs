@@ -16,6 +16,14 @@ try { livelo = JSON.parse(await fs.readFile(p('data', 'livelo-parceiros.json'), 
 const enxuto = {
   atualizadoEm: dados.atualizadoEm,
   campanhasAtivas: dados.campanhasAtivas,
+  combinacoes: dados.combinacoes || [],
+  regua: dados.regua || {},
+  tetosCompra: dados.tetosCompra || {},
+  // Só as observações recentes, que é o que o painel mostra.
+  observacoes: (dados.observacoes || []).slice(-30).map((o) => ({
+    em: o.em, valor: o.valor, tipo: o.tipo, destino: o.destino,
+    titulo: o.titulo, link: o.link, fonte: o.fonte
+  })),
   historico: dados.historico
 };
 await fs.writeFile(p('site', 'promocoes.json'), JSON.stringify(enxuto, null, 2) + '\n');

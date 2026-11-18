@@ -275,8 +275,8 @@
     "ConnectMiles": 120
   },
   "valorJusto": {
-    "_comentario": "Quanto voce considera que mil pontos valem. Regua para julgar assinatura de clube e compra de pontos. Ajuste ao seu criterio.",
-    "Livelo": 19.0,
-    "Esfera": 19.0
+    "_comentario": "Deixe 0 para o radar calcular sozinho a partir dos precos observados e do que o mercado paga. Preencha so se quiser fixar a sua propria regua.",
+    "Livelo": 0,
+    "Esfera": 0
   }
 }

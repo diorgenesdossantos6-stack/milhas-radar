@@ -9,7 +9,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
-import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar } from './parser.mjs';
+import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
@@ -81,7 +81,7 @@ async function main() {
   try { livelo = await coletarLivelo(); console.log(`Livelo: ${livelo.total} parceiro(s), ${livelo.emCampanha} em campanha`); }
   catch (e) { console.error('Livelo indisponivel:', e.message); }
 
-  let base = { atualizadoEm: null, historico: {}, promocoes: [] };
+  let base = { atualizadoEm: null, historico: {}, observacoes: [], promocoes: [] };
   try {
     base = { ...base, ...JSON.parse(await fs.readFile(ARQ_DADOS, 'utf8')) };
   } catch { /* primeira execucao */ }
@@ -128,9 +128,7 @@ async function main() {
         percentual: percentual(item),
         custoMilheiro: custoMilheiro(item),
         acumulo: acumuloLoja(item, tipo.id),
-        clube: tipo.id === 'clube'
-          ? avaliarClube(item, custoMilheiro(item), cfg.valorJusto?.[pg.origem[0]] ?? cfg.valorJusto?.Livelo)
-          : null,
+        clube: null, // avaliado depois, quando a régua já estiver calculada
         ate: pz.ate,
         confiancaPrazo: pz.confianca,
         resumo: item.resumo.slice(0, 400),
@@ -141,6 +139,29 @@ async function main() {
       novas.push(promo);
     }
   }
+
+  // Cada preco de aquisicao lido vira observacao: e o que forma a regua com o tempo.
+  base.observacoes = base.observacoes || [];
+  for (const p of novas) {
+    if (!p.custoMilheiro) continue;
+    if (p.tipo !== 'clube' && p.tipo !== 'compra_pontos' && p.tipo !== 'transferencia_bonificada') continue;
+    base.observacoes.push({
+      em: p.publicado || p.coletadoEm,
+      valor: p.custoMilheiro,
+      tipo: p.tipo,
+      programa: p.origem[0] || null,
+      destino: p.destino[0] || null,
+      titulo: p.titulo,
+      link: p.link,
+      fonte: p.fonteNome,
+      id: p.id
+    });
+  }
+  // Mantem 180 dias e no maximo 400 observacoes.
+  const corteObs = AGORA.getTime() - 180 * 864e5;
+  base.observacoes = base.observacoes
+    .filter((o) => new Date(o.em).getTime() > corteObs)
+    .slice(-400);
 
   // Atualiza o historico de maximo por par, que alimenta a pontuacao de raridade.
   for (const p of novas) {
@@ -159,12 +180,42 @@ async function main() {
     .sort((a, b) => new Date(b.publicado || 0) - new Date(a.publicado || 0));
 
   const ativas = todas.filter((p) => new Date(p.ate) >= AGORA);
+  // A régua de valor justo sai dos preços já observados, não de um número fixo.
+  const regua = {};
+  for (const prog of Object.keys(cfg.programas.origem)) {
+    regua[prog] = valorJustoAuto(
+      (base.observacoes || []).filter((o) => !o.programa || o.programa === prog),
+      referencia.programas[prog],
+      cfg.valorJusto?.[prog] && cfg.valorJusto[prog] > 0 ? cfg.valorJusto[prog] : null
+    );
+  }
+
+  // Teto por programa: quanto custa comprar mil milhas prontas.
+  const tetosCompra = {};
+  for (const prog of Object.keys(cfg.programas.destino)) {
+    const t = tetoCompra(base.observacoes, prog);
+    if (t) tetosCompra[prog] = t;
+  }
+
   const campanhasAtivas = agruparCampanhas(ativas).map((c) => {
     const ref = referencia.programas[c.destino];
     if (ref) c.referencia = { min: ref.min, max: ref.max, mediana: ref.mediana, fonte: ref.fonte };
+    if (c.tipo === 'clube') {
+      // A régua tem que ser do mesmo programa dos pontos que a assinatura gera:
+      // clube de companhia aérea gera milhas dela, Clube Livelo gera pontos Livelo.
+      const refDestino = referencia.programas[c.destino];
+      const ehAereo = Boolean(refDestino) && !regua[c.destino];
+      const r = ehAereo
+        ? { valor: refDestino.mediana, base: 'mercado',
+            texto: `o que o mercado paga pelo milheiro ${c.destino}` }
+        : (regua[c.destino] || regua[c.origens[0]] || regua.Livelo);
+      const fonte = c.fontes[0];
+      c.clube = avaliarClube({ titulo: c.titulo, resumo: fonte?.titulo || '' }, c.custoMilheiro, r?.valor, r?.texto);
+      if (c.clube) { c.clube.regua = r; c.clube.programa = c.destino; }
+    }
     const a = c.clube
       ? { ...c.clube, teto: null }
-      : avaliar(c, referencia.programas, cfg.tetos, base.historico);
+      : avaliar(c, referencia.programas, cfg.tetos, base.historico, tetosCompra);
     if (a) { c.veredito = a.veredito; c.rotulo = a.rotulo; c.motivo = a.motivo; c.baseVeredito = a.base; c.teto = a.teto ?? null; }
     const esperar = valeEsperar(c, base.historico, cfg.cadencia);
     if (esperar) c.esperar = esperar;
@@ -178,6 +229,9 @@ async function main() {
     combinacoes,
     erros,
     historico: base.historico,
+    observacoes: base.observacoes,
+    regua,
+    tetosCompra,
     campanhasAtivas,
     promocoes: todas
   };

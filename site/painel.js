@@ -334,6 +334,102 @@ function renderCombos() {
   }).join('');
 }
 
+function renderRegua() {
+  const alvo = document.getElementById('regua');
+  if (!alvo) return;
+  const r = (DADOS.regua || {}).Livelo;
+  const progs = REF.programas || {};
+  const obs = (DADOS.observacoes || []).filter((o) => o.valor > 0).slice(-12);
+  const fonteRef = Object.values(progs).find((p) => p.fonteUrl)?.fonteUrl || null;
+
+  // Dois papéis diferentes: o que custa adquirir, e o que a milha vale.
+  const origens = ['Livelo', 'Esfera'].filter((p) => progs[p] || (DADOS.regua || {})[p]);
+  const aereos = ['Smiles', 'Latam Pass', 'Azul Fidelidade', 'ConnectMiles'].filter((p) => progs[p]);
+
+  const tetos = DADOS.tetosCompra || {};
+
+  const linha = (prog, papel) => {
+    const m = progs[prog];
+    const reg = (DADOS.regua || {})[prog];
+    if (papel === 'origem') {
+      if (!reg?.valor) return '';
+      return `<tr><td>${prog}</td><td class="n">${brl(reg.valor)}</td>
+        <td class="faixa">${m ? `${brl(m.min)} a ${brl(m.max)}` : 'sem cotação'}</td></tr>`;
+    }
+    const t = tetos[prog];
+    if (!m?.mediana && !t) return '';
+    return `<tr>
+      <td>${prog}</td>
+      <td class="n">${t ? brl(t.valor) : '—'}</td>
+      <td class="faixa">${m ? brl(m.mediana) : '—'}</td>
+    </tr>`;
+  };
+
+  const listaPrecos = obs.length
+    ? `<ul class="precos">${obs.map((o) => {
+        const dia = new Date(o.em).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+        const miolo = `${brl(o.valor)}<small>${dia}${o.fonte ? ` · ${o.fonte}` : ''}</small>`;
+        return o.link
+          ? `<li><a href="${o.link}" target="_blank" rel="noopener" title="${(o.titulo || '').replace(/"/g, '')}">${miolo}</a></li>`
+          : `<li>${miolo}</li>`;
+      }).join('')}</ul>`
+    : '<p>Nenhum preço registrado ainda. Cada promoção que publica o milheiro vira uma observação aqui.</p>';
+
+  const etapas = [
+    'Você fixou um valor em <b>src/fontes.json</b>. Quando isso acontece, mando o cálculo embora e obedeço.',
+    'Com 5 preços ou mais, uso a <b>mediana do que o radar já viu</b>, limitada pelo que o mercado paga.',
+    `Com menos de 5, uso <b>o que o mercado paga menos 10%</b>${progs.Livelo ? `, hoje ${brl(progs.Livelo.mediana)}` : ''}.`
+  ];
+  const ordem = { manual: 0, observado: 1, mercado: 2, padrao: 2 };
+
+  alvo.innerHTML = `<div class="regua-caixa">
+    <div class="regua-topo">
+      <span class="regua-valor">${r ? brl(r.valor) : '—'}</span>
+      <span class="regua-como">para adquirir mil pontos Livelo.<br>${r ? r.texto.charAt(0).toUpperCase() + r.texto.slice(1) : 'ainda sem base'}.</span>
+    </div>
+
+    <div class="regua-conta">
+      <p>Existem <b>duas réguas diferentes</b>, e elas respondem perguntas diferentes.</p>
+
+      <div class="duas">
+        <div>
+          <h4>Quanto custa adquirir</h4>
+          <p class="papel">Moeda de origem. Diz se uma assinatura de clube ou uma compra de pontos está cara.</p>
+          <table><thead><tr><th>programa</th><th class="n">régua</th><th>mercado paga</th></tr></thead>
+            <tbody>${origens.map((p) => linha(p, 'origem')).join('') || '<tr><td colspan="3">sem dados</td></tr>'}</tbody></table>
+        </div>
+        <div>
+          <h4>Quanto custa comprar pronto</h4>
+          <p class="papel">Programas aéreos. É a alternativa a gerar milhas: se comprar sai mais barato, não compensa gerar.</p>
+          <table><thead><tr><th>programa</th><th class="n">comprar</th><th>referência</th></tr></thead>
+            <tbody>${aereos.map((p) => linha(p, 'aereo')).join('') || '<tr><td colspan="3">sem dados</td></tr>'}</tbody></table>
+        </div>
+      </div>
+
+      <p style="margin-top:18px">Na prática: se seus pontos Livelo custam ${r ? brl(r.valor) : 'X'} o milheiro e uma
+        transferência de 100% leva isso para ${r ? brl(r.valor / 2) : 'metade'} em milhas Smiles, compensa,
+        porque comprar mil milhas Smiles prontas custaria
+        ${tetos.Smiles ? brl(tetos.Smiles.valor) : progs.Smiles ? `perto de ${brl(progs.Smiles.mediana)}` : 'mais'}.</p>
+
+      <p style="margin-top:12px">A coluna <b>comprar</b> se forma com as promoções de compra de pontos que o radar lê.
+        ${Object.keys(tetos).length
+          ? `Hoje tenho ${Object.entries(tetos).map(([k, v]) => `<b>${k}</b> a ${brl(v.valor)} (${v.texto})`).join(', ')}.`
+          : 'Ainda não registrei nenhuma: enquanto isso, uso a cotação de referência, que é mais conservadora.'}</p>
+
+      <p style="margin-top:16px"><b>Como a régua de aquisição é calculada</b>, em ordem de preferência:</p>
+      <ol class="etapas">${etapas.map((e, i) => `<li class="${r && ordem[r.base] === i ? 'ativa' : ''}">${e}</li>`).join('')}</ol>
+
+      <p style="margin-top:14px"><b>Preços que o radar já viu</b>${obs.length ? ` (${obs.length} mais recentes)` : ''}:</p>
+      ${listaPrecos}
+      <p style="margin-top:12px"><b>De onde vem cada número.</b> A coluna <i>referência</i> é a tabela comparativa
+        ${fonteRef ? `do <a href="${fonteRef}" target="_blank" rel="noopener">iDinheiro</a>` : 'do iDinheiro'},
+        que reúne MaxMilhas, HotMilhas e BankMilhas. As colunas <i>régua</i> e <i>comprar</i> saem das promoções
+        que o próprio radar leu: cada preço acima é um link para a matéria de onde ele veio. Nada aqui é estimado
+        por mim; quando falta dado, a célula fica vazia em vez de receber um chute.</p>
+    </div>
+  </div>`;
+}
+
 function renderPe() {
   const ref = Object.values(REF.programas || {})[0];
   document.getElementById('pe').innerHTML =
@@ -361,6 +457,7 @@ carregar().then(() => {
   renderControles();
   renderLista();
   renderCombos();
+  renderRegua();
   renderHistorico();
   renderLivelo();
   renderPe();

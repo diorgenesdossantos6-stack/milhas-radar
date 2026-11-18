@@ -59,7 +59,7 @@ export function parseFeed(xml, fonte) {
     const d = pub ? new Date(pub) : null;
     return {
       fonte: fonte.id,
-      fonteNome: fonte.nome,
+      fonteNome: fonteDoLink(link.trim(), fonte.nome),
       titulo: stripTags(tag(b, 'title')),
       link: link.trim(),
       publicado: d && !isNaN(d) ? d.toISOString() : null,
@@ -167,6 +167,34 @@ export function prazo(item, refIso) {
   return { ate: new Date(base.getTime() + 3 * 864e5).toISOString(), confianca: 'baixa' };
 }
 
+/**
+ * O nome da fonte sai do domínio da matéria, não do feed que a trouxe.
+ * Feeds irmãos publicam links uns dos outros, e creditar o feed errado
+ * é mentir sobre a origem do número.
+ */
+const SITES = {
+  'melhoresdestinos.com.br': 'Melhores Destinos',
+  'melhorescartoes.com.br': 'Melhores Cartões',
+  'passageirodeprimeira.com': 'Passageiro de Primeira',
+  'pontospravoar.com': 'Pontos pra Voar',
+  'cartoesdecredito.me': 'Cartões de Crédito',
+  'cartoeseviagens.com.br': 'Cartões e Viagens',
+  'livelo.com.br': 'Livelo',
+  'idinheiro.com.br': 'iDinheiro'
+};
+
+export function fonteDoLink(link, padrao) {
+  try {
+    const host = new URL(link).hostname.replace(/^www\./, '');
+    for (const [dominio, nome] of Object.entries(SITES)) {
+      if (host === dominio || host.endsWith(`.${dominio}`)) return nome;
+    }
+    return host;
+  } catch {
+    return padrao;
+  }
+}
+
 export function chave(link) {
   try {
     const u = new URL(link);
@@ -271,17 +299,34 @@ export function acumuloLoja(item, tipoId) {
  * 1. custo do milheiro contra a cotação de mercado (mais forte);
  * 2. percentual contra o teto conhecido daquela rota.
  */
-export function avaliar(campanha, referencia, tetos, historico) {
+export function avaliar(campanha, referencia, tetos, historico, tetosCompra) {
   const ref = referencia?.[campanha.destino];
+  const compra = tetosCompra?.[campanha.destino];
+  const fmt = (n) => n.toFixed(2).replace('.', ',');
 
+  // Melhor régua possível: o preço de comprar essas mesmas milhas prontas.
+  // Se gerar sai mais caro que comprar, não compensa gerar.
+  if (campanha.custoMilheiro && compra?.valor) {
+    const margem = Number((compra.valor - campanha.custoMilheiro).toFixed(2));
+    const veredito = margem > compra.valor * 0.15 ? 'vale' : margem > 0 ? 'limite' : 'nao vale';
+    const rotulo = veredito === 'vale' ? 'Vale a pena' : veredito === 'limite' ? 'No limite' : 'Não vale';
+    const motivo = veredito === 'vale'
+      ? `gerar sai a R$ ${fmt(campanha.custoMilheiro)}, contra R$ ${fmt(compra.valor)} para comprar pronto`
+      : veredito === 'limite'
+        ? `R$ ${fmt(campanha.custoMilheiro)} contra R$ ${fmt(compra.valor)} de comprar pronto: diferença pequena`
+        : `R$ ${fmt(campanha.custoMilheiro)} sai mais caro que comprar pronto a R$ ${fmt(compra.valor)}`;
+    return { veredito, rotulo, motivo, base: 'compra', margem };
+  }
+
+  // Sem promoção de compra registrada, recua para a cotação de referência.
   if (campanha.custoMilheiro && ref?.mediana) {
     const margem = Number((ref.mediana - campanha.custoMilheiro).toFixed(2));
     const veredito = margem > 2 ? 'vale' : margem > 0 ? 'limite' : 'nao vale';
     const motivo = veredito === 'vale'
-      ? `milheiro R$ ${campanha.custoMilheiro.toFixed(2).replace('.', ',')} contra R$ ${ref.mediana.toFixed(2).replace('.', ',')} do mercado`
+      ? `milheiro R$ ${fmt(campanha.custoMilheiro)} contra R$ ${fmt(ref.mediana)} de referência`
       : veredito === 'limite'
-        ? 'margem pequena sobre o preço de mercado'
-        : 'sai mais caro do que comprar pronto';
+        ? 'margem pequena sobre o preço de referência'
+        : 'sai mais caro do que a referência de mercado';
     const rotulo = veredito === 'vale' ? 'Vale a pena' : veredito === 'limite' ? 'No limite' : 'Não vale';
     return { veredito, rotulo, motivo, base: 'cotacao', margem };
   }
@@ -304,7 +349,7 @@ export function avaliar(campanha, referencia, tetos, historico) {
  * Prefere o número que a própria matéria publica; só então tenta deduzir
  * de mensalidade e pontos. Sem base para calcular, devolve null em vez de chutar.
  */
-export function avaliarClube(item, custoJaCalculado, valorJusto) {
+export function avaliarClube(item, custoJaCalculado, valorJusto, reguaTexto) {
   const texto = `${item.titulo} ${item.resumo}`;
   const norm = normalizar(texto);
 
@@ -340,7 +385,8 @@ export function avaliarClube(item, custoJaCalculado, valorJusto) {
   const justo = valorJusto || 19;
   const veredito = milheiro <= justo * 0.85 ? 'vale' : milheiro <= justo * 1.05 ? 'limite' : 'nao vale';
   const rotulo = veredito === 'vale' ? 'Bom preço' : veredito === 'limite' ? 'No limite' : 'Caro';
-  const motivo = `milheiro a R$ ${milheiro.toFixed(2).replace('.', ',')} contra R$ ${justo.toFixed(2).replace('.', ',')} que você considera justo`;
+  const comoVeio = reguaTexto ? `, ${reguaTexto}` : '';
+  const motivo = `milheiro a R$ ${milheiro.toFixed(2).replace('.', ',')} contra uma régua de R$ ${justo.toFixed(2).replace('.', ',')}${comoVeio}`;
   return { milheiro, origem, veredito, rotulo, motivo, base: 'clube' };
 }
 
@@ -401,4 +447,84 @@ export function combinar(campanhas) {
     });
   }
   return saida;
+}
+
+/**
+ * Régua de valor justo, calculada em vez de arbitrada.
+ *
+ * Combina duas âncoras:
+ *  1. o que o mercado paga pelo milheiro (teto: pagar mais que isso para
+ *     adquirir não se justifica, já que dá para vender por esse preço);
+ *  2. a mediana dos preços de aquisição que o próprio radar já observou,
+ *     que é o que você consegue de fato, e não o que alguém arbitrou.
+ *
+ * Com poucas observações, assume o teto de mercado com desconto e diz que
+ * a base é fraca, em vez de fingir precisão.
+ */
+export function valorJustoAuto(observacoes, referenciaPrograma, manual, dias = 90) {
+  if (manual) {
+    return { valor: manual, base: 'manual', amostras: null, texto: 'definido por você' };
+  }
+
+  const corte = Date.now() - dias * 864e5;
+  const vals = (observacoes || [])
+    .filter((o) => new Date(o.em).getTime() > corte && o.valor > 0)
+    .map((o) => o.valor)
+    .sort((a, b) => a - b);
+
+  const teto = referenciaPrograma?.mediana || null;
+
+  if (vals.length >= 5) {
+    const meio = Math.floor(vals.length / 2);
+    const mediana = vals.length % 2 ? vals[meio] : (vals[meio - 1] + vals[meio]) / 2;
+    const valor = teto ? Math.min(mediana, teto) : mediana;
+    return {
+      valor: Number(valor.toFixed(2)),
+      base: 'observado',
+      amostras: vals.length,
+      menor: vals[0],
+      maior: vals[vals.length - 1],
+      texto: `mediana de ${vals.length} preços vistos em ${dias} dias`
+    };
+  }
+
+  if (teto) {
+    return {
+      valor: Number((teto * 0.9).toFixed(2)),
+      base: 'mercado',
+      amostras: vals.length,
+      texto: `base fraca, ${vals.length} preço(s) visto(s); por ora uso o que o mercado paga menos 10%`
+    };
+  }
+
+  return { valor: 19, base: 'padrao', amostras: vals.length, texto: 'sem base ainda, usando um valor de partida' };
+}
+
+
+/**
+ * Teto: quanto custa comprar mil milhas prontas daquele programa.
+ *
+ * É a alternativa concreta a gerar milhas por transferência. Se gerar sai mais
+ * caro que comprar, não compensa gerar, por melhor que o bônus pareça.
+ * Formado pelas promoções de compra de pontos que o radar leu, não por arbítrio.
+ */
+export function tetoCompra(observacoes, programa, dias = 90) {
+  const corte = Date.now() - dias * 864e5;
+  const vals = (observacoes || [])
+    .filter((o) => o.tipo === 'compra_pontos' && o.destino === programa)
+    .filter((o) => new Date(o.em).getTime() > corte && o.valor > 0)
+    .map((o) => o.valor)
+    .sort((a, b) => a - b);
+
+  if (!vals.length) return null;
+  const meio = Math.floor(vals.length / 2);
+  const mediana = vals.length % 2 ? vals[meio] : (vals[meio - 1] + vals[meio]) / 2;
+  return {
+    valor: Number(mediana.toFixed(2)),
+    menor: vals[0],
+    amostras: vals.length,
+    texto: vals.length === 1
+      ? `uma compra de pontos vista a R$ ${vals[0].toFixed(2).replace('.', ',')} o milheiro`
+      : `mediana de ${vals.length} promoções de compra vistas em ${dias} dias`
+  };
 }

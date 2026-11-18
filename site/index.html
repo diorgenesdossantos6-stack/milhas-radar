@@ -175,6 +175,41 @@
   .obs p:last-child { margin-bottom: 0; }
   .obs b { color: var(--texto); font-weight: 600; }
 
+  .regua-sec { margin-top: 48px; }
+  .regua-caixa { background: var(--azul-painel); border-radius: 10px; padding: 22px 24px; }
+  .regua-topo { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .regua-valor { font-size: 2.6rem; font-weight: 700; letter-spacing: -.035em; color: var(--ciano);
+                 font-variant-numeric: tabular-nums; line-height: 1; }
+  .regua-como { font-size: .9rem; font-weight: 600; color: var(--texto-fraco); max-width: 40ch; }
+  .regua-conta { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--azul-linha); }
+  .regua-conta p { margin: 0 0 10px; font-size: .86rem; color: var(--texto-fraco); max-width: 68ch; }
+  .regua-conta p:last-child { margin-bottom: 0; }
+  .regua-conta b { color: var(--texto); font-weight: 600; }
+  .duas { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-top: 14px; }
+  .duas h4 { margin: 0 0 4px; font-size: .95rem; font-weight: 700; color: var(--texto); }
+  .duas .papel { font-size: .78rem; margin: 0 0 10px; }
+  .duas table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+  .duas th { text-align: left; font-weight: 600; font-size: .7rem; color: var(--texto-fraco);
+             padding: 5px 4px; border-bottom: 1px solid var(--azul-linha); }
+  .duas td { padding: 7px 4px; border-bottom: 1px solid var(--azul-linha); color: var(--texto); }
+  .duas .n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ciano); }
+  .duas th.n { color: var(--texto-fraco); font-weight: 600; }
+  .duas .faixa { color: var(--texto-fraco); font-variant-numeric: tabular-nums; font-size: .8rem; }
+  .precos { list-style: none; margin: 10px 0 0; padding: 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .precos li { font-size: .78rem; font-weight: 600; font-variant-numeric: tabular-nums;
+               background: rgba(255,255,255,.05); border-radius: 5px; padding: 4px 9px; }
+  .precos li a { color: inherit; text-decoration: none; display: block; }
+  .precos li:has(a):hover { background: rgba(0,229,255,.12); }
+  .precos li a:hover { color: var(--ciano); }
+  .precos li small { display: block; font-size: .78em; font-weight: 400; color: var(--texto-fraco); }
+  .etapas { list-style: none; margin: 10px 0 0; padding: 0; counter-reset: etapa; }
+  .etapas li { position: relative; padding-left: 26px; margin-bottom: 8px; font-size: .84rem; color: var(--texto-fraco); }
+  .etapas li::before { counter-increment: etapa; content: counter(etapa); position: absolute; left: 0; top: 0;
+                       width: 18px; height: 18px; border-radius: 50%; background: rgba(178,77,255,.18);
+                       color: var(--lilas); font-size: .7rem; font-weight: 700; display: grid; place-items: center; }
+  .etapas li.ativa { color: var(--texto); }
+  .etapas li.ativa::before { background: var(--lilas); color: var(--azul); }
+
   .hist { margin-top: 48px; }
   .hist table { width: 100%; border-collapse: collapse; font-size: .88rem; }
   .hist th { text-align: left; font-weight: 600; font-size: .74rem; color: var(--texto-fraco); padding: 8px 4px; border-bottom: 1px solid var(--azul-linha); }
@@ -182,6 +217,7 @@
   .hist td:nth-child(2) { font-weight: 700; color: var(--lilas); }
 
   .nada { color: var(--texto-fraco); padding: 20px 0; font-size: .9rem; }
+  .pe b { color: var(--texto); font-weight: 600; }
   .pe { margin-top: 52px; padding-top: 20px; border-top: 1px solid var(--azul-linha);
         font-size: .78rem; color: var(--texto-fraco); line-height: 1.55; max-width: 72ch; }
   code { font-size: .9em; background: rgba(255,255,255,.06); padding: 1px 5px; border-radius: 3px; }
@@ -276,6 +312,11 @@
   <section class="lojas-sec">
     <div class="secao"><h2>Ofertas de pontos nas lojas parceiras da Livelo</h2><a class="link-fonte" href="https://www.livelo.com.br/ofertas" target="_blank" rel="noopener">ver na Livelo</a></div>
     <div id="livelo"></div>
+  </section>
+
+  <section class="regua-sec">
+    <div class="secao"><h2>Quanto vale mil pontos, na régua do radar</h2></div>
+    <div id="regua"></div>
   </section>
 
   <section class="hist">
