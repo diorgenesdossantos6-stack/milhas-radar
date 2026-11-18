@@ -60,18 +60,6 @@
   .meu-nota { grid-column: 1 / -1; margin: 0; font-size: .74rem; color: var(--texto-fraco); }
 
   /* Barra: bônus de hoje contra o teto da rota */
-  .vencimento { background: rgba(255,255,255,.03); border-radius: 10px; padding: 0 16px; margin-bottom: 28px; }
-  .vencimento summary { cursor: pointer; padding: 14px 0; font-size: .86rem; font-weight: 600; color: var(--texto-fraco); }
-  .vencimento summary::marker { color: var(--lilas); }
-  .vencimento[open] summary { color: var(--texto); }
-  .venc-campos { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); padding-bottom: 6px; }
-  .venc-campos label { display: flex; flex-direction: column; gap: 4px; font-size: .76rem; font-weight: 600; color: var(--texto-fraco); }
-  .venc-campos input { font-family: var(--fonte); font-weight: 600; font-size: .9rem; padding: 7px 9px;
-                       background: var(--azul); border: 1px solid var(--azul-linha); border-radius: 6px; color: var(--texto); }
-  .vencimento .meu-nota { padding-bottom: 14px; }
-  .venc-alerta { display: inline-block; font-size: .72rem; font-weight: 700; color: var(--alerta);
-                 background: rgba(255,143,163,.12); border-radius: 4px; padding: 2px 7px; margin-left: 8px; }
-
   .combo { background: var(--azul-painel); border-radius: 10px; padding: 18px 20px; margin-bottom: 10px;
            border-left: 3px solid var(--roxo); }
   .combo h3 { margin: 0 0 4px; font-size: 1.05rem; font-weight: 700; letter-spacing: -.01em; }
@@ -248,13 +236,6 @@
       <input id="mCusto" type="text" inputmode="decimal" placeholder="ex.: 18,00" autocomplete="off"></label>
     <p class="meu-nota" id="meuNota">Fica salvo só neste navegador.</p>
   </div>
-
-  <details class="vencimento">
-    <summary>Quando suas milhas vencem</summary>
-    <div class="venc-campos" id="vencCampos"></div>
-    <p class="meu-nota">Deixar milhas vencerem é o erro mais caro do ramo. Preencha uma vez e o painel passa a avisar,
-      priorizando as promoções dos programas que estão perto do prazo.</p>
-  </details>
 
   <section class="melhor" id="melhor" hidden></section>
 

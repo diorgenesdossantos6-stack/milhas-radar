@@ -4,7 +4,7 @@ const num = (n) => n.toLocaleString('pt-BR');
 let DADOS = null, REF = { programas: {} }, LIVELO = { parceiros: [] };
 
 /** Saldo e custo do ponto ficam no navegador: é o que personaliza tudo. */
-const MEU = { saldo: 0, custo: 0, origem: 'cartao', mensal: 0, pontosMes: 0, vencimentos: {} };
+const MEU = { saldo: 0, custo: 0, origem: 'cartao', mensal: 0, pontosMes: 0 };
 function lerMeu() {
   try {
     const g = JSON.parse(localStorage.getItem('radar-milhas-meu') || '{}');
@@ -13,7 +13,6 @@ function lerMeu() {
     MEU.origem = g.origem || 'cartao';
     MEU.mensal = Number(g.mensal) || 0;
     MEU.pontosMes = Number(g.pontosMes) || 0;
-    MEU.vencimentos = g.vencimentos || {};
   } catch { /* navegador sem storage, segue sem personalizar */ }
 }
 
@@ -26,22 +25,10 @@ function custoDoPonto() {
   return 0; // cartão: o ponto não saiu do bolso
 }
 
-const PROGRAMAS_VENC = ['Smiles', 'Latam Pass', 'Azul Fidelidade', 'Livelo'];
-
-/** Dias até o vencimento informado, quando houver. */
-function vencimentoDe(programa) {
-  const d = MEU.vencimentos?.[programa];
-  if (!d) return null;
-  const dt = new Date(`${d}T23:59:00-03:00`);
-  if (isNaN(dt)) return null;
-  const dias = Math.ceil((dt - new Date()) / 864e5);
-  return { dias, data: dt };
-}
 function gravarMeu() {
   try { localStorage.setItem('radar-milhas-meu', JSON.stringify(MEU)); } catch { /* ok */ }
 }
 
-/** O que o saldo do usuário vira nessa campanha. */
 function simular(c) {
   if (!MEU.saldo || !c.percentual || c.tipo !== 'transferencia_bonificada') return null;
   const milhas = Math.round(MEU.saldo * (1 + c.percentual / 100));
@@ -114,17 +101,7 @@ function renderResumo(todas) {
   if (lojas) frases.push(`<b>${lojas}</b> ${lojas > 1 ? 'lojas pontuam' : 'loja pontua'} 5x ou mais`);
   if (!frases.length) frases.push('nada de excepcional no momento');
 
-  const vencendo = PROGRAMAS_VENC
-    .map((p) => ({ prog: p, v: vencimentoDe(p) }))
-    .filter((x) => x.v && x.v.dias <= 90)
-    .sort((a, b) => a.v.dias - b.v.dias);
-
-  const aviso = vencendo.length
-    ? `<p class="venc-aviso">Atenção ao prazo: ${vencendo.map((x) =>
-        `<b>${x.prog}</b> ${x.v.dias <= 0 ? 'já venceu' : `vence em ${x.v.dias} dia${x.v.dias > 1 ? 's' : ''}`}`).join(', ')}.</p>`
-    : '';
-
-  alvo.innerHTML = `<p>De <b>${todas.length}</b> promoções abertas, ${frases.join(', ')}.</p>${aviso}`;
+  alvo.innerHTML = `<p>De <b>${todas.length}</b> promoções abertas, ${frases.join(', ')}.</p>`;
 }
 
 function renderMelhor(c) {
@@ -357,22 +334,6 @@ function renderCombos() {
   }).join('');
 }
 
-function renderVencimentos() {
-  const alvo = document.getElementById('vencCampos');
-  if (!alvo) return;
-  alvo.innerHTML = PROGRAMAS_VENC.map((prog) => `
-    <label>${prog}
-      <input type="date" data-prog="${prog}" value="${MEU.vencimentos?.[prog] || ''}"></label>`).join('');
-  for (const i of alvo.querySelectorAll('input[type=date]')) {
-    i.addEventListener('change', () => {
-      MEU.vencimentos = { ...MEU.vencimentos, [i.dataset.prog]: i.value };
-      if (!i.value) delete MEU.vencimentos[i.dataset.prog];
-      gravarMeu();
-      repintar();
-    });
-  }
-}
-
 function renderPe() {
   const ref = Object.values(REF.programas || {})[0];
   document.getElementById('pe').innerHTML =
@@ -400,7 +361,6 @@ carregar().then(() => {
   renderControles();
   renderLista();
   renderCombos();
-  renderVencimentos();
   renderHistorico();
   renderLivelo();
   renderPe();
