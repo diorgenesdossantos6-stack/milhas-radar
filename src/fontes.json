@@ -206,13 +206,21 @@
     },
     {
       "id": "acumulo",
-      "nome": "Acúmulo acelerado em parceiro",
-      "prioridade": 4,
+      "nome": "Acúmulo em loja parceira",
+      "prioridade": 2,
       "exige": [
         "pontos por real",
         "pontos por r$",
+        "pontos a cada real",
+        "pontos a cada r$",
         "turbo",
-        "multiplique"
+        "multiplique",
+        "pontos por dolar",
+        "pontos por dólar",
+        "shopping livelo",
+        "livelo shopping",
+        "esfera shopping",
+        "clube de parceiros"
       ],
       "contexto": []
     }
@@ -241,5 +249,22 @@
     "assinatura do",
     "meus resgates",
     "oferece 30% de desconto na assinatura"
-  ]
+  ],
+  "tetos": {
+    "_comentario": "Maior bonus que uma rota costuma dar sozinha, sem somar ofertas. Regua para dizer se compensa quando nao da para calcular o milheiro. O historico real sobrescreve quando ficar maior.",
+    "Smiles": 100,
+    "Latam Pass": 40,
+    "Azul Fidelidade": 100,
+    "ConnectMiles": 40,
+    "Aeroplan": 40,
+    "TAP Miles&Go": 40,
+    "Miles & More": 50,
+    "Flying Blue": 50,
+    "AAdvantage": 40,
+    "Iberia Plus": 40,
+    "Emirates Skywards": 40,
+    "Qatar Privilege": 40,
+    "Accor ALL": 40,
+    "Marriott Bonvoy": 40
+  }
 }

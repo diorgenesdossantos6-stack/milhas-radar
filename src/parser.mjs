@@ -199,6 +199,7 @@ export function agruparCampanhas(promos) {
         confiancaPrazo: p.confiancaPrazo,
         nota: p.nota,
         custoMilheiro: p.custoMilheiro ?? null,
+        acumulo: p.acumulo ?? null,
         titulo: p.titulo,
         publicado: p.publicado,
         fontes: []
@@ -215,6 +216,7 @@ export function agruparCampanhas(promos) {
       g.ate = p.ate;
     }
     if (p.custoMilheiro && (!g.custoMilheiro || p.custoMilheiro < g.custoMilheiro)) g.custoMilheiro = p.custoMilheiro;
+    if (p.acumulo && (!g.acumulo || (p.acumulo.porReal || 0) > (g.acumulo.porReal || 0))) g.acumulo = p.acumulo;
     if (p.titulo.length < g.titulo.length) g.titulo = p.titulo;
     if (p.publicado && (!g.publicado || p.publicado < g.publicado)) g.publicado = p.publicado;
   }
@@ -233,4 +235,64 @@ export function custoMilheiro(item) {
   const bruto = m[1] || m[2];
   const v = Number(String(bruto).replace(/\./g, '').replace(',', '.'));
   return v > 2 && v < 200 ? Number(v.toFixed(2)) : null;
+}
+
+/**
+ * Acúmulo em loja parceira: quantos pontos por real, e em qual loja.
+ * Ex.: "Ganhe até 24 pontos Azul Fidelidade por real gasto na Natura".
+ */
+export function acumuloLoja(item, tipoId) {
+  if (tipoId !== 'acumulo') return null;
+  const titulo = item.titulo;
+  const m = normalizar(titulo).match(/(?:ate\s*)?(\d{1,3}(?:[.,]\d{1,2})?)\s*pontos?\s*(?:por|a cada)\s*(?:real|r\$\s*1?|dolar)/);
+  const porReal = m ? Number(m[1].replace(',', '.')) : null;
+
+  // Loja parceira: só no título, e só o que vem depois de "na/no/em".
+  const ml = titulo.match(/\b(?:na|no|em)\s+((?:[A-ZÀ-Ý][\wÀ-ÿ&'.-]*)(?:\s+(?:[A-ZÀ-Ý][\wÀ-ÿ&'.-]*|de|do|da)){0,2})/);
+  const naoSaoLojas = [
+    'Livelo', 'Esfera', 'Smiles', 'Latam', 'Azul', 'Itaú', 'Itau', 'Bradesco', 'Caixa', 'C6',
+    'Clube', 'Black', 'Friday', 'Orange', 'Melhores', 'Passageiro', 'Pontos', 'Cartões', 'Cartoes', 'Radar'
+  ];
+  let loja = ml ? ml[1].trim() : null;
+  if (loja) {
+    // Corta no primeiro termo que não é nome de loja (ex.: "Natura A Azul" -> "Natura").
+    const partes = loja.split(/\s+/);
+    const corte = partes.findIndex((w, i) => i > 0 && (w.length === 1 || naoSaoLojas.includes(w)));
+    if (corte > 0) loja = partes.slice(0, corte).join(' ');
+    if (naoSaoLojas.some((b) => loja.startsWith(b))) loja = null;
+  }
+  return porReal || loja ? { porReal, loja } : null;
+}
+
+/**
+ * Diz se a promoção compensa, usando a melhor régua disponível:
+ * 1. custo do milheiro contra a cotação de mercado (mais forte);
+ * 2. percentual contra o teto conhecido daquela rota.
+ */
+export function avaliar(campanha, referencia, tetos, historico) {
+  const ref = referencia?.[campanha.destino];
+
+  if (campanha.custoMilheiro && ref?.mediana) {
+    const margem = Number((ref.mediana - campanha.custoMilheiro).toFixed(2));
+    const veredito = margem > 2 ? 'vale' : margem > 0 ? 'limite' : 'nao vale';
+    const motivo = veredito === 'vale'
+      ? `milheiro R$ ${campanha.custoMilheiro.toFixed(2).replace('.', ',')} contra R$ ${ref.mediana.toFixed(2).replace('.', ',')} do mercado`
+      : veredito === 'limite'
+        ? 'margem pequena sobre o preço de mercado'
+        : 'sai mais caro do que comprar pronto';
+    const rotulo = veredito === 'vale' ? 'Vale a pena' : veredito === 'limite' ? 'No limite' : 'Não vale';
+    return { veredito, rotulo, motivo, base: 'cotacao', margem };
+  }
+
+  if (campanha.tipo === 'transferencia_bonificada' && campanha.percentual) {
+    const histMax = historico?.[`${campanha.origens[0]} -> ${campanha.destino}`]?.maxPercentual || 0;
+    const teto = Math.max(tetos?.[campanha.destino] || 0, histMax);
+    if (!teto) return null;
+    const razao = campanha.percentual / teto;
+    if (razao >= 0.95) return { veredito: 'vale', rotulo: 'Melhor momento', motivo: `${campanha.percentual}% é o topo do que essa rota costuma dar`, base: 'teto', teto };
+    if (razao >= 0.75) return { veredito: 'limite', rotulo: 'Razoável', motivo: `${campanha.percentual}% contra um teto de ${teto}% nessa rota`, base: 'teto', teto };
+    return { veredito: 'nao vale', rotulo: 'Dá para esperar', motivo: `essa rota já chegou a ${teto}%`, base: 'teto', teto };
+  }
+
+  return null;
 }

@@ -8,7 +8,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
-import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro } from './parser.mjs';
+import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
@@ -122,6 +122,7 @@ async function main() {
         par,
         percentual: percentual(item),
         custoMilheiro: custoMilheiro(item),
+        acumulo: acumuloLoja(item, tipo.id),
         ate: pz.ate,
         confiancaPrazo: pz.confianca,
         resumo: item.resumo.slice(0, 400),
@@ -152,13 +153,9 @@ async function main() {
   const ativas = todas.filter((p) => new Date(p.ate) >= AGORA);
   const campanhasAtivas = agruparCampanhas(ativas).map((c) => {
     const ref = referencia.programas[c.destino];
-    if (ref && c.custoMilheiro) {
-      c.referencia = { min: ref.min, max: ref.max, mediana: ref.mediana, fonte: ref.fonte };
-      c.margem = Number((ref.mediana - c.custoMilheiro).toFixed(2));
-      c.veredito = c.margem > 2 ? 'vale' : c.margem > 0 ? 'limite' : 'nao vale';
-    } else if (ref) {
-      c.referencia = { min: ref.min, max: ref.max, mediana: ref.mediana, fonte: ref.fonte };
-    }
+    if (ref) c.referencia = { min: ref.min, max: ref.max, mediana: ref.mediana, fonte: ref.fonte };
+    const a = avaliar(c, referencia.programas, cfg.tetos, base.historico);
+    if (a) { c.veredito = a.veredito; c.rotulo = a.rotulo; c.motivo = a.motivo; c.baseVeredito = a.base; }
     return c;
   });
   const saida = {
