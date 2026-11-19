@@ -532,7 +532,12 @@ function renderPe() {
      A cotação de referência vem da tabela comparativa do iDinheiro, com valores de MaxMilhas, HotMilhas e BankMilhas,
      e você pode fixar a sua em <code>data/referencia-manual.json</code>.
      ${ref?.coletadoEm ? 'Cotação lida em ' + new Date(ref.coletadoEm).toLocaleDateString('pt-BR') + '. ' : ''}
-     Quando a promoção exige cadastro, faça o cadastro antes de transferir: depois não tem como corrigir.`;
+     Quando a promoção exige cadastro, faça o cadastro antes de transferir: depois não tem como corrigir.
+     <span class="aviso-marcas">O Radar de Milhas é um projeto pessoal e independente, sem vínculo, patrocínio,
+     parceria ou autorização da Livelo, Smiles, Latam Pass, Azul Fidelidade, Esfera, Premmia ou de qualquer
+     outro programa citado. As marcas são mencionadas apenas para identificar promoções divulgadas publicamente
+     e pertencem aos seus respectivos titulares. Os dados vêm das fontes listadas acima e dos sites oficiais
+     dos programas; confira sempre na fonte antes de transferir.</span>`;
 }
 
 lerMeu();
