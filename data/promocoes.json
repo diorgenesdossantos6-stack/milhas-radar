@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-19T16:40:52.686Z",
-  "totalAtivas": 37,
-  "totalCampanhasAtivas": 23,
+  "atualizadoEm": "2026-11-19T17:40:59.406Z",
+  "totalAtivas": 38,
+  "totalCampanhasAtivas": 24,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
@@ -51,6 +51,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-passagens-brasil-7500-milhas-smiles",
+      "titulo": "Alerta PPV! Confira passagens pelo Brasil a partir de 7.500 milhas Smiles",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-passagens-brasil-7500-milhas-smiles/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-19T17:00:02.000Z",
+      "ate": "2026-11-22T17:00:02.000Z",
+      "dinheiro": null,
+      "milhas": 7500,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Brasil",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas",
       "titulo": "Trecho para Nova York a partir de R$ 1.436 ou 112 mil pontos Azul + taxas",
@@ -1049,6 +1066,38 @@
       }
     },
     {
+      "id": "livelo|x|acumulo|2026-11-22",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-22T17:20:49.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Como acumular milhas e pontos na compra do GTA VI",
+      "publicado": "2026-11-19T17:20:49.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi/",
+          "titulo": "Como acumular milhas e pontos na compra do GTA VI",
+          "publicado": "2026-11-19T17:20:49.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|clube|2026-11-22",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1460,6 +1509,65 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi",
+      "titulo": "Como acumular milhas e pontos na compra do GTA VI",
+      "link": "https://passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T17:20:49.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T17:20:49.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O novo GTA VI já está disponível e pode ser uma ótima oportunidade para acumular milhas e pontos. No Shopping Livelo, você ganha 1 ponto a cada R$ 1 gasto, enquanto no Magalu o acúmulo pode chegar a 3 pontos por real. Fique atento às regras de cada varejista para garantir que sua compra seja elegível para o acúmulo. O post Como acumular milhas e pontos na compra do GTA VI apareceu primeiro em Pass",
+      "coletadoEm": "2026-11-19T17:40:59.406Z",
+      "nota": 10
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-passagens-brasil-7500-milhas-smiles",
+      "titulo": "Alerta PPV! Confira passagens pelo Brasil a partir de 7.500 milhas Smiles",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-passagens-brasil-7500-milhas-smiles/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-19T17:00:02.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 7500,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": "Brasil",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T17:00:02.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar suas milhas para conhecer um novo destino pelo Brasil? No Alerta de Passagens PPV desta quinta-feira, nossa equipe selecionou diversas oportunidades de voos nacionais utilizando milhas Smiles, com emissões a partir de 7.500 milhas + taxas. Confira os trechos e as datas disponíveis e aproveite para planejar sua próxima viagem! Passagens com…",
+      "coletadoEm": "2026-11-19T17:40:59.406Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/combina-ofertas-azul-accor-bonus-euro-nov26.html",
       "titulo": "Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a R$ 3,56 para usar nos hotéis Accor",
