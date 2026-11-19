@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-19T15:40:53.778Z",
-  "totalAtivas": 36,
-  "totalCampanhasAtivas": 22,
+  "atualizadoEm": "2026-11-19T16:40:52.686Z",
+  "totalAtivas": 37,
+  "totalCampanhasAtivas": 23,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
@@ -51,6 +51,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas",
+      "titulo": "Trecho para Nova York a partir de R$ 1.436 ou 112 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-19T15:40:10.000Z",
+      "ate": "2026-11-22T15:40:10.000Z",
+      "dinheiro": 1436,
+      "milhas": 112000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Nova York",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas",
       "titulo": "Barato! Voe para Buenos Aires a partir de R$ 235 ou 18 mil pontos Azul + taxas",
@@ -1408,9 +1425,105 @@
       "motivo": "milheiro a R$ 12,81 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|pontos_dinheiro|2026-11-22",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-22T16:35:13.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a R$ 3,56 para usar nos hotéis Accor",
+      "publicado": "2026-11-19T16:35:13.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/combina-ofertas-azul-accor-bonus-euro-nov26.html",
+          "titulo": "Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a R$ 3,56 para usar nos hotéis Accor",
+          "publicado": "2026-11-19T16:35:13.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/combina-ofertas-azul-accor-bonus-euro-nov26.html",
+      "titulo": "Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a R$ 3,56 para usar nos hotéis Accor",
+      "link": "https://www.melhorescartoes.com.br/combina-ofertas-azul-accor-bonus-euro-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-19T16:35:13.000Z",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Azul Fidelidade",
+        "Accor ALL"
+      ],
+      "par": "Livelo -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T16:35:13.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Está rolando um combo de promoções que pode te garantir um euro custando R$ 3,56 para usar nos hotéis da rede Accor. Para isso, você precisa combinar duas ofertas: transferir pontos + dinheiro da Livelo para o Azul Fidelidade e, depois, enviar esses pontos Azul para o ALL Accor. Pode parecer complicado, mas calma, eu… O post Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a ",
+      "coletadoEm": "2026-11-19T16:40:52.686Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas",
+      "titulo": "Trecho para Nova York a partir de R$ 1.436 ou 112 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T15:40:10.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Livelo -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 1436,
+        "milhas": 112000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Nova York",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T15:40:10.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Alerta direto dos Grupos do PP no WhatsApp! 🚨 Encontramos disponibilidade de voos entre São Paulo (GRU) e Nova York (EWR) a partir de 112.500 pontos Azul Fidelidade + taxas por trecho com a United Airlines. Caso você não tenha pontos para realizar a emissão, é possível transferir pontos Livelo para o programa de fidelidade com até 120% de bônus e emitir o trecho a partir de R$ 1.436,23 + taxas us",
+      "coletadoEm": "2026-11-19T16:40:52.686Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo",
       "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
