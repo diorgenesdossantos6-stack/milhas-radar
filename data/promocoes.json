@@ -1,8 +1,186 @@
 {
-  "atualizadoEm": "2026-11-19T12:26:53.677Z",
-  "totalAtivas": 30,
+  "atualizadoEm": "2026-11-19T12:41:03.837Z",
+  "totalAtivas": 32,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
+  "passagens": [
+    {
+      "id": "passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas",
+      "titulo": "Barato! Voe para Buenos Aires a partir de R$ 235 ou 18 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-18T22:40:42.000Z",
+      "ate": "2026-11-21T22:40:42.000Z",
+      "dinheiro": 235,
+      "milhas": 18000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+      "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-18T22:28:42.000Z",
+      "ate": "2026-11-21T22:28:42.000Z",
+      "dinheiro": 276,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+      "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-18T19:51:23.000Z",
+      "ate": "2026-11-21T19:51:23.000Z",
+      "dinheiro": 6059,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Seul",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
+      "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-18T19:00:01.000Z",
+      "ate": "2026-11-21T19:00:01.000Z",
+      "dinheiro": 172,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Brasil",
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
+      "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
+      "link": "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-18T18:54:23.000Z",
+      "ate": "2026-11-21T18:54:23.000Z",
+      "dinheiro": null,
+      "milhas": 44000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": true
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+      "titulo": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-18T18:26:03.000Z",
+      "ate": "2026-11-21T18:26:03.000Z",
+      "dinheiro": 3541,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Madri",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas",
+      "titulo": "Voos com destino ao Nordeste a partir de R$ 95 ou 3 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-18T17:32:18.000Z",
+      "ate": "2026-11-21T17:32:18.000Z",
+      "dinheiro": 95,
+      "milhas": 3000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Nordeste",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade",
+      "titulo": "Alerta PPV! Passagens para o Uruguai a partir de 13 mil pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-18T16:00:41.000Z",
+      "ate": "2026-11-21T16:00:41.000Z",
+      "dinheiro": null,
+      "milhas": 13000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Uruguai",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas",
+      "titulo": "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas",
+      "link": "https://passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-18T15:30:49.000Z",
+      "ate": "2026-11-21T15:30:49.000Z",
+      "dinheiro": 205,
+      "milhas": 16000,
+      "programa": "Azul Fidelidade",
+      "origem": "Belo Horizonte",
+      "destino": "Maceió",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles",
+      "titulo": "Alerta PPV! Viaje para os Estados Unidos com passagens a partir de 65 mil milhas Smiles",
+      "link": "https://pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-18T14:00:43.000Z",
+      "ate": "2026-11-21T14:00:43.000Z",
+      "dinheiro": null,
+      "milhas": 65000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Estados Unidos",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas",
+      "titulo": "Muito barato! Voe de Campinas para Lisboa a partir de R$ 991 ou 77 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-18T12:20:00.000Z",
+      "ate": "2026-11-21T12:20:00.000Z",
+      "dinheiro": 991,
+      "milhas": 77000,
+      "programa": "Azul Fidelidade",
+      "origem": "Campinas",
+      "destino": "Lisboa",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    }
+  ],
   "erros": [],
   "historico": {
     "Smiles": {
@@ -35,15 +213,15 @@
       "campanhas": 1,
       "ultimaEm": "2026-11-17T18:22:39.000Z"
     },
-    "Esfera": {
-      "maxPercentual": 55,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-19T03:02:00.000Z"
-    },
     "Azul Fidelidade": {
       "maxPercentual": 30,
       "campanhas": 1,
       "ultimaEm": "2026-11-19T11:00:29.000Z"
+    },
+    "Esfera": {
+      "maxPercentual": 55,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-19T03:02:00.000Z"
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
@@ -503,32 +681,6 @@
       }
     },
     {
-      "id": "esfera|55|compra_pontos|2026-11-19",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Esfera",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 55,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 48,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-      "publicado": "2026-11-19T03:02:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "publicado": "2026-11-19T03:02:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "azul fidelidade|30|transferencia_bonificada|2026-11-19",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -536,25 +688,31 @@
       "origens": [],
       "percentual": 30,
       "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 43,
+      "confiancaPrazo": "alta",
+      "nota": 58,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Só hoje! Ganhe até 30% de bônus ao transferir pontos Azul para ALL Accor",
+      "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
       "publicado": "2026-11-19T11:00:29.000Z",
       "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2/",
+          "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
+          "publicado": "2026-11-19T12:38:57.000Z"
+        },
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/so-hoje-gere-o-euro-a-partir-de-r-356-ao-transferir-pontos-azul-para-o-all-accor/",
+          "titulo": "Só hoje! Gere o euro a partir de R$ 3,56 ao transferir pontos Azul para o ALL Accor",
+          "publicado": "2026-11-19T12:30:25.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/all-accor-azul-fidelidade-nov26.html",
           "titulo": "Só hoje! ALL Accor oferece até 30% de bônus e desconto na transferência de pontos Azul Fidelidade",
           "publicado": "2026-11-19T12:10:50.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/so-hoje-ganhe-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor/",
-          "titulo": "Só hoje! Ganhe até 30% de bônus ao transferir pontos Azul para ALL Accor",
-          "publicado": "2026-11-19T11:00:31.000Z"
         },
         {
           "fonte": "Pontos pra Voar",
@@ -579,6 +737,32 @@
         "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
+    },
+    {
+      "id": "esfera|55|compra_pontos|2026-11-19",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 55,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 48,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+      "publicado": "2026-11-19T03:02:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+          "publicado": "2026-11-19T03:02:00.000Z"
+        }
+      ]
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-21",
@@ -1049,6 +1233,58 @@
   ],
   "promocoes": [
     {
+      "id": "cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2",
+      "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
+      "link": "https://www.cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-19T12:38:57.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade",
+        "Accor ALL"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": 30,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A promoção é valida apenas hoje, dia 19 de novembro de 2026 The post Azul e ALL Accor oferecem até 30% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 58
+    },
+    {
+      "id": "passageirodeprimeira.com/so-hoje-gere-o-euro-a-partir-de-r-356-ao-transferir-pontos-azul-para-o-all-accor",
+      "titulo": "Só hoje! Gere o euro a partir de R$ 3,56 ao transferir pontos Azul para o ALL Accor",
+      "link": "https://passageirodeprimeira.com/so-hoje-gere-o-euro-a-partir-de-r-356-ao-transferir-pontos-azul-para-o-all-accor/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T12:30:25.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade",
+        "Accor ALL"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": 30,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Apenas hoje (19), o ALL Accor está oferecendo até 30% de pontos Reward bônus nas transferências de pontos Azul, com a maior bonificação para assinantes do ALL Signature. Essa é uma oportunidade imperdível para gerar vouchers de hospedagens com euro a partir de R$ 3,56. Não é necessário reservar hotéis para garantir o bônus! O post Só hoje! Gere o euro a partir de R$ 3,56 ao transferir pontos Azul ",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 58
+    },
+    {
       "id": "melhorescartoes.com.br/all-accor-azul-fidelidade-nov26.html",
       "titulo": "Só hoje! ALL Accor oferece até 30% de bônus e desconto na transferência de pontos Azul Fidelidade",
       "link": "https://www.melhorescartoes.com.br/all-accor-azul-fidelidade-nov26.html",
@@ -1250,6 +1486,42 @@
       "nota": 48
     },
     {
+      "id": "passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas",
+      "titulo": "Barato! Voe para Buenos Aires a partir de R$ 235 ou 18 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T22:40:42.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Livelo -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 235,
+        "milhas": 18000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Buenos Aires",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T22:40:42.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Encontramos disponibilidade de bilhetes ida e volta entre São Paulo (GRU) e Buenos Aires (EZE) a partir de 18.500 pontos Azul Fidelidade + taxas por trecho com a Azul. Além disso, caso você não tenha pontos para realizar a emissão, é possível transferir pontos Livelo para o programa de fidelidade com até 120% de bônus, e emitir o trecho a partir de R$ 235,13 + taxas usando a ferramenta pontos + di",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
+    },
+    {
       "id": "pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera",
       "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
       "link": "https://pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
@@ -1272,6 +1544,41 @@
       "resumo": "Ainda dá tempo de aproveitar a promoção do Clube Esfera! Quem realizar uma nova assinatura ou upgrade de plano pode acumular até 60 mil pontos bônus ao longo de 12 meses. Confira os detalhes da campanha e saiba quem pode participar. Clube Esfera em promoção Esta promoção de assinatura ou upgrade do Clube Esfera está…",
       "coletadoEm": "2026-11-18T23:21:41.038Z",
       "nota": 10
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+      "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-18T22:28:42.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass",
+        "Azul Fidelidade"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 276,
+        "milhas": null,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T22:28:42.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Novembro é um mês com muitas promoções, e essa madrugada traz três promoções de Azul, Gol e Latam. São mais de 100 mil passagens aéreas a partir de R$ 276 ida e volta, saindo de 53 cidades brasileiras! As promoções de Azul e Latam vão até 23h59 de hoje. Já a da Gol encerra amanhã,…",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
     },
     {
       "id": "passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau",
@@ -1353,6 +1660,140 @@
       "nota": 10
     },
     {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+      "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-18T19:51:23.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 6059,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Seul",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T19:51:23.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Uma viagem pra Ásia é uma imersão em culturas milenares, culinária saborosa e atrações fantásticas. Explore destinos como Seul, Taipei, Bangkok, Hong Kong ou Tokyo com passagens aéreas a partir de R$ 6.059 ida e volta, taxas inclusas, lembrando que o preço inclui bagagem despachada, o que é um super diferencial numa viagem mais longa.…",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 10
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
+      "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-18T19:00:01.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 172,
+        "milhas": null,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Brasil",
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T19:00:01.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar esta quarta-feira para pesquisar sua próxima viagem pelo Brasil? Nossa equipe encontrou passagens nacionais da LATAM a partir de R$ 172, com opções para diferentes destinos. Confira as ofertas e veja onde é possível viajar gastando menos. Como emitir passagens nacionais na LATAM? Para garantir as suas passagens nacionais LATAM, siga estes…",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
+      "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
+      "link": "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T18:54:23.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Esfera -> Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 44000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": true
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T18:54:23.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Nesta matéria, sugerimos 5 opções de resgates internacionais a partir de 44.700 milhas Smiles em Classe Executiva. Vale lembrar que a Smiles está oferecendo até 80% de bônus na transferência de pontos de todos os parceiros bancários, exceto Esfera. O post 5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+      "titulo": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-18T18:26:03.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 3541,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Madri",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T18:26:03.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Ótimos preços para você viajar para a Espanha! Encontramos passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta, taxas inclusas. O menor valor é pra quem sai de São Paulo, em voo direto com a Air China, e a tarifa inclui bagagem despachada! De outras cidades há voos a partir de…",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 10
+    },
+    {
       "id": "melhorescartoes.com.br/livelo-parceiros-compras-13-pontos-nov26.html",
       "titulo": "Ganhe até 13 pontos Livelo por real em compras na Insider, Carrefour Mercado, Petlove e mais parceiros",
       "link": "https://www.melhorescartoes.com.br/livelo-parceiros-compras-13-pontos-nov26.html",
@@ -1380,6 +1821,40 @@
       "nota": 15
     },
     {
+      "id": "passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas",
+      "titulo": "Voos com destino ao Nordeste a partir de R$ 95 ou 3 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T17:32:18.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 95,
+        "milhas": 3000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Nordeste",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T17:32:18.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Alerta] Alerta de disponibilidade! A LATAM está com passagens para o Nordeste a partir de 3.332 milhas + taxas por trecho, ou a partir de R$ 95,20 + taxas com até 66% de desconto na compra de milhas. A promoção é válida até sexta-feira (20). O post Voos com destino ao Nordeste a partir de R$ 95 ou 3 mil milhas LATAM + taxas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
+    },
+    {
       "id": "melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
       "titulo": "Milheiro a partir de R$ 14! Troque pontos Premmia por milhas Smiles com até 130% de bônus",
       "link": "https://www.melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
@@ -1404,6 +1879,40 @@
       "nota": 85
     },
     {
+      "id": "pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade",
+      "titulo": "Alerta PPV! Passagens para o Uruguai a partir de 13 mil pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-18T16:00:41.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 13000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Uruguai",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T16:00:41.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal conhecer o Uruguai na sua próxima viagem utilizando pontos? No Alerta de Passagens PPV de hoje, nossa equipe selecionou oportunidades para viajar a Montevidéu e Punta del Este com pontos Azul Fidelidade, com emissões a partir de 13 mil pontos + taxas. Seja para explorar os atrativos da capital uruguaia ou aproveitar as…",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
+    },
+    {
       "id": "cartoesdecredito.me/noticia/latam-pass-e-inter-oferecem-25-de-bonus-nas-transferencias",
       "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
       "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-inter-oferecem-25-de-bonus-nas-transferencias/",
@@ -1426,6 +1935,42 @@
       "resumo": "A promoção é válida até o dia 20 de novembro de 2026 The post LATAM Pass e Inter oferecem 25% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
       "coletadoEm": "2026-11-18T18:47:37.922Z",
       "nota": 35
+    },
+    {
+      "id": "passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas",
+      "titulo": "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas",
+      "link": "https://passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T15:30:49.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Livelo -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 205,
+        "milhas": 16000,
+        "programa": "Azul Fidelidade",
+        "origem": "Belo Horizonte",
+        "destino": "Maceió",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T15:30:49.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Encontramos disponibilidade de voos entre Belo Horizonte (CNF) e Maceió (MCZ) a partir de 16.150 pontos Azul Fidelidade + taxas por trecho com a Azul. Caso você não tenha pontos para realizar a emissão, é possível transferir pontos Livelo para o programa de fidelidade com até 120% de bônus e emitir o trecho a partir de R$ 205,26 + taxas usando a ferramenta pontos + dinheiro. Confira! O post Trecho",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
     },
     {
       "id": "melhorescartoes.com.br/latam-pass-inter-loop-25-bonus-nov26.html",
@@ -1528,6 +2073,40 @@
       "nota": 10
     },
     {
+      "id": "pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles",
+      "titulo": "Alerta PPV! Viaje para os Estados Unidos com passagens a partir de 65 mil milhas Smiles",
+      "link": "https://pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-18T14:00:43.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 65000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": "Estados Unidos",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T14:00:43.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal conhecer os Estados Unidos na sua próxima viagem utilizando milhas? No Alerta de Passagens PPV de hoje, nossa equipe selecionou oportunidades para explorar diferentes destinos norte-americanos, com emissões pela Smiles a partir de 65 mil milhas + taxas. Confira os trechos e as datas disponíveis e aproveite para planejar sua próxima viagem! Passagens…",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
+    },
+    {
       "id": "passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro",
       "titulo": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
       "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro/",
@@ -1602,6 +2181,42 @@
       "resumo": "A Smiles prorrogou a campanha que oferece até 80% de bônus nas transferências de pontos dos programas de fidelidade, exceto Esfera. A promoção agora é válida até 23h59 de hoje (18). O maior bônus é para assinantes do Clube Smiles, aproveite a oferta de até 13 mil milhas bônus na hora utilizando o cupom \"VEMPROCLUBE\" [sem aspas]. O post Prorrogado! Smiles oferece até 80% de bônus nas transferências",
       "coletadoEm": "2026-11-18T18:47:37.922Z",
       "nota": 88
+    },
+    {
+      "id": "passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas",
+      "titulo": "Muito barato! Voe de Campinas para Lisboa a partir de R$ 991 ou 77 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-18T12:20:00.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Livelo -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 991,
+        "milhas": 77000,
+        "programa": "Azul Fidelidade",
+        "origem": "Campinas",
+        "destino": "Lisboa",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-21T12:20:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Alerta direto dos Grupos do PP no WhatsApp! 🚨 Encontramos disponibilidade de bilhetes ida e volta entre Campinas (VCP) e Lisboa (LIS) a partir de 77.600 pontos Azul Fidelidade + taxas por trecho com a Azul. Além disso, caso você não tenha pontos para realizar a emissão, é possível transferir pontos Livelo para o programa de fidelidade com até 120% de bônus e emitir o trecho a partir de R$ 991,38 ",
+      "coletadoEm": "2026-11-19T12:41:03.837Z",
+      "nota": 0
     },
     {
       "id": "pontospravoar.com/azul-fidelidade-oferece-ate-12-pontos-real-compras-renner",
