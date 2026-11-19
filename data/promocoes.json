@@ -1,8 +1,49 @@
 {
-  "atualizadoEm": "2026-11-19T12:41:03.837Z",
-  "totalAtivas": 32,
+  "atualizadoEm": "2026-11-19T13:40:54.986Z",
+  "totalAtivas": 33,
   "totalCampanhasAtivas": 21,
-  "combinacoes": [],
+  "combinacoes": [
+    {
+      "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
+      "origem": "Esfera",
+      "destino": "Smiles",
+      "descontoCompra": 55,
+      "bonusTransferencia": 80,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "partes": [
+        {
+          "papel": "compra",
+          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+          "fontes": [
+            {
+              "fonte": "Cartões de Crédito",
+              "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-19T03:02:00.000Z"
+            }
+          ]
+        },
+        {
+          "papel": "transferência",
+          "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
+          "fontes": [
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
+              "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
+              "publicado": "2026-11-19T13:00:59.000Z"
+            },
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
+              "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
+              "publicado": "2026-11-19T10:45:00.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "passagens": [
     {
       "id": "passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas",
@@ -179,19 +220,83 @@
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
+      "titulo": "EUA 2×1 🇺🇸 Voos para Miami mais Orlando, Los Angeles e outras cidades a partir de R$ 4.184, com bagagem despachada",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-17T21:38:41.000Z",
+      "ate": "2026-11-20T21:38:41.000Z",
+      "dinheiro": 4184,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Miami",
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
+      "titulo": "Peru 🇵🇪 Passagens aéreas para Lima ou Cusco a partir de R$ 2.297 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-17T19:11:19.000Z",
+      "ate": "2026-11-20T19:11:19.000Z",
+      "dinheiro": 2297,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Lima",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
+      "titulo": "Portugal 🇵🇹 Voos para Lisboa ou Porto a partir de R$ 3.797 ida e volta, saindo de 42 cidades brasileiras!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-17T18:22:13.000Z",
+      "ate": "2026-11-20T18:22:13.000Z",
+      "dinheiro": 3797,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Lisboa",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
+      "titulo": "Marrocos mais Europa! Passagens 2 em 1 para Casablanca mais Lisboa, Porto ou Madri a partir de R$ 4.802",
+      "link": "https://www.melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-17T15:28:41.000Z",
+      "ate": "2026-11-20T15:28:41.000Z",
+      "dinheiro": 4802,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Casablanca",
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false
     }
   ],
   "erros": [],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
-      "campanhas": 3,
-      "ultimaEm": "2026-11-19T10:45:00.000Z"
+      "campanhas": 2,
+      "ultimaEm": "2026-11-18T16:19:09.000Z"
     },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-17T18:40:12.000Z"
+      "campanhas": 2,
+      "ultimaEm": "2026-11-19T10:45:00.000Z"
     },
     "Livelo -> Azul Fidelidade": {
       "maxPercentual": 120,
@@ -418,6 +523,54 @@
       }
     },
     {
+      "id": "smiles|80|transferencia_bonificada|2026-11-19",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 88,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
+      "publicado": "2026-11-19T10:45:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
+          "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
+          "publicado": "2026-11-19T13:00:59.000Z"
+        },
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
+          "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
+          "publicado": "2026-11-19T10:45:00.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-19",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -634,46 +787,6 @@
       "motivo": "margem pequena sobre o preço de referência",
       "baseVeredito": "cotacao",
       "teto": null,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 0,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-19",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [],
-      "percentual": 80,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 63,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
-      "publicado": "2026-11-19T10:45:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
-          "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
-          "publicado": "2026-11-19T10:45:00.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "80% contra um teto de 100% nessa rota",
-      "baseVeredito": "teto",
-      "teto": 100,
       "esperar": {
         "cadencia": 90,
         "desde": 0,
@@ -1232,6 +1345,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos",
+      "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
+      "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T13:00:59.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Esfera -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A Smiles está dando mais uma chance para quem deseja receber até 80% de bônus nas transferências de pontos de todos os bancos parceiros, exceto Esfera. A promoção agora é válida até 23h59 de hoje (19). O maior bônus é para assinantes do Clube Smiles, aproveite a oferta de até 13 mil milhas bônus na hora utilizando o cupom \"VEMPROCLUBE\" [sem aspas]. O post Outra chance! Smiles oferece até 80% de bô",
+      "coletadoEm": "2026-11-19T13:40:54.986Z",
+      "nota": 88
+    },
     {
       "id": "cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2",
       "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
@@ -2270,6 +2410,38 @@
       "nota": 10
     },
     {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
+      "titulo": "EUA 2×1 🇺🇸 Voos para Miami mais Orlando, Los Angeles e outras cidades a partir de R$ 4.184, com bagagem despachada",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-17T21:38:41.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 4184,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Miami",
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-20T21:38:41.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal visitar Miami mais um super destino americano? Pesquisamos passagens aéreas 2 em 1, onde você viaja para duas cidades com uma só passagem, e encontramos voos a partir de R$ 4.184 com bagagem despachada, saindo do Rio de Janeiro ou R$ 5.054 de São Paulo e mais cidades! Vale destacar o que está…",
+      "coletadoEm": "2026-11-19T13:40:54.986Z",
+      "nota": 10
+    },
+    {
       "id": "passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-gasto-na-natura",
       "titulo": "Azul Fidelidade oferece até 24 pontos por real gasto na Natura",
       "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-gasto-na-natura/",
@@ -2319,6 +2491,38 @@
       "resumo": "A promoção é válida até o dia 18 de novembro de 2026. The post Smiles oferece até 80% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
       "coletadoEm": "2026-11-18T10:22:08.676Z",
       "nota": 73
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
+      "titulo": "Peru 🇵🇪 Passagens aéreas para Lima ou Cusco a partir de R$ 2.297 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-17T19:11:19.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 2297,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Lima",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-20T19:11:19.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Conheça a gastronomia premiada de Lima ou as belezas e mistérios de Machu Picchu com passagens aéreas a partir de apenas R$ 2.297 ida e volta, com taxas inclusas! O menor valor é pra quem sai de Foz do Iguaçu, mas tem voos saindo de Floripa a partir de R$ 2.430 ou R$ 2.537 saindo…",
+      "coletadoEm": "2026-11-19T13:40:54.986Z",
+      "nota": 10
     },
     {
       "id": "pontospravoar.com/orange-friday-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos",
@@ -2397,6 +2601,38 @@
       "nota": 68
     },
     {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
+      "titulo": "Portugal 🇵🇹 Voos para Lisboa ou Porto a partir de R$ 3.797 ida e volta, saindo de 42 cidades brasileiras!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-17T18:22:13.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 3797,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Lisboa",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-20T18:22:13.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Portugal te espera, com muito bacalhau, vinho do Porto e pastel de nata! Pesquisamos os menores preços das passagens aéreas com destino a Lisboa ou ao Porto, e encontramos voos a partir de R$ 3.797 ida e volta, taxas inclusas. Confira as datas com o preço mais barato na tabela abaixo. 🔥 aPROVEITE TAMBÉM: 🚗…",
+      "coletadoEm": "2026-11-19T13:40:54.986Z",
+      "nota": 10
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-17nov26",
       "titulo": "Milheiro Smiles a partir de R$ 15,79 enviando pontos Livelo mais dinheiro com bônus",
       "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-17nov26",
@@ -2470,6 +2706,38 @@
       "confiancaPrazo": "baixa",
       "resumo": "As ofertas da Azul Friday continuam! O Azul Fidelidade está com uma promoção especial para clientes que desejam realizar upgrade de plano do Clube Azul, permitindo acumular até 600 mil pontos na modalidade anual. Confira as condições da campanha, os planos participantes e veja se vale a pena aproveitar! Upgrade do Clube Azul O Azul…",
       "coletadoEm": "2026-11-18T10:22:08.676Z",
+      "nota": 10
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
+      "titulo": "Marrocos mais Europa! Passagens 2 em 1 para Casablanca mais Lisboa, Porto ou Madri a partir de R$ 4.802",
+      "link": "https://www.melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-17T15:28:41.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 4802,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Casablanca",
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-20T15:28:41.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Bora fazer uma viagem inesquecível por dois continentes! Que tal desvendar duas maravilhosas culturas com uma única passagem aérea? Planeje suas próximas férias visitando Marrocos mais Portugal ou Espanha. Encontramos passagens aéreas 2 em 1 da Royal Air Maroc para Casablanca mais Lisboa, Porto ou Madri a partir de R$ 4.802 saindo de São Paulo…",
+      "coletadoEm": "2026-11-19T13:40:54.986Z",
       "nota": 10
     },
     {
