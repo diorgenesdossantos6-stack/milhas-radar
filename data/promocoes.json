@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-19T14:40:55.324Z",
-  "totalAtivas": 35,
-  "totalCampanhasAtivas": 21,
+  "atualizadoEm": "2026-11-19T15:40:53.778Z",
+  "totalAtivas": 36,
+  "totalCampanhasAtivas": 22,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
@@ -1032,6 +1032,38 @@
       }
     },
     {
+      "id": "livelo|x|clube|2026-11-22",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-22T15:10:23.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+      "publicado": "2026-11-19T15:10:23.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
+          "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+          "publicado": "2026-11-19T15:10:23.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "esfera|x|clube|2026-11-21",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1379,6 +1411,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo",
+      "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+      "link": "https://passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T15:10:23.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T15:10:23.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Oferta] Muito bom! Ao assinar o Clube Livelo Especial com o cupom \"CLUBEPPBF2\", você pode garantir até 44.000 pontos bônus, totalizando até 104.000 pontos em um ano. A promoção é válida até domingo (22) e é exclusiva para novos assinantes. O post Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-19T15:40:53.778Z",
+      "nota": 10
+    },
     {
       "id": "passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop",
       "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
