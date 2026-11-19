@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T21:40:53.901Z",
+  "atualizadoEm": "2026-11-19T22:40:54.172Z",
   "totalAtivas": 43,
   "totalCampanhasAtivas": 27,
   "combinacoes": [
@@ -97,6 +97,38 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
+      "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
+      "link": "https://pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-19T22:30:46.000Z",
+      "ate": "2026-11-22T22:30:46.000Z",
+      "dinheiro": null,
+      "milhas": 300000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas",
+      "titulo": "Smiles tem voos a partir de 5 mil milhas ou R$ 92 + taxas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-19T22:00:07.000Z",
+      "ate": "2026-11-22T22:00:07.000Z",
+      "dinheiro": 92,
+      "milhas": 5000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV: encontre passagens internacionais a partir de 16 mil milhas LATAM Pass",
@@ -475,22 +507,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
-      "titulo": "Marrocos mais Europa! Passagens 2 em 1 para Casablanca mais Lisboa, Porto ou Madri a partir de R$ 4.802",
-      "link": "https://www.melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T15:28:41.000Z",
-      "ate": "2026-11-20T15:28:41.000Z",
-      "dinheiro": 4802,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Casablanca",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -1782,6 +1798,76 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
+      "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
+      "link": "https://pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-19T22:30:46.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 300000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T22:30:46.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em preparação para a Orange Friday, a GOL Linhas Aéreas deu início hoje à promoção Voo Premiado da GOL, campanha que sorteará viagens nacionais e internacionais com hospedagem e direito a acompanhante, além de 300 mil milhas Smiles. A ação comercial começou às 9h desta quinta-feira (19) e permanece válida para compras realizadas até as…",
+      "coletadoEm": "2026-11-19T22:40:54.172Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas",
+      "titulo": "Smiles tem voos a partir de 5 mil milhas ou R$ 92 + taxas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T22:00:07.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Livelo -> Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 92,
+        "milhas": 5000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": 15.91,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T22:00:07.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em nossas buscas, encontramos voos da Smiles a partir de 5.800 milhas. Além disso, o programa está oferecendo até 80% de bônus nas transferências de pontos dos parceiros bancários, incluindo Livelo. Assim, transferindo pontos Livelo + dinheiro, você pode gerar o milheiro Smiles a partir de R$ 15,91 e emitir as passagens a partir de R$ 92,27. Lembre-se que o melhor cenário é para assinantes do Club",
+      "coletadoEm": "2026-11-19T22:40:54.172Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar",
       "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
