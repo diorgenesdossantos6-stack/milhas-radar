@@ -74,10 +74,17 @@ export function classificar(item, cfg) {
   const texto = normalizar(`${item.titulo} ${item.resumo} ${item.categorias.join(' ')}`);
   const tituloNorm = normalizar(item.titulo);
 
-  // Matéria de inspiração de viagem não é anúncio de promoção, mesmo que cite
-  // o bônus no corpo. O título é que diz para que a matéria existe.
-  const ehInspiracao = /(sugesto|sugestao|voos em |voos de |trecho de |passagens? (para|de) |roteiro|o que fazer em|dicas de viagem|onde ficar)/.test(tituloNorm);
-  if (ehInspiracao) return null;
+  // Matéria sobre preço de passagem não é promoção de pontos, mas também não é
+  // lixo: vai para a aba de oportunidades de voo, com tipo próprio.
+  // A checagem é no TÍTULO: no corpo, quase toda matéria de milhas fala de voo.
+  const ehVoo = /\b(passagem|passagens|voo|voos|voe|voar|trecho|aereas|aerea)\b/.test(tituloNorm);
+  const temPreco = /r\$\s*[\d.]/.test(tituloNorm) ||
+    /\d[\d.,]*\s*(mil\s*)?(milhas|pontos)/.test(tituloNorm);
+  if (ehVoo && temPreco) return cfg.tipos.find((t) => t.id === 'passagem') || null;
+  if (ehVoo && /(sugesto|sugestao|roteiro|o que fazer|dicas)/.test(tituloNorm)) return null;
+
+  // Conteúdo de viagem sem preço nenhum não serve para nada aqui.
+  if (/(roteiro|o que fazer em|dicas de viagem|onde ficar)/.test(tituloNorm)) return null;
 
   // Descarta ruido obvio quando nao ha sinal forte de bonificacao no titulo.
   const temSinalForte = /(bonus|bonificad)/.test(tituloNorm) &&
@@ -90,6 +97,7 @@ export function classificar(item, cfg) {
 
   const achados = [];
   for (const t of cfg.tipos) {
+    if (t.id === 'passagem') continue; // só entra pela checagem de título acima
     const temExige = t.exige.some((k) => texto.includes(normalizar(k)));
     const temContexto = !t.contexto.length || t.contexto.some((k) => texto.includes(normalizar(k)));
     if (temExige && temContexto) achados.push(t);
@@ -568,10 +576,74 @@ export function aindaVale(promo) {
   if (!promo || !promo.titulo) return false;
   const t = normalizar(promo.titulo);
 
+  // Passagem tem regra própria: vale pelo preço, não pelo programa citado.
+  if (promo.tipo === 'passagem') return Boolean(promo.passagem);
+
   if (/(sugesto|sugestao|voos em |voos de |trecho de |passagens? (para|de) |roteiro|o que fazer em|dicas de viagem|onde ficar)/.test(t)) {
     return false;
   }
 
   const temPrograma = (promo.origem?.length || 0) + (promo.destino?.length || 0) > 0;
   return temPrograma;
+}
+
+/**
+ * Oportunidade de passagem: extrai preço em dinheiro, preço em milhas e o trecho.
+ *
+ * As matérias trazem os dois formatos, às vezes no mesmo título:
+ *   "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas"
+ * O painel usa os dois para dizer o que sai mais barato no caso de quem lê.
+ */
+export function extrairPassagem(item, cfg) {
+  const txt = `${item.titulo} ${item.resumo}`;
+  const norm = normalizar(txt);
+  const tituloNorm = normalizar(item.titulo);
+
+  // Dinheiro: "a partir de R$ 2.300", "por R$ 205", "ou R$ 205".
+  // Tenta a forma com preposição primeiro; não achando, aceita qualquer valor.
+  const comPrep = norm.match(/(?:a partir de|por|desde|ou)\s*r\$\s*([\d.]+(?:,\d{2})?)/);
+  const qualquer = norm.match(/r\$\s*([\d.]+(?:,\d{2})?)/);
+  const mDin = comPrep || qualquer;
+  let dinheiro = mDin ? Number(mDin[1].replace(/\./g, '').replace(',', '.')) : null;
+  // Passagem por menos de R$ 50 não existe: é outro número que entrou no caminho.
+  if (dinheiro !== null && (dinheiro < 50 || dinheiro > 100000)) dinheiro = null;
+
+  // Milhas: "16 mil pontos", "44 mil milhas", "15.000 milhas"
+  const mMil = norm.match(/(\d{1,3}(?:[.,]\d{3})*|\d+)\s*(mil\s*)?(milhas|pontos)/);
+  let milhas = null;
+  if (mMil) {
+    milhas = Number(String(mMil[1]).replace(/[.,]/g, ''));
+    if (mMil[2]) milhas *= 1000;
+    if (milhas < 1000 || milhas > 2000000) milhas = null;
+  }
+
+  if (!dinheiro && !milhas) return null;
+
+  // Programa citado, para converter milhas em dinheiro com a régua certa.
+  let programa = null;
+  for (const [nome, chaves] of Object.entries(cfg.programas.destino)) {
+    if (chaves.some((k) => norm.includes(normalizar(k)))) { programa = nome; break; }
+  }
+
+  // Trecho: "de Belo Horizonte para Maceió", "para Lisboa"
+  const original = item.titulo;
+  let origem = null, destino = null;
+  const mTrecho = original.match(/\bde\s+([A-ZÀ-Ý][\wÀ-ÿ]+(?:\s+[A-ZÀ-Ý][\wÀ-ÿ]+){0,2})\s+(?:para|a|até)\s+([A-ZÀ-Ý][\wÀ-ÿ]+(?:\s+[A-ZÀ-Ý][\wÀ-ÿ]+){0,2})/);
+  if (mTrecho) { origem = mTrecho[1]; destino = mTrecho[2]; }
+  else {
+    // "para Lisboa", "ao Nordeste", "pelo Brasil", "na Argentina"
+    const mDest = original.match(/\b(?:para o|para a|para os|para as|para|rumo a|destino ao|destino a|ao|à|aos|às|pelo|pela|no|na)\s+([A-ZÀ-Ý][\wÀ-ÿ]+(?:\s+[A-ZÀ-Ý][\wÀ-ÿ]+){0,2})/);
+    if (mDest) destino = mDest[1];
+  }
+
+  // Companhia aérea ou programa não é destino.
+  const naoSaoDestinos = ['Latam', 'LATAM', 'Gol', 'Azul', 'Smiles', 'Livelo', 'Esfera', 'Itaú', 'Itau', 'Alerta', 'Black', 'Friday'];
+  if (destino && naoSaoDestinos.some((n) => destino.startsWith(n))) destino = null;
+  if (origem && naoSaoDestinos.some((n) => origem.startsWith(n))) { origem = null; destino = destino || null; }
+
+  const idaEVolta = /(ida e volta|ida\/volta|round trip)/.test(norm);
+  const taxas = /(\+\s*taxas|mais taxas|taxas de embarque)/.test(norm);
+  const ehLista = /(sugesto|sugestao|\d+\s+(destinos|opcoes|voos))/.test(tituloNorm);
+
+  return { dinheiro, milhas, programa, origem, destino, idaEVolta, taxas, ehLista };
 }

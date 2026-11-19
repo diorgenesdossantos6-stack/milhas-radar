@@ -128,6 +128,20 @@
   }
   .fontes a:hover { color: var(--ciano); background: rgba(0,229,255,.1); }
 
+  .voos-sec { margin-top: 48px; }
+  .voo { display: grid; grid-template-columns: 1fr auto; gap: 4px 18px; align-items: baseline;
+         background: var(--azul-painel); border-radius: 10px; padding: 16px 20px; margin-bottom: 10px; }
+  .voo .trecho { font-size: 1.02rem; font-weight: 600; letter-spacing: -.01em; }
+  .voo .quando { font-size: .76rem; font-weight: 600; color: var(--texto-fraco); white-space: nowrap; }
+  .voo .precos-voo { grid-column: 1 / -1; display: flex; gap: 22px; flex-wrap: wrap; margin-top: 8px; }
+  .voo .precos-voo div span { display: block; font-size: .7rem; font-weight: 600; color: var(--texto-fraco); }
+  .voo .precos-voo div b { font-size: 1.1rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .voo .vence { color: var(--ciano); }
+  .voo .perde { color: var(--texto-fraco); }
+  .voo .leitura { grid-column: 1 / -1; margin: 10px 0 0; font-size: .82rem; font-weight: 600; }
+  .voo .obs-voo { grid-column: 1 / -1; margin: 6px 0 0; font-size: .76rem; color: var(--texto-fraco); }
+  .voo .fontes { grid-column: 1 / -1; }
+
   .conta { margin-top: 48px; }
   .caixa { background: var(--azul-painel); border-radius: 10px; padding: 24px; }
   .campos { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
@@ -287,6 +301,14 @@
       <div class="controles" id="controles"></div>
     </div>
     <ul class="lista" id="lista"></ul>
+  </section>
+
+  <section class="voos-sec">
+    <div class="secao">
+      <h2>Oportunidades de voo</h2>
+      <span class="link-fonte" id="voosResumo"></span>
+    </div>
+    <div id="voos"></div>
   </section>
 
   <section class="conta">

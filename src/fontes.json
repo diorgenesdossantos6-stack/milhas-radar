@@ -136,6 +136,31 @@
   },
   "tipos": [
     {
+      "id": "passagem",
+      "nome": "Oportunidade de passagem",
+      "prioridade": 0,
+      "exige": [
+        "a partir de",
+        "por r$",
+        "trecho",
+        "passagens",
+        "passagem",
+        "voe",
+        "voos"
+      ],
+      "contexto": [
+        "milhas",
+        "pontos",
+        "r$",
+        "emissao",
+        "emissão",
+        "resgate",
+        "tarifa",
+        "trecho",
+        "voo"
+      ]
+    },
+    {
       "id": "transferencia_bonificada",
       "nome": "Transferência bonificada",
       "prioridade": 1,

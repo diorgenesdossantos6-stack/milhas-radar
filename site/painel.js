@@ -308,6 +308,7 @@ function repintar() {
   renderResumo(agora);
   renderMelhor(agora[0]);
   renderCombos();
+  renderVoos();
   renderLista();
   calcular();
 }
@@ -435,6 +436,89 @@ function renderRegua() {
   </div>`;
 }
 
+/**
+ * Quanto valem as milhas de uma emissão, em reais.
+ * Usa a régua do próprio programa: comprar pronto, se conhecido, senão a
+ * cotação de referência. Converter com o custo do ponto Livelo seria errado,
+ * porque milha Smiles e ponto Livelo não são a mesma moeda.
+ */
+function valorDasMilhas(milhas, programa) {
+  if (!milhas || !programa) return null;
+  const teto = (DADOS.tetosCompra || {})[programa];
+  const ref = (REF.programas || {})[programa];
+  const porMil = teto?.valor || ref?.mediana;
+  if (!porMil) return null;
+  return {
+    reais: (milhas / 1000) * porMil,
+    porMil,
+    origem: teto ? `preço de comprar milhas ${programa}` : `cotação de referência ${programa}`
+  };
+}
+
+function renderVoos() {
+  const alvo = document.getElementById('voos');
+  const resumo = document.getElementById('voosResumo');
+  if (!alvo) return;
+
+  const voos = (DADOS.passagens || []).filter((p) => quando(p.ate).viva);
+  if (!voos.length) {
+    alvo.innerHTML = '<p class="nada">Nenhuma oportunidade de voo nas últimas coletas.</p>';
+    if (resumo) resumo.textContent = '';
+    return;
+  }
+  if (resumo) resumo.textContent = `${voos.length} em aberto`;
+
+  alvo.innerHTML = voos.map((p) => {
+    const q = quando(p.ate);
+    const trecho = p.origem && p.destino ? `${p.origem} → ${p.destino}`
+      : p.destino ? p.destino
+      : p.ehLista ? 'Vários destinos' : 'Destino no anúncio';
+
+    const emMilhas = valorDasMilhas(p.milhas, p.programa);
+    const temAmbos = p.dinheiro && emMilhas;
+    const dinheiroVence = temAmbos && p.dinheiro < emMilhas.reais;
+
+    const precos = [];
+    if (p.dinheiro) {
+      precos.push(`<div><span>em dinheiro</span>
+        <b class="${temAmbos ? (dinheiroVence ? 'vence' : 'perde') : ''}">${brl(p.dinheiro)}</b></div>`);
+    }
+    if (p.milhas) {
+      precos.push(`<div><span>em milhas${p.programa ? ` ${p.programa}` : ''}</span>
+        <b class="${temAmbos ? (dinheiroVence ? 'perde' : 'vence') : ''}">${num(p.milhas)}</b></div>`);
+    }
+    if (emMilhas) {
+      precos.push(`<div><span>as milhas valem</span>
+        <b class="${temAmbos ? (dinheiroVence ? 'perde' : 'vence') : ''}">${brl(emMilhas.reais)}</b></div>`);
+    }
+
+    let leitura = '';
+    if (temAmbos) {
+      const diferenca = Math.abs(p.dinheiro - emMilhas.reais);
+      const empate = diferenca < emMilhas.reais * 0.1;
+      leitura = empate
+        ? `<p class="leitura v-limite">Empate técnico. Pague em dinheiro e guarde as milhas para uma emissão em que elas rendam mais.</p>`
+        : dinheiroVence
+          ? `<p class="leitura v-ruim">Pague em dinheiro: as milhas valeriam ${brl(emMilhas.reais)} nessa emissão, mais que os ${brl(p.dinheiro)} cobrados.</p>`
+          : `<p class="leitura v-vale">Use as milhas: elas valem ${brl(emMilhas.reais)} e substituem ${brl(p.dinheiro)} de tarifa.</p>`;
+    }
+
+    const notas = [];
+    if (p.idaEVolta) notas.push('ida e volta');
+    if (p.taxas) notas.push('fora as taxas de embarque');
+    if (emMilhas) notas.push(`milha avaliada pela ${emMilhas.origem}, ${brl(emMilhas.porMil)} o milheiro`);
+
+    return `<article class="voo">
+      <span class="trecho">${trecho}</span>
+      <span class="quando ${q.perto ? 'perto' : ''}">${q.txt}</span>
+      <div class="precos-voo">${precos.join('')}</div>
+      ${leitura}
+      ${notas.length ? `<p class="obs-voo">${notas.join(' · ')}</p>` : ''}
+      <span class="fontes"><a href="${p.link}" target="_blank" rel="noopener">${p.fonte}</a></span>
+    </article>`;
+  }).join('');
+}
+
 function renderPe() {
   const ref = Object.values(REF.programas || {})[0];
   document.getElementById('pe').innerHTML =
@@ -462,6 +546,7 @@ carregar().then(() => {
   renderControles();
   renderLista();
   renderCombos();
+  renderVoos();
   renderRegua();
   renderHistorico();
   renderLivelo();

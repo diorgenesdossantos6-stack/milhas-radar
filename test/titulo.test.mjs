@@ -32,14 +32,21 @@ import { classificar } from '../src/parser.mjs';
 import { readFileSync } from 'node:fs';
 const cfg = JSON.parse(readFileSync(new URL('../src/fontes.json', import.meta.url), 'utf8'));
 
-const inspiracao = [
+// Matéria de voo não pode poluir a lista de promoções de pontos.
+// Desde que a aba de passagens existe, ela tem destino próprio em vez de ser descartada.
+const materiasDeVoo = [
   '5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles',
   'Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas',
   'Passagens para Lisboa a partir de 60 mil milhas'
 ];
-for (const titulo of inspiracao) {
+for (const titulo of materiasDeVoo) {
   const r = classificar({ titulo, resumo: 'Aproveite o bônus de 100% na transferência de pontos', categorias: [] }, cfg);
-  assert.equal(r, null, `nao pode classificar como promocao: ${titulo}`);
+  assert.equal(r?.id, 'passagem', `deveria ir para a aba de voos: ${titulo}`);
+}
+
+// Conteúdo de viagem sem preço nenhum continua sendo descartado.
+for (const titulo of ['Roteiro de 3 dias em Lisboa', 'O que fazer em Buenos Aires no inverno']) {
+  assert.equal(classificar({ titulo, resumo: '', categorias: [] }, cfg), null, `deveria descartar: ${titulo}`);
 }
 
 // Promoção de verdade continua passando.
@@ -71,7 +78,9 @@ console.log('escopo por programa: todos os testes passaram');
 // Corrigir uma regra tem que limpar o que já estava guardado.
 import { aindaVale } from '../src/parser.mjs';
 
-assert.equal(aindaVale({ titulo: 'Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos', origem: ['Livelo'], destino: ['Azul Fidelidade'] }), false);
+assert.equal(aindaVale({ titulo: 'Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos', origem: ['Livelo'], destino: ['Azul Fidelidade'] }), false, 'sem tipo passagem, cai na regra antiga');
+assert.equal(aindaVale({ tipo: 'passagem', titulo: 'Trecho de Belo Horizonte para Maceió', passagem: { dinheiro: 205 }, origem: [], destino: [] }), true, 'passagem guardada continua valendo');
+assert.equal(aindaVale({ tipo: 'passagem', titulo: 'Voos para lugar nenhum', passagem: null, origem: [], destino: [] }), false, 'passagem sem preco sai');
 assert.equal(aindaVale({ titulo: '5 sugestões de voos em Classe Executiva', origem: [], destino: ['Smiles'] }), false);
 assert.equal(aindaVale({ titulo: "Black Friday no Sam's Club! Assine o plano anual", origem: [], destino: [] }), false, 'sem programa, sai');
 assert.equal(aindaVale({ titulo: 'Smiles oferece até 80% de bônus nas transferências', origem: ['Livelo'], destino: ['Smiles'] }), true);

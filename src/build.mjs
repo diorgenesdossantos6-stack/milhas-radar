@@ -17,6 +17,7 @@ const enxuto = {
   atualizadoEm: dados.atualizadoEm,
   campanhasAtivas: dados.campanhasAtivas,
   combinacoes: dados.combinacoes || [],
+  passagens: dados.passagens || [],
   regua: dados.regua || {},
   tetosCompra: dados.tetosCompra || {},
   // Só as observações recentes, que é o que o painel mostra.

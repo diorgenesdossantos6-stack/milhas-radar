@@ -9,7 +9,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
-import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale } from './parser.mjs';
+import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale, extrairPassagem } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
@@ -108,9 +108,10 @@ async function main() {
       if (vistos.has(id)) continue;
 
       const pg = programas(item, cfg);
-      // Sem nenhum programa nomeado, não é promoção de pontos: é outro assunto
-      // que por acaso usa as mesmas palavras (clube de compras, assinatura de loja).
-      if (!pg.origem.length && !pg.destino.length) continue;
+      // Passagem é outra coisa: vale por si, mesmo sem programa de pontos citado.
+      // As demais exigem programa nomeado, senão é outro assunto que por acaso
+      // usa as mesmas palavras (clube de compras, assinatura de loja).
+      if (tipo.id !== 'passagem' && !pg.origem.length && !pg.destino.length) continue;
 
       const pz = prazo(item, item.publicado);
       const par = pg.origem.length && pg.destino.length
@@ -129,7 +130,8 @@ async function main() {
         origem: pg.origem,
         destino: pg.destino,
         par,
-        percentual: percentual(item),
+        percentual: tipo.id === 'passagem' ? null : percentual(item),
+        passagem: tipo.id === 'passagem' ? extrairPassagem(item, cfg) : null,
         custoMilheiro: custoMilheiro(item),
         acumulo: acumuloLoja(item, tipo.id),
         clube: null, // avaliado depois, quando a régua já estiver calculada
@@ -195,7 +197,17 @@ async function main() {
   }
   base.historico = historico;
 
-  const ativas = todas.filter((p) => new Date(p.ate) >= AGORA);
+  const ativas = todas.filter((p) => new Date(p.ate) >= AGORA && p.tipo !== 'passagem');
+
+  // Oportunidades de voo ficam separadas: respondem outra pergunta.
+  const passagens = todas
+    .filter((p) => p.tipo === 'passagem' && new Date(p.ate) >= AGORA)
+    .map((p) => ({
+      id: p.id, titulo: p.titulo, link: p.link, fonte: p.fonteNome,
+      publicado: p.publicado, ate: p.ate, ...p.passagem
+    }))
+    .sort((a, b) => new Date(b.publicado || 0) - new Date(a.publicado || 0))
+    .slice(0, 24);
   // A régua de valor justo sai dos preços já observados, não de um número fixo.
   const regua = {};
   for (const prog of Object.keys(cfg.programas.origem)) {
@@ -244,6 +256,7 @@ async function main() {
     totalAtivas: ativas.length,
     totalCampanhasAtivas: campanhasAtivas.length,
     combinacoes,
+    passagens,
     erros,
     historico: base.historico,
     observacoes: base.observacoes,
