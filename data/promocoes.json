@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-18T23:21:41.038Z",
-  "totalAtivas": 29,
-  "totalCampanhasAtivas": 20,
+  "atualizadoEm": "2026-11-19T01:03:59.048Z",
+  "totalAtivas": 24,
+  "totalCampanhasAtivas": 18,
   "combinacoes": [],
   "erros": [],
   "historico": {
@@ -216,60 +216,6 @@
       "veredito": "vale",
       "rotulo": "Melhor momento",
       "motivo": "130% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 0,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-18",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-18T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 88,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles oferece até 80% de bônus nas transferências",
-      "publicado": "2026-11-17T18:40:12.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/ultimas-horas-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-parceiros/",
-          "titulo": "Últimas horas! Smiles oferece até 80% de bônus na transferência de pontos com parceiros",
-          "publicado": "2026-11-18T21:00:28.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/prorrogado-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
-          "titulo": "Prorrogado! Smiles oferece até 80% de bônus nas transferências de pontos dos cartões de crédito",
-          "publicado": "2026-11-18T12:51:51.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/smiles-oferece-ate-80-de-bonus-nas-transferencias-9/",
-          "titulo": "Smiles oferece até 80% de bônus nas transferências",
-          "publicado": "2026-11-17T19:30:17.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "80% contra um teto de 100% nessa rota",
       "baseVeredito": "teto",
       "teto": 100,
       "esperar": {
@@ -593,41 +539,6 @@
         "min": 18,
         "max": 29.18,
         "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|acumulo|2026-11-18",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-18T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 15,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": null,
-        "loja": "Insider"
-      },
-      "clube": null,
-      "titulo": "Ganhe até 13 pontos Livelo por real em compras na Insider, Carrefour Mercado, Petlove e mais parceiros",
-      "publicado": "2026-11-18T18:01:29.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/livelo-parceiros-compras-13-pontos-nov26.html",
-          "titulo": "Ganhe até 13 pontos Livelo por real em compras na Insider, Carrefour Mercado, Petlove e mais parceiros",
-          "publicado": "2026-11-18T18:01:29.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
