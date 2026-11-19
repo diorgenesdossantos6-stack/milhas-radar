@@ -555,3 +555,23 @@ export function tetoCompra(observacoes, programa, dias = 90) {
       : `mediana de ${vals.length} promoções de compra vistas em ${dias} dias`
   };
 }
+
+
+/**
+ * Revalida uma promoção já guardada contra as regras atuais.
+ *
+ * Sem isto, corrigir uma regra só vale para o que chega depois, e o que entrou
+ * errado antes fica no painel até expirar. Aplica as checagens que dependem
+ * apenas do que está salvo: programa nomeado e título que não é inspiração.
+ */
+export function aindaVale(promo) {
+  if (!promo || !promo.titulo) return false;
+  const t = normalizar(promo.titulo);
+
+  if (/(sugesto|sugestao|voos em |voos de |trecho de |passagens? (para|de) |roteiro|o que fazer em|dicas de viagem|onde ficar)/.test(t)) {
+    return false;
+  }
+
+  const temPrograma = (promo.origem?.length || 0) + (promo.destino?.length || 0) > 0;
+  return temPrograma;
+}

@@ -9,7 +9,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
-import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra } from './parser.mjs';
+import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
@@ -167,21 +167,33 @@ async function main() {
     .filter((o) => new Date(o.em).getTime() > corteObs)
     .slice(-400);
 
-  // Atualiza o historico de maximo por par, que alimenta a pontuacao de raridade.
-  for (const p of novas) {
-    if (!p.percentual || p.par === 'indefinido') continue;
-    const h = base.historico[p.par] || { maxPercentual: 0, ocorrencias: 0 };
-    h.maxPercentual = Math.max(h.maxPercentual, p.percentual);
-    h.ocorrencias += 1;
-    h.ultimaEm = p.publicado || p.coletadoEm;
-    base.historico[p.par] = h;
-  }
 
   // Mantem 180 dias de historico de promocoes.
   const corte = new Date(AGORA.getTime() - 180 * 864e5);
   const todas = [...vistos.values()]
+    // Revalida o que já estava guardado: regra corrigida tem que limpar o passado.
+    .filter(aindaVale)
     .filter((p) => new Date(p.publicado || p.coletadoEm) > corte)
     .sort((a, b) => new Date(b.publicado || 0) - new Date(a.publicado || 0));
+
+  // Historico reconstruido a partir das CAMPANHAS, nao das materias.
+  // A mesma promocao noticiada por quatro sites e uma campanha, nao quatro.
+  // Recalcular do zero a cada coleta tambem conserta contagens antigas infladas.
+  const historico = {};
+  for (const c of agruparCampanhas(todas)) {
+    if (!c.percentual) continue;
+    const origens = (c.origens || []).filter((o) => o !== c.destino);
+    const rota = origens.length ? `${origens[0]} -> ${c.destino}` : c.destino;
+    if (rota === 'indefinido') continue;
+
+    const h = historico[rota] || { maxPercentual: 0, campanhas: 0 };
+    h.maxPercentual = Math.max(h.maxPercentual, c.percentual);
+    h.campanhas += 1;
+    const quando = c.publicado || c.ate;
+    if (quando && (!h.ultimaEm || quando > h.ultimaEm)) h.ultimaEm = quando;
+    historico[rota] = h;
+  }
+  base.historico = historico;
 
   const ativas = todas.filter((p) => new Date(p.ate) >= AGORA);
   // A régua de valor justo sai dos preços já observados, não de um número fixo.

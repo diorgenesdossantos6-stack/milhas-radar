@@ -247,8 +247,13 @@ function renderHistorico() {
     .sort((a, b) => b[1].maxPercentual - a[1].maxPercentual)
     .slice(0, 12);
   document.getElementById('historico').innerHTML = hist.length
-    ? `<table><thead><tr><th>rota</th><th>maior bônus</th><th>vezes registrado</th></tr></thead><tbody>${
-        hist.map(([par, h]) => `<tr><td>${par}</td><td>${h.maxPercentual}%</td><td>${h.ocorrencias}</td></tr>`).join('')
+    ? `<table><thead><tr><th>rota</th><th>maior bônus</th><th>campanhas vistas</th><th>última</th></tr></thead><tbody>${
+        hist.map(([par, h]) => `<tr>
+          <td>${par}</td>
+          <td>${h.maxPercentual}%</td>
+          <td>${h.campanhas ?? h.ocorrencias ?? 1}</td>
+          <td class="faixa">${h.ultimaEm ? new Date(h.ultimaEm).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : '—'}</td>
+        </tr>`).join('')
       }</tbody></table>`
     : '<p class="nada">O histórico se forma a cada coleta.</p>';
 }

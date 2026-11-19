@@ -67,3 +67,15 @@ const dentro = programas({ titulo: 'Livelo oferece 9 mil pontos na assinatura an
 assert.ok(dentro.origem.includes('Livelo'), 'deve reconhecer a Livelo');
 
 console.log('escopo por programa: todos os testes passaram');
+
+// Corrigir uma regra tem que limpar o que já estava guardado.
+import { aindaVale } from '../src/parser.mjs';
+
+assert.equal(aindaVale({ titulo: 'Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos', origem: ['Livelo'], destino: ['Azul Fidelidade'] }), false);
+assert.equal(aindaVale({ titulo: '5 sugestões de voos em Classe Executiva', origem: [], destino: ['Smiles'] }), false);
+assert.equal(aindaVale({ titulo: "Black Friday no Sam's Club! Assine o plano anual", origem: [], destino: [] }), false, 'sem programa, sai');
+assert.equal(aindaVale({ titulo: 'Smiles oferece até 80% de bônus nas transferências', origem: ['Livelo'], destino: ['Smiles'] }), true);
+assert.equal(aindaVale(null), false);
+assert.equal(aindaVale({ origem: ['Livelo'], destino: ['Smiles'] }), false, 'sem titulo, sai');
+
+console.log('revalidacao do historico: todos os testes passaram');
