@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T19:40:52.930Z",
+  "atualizadoEm": "2026-11-19T20:40:54.601Z",
   "erros": [],
   "programas": {
     "Azul Fidelidade": {
@@ -10,7 +10,7 @@
       "amostras": 4,
       "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
       "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
-      "coletadoEm": "2026-11-19T19:40:52.929Z"
+      "coletadoEm": "2026-11-19T20:40:54.600Z"
     },
     "Latam Pass": {
       "programa": "Latam Pass",
@@ -20,7 +20,7 @@
       "amostras": 4,
       "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
       "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
-      "coletadoEm": "2026-11-19T19:40:52.929Z"
+      "coletadoEm": "2026-11-19T20:40:54.600Z"
     },
     "Smiles": {
       "programa": "Smiles",
@@ -30,7 +30,7 @@
       "amostras": 4,
       "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
       "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
-      "coletadoEm": "2026-11-19T19:40:52.929Z"
+      "coletadoEm": "2026-11-19T20:40:54.600Z"
     },
     "Livelo": {
       "programa": "Livelo",
@@ -40,7 +40,7 @@
       "amostras": 1,
       "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
       "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
-      "coletadoEm": "2026-11-19T19:40:52.929Z"
+      "coletadoEm": "2026-11-19T20:40:54.600Z"
     }
   }
 }
