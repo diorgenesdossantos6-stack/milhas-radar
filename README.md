@@ -66,6 +66,20 @@ dispara o alerta.
 **5. Netlify.** Aponte para o repo. O `netlify.toml` já define build e publish. Cada commit
 do Action republica o painel.
 
+## Enviando mudanças
+
+Use o script, não os comandos soltos:
+
+```powershell
+.\subir.ps1 "mensagem do commit"
+```
+
+Ele commita, puxa o que o coletor gravou e envia, nessa ordem. A ordem importa:
+o coletor comita dados de hora em hora, então o remoto quase sempre está à frente,
+e extrair o zip antes de puxar faz o `git pull` abortar. Em conflito nos arquivos
+de `data/`, os dados do robô vencem, porque são mais recentes. Se o conflito for
+em código, o script para e devolve a decisão para você.
+
 ## Ajustes que você vai querer fazer
 
 **Fixar a cotação que você confia.** O `data/referencia-manual.json` sobrescreve a raspagem.

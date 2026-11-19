@@ -1,10 +1,10 @@
 {
-  "atualizadoEm": "2026-11-19T01:03:59.534Z",
-  "lidoEm": "2026-11-19T01:03:59.534Z",
+  "atualizadoEm": "2026-11-19T08:27:23.058Z",
+  "lidoEm": "2026-11-19T08:27:23.058Z",
   "fonte": "https://www.livelo.com.br/ofertas",
   "ok": true,
-  "total": 48,
-  "emCampanha": 48,
+  "total": 43,
+  "emCampanha": 43,
   "parceiros": [
     {
       "id": "INS",
@@ -22,6 +22,61 @@
       "de": "2026-11-18T03:00:00.000Z",
       "ate": "2026-11-23T02:59:00.000Z",
       "regras": "Campanha válida de 18 a 22/11/2026. Ganhe 13 pontos por real gasto. Utilize o cupom LIVELO. Consulte o regulamento."
+    },
+    {
+      "id": "AMO",
+      "loja": "AMOBELEZA",
+      "link": "https://livelo.com.br/juntar-pontos/parceiros/amobeleza/AMO",
+      "categorias": [
+        "perfumariaecosmeticos",
+        "saude",
+        "wellness",
+        "modaebeleza"
+      ],
+      "pontosPorReal": 10,
+      "pontosClube": 12,
+      "pontosNormal": 1,
+      "multiplicador": 12,
+      "emCampanha": true,
+      "de": "2026-11-19T03:00:00.000Z",
+      "ate": "2026-11-20T02:59:00.000Z",
+      "regras": "Campanha válida em 19/11/2026. Ganhe 12 pontos por real gasto em produtos das marcas Arencia e Manyo exclusivo para assinantes Clube Livelo; 10 pontos por real para demais clientes nas marcas selecionadas e 1 ponto por real nos demais produtos. Utilize o cupom LIVELO. Consulte o regulamento."
+    },
+    {
+      "id": "OVC",
+      "loja": "Olympikus",
+      "link": "https://livelo.com.br/juntar-pontos/parceiros/olympikus/OVC",
+      "categorias": [
+        "calcados",
+        "infantil",
+        "wellness",
+        "modaebeleza",
+        "modaeacessorios"
+      ],
+      "pontosPorReal": 6,
+      "pontosClube": 12,
+      "pontosNormal": 1,
+      "multiplicador": 12,
+      "emCampanha": true,
+      "de": "2026-11-19T03:00:00.000Z",
+      "ate": "2026-11-20T02:59:00.000Z",
+      "regras": "Campanha válida em 19/11/2026. Ganhe 12 pontos por real gasto no tênis Corre 5 exclusivo para assinantes Clube Livelo; 6 pontos por real para demais clientes no Corre 5 e 1 ponto por real nos demais produtos. Utilize o cupom LIVELO. Consulte o regulamento."
+    },
+    {
+      "id": "MIS",
+      "loja": "Mistral",
+      "link": "https://livelo.com.br/juntar-pontos/parceiros/mistral/MIS",
+      "categorias": [
+        "alimentosebebidas"
+      ],
+      "pontosPorReal": 8,
+      "pontosClube": 10,
+      "pontosNormal": 1,
+      "multiplicador": 10,
+      "emCampanha": true,
+      "de": "2026-11-19T03:00:00.000Z",
+      "ate": "2026-11-23T02:59:00.000Z",
+      "regras": "Campanha válida de 19 a 22/11/2026. Ganhe 10 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 8 pontos por real demais clientes. Exceto taças e decanters. Consulte o regulamento."
     },
     {
       "id": "VMZ",
@@ -65,23 +120,6 @@
       "regras": "Campanha válida de 18 a 23/11/2026. Ganhe 8 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo em produtos selecionados; 6 pontos por real demais clientes na lista selecionada e 1 ponto por real demais itens. Utilize o cupom LIVELO. Consulte o regulamento."
     },
     {
-      "id": "ARA",
-      "loja": "Aramis",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/aramis/ARA",
-      "categorias": [
-        "modaebeleza",
-        "modaeacessorios"
-      ],
-      "pontosPorReal": 8,
-      "pontosClube": 8,
-      "pontosNormal": 1,
-      "multiplicador": 8,
-      "emCampanha": true,
-      "de": "2026-11-16T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida de 16 a 18/11/2026. Ganhe 08 pontos a cada real gasto. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
       "id": "LVE",
       "loja": "LIVE!",
       "link": "https://livelo.com.br/juntar-pontos/parceiros/live-oficial/LVE",
@@ -98,43 +136,6 @@
       "de": "2026-11-18T03:00:00.000Z",
       "ate": "2026-11-22T02:59:00.000Z",
       "regras": "Campanha válida de 18 a 21/11/2026. Ganhe 8 pontos a cada real gasto. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
-      "id": "NCC",
-      "loja": "Farmacias App",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/farmacias-app/NCC",
-      "categorias": [
-        "wellness",
-        "saude",
-        "perfumariaecosmeticos",
-        "modaebeleza"
-      ],
-      "pontosPorReal": 7,
-      "pontosClube": 7,
-      "pontosNormal": 1,
-      "multiplicador": 7,
-      "emCampanha": true,
-      "de": "2026-11-17T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha 17 a 18/11/2026. Ganhe 7 pontos por real gasto. Utilize o cupom LIVELO. Não é válido para medicamentos. Elegível a pontuação compras de até R$500 reais por CPF e quantidade máxima de 3 (três) unidades de um mesmo produto por transação. Consulte o regulamento."
-    },
-    {
-      "id": "CCL",
-      "loja": "Converse",
-      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/converse/CCL",
-      "categorias": [
-        "modaeacessorios",
-        "calcados",
-        "modaebeleza"
-      ],
-      "pontosPorReal": 6,
-      "pontosClube": 12,
-      "pontosNormal": 2,
-      "multiplicador": 6,
-      "emCampanha": true,
-      "de": "2026-11-17T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida de 17 a 18/11/2026. Ganhe 12 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 6 pontos por real demais clientes. Utilize o cupom LIVELO. Pontuação não é válida para produtos com selo de Black Friday. Consulte o regulamento."
     },
     {
       "id": "RNN",
@@ -282,24 +283,6 @@
       "de": "2026-11-18T03:00:00.000Z",
       "ate": "2026-11-20T02:59:00.000Z",
       "regras": "Campanha válida de 18 a 19/11/2026. Ganhe 8 pontos por real gasto em produtos selecionados exclusivo para assinantes Clube Livelo; 6 pontos por real para demais clientes na lista selecionada e 2 pontos por real nos demais itens. Consulte o regulamento."
-    },
-    {
-      "id": "MLW",
-      "loja": "Malwee",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/malwee/MLW",
-      "categorias": [
-        "modaebeleza",
-        "infantil",
-        "modaeacessorios"
-      ],
-      "pontosPorReal": 6,
-      "pontosClube": 8,
-      "pontosNormal": 2,
-      "multiplicador": 4,
-      "emCampanha": true,
-      "de": "2026-11-16T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida de 16 a 18/11/2026. Ganhe 8 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 6 pontos por real demais clientes. Pontuação não é válida para itens com desconto. Utilize o cupom LIVELO. Consulte o regulamento."
     },
     {
       "id": "TLN",
@@ -464,27 +447,6 @@
       "regras": "Campanha válida de 18 a 23/11/26. 06 pontos por real para assinantes Clube e 05 pontos por real para demais clientes. Consulte condições."
     },
     {
-      "id": "NIK",
-      "loja": "Nike",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/nike/NIK",
-      "categorias": [
-        "modaeacessorios",
-        "wellness",
-        "modaebeleza",
-        "infantil",
-        "esporteelazer",
-        "calcados"
-      ],
-      "pontosPorReal": 4,
-      "pontosClube": 6,
-      "pontosNormal": 2,
-      "multiplicador": 3,
-      "emCampanha": true,
-      "de": "2026-11-17T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida de 17 a 18/11/2026. Ganhe 6 pontos por real gasto exclusivo para assinantes Clube Livelo e 4 pontos por real para demais clientes, em compras acima de R$799,00 e 2 pontos por real nas demais compras. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
       "id": "RES",
       "loja": "Reserva",
       "link": "https://livelo.com.br/juntar-pontos/parceiros/reserva/RES",
@@ -503,25 +465,6 @@
       "de": "2026-11-16T03:00:00.000Z",
       "ate": "2026-11-25T02:59:00.000Z",
       "regras": "Campanha válida de 16 a 24/11/2026. Ganhe 6 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 4 pontos por real demais clientes. Consulte o regulamento."
-    },
-    {
-      "id": "EUD",
-      "loja": "Eudora",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/eudora/EUD",
-      "categorias": [
-        "saude",
-        "perfumariaecosmeticos",
-        "modaebeleza",
-        "wellness"
-      ],
-      "pontosPorReal": 2,
-      "pontosClube": 6,
-      "pontosNormal": 2,
-      "multiplicador": 3,
-      "emCampanha": true,
-      "de": "2026-11-13T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida de 13 a 18/11/2026. Ganhe 6 pontos por real gasto exclusivo para assinantes Clube Livelo e 2 pontos por real para demais clientes. Consulte o regulamento."
     },
     {
       "id": "PKT",
@@ -669,24 +612,6 @@
       "regras": "Campanha válida de 16 a 19/11/2026. Ganhe 6 pontos por real gasto exclusivo para assinantes Clube Livelo e 3 pontos por real para demais clientes. Consulte o regulamento."
     },
     {
-      "id": "QDB",
-      "loja": "Quem Disse, Berenice?",
-      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/quem-disse-berenice/QDB",
-      "categorias": [
-        "wellness",
-        "modaebeleza",
-        "perfumariaecosmeticos"
-      ],
-      "pontosPorReal": 3,
-      "pontosClube": 6,
-      "pontosNormal": 3,
-      "multiplicador": 2,
-      "emCampanha": true,
-      "de": "2026-11-17T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida de 17 a 18/11/2026. Ganhe 6 pontos por real gasto exclusivo para assinantes Clube Livelo e 3 pontos por real para demais clientes. Consulte o regulamento."
-    },
-    {
       "id": "TUS",
       "loja": "Truss",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/truss/TUS",
@@ -723,23 +648,6 @@
       "regras": "Campanha válida de 16 a 18/11/2026. Ganhe 6 pontos por real gasto. Utilize o cupom LIVELO. Consulte o regulamento."
     },
     {
-      "id": "HRG",
-      "loja": "Hering",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/hering/HRG",
-      "categorias": [
-        "modaeacessorios",
-        "modaebeleza"
-      ],
-      "pontosPorReal": 6,
-      "pontosClube": 6,
-      "pontosNormal": 3,
-      "multiplicador": 2,
-      "emCampanha": true,
-      "de": "2026-11-18T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida em 18/11/2026. Ganhe 6 pontos a cada real gasto. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
       "id": "BOT",
       "loja": "O Boticario",
       "link": "https://livelo.com.br/juntar-pontos/parceiros/o-boticario/BOT",
@@ -754,9 +662,9 @@
       "pontosNormal": 3,
       "multiplicador": 2,
       "emCampanha": true,
-      "de": "2026-11-18T03:00:00.000Z",
-      "ate": "2026-11-19T02:59:00.000Z",
-      "regras": "Campanha válida em 18/11/2026. Ganhe 6 pontos por real exclusivo para primeira compra e 3 pontos por real para demais compras. Consulte o regulamento."
+      "de": "2026-11-19T03:00:00.000Z",
+      "ate": "2026-11-23T02:59:00.000Z",
+      "regras": "Campanha válida de 19 a 22/11/2026. Ganhe 6 pontos por real gasto exclusivo para compras via App e 3 pontos por real nas demais compras. Consulte o regulamento."
     },
     {
       "id": "RCH",
