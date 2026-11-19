@@ -9,6 +9,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
+import { trechoDoEndereco, trechoDoLinkDaCompanhia, valeBuscarPagina } from './voos.mjs';
 import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale, extrairPassagem } from './parser.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
@@ -202,12 +203,47 @@ async function main() {
   // Oportunidades de voo ficam separadas: respondem outra pergunta.
   const passagens = todas
     .filter((p) => p.tipo === 'passagem' && new Date(p.ate) >= AGORA)
-    .map((p) => ({
-      id: p.id, titulo: p.titulo, link: p.link, fonte: p.fonteNome,
-      publicado: p.publicado, ate: p.ate, ...p.passagem
-    }))
+    .map((p) => {
+      const base = {
+        id: p.id, titulo: p.titulo, link: p.link, fonte: p.fonteNome,
+        publicado: p.publicado, ate: p.ate, ...p.passagem
+      };
+      // O endereço da matéria não tem acento nem emoji, então lê o trecho
+      // melhor que o título na maioria dos casos.
+      const doEndereco = trechoDoEndereco(p.link);
+      if (doEndereco) {
+        if (doEndereco.origem) base.origem = doEndereco.origem;
+        if (doEndereco.destino) base.destino = doEndereco.destino;
+        base.trechoDe = 'endereco';
+      }
+      return base;
+    })
     .sort((a, b) => new Date(b.publicado || 0) - new Date(a.publicado || 0))
     .slice(0, 24);
+
+  // Onde a matéria publica o link da companhia, dá para ter código IATA e data
+  // exata. Hoje só o Pontos pra Voar publica, então busca só essas páginas.
+  const aBuscar = passagens.filter((p) => valeBuscarPagina(p.link) && !p.iataOrigem);
+  const buscas = await Promise.allSettled(aBuscar.slice(0, 8).map(async (p) => {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 15000);
+    try {
+      const r = await fetch(p.link, {
+        signal: ctrl.signal,
+        headers: { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36' }
+      });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return { p, dados: trechoDoLinkDaCompanhia(await r.text()) };
+    } finally { clearTimeout(t); }
+  }));
+
+  let enriquecidas = 0;
+  for (const b of buscas) {
+    if (b.status !== 'fulfilled' || !b.value.dados) continue;
+    Object.assign(b.value.p, b.value.dados, { trechoDe: 'companhia' });
+    enriquecidas += 1;
+  }
+  if (aBuscar.length) console.log(`Paginas de voo lidas: ${enriquecidas}/${aBuscar.slice(0, 8).length}`);
   // A régua de valor justo sai dos preços já observados, não de um número fixo.
   const regua = {};
   for (const prog of Object.keys(cfg.programas.origem)) {

@@ -504,6 +504,12 @@ function renderVoos() {
     }
 
     const notas = [];
+    if (p.iataOrigem) notas.push(`${p.iataOrigem} para ${p.iataDestino}`);
+    if (p.data) {
+      const [a, m, dia] = p.data.split('-');
+      notas.push(`saída em ${dia}/${m}/${a}`);
+    }
+    if (p.cabine && p.cabine !== 'Economy') notas.push(p.cabine.toLowerCase());
     if (p.idaEVolta) notas.push('ida e volta');
     if (p.taxas) notas.push('fora as taxas de embarque');
     if (emMilhas) notas.push(`milha avaliada pela ${emMilhas.origem}, ${brl(emMilhas.porMil)} o milheiro`);
