@@ -9,6 +9,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: coleta-milhas
@@ -42,3 +44,24 @@ jobs:
             git commit -m "dados: coleta $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      # Monta os JSON que o painel le. Roda sempre, mesmo quando nao houve
+      # dado novo, para que o site nunca fique sem os arquivos.
+      - name: Montar o site
+        run: node src/build.mjs
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  publicar:
+    needs: coletar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicacao.outputs.page_url }}
+    steps:
+      - id: publicacao
+        uses: actions/deploy-pages@v4
