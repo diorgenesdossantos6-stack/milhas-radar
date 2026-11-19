@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-19T13:40:54.986Z",
-  "totalAtivas": 33,
+  "atualizadoEm": "2026-11-19T14:40:55.324Z",
+  "totalAtivas": 35,
   "totalCampanhasAtivas": 21,
   "combinacoes": [
     {
@@ -25,8 +25,14 @@
         },
         {
           "papel": "transferência",
-          "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
+          "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
           "fontes": [
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
+              "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
+              "publicado": "2026-11-19T14:00:49.000Z"
+            },
             {
               "fonte": "Passageiro de Primeira",
               "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
@@ -59,7 +65,8 @@
       "destino": "Buenos Aires",
       "idaEVolta": true,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
@@ -88,26 +95,33 @@
       "milhas": null,
       "programa": null,
       "origem": null,
-      "destino": "Seul",
+      "destino": "Asia",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
       "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-18T19:00:01.000Z",
       "ate": "2026-11-21T19:00:01.000Z",
       "dinheiro": 172,
       "milhas": null,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Brasil",
+      "origem": "Fortaleza",
+      "destino": "Juazeiro do Norte",
       "idaEVolta": false,
       "taxas": false,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "companhia",
+      "iataOrigem": "FOR",
+      "iataDestino": "JDO",
+      "data": "2027-02-16",
+      "comMilhas": false,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
@@ -136,10 +150,11 @@
       "milhas": null,
       "programa": null,
       "origem": null,
-      "destino": "Madri",
+      "destino": "Espanha Madri Barcelona",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas",
@@ -155,7 +170,8 @@
       "destino": "Nordeste",
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade",
@@ -171,7 +187,8 @@
       "destino": "Uruguai",
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas",
@@ -184,10 +201,11 @@
       "milhas": 16000,
       "programa": "Azul Fidelidade",
       "origem": "Belo Horizonte",
-      "destino": "Maceió",
+      "destino": "Maceio",
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles",
@@ -203,7 +221,8 @@
       "destino": "Estados Unidos",
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas",
@@ -219,7 +238,8 @@
       "destino": "Lisboa",
       "idaEVolta": true,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
@@ -248,10 +268,11 @@
       "milhas": null,
       "programa": null,
       "origem": null,
-      "destino": "Lima",
+      "destino": "Peru Lima Cusco",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
@@ -264,10 +285,11 @@
       "milhas": null,
       "programa": null,
       "origem": null,
-      "destino": "Lisboa",
+      "destino": "Portugal Porto Lisboa",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
@@ -323,15 +345,15 @@
       "campanhas": 1,
       "ultimaEm": "2026-11-19T11:00:29.000Z"
     },
-    "Esfera": {
-      "maxPercentual": 55,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-19T03:02:00.000Z"
-    },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
       "campanhas": 2,
       "ultimaEm": "2026-11-18T15:22:21.000Z"
+    },
+    "Esfera": {
+      "maxPercentual": 55,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-19T03:02:00.000Z"
     },
     "C6 Bank -> Latam Pass": {
       "maxPercentual": 25,
@@ -537,9 +559,15 @@
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
+      "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
       "publicado": "2026-11-19T10:45:00.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
+          "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
+          "publicado": "2026-11-19T14:00:49.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
@@ -852,6 +880,60 @@
       }
     },
     {
+      "id": "latam pass|25|transferencia_bonificada|2026-11-20",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Inter"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-20T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 50,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
+      "publicado": "2026-11-18T15:00:22.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
+          "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
+          "publicado": "2026-11-19T14:14:40.000Z"
+        },
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-inter-oferecem-25-de-bonus-nas-transferencias/",
+          "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
+          "publicado": "2026-11-18T15:38:14.000Z"
+        },
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/transfira-seus-pontos-inter-loop-e-ganhe-25-de-milhas-bonus-no-latam-pass/",
+          "titulo": "Novidade! Transfira seus pontos Inter Loop e ganhe 25% de milhas bônus no LATAM Pass",
+          "publicado": "2026-11-18T15:00:22.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 1,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
       "id": "esfera|55|compra_pontos|2026-11-19",
       "tipo": "compra_pontos",
       "tipoNome": "Compra de pontos com desconto",
@@ -900,54 +982,6 @@
           "link": "https://www.melhorescartoes.com.br/latam-pass-inter-loop-25-bonus-nov26.html",
           "titulo": "Latam Pass oferece 25% de bônus na transferência de pontos do Inter Loop",
           "publicado": "2026-11-18T15:22:21.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 1,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-20",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 25,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 35,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
-      "publicado": "2026-11-18T15:00:22.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-inter-oferecem-25-de-bonus-nas-transferencias/",
-          "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
-          "publicado": "2026-11-18T15:38:14.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/transfira-seus-pontos-inter-loop-e-ganhe-25-de-milhas-bonus-no-latam-pass/",
-          "titulo": "Novidade! Transfira seus pontos Inter Loop e ganhe 25% de milhas bônus no LATAM Pass",
-          "publicado": "2026-11-18T15:00:22.000Z"
         }
       ],
       "referencia": {
@@ -1345,6 +1379,60 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop",
+      "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
+      "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T14:14:40.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Inter -> Latam Pass",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-20T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Para celebrar o lançamento da parceria entre o Inter e o LATAM Pass, o programa da LATAM está oferecendo 25% de bônus nas transferências de pontos Inter Loop para clientes Win que possuem conta global no banco + 1.000 milhas extras na primeira transferência. A oferta é válida até amanhã (20). O post Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop apareceu pri",
+      "coletadoEm": "2026-11-19T14:40:55.324Z",
+      "nota": 50
+    },
+    {
+      "id": "pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos",
+      "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
+      "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-19T14:00:49.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Esfera -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Segue valendo! A Smiles prorrogou sua promoção de transferência bonificada como parte das ofertas da Orange Friday! Com a campanha, os clientes podem receber até 80% de bônus na transferência de pontos de todos os parceiros, exceto Esfera. A oferta termina até o final do dia de hoje (19) e você confere todas as condições…",
+      "coletadoEm": "2026-11-19T14:40:55.324Z",
+      "nota": 88
+    },
     {
       "id": "passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos",
       "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
