@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-19T20:40:54.063Z",
-  "totalAtivas": 41,
-  "totalCampanhasAtivas": 25,
+  "atualizadoEm": "2026-11-19T21:40:53.901Z",
+  "totalAtivas": 43,
+  "totalCampanhasAtivas": 27,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
@@ -98,6 +98,45 @@
   ],
   "passagens": [
     {
+      "id": "pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass",
+      "titulo": "Alerta PPV: encontre passagens internacionais a partir de 16 mil milhas LATAM Pass",
+      "link": "https://pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass/",
+      "fonte": "companhia",
+      "publicado": "2026-11-19T21:01:11.000Z",
+      "ate": "2026-11-22T21:01:11.000Z",
+      "dinheiro": null,
+      "milhas": 16000,
+      "programa": "Latam Pass",
+      "origem": "Rio de Janeiro",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "iataOrigem": "GIG",
+      "iataDestino": "EZE",
+      "data": "2026-11-14",
+      "comMilhas": true,
+      "cabine": "Economy",
+      "trechoDe": "companhia"
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+      "titulo": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-19T19:11:54.000Z",
+      "ate": "2026-11-22T19:11:54.000Z",
+      "dinheiro": 4099,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Italia",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "pontospravoar.com/alerta-ppv-azul-pelo-mundo-oferece-voos-internacionais-a-partir-de-36-mil-pontos",
       "titulo": "Alerta PPV! Azul pelo Mundo oferece voos internacionais a partir de 36 mil pontos",
       "link": "https://pontospravoar.com/alerta-ppv-azul-pelo-mundo-oferece-voos-internacionais-a-partir-de-36-mil-pontos/",
@@ -112,6 +151,23 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+      "titulo": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-19T18:01:05.000Z",
+      "ate": "2026-11-22T18:01:05.000Z",
+      "dinheiro": 1141,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Chile Santiago",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
@@ -160,6 +216,23 @@
       "destino": "Nova York",
       "idaEVolta": false,
       "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+      "titulo": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
+      "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-19T15:01:34.000Z",
+      "ate": "2026-11-22T15:01:34.000Z",
+      "dinheiro": 573,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Porto Seguro Salvador",
+      "idaEVolta": true,
+      "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
     },
@@ -217,18 +290,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
       "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-18T19:00:01.000Z",
       "ate": "2026-11-21T19:00:01.000Z",
       "dinheiro": 172,
       "milhas": null,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Brasil",
+      "origem": "Fortaleza",
+      "destino": "Juazeiro do Norte",
       "idaEVolta": false,
       "taxas": false,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FOR",
+      "iataDestino": "JDO",
+      "data": "2027-02-16",
+      "comMilhas": false,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
@@ -471,6 +549,11 @@
       "maxPercentual": 35,
       "campanhas": 1,
       "ultimaEm": "2026-11-18T13:24:53.000Z"
+    },
+    "Banco do Brasil": {
+      "maxPercentual": 7,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-19T21:40:03.000Z"
     }
   },
   "observacoes": [
@@ -1198,6 +1281,64 @@
       }
     },
     {
+      "id": "banco do brasil|7|acumulo|2026-11-22",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": 7,
+      "ate": "2026-11-22T21:40:03.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 14,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
+      "publicado": "2026-11-19T21:40:03.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar/",
+          "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
+          "publicado": "2026-11-19T21:40:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "banco do brasil|x|acumulo|2026-11-22",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": null,
+      "ate": "2026-11-22T21:08:58.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "BB lança Altus World Legend Mastercard com até 7 pontos por dólar gasto",
+      "publicado": "2026-11-19T21:08:58.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/cartoes/bb-lanca-altus-world-legend-mastercard-com-ate-7-pontos-por-dolar-gasto/",
+          "titulo": "BB lança Altus World Legend Mastercard com até 7 pontos por dólar gasto",
+          "publicado": "2026-11-19T21:08:58.000Z"
+        }
+      ]
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-22",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1642,6 +1783,96 @@
   ],
   "promocoes": [
     {
+      "id": "passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar",
+      "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
+      "link": "https://passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T21:40:03.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Banco do Brasil"
+      ],
+      "destino": [],
+      "par": "Banco do Brasil",
+      "percentual": 7,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-22T21:40:03.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Banco do Brasil anunciou o lançamento do cartão Altus World Legend Mastercard, que oferece até 7 pontos por dólar em compras internacionais e cashback de 1,7%. Exclusivo para clientes do BB Private, o cartão terá anuidade de R$ 5 mil e isenção para gastos acima de R$ 60 mil mensais, além de benefícios premium em viagens e gastronomia. Disponível por convite a partir de 23 de novembro de 2026, o ",
+      "coletadoEm": "2026-11-19T21:40:53.901Z",
+      "nota": 14
+    },
+    {
+      "id": "cartoesdecredito.me/cartoes/bb-lanca-altus-world-legend-mastercard-com-ate-7-pontos-por-dolar-gasto",
+      "titulo": "BB lança Altus World Legend Mastercard com até 7 pontos por dólar gasto",
+      "link": "https://www.cartoesdecredito.me/cartoes/bb-lanca-altus-world-legend-mastercard-com-ate-7-pontos-por-dolar-gasto/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-19T21:08:58.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Banco do Brasil"
+      ],
+      "destino": [],
+      "par": "Banco do Brasil",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-22T21:08:58.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Banco do Brasil Altus World Legend Mastercard chega com até 7 pontos por dólar e salas VIP ilimitadas LoungeKey The post BB lança Altus World Legend Mastercard com até 7 pontos por dólar gasto appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-19T21:40:53.901Z",
+      "nota": 10
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass",
+      "titulo": "Alerta PPV: encontre passagens internacionais a partir de 16 mil milhas LATAM Pass",
+      "link": "https://pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-19T21:01:11.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 16000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T21:01:11.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar esta quinta-feira para planejar sua próxima viagem internacional usando milhas? O alerta de passagens PPV traz novas oportunidades pelo LATAM Pass, com passagens para diferentes destinos no exterior a partir de 16 mil milhas + taxas. Confira as opções selecionadas e aproveite para pesquisar sua próxima viagem! Passagens internacionais no LATAM Pass…",
+      "coletadoEm": "2026-11-19T21:40:53.901Z",
+      "nota": 0
+    },
+    {
       "id": "passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591",
       "titulo": "Confira a oportunidade de gerar o milheiro Smiles a partir de R$ 15,91",
       "link": "https://passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591/",
@@ -1696,6 +1927,38 @@
       "nota": 85
     },
     {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+      "titulo": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-19T19:11:54.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 4099,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Milão",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T19:11:54.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Itália é sempre uma boa pedida: cidades históricas, gastronomia maravilhosa, monumentos, praças, museus, praia, montanha, enfim, opções não faltam! Rodamos uma super pesquisa para encontrar os menores preços nas passagens aéreas para Milão, Roma, Veneza e outras cidades e encontramos voos a partir de R$ 4.099 ida e volta. O menor valor é pra…",
+      "coletadoEm": "2026-11-19T21:40:53.901Z",
+      "nota": 10
+    },
+    {
       "id": "pontospravoar.com/alerta-ppv-azul-pelo-mundo-oferece-voos-internacionais-a-partir-de-36-mil-pontos",
       "titulo": "Alerta PPV! Azul pelo Mundo oferece voos internacionais a partir de 36 mil pontos",
       "link": "https://pontospravoar.com/alerta-ppv-azul-pelo-mundo-oferece-voos-internacionais-a-partir-de-36-mil-pontos/",
@@ -1728,6 +1991,38 @@
       "resumo": "Que tal aproveitar seus pontos para conhecer um novo destino internacional? No Alerta de Passagens PPV desta quinta-feira, nossa equipe selecionou diversas oportunidades para viajar ao exterior utilizando o Azul pelo Mundo, com emissões a partir de 36 mil pontos Azul Fidelidade + taxas. Confira os destinos, os trechos e as datas disponíveis e aproveite…",
       "coletadoEm": "2026-11-19T19:40:52.446Z",
       "nota": 0
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+      "titulo": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-19T18:01:05.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 1141,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Santiago",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T18:01:05.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Santiago é uma cidade moderna, organizada, limpa e com ótima gastronomia e vida noturna. É também o lugar mais prático para quem quer conhecer a neve pela primeira vez. Aproveite então que encontramos passagens aéreas pra lá a partir de R$ 1.141 ida e volta, taxas inclusas, saindo de São Paulo e mais cidades! Vale…",
+      "coletadoEm": "2026-11-19T21:40:53.901Z",
+      "nota": 10
     },
     {
       "id": "passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2",
@@ -1935,6 +2230,38 @@
       "confiancaPrazo": "baixa",
       "resumo": "[Oferta] Muito bom! Ao assinar o Clube Livelo Especial com o cupom \"CLUBEPPBF2\", você pode garantir até 44.000 pontos bônus, totalizando até 104.000 pontos em um ano. A promoção é válida até domingo (22) e é exclusiva para novos assinantes. O post Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo apareceu primeiro em Passageiro de Primeira .",
       "coletadoEm": "2026-11-19T15:40:53.778Z",
+      "nota": 10
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+      "titulo": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
+      "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-19T15:01:34.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 573,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Bahia",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T15:01:34.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Viajar para a Bahia sempre é bom demais! Então, se ligue nos preços que trazemos hoje para você planejar a sua próxima escapada para lá. Encontramos passagens aéreas para Porto Seguro a partir de R$ 573 ida e volta, taxas inclusas. O menor valor é para saídas de São Paulo e Campinas. Tem ainda voos…",
+      "coletadoEm": "2026-11-19T21:40:53.901Z",
       "nota": 10
     },
     {
