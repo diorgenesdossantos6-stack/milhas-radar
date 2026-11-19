@@ -1,49 +1,49 @@
 {
-  "atualizadoEm": "2026-11-19T01:03:59.048Z",
-  "totalAtivas": 24,
-  "totalCampanhasAtivas": 18,
+  "atualizadoEm": "2026-11-19T08:31:45.591Z",
+  "totalAtivas": 23,
+  "totalCampanhasAtivas": 17,
   "combinacoes": [],
   "erros": [],
   "historico": {
+    "Smiles": {
+      "maxPercentual": 130,
+      "campanhas": 2,
+      "ultimaEm": "2026-11-18T16:19:09.000Z"
+    },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
-      "ocorrencias": 4,
-      "ultimaEm": "2026-11-18T21:00:28.000Z"
-    },
-    "Caixa -> Smiles": {
-      "maxPercentual": 80,
-      "ocorrencias": 1,
-      "ultimaEm": "2026-11-17T18:22:39.000Z"
+      "campanhas": 1,
+      "ultimaEm": "2026-11-17T18:40:12.000Z"
     },
     "Livelo -> Smiles": {
       "maxPercentual": 80,
-      "ocorrencias": 2,
+      "campanhas": 2,
       "ultimaEm": "2026-11-18T13:56:13.000Z"
     },
-    "Smiles": {
-      "maxPercentual": 130,
-      "ocorrencias": 3,
-      "ultimaEm": "2026-11-18T15:12:08.000Z"
+    "Caixa -> Smiles": {
+      "maxPercentual": 80,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-17T18:22:39.000Z"
     },
-    "C6 Bank -> Latam Pass": {
-      "maxPercentual": 25,
-      "ocorrencias": 1,
-      "ultimaEm": "2026-11-16T15:39:13.000Z"
-    },
-    "Livelo -> Azul Fidelidade": {
-      "maxPercentual": 120,
-      "ocorrencias": 1,
-      "ultimaEm": "2026-11-18T15:30:49.000Z"
-    },
-    "Latam Pass": {
-      "maxPercentual": 35,
-      "ocorrencias": 2,
-      "ultimaEm": "2026-11-18T15:38:14.000Z"
+    "Esfera": {
+      "maxPercentual": 55,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-19T03:02:00.000Z"
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
-      "ocorrencias": 2,
+      "campanhas": 2,
       "ultimaEm": "2026-11-18T15:22:21.000Z"
+    },
+    "C6 Bank -> Latam Pass": {
+      "maxPercentual": 25,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-16T15:39:13.000Z"
+    },
+    "Latam Pass": {
+      "maxPercentual": 35,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-18T13:24:53.000Z"
     }
   },
   "observacoes": [
@@ -220,7 +220,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -310,50 +310,8 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-21",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 120,
-      "ate": "2026-11-21T15:30:49.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 80,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas",
-      "publicado": "2026-11-18T15:30:49.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas/",
-          "titulo": "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas",
-          "publicado": "2026-11-18T15:30:49.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
       }
     },
     {
@@ -394,31 +352,33 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
-      "id": "indefinido|60|clube|2026-11-21",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "indefinido",
-      "origens": [],
-      "percentual": 60,
-      "ate": "2026-11-21T17:30:07.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 46,
+      "id": "esfera|55|compra_pontos|2026-11-19",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 55,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 48,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Black Friday no Sam's Club! Assine o plano anual com 60% OFF e ganhe cupom de desconto",
-      "publicado": "2026-11-18T17:30:07.000Z",
+      "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+      "publicado": "2026-11-19T03:02:00.000Z",
       "fontes": [
         {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/black-friday-sams-club-assine-o-plano-anual-com-60-off-e-ganhe-cupom-de-desconto/",
-          "titulo": "Black Friday no Sam's Club! Assine o plano anual com 60% OFF e ganhe cupom de desconto",
-          "publicado": "2026-11-18T17:30:07.000Z"
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+          "publicado": "2026-11-19T03:02:00.000Z"
         }
       ]
     },
@@ -460,7 +420,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -508,7 +468,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -891,6 +851,30 @@
   ],
   "promocoes": [
     {
+      "id": "cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos",
+      "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
+      "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-19T03:02:00.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": 55,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Essa é a melhor oferta do mês da Black Friday e tem validade até hoje, dia 19 de novembro de 2026. The post Último dia! Esfera oferece até 55% de desconto na compra de pontos appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-19T08:31:45.591Z",
+      "nota": 48
+    },
+    {
       "id": "pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera",
       "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
       "link": "https://pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
@@ -1021,28 +1005,6 @@
       "nota": 15
     },
     {
-      "id": "pontospravoar.com/black-friday-sams-club-assine-o-plano-anual-com-60-off-e-ganhe-cupom-de-desconto",
-      "titulo": "Black Friday no Sam's Club! Assine o plano anual com 60% OFF e ganhe cupom de desconto",
-      "link": "https://pontospravoar.com/black-friday-sams-club-assine-o-plano-anual-com-60-off-e-ganhe-cupom-de-desconto/",
-      "fonte": "pontospravoar",
-      "fonteNome": "Pontos pra Voar",
-      "publicado": "2026-11-18T17:30:07.000Z",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "origem": [],
-      "destino": [],
-      "par": "indefinido",
-      "percentual": 60,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "ate": "2026-11-21T17:30:07.000Z",
-      "confiancaPrazo": "baixa",
-      "resumo": "A Black Friday do Sam's Club começou! Por tempo limitado, novos clientes podem assinar o plano anual com 60% de desconto, ou seja, apenas R$ 37 no plano Club. Além disso, garantem cupom de R$ 50 OFF em compras. Confira os detalhes e aproveite antes que acabe! Sam's Club O Sam's Club hoje é o…",
-      "coletadoEm": "2026-11-18T18:47:37.922Z",
-      "nota": 46
-    },
-    {
       "id": "melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
       "titulo": "Milheiro a partir de R$ 14! Troque pontos Premmia por milhas Smiles com até 130% de bônus",
       "link": "https://www.melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
@@ -1089,32 +1051,6 @@
       "resumo": "A promoção é válida até o dia 20 de novembro de 2026 The post LATAM Pass e Inter oferecem 25% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
       "coletadoEm": "2026-11-18T18:47:37.922Z",
       "nota": 35
-    },
-    {
-      "id": "passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas",
-      "titulo": "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas",
-      "link": "https://passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas/",
-      "fonte": "passageirodeprimeira",
-      "fonteNome": "Passageiro de Primeira",
-      "publicado": "2026-11-18T15:30:49.000Z",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "origem": [
-        "Livelo"
-      ],
-      "destino": [
-        "Azul Fidelidade"
-      ],
-      "par": "Livelo -> Azul Fidelidade",
-      "percentual": 120,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "ate": "2026-11-21T15:30:49.000Z",
-      "confiancaPrazo": "baixa",
-      "resumo": "Encontramos disponibilidade de voos entre Belo Horizonte (CNF) e Maceió (MCZ) a partir de 16.150 pontos Azul Fidelidade + taxas por trecho com a Azul. Caso você não tenha pontos para realizar a emissão, é possível transferir pontos Livelo para o programa de fidelidade com até 120% de bônus e emitir o trecho a partir de R$ 205,26 + taxas usando a ferramenta pontos + dinheiro. Confira! O post Trecho",
-      "coletadoEm": "2026-11-18T18:47:37.922Z",
-      "nota": 80
     },
     {
       "id": "melhorescartoes.com.br/latam-pass-inter-loop-25-bonus-nov26.html",
