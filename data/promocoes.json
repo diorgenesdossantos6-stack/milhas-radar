@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-19T17:40:59.406Z",
-  "totalAtivas": 38,
+  "atualizadoEm": "2026-11-19T18:10:19.363Z",
+  "totalAtivas": 39,
   "totalCampanhasAtivas": 24,
   "combinacoes": [
     {
@@ -51,6 +51,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
+      "titulo": "Fortaleza! Voos saindo de São Paulo ou do Rio a partir de R$ 230 ou 9 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-19T17:58:00.000Z",
+      "ate": "2026-11-22T17:58:00.000Z",
+      "dinheiro": 230,
+      "milhas": 9000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-passagens-brasil-7500-milhas-smiles",
       "titulo": "Alerta PPV! Confira passagens pelo Brasil a partir de 7.500 milhas Smiles",
@@ -342,7 +358,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "This operation was aborted"
+  ],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
@@ -872,16 +890,16 @@
       "publicado": "2026-11-19T11:00:29.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
+          "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
+          "publicado": "2026-11-19T18:00:54.000Z"
+        },
+        {
           "fonte": "Cartões de Crédito",
           "link": "https://www.cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2/",
           "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
           "publicado": "2026-11-19T12:38:57.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/so-hoje-gere-o-euro-a-partir-de-r-356-ao-transferir-pontos-azul-para-o-all-accor/",
-          "titulo": "Só hoje! Gere o euro a partir de R$ 3,56 ao transferir pontos Azul para o ALL Accor",
-          "publicado": "2026-11-19T12:30:25.000Z"
         },
         {
           "fonte": "Melhores Cartões",
@@ -1509,6 +1527,66 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2",
+      "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
+      "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T18:00:54.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade",
+        "Accor ALL"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": 30,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-19T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "[Oferta] Muito bom! Hoje (19) é o último dia para transferir pontos do Azul Fidelidade para o ALL Accor e ganhar até 30% de bônus em pontos Reward. A bonificação é de 20% para todos os associados e mais 10% para assinantes do ALL Signature. O post Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-19T18:10:19.363Z",
+      "nota": 58
+    },
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
+      "titulo": "Fortaleza! Voos saindo de São Paulo ou do Rio a partir de R$ 230 ou 9 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-19T17:58:00.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 230,
+        "milhas": 9000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T17:58:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Latam Pass está com voos diretos para Fortaleza saindo do Rio de Janeiro ou de São Paulo (e vice-versa) a partir de 9.678 milhas o trecho, mais taxas aeroportuárias. Os voos estão disponíveis para viajar entre março e maio de 2027. Os valores abaixo são para viagens de ida e volta com taxas aeroportuárias… O post Fortaleza! Voos saindo de São Paulo ou do Rio a partir de R$ 230 ou 9 mil milhas o ",
+      "coletadoEm": "2026-11-19T18:10:19.363Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi",
       "titulo": "Como acumular milhas e pontos na compra do GTA VI",
