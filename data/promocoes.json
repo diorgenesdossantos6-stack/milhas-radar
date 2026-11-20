@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-20T08:40:53.096Z",
-  "totalAtivas": 29,
-  "totalCampanhasAtivas": 22,
+  "atualizadoEm": "2026-11-20T09:40:54.775Z",
+  "totalAtivas": 30,
+  "totalCampanhasAtivas": 23,
   "combinacoes": [],
   "passagens": [
     {
@@ -1446,6 +1446,32 @@
       "teto": null
     },
     {
+      "id": "banco do brasil|x|acumulo|2026-11-23",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": null,
+      "ate": "2026-11-23T08:57:00.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+      "publicado": "2026-11-20T08:57:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
+          "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+          "publicado": "2026-11-20T08:57:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "azul fidelidade|x|pontos_dinheiro|2026-11-22",
       "tipo": "pontos_dinheiro",
       "tipoNome": "Pontos + dinheiro",
@@ -1479,6 +1505,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard",
+      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+      "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-20T08:57:00.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Banco do Brasil"
+      ],
+      "destino": [],
+      "par": "Banco do Brasil",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T08:57:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Com até 7 pontos por dólar, salas VIP ilimitadas e IOF zero, o BB World Legend é o melhor cartão de crédito da Mastercard para clientes do Banco do Brasil. The post Cartão de crédito Banco do Brasil Altus World Legend Mastercard appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-20T09:40:54.775Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
       "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
