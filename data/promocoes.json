@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T07:40:54.955Z",
+  "atualizadoEm": "2026-11-20T08:40:53.096Z",
   "totalAtivas": 29,
   "totalCampanhasAtivas": 22,
   "combinacoes": [],
@@ -663,7 +663,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -753,7 +753,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -795,7 +795,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -837,7 +837,7 @@
       "teto": 130,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -879,7 +879,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
