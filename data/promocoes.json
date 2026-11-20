@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-20T17:54:30.935Z",
-  "totalAtivas": 35,
-  "totalCampanhasAtivas": 28,
+  "atualizadoEm": "2026-11-20T18:04:32.640Z",
+  "totalAtivas": 36,
+  "totalCampanhasAtivas": 29,
   "combinacoes": [],
   "passagens": [
     {
@@ -1236,6 +1236,36 @@
       ]
     },
     {
+      "id": "latam pass|x|transferencia_bonificada|2026-12-18",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-12-18T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
+      "publicado": "2026-11-20T18:04:32.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/missao-latam-pass-1500-milhas-bonus-nov26.html",
+          "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
+          "publicado": "2026-11-20T18:04:32.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "banco do brasil|x|acumulo|2026-11-22",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1684,6 +1714,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/missao-latam-pass-1500-milhas-bonus-nov26.html",
+      "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
+      "link": "https://www.melhorescartoes.com.br/missao-latam-pass-1500-milhas-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-20T18:04:32.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-18T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Missão Latam Pass no ar! O programa está oferecendo 1.500 milhas bônus para clientes selecionados que transferirem pontos de bancos parceiros e acumularem, no mínimo, 15.000 milhas de saldo. Você pode ativar a missão até 18 de dezembro. Para participar, siga os passos: Acesse o aplicativo Latam Pass e confira se a missão está disponível… O post Missão Latam Pass: ganhe 1.500 milhas bônus apareceu ",
+      "coletadoEm": "2026-11-20T18:04:32.640Z",
+      "nota": 10
+    },
     {
       "id": "pontospravoar.com/clube-smiles-ate-50000-milhas-hora-novos-assinantes",
       "titulo": "Clube Smiles com até 50.000 milhas na hora para novos assinantes",

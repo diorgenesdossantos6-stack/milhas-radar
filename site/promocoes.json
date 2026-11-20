@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T17:54:30.935Z",
+  "atualizadoEm": "2026-11-20T18:04:32.640Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -581,6 +581,36 @@
           "publicado": "2026-11-19T21:40:03.000Z"
         }
       ]
+    },
+    {
+      "id": "latam pass|x|transferencia_bonificada|2026-12-18",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-12-18T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
+      "publicado": "2026-11-20T18:04:32.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/missao-latam-pass-1500-milhas-bonus-nov26.html",
+          "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
+          "publicado": "2026-11-20T18:04:32.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "banco do brasil|x|acumulo|2026-11-22",
