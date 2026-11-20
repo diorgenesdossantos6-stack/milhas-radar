@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-20T11:40:53.216Z",
-  "totalAtivas": 31,
+  "atualizadoEm": "2026-11-20T12:40:52.898Z",
+  "totalAtivas": 32,
   "totalCampanhasAtivas": 24,
   "combinacoes": [],
   "passagens": [
@@ -1137,15 +1137,21 @@
         "Livelo"
       ],
       "percentual": null,
-      "ate": "2026-11-22T15:10:23.000Z",
-      "confiancaPrazo": "baixa",
+      "ate": "2026-11-22T23:59:00.000Z",
+      "confiancaPrazo": "alta",
       "nota": 10,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
       "publicado": "2026-11-19T15:10:23.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
+          "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
+          "publicado": "2026-11-20T12:00:42.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
@@ -1534,6 +1540,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes",
+      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
+      "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-20T12:00:42.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Livelo está com uma nova promoção para quem deseja assinar o Clube Livelo Especial! Até 22 de novembro, novos assinantes poderão acumular 100 mil pontos ao longo de 12 meses, tanto na modalidade mensal quanto na anual. Confira a seguir as condições da campanha, os valores dos planos e saiba como aproveitar! Promoção Clube…",
+      "coletadoEm": "2026-11-20T12:40:52.898Z",
+      "nota": 10
+    },
     {
       "id": "melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
       "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
