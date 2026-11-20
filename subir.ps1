@@ -48,7 +48,11 @@ if ($LASTEXITCODE -ne 0) {
   $arquivosDeDados = @(
     "data/promocoes.json",
     "data/referencia.json",
-    "data/livelo-parceiros.json"
+    "data/livelo-parceiros.json",
+    "data/avisados.json",
+    "site/promocoes.json",
+    "site/referencia.json",
+    "site/livelo-parceiros.json"
   )
   foreach ($arquivo in $arquivosDeDados) {
     git checkout --theirs -- $arquivo *> $null

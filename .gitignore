@@ -2,8 +2,6 @@ node_modules/
 build/
 .DS_Store
 
-# Gerados pelo build na Netlify. Ficam fora do Git para nao conflitar
-# com os commits automaticos do coletor.
-site/promocoes.json
-site/referencia.json
-site/livelo-parceiros.json
+# Os JSON do site passaram a ser versionados de proposito: o painel os busca
+# direto do GitHub, entao dado novo nao exige republicar a pagina em lugar
+# nenhum. O coletor os regrava a cada rodada.

@@ -33,22 +33,23 @@ jobs:
           LIMITE_ALERTA: ${{ vars.LIMITE_ALERTA || '80' }}
         run: node src/coletar.mjs
 
+      # Monta os JSON que o painel le. Tem que vir antes do commit, porque
+      # agora eles tambem sao versionados: o painel os busca direto do GitHub,
+      # e assim nenhuma hospedagem precisa reconstruir quando o dado muda.
+      - name: Montar o site
+        run: node src/build.mjs
+
       - name: Comitar dados
         run: |
           git config user.name  "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add data
+          git add data site/promocoes.json site/referencia.json site/livelo-parceiros.json
           if git diff --staged --quiet; then
             echo "Nada novo."
           else
             git commit -m "dados: coleta $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
-
-      # Monta os JSON que o painel le. Roda sempre, mesmo quando nao houve
-      # dado novo, para que o site nunca fique sem os arquivos.
-      - name: Montar o site
-        run: node src/build.mjs
 
       - uses: actions/configure-pages@v5
 

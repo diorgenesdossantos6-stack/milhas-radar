@@ -45,10 +45,25 @@ async function carregar() {
     LIVELO = window.LIVELO_EMBUTIDA || LIVELO;
     return;
   }
+  // Os dados vem do proprio repositorio, nao do site. Assim o robo publica
+  // dado novo de hora em hora sem que nenhuma hospedagem precise reconstruir
+  // a pagina. Se o GitHub falhar, cai para a copia local do proprio site.
+  const REPO = 'https://raw.githubusercontent.com/diorgenesdossantos6-stack/milhas-radar/main/site';
+
+  async function buscar(arquivo, reserva) {
+    for (const url of [`${REPO}/${arquivo}`, `./${arquivo}`]) {
+      try {
+        const r = await fetch(url, { cache: 'no-store' });
+        if (r.ok) return await r.json();
+      } catch { /* tenta o proximo */ }
+    }
+    return reserva;
+  }
+
   const [a, b, c] = await Promise.all([
-    fetch('./promocoes.json').then((r) => r.json()),
-    fetch('./referencia.json').then((r) => r.json()).catch(() => REF),
-    fetch('./livelo-parceiros.json').then((r) => r.json()).catch(() => LIVELO)
+    buscar('promocoes.json', DADOS),
+    buscar('referencia.json', REF),
+    buscar('livelo-parceiros.json', LIVELO)
   ]);
   DADOS = a; REF = b; LIVELO = c;
 }

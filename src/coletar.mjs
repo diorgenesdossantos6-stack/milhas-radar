@@ -74,10 +74,18 @@ async function alertarTelegram(promos) {
   else console.log(`Alerta enviado: ${promos.length} promocao(oes).`);
 }
 
+// Devolve apenas os itens que o Telegram confirmou. Quem nao saiu nao entra
+// no registro, senao uma rodada sem segredo configurado silenciaria a promocao
+// para sempre.
 async function alertarPassagens(itens) {
   const token = process.env.TELEGRAM_TOKEN;
   const chat = process.env.TELEGRAM_CHAT_ID;
-  if (!token || !chat || !itens.length) return;
+  if (!token || !chat) {
+    console.log('Telegram nao configurado: nada enviado, nada registrado.');
+    return [];
+  }
+  if (!itens.length) return [];
+  const enviados = [];
   for (const { p, a } of itens) {
     const rota = p.origem ? `${p.origem} para ${p.destino}` : p.destino || p.titulo;
     const etiqueta = a.trilha === 'rota' ? 'Destino que voce acompanha' : 'Promocao excepcional';
@@ -95,8 +103,10 @@ async function alertarPassagens(itens) {
       body: JSON.stringify({ chat_id: chat, text: texto, parse_mode: 'Markdown' })
     });
     if (!r.ok) console.error('Falha no alerta de passagem:', r.status, await r.text());
+    else enviados.push({ p, a });
   }
-  console.log(`Alertas de passagem enviados: ${itens.length}.`);
+  console.log(`Alertas de passagem enviados: ${enviados.length} de ${itens.length}.`);
+  return enviados;
 }
 
 async function main() {
@@ -355,15 +365,18 @@ async function main() {
       if (a) novosAlertas.push({ p, a });
     }
 
+    let enviados = [];
     if (novosAlertas.length) {
-      await alertarPassagens(novosAlertas);
-      const registro = [
-        ...jaAvisados,
-        ...novosAlertas.map(({ p, a }) => ({ link: p.link, em: AGORA.toISOString(), trilha: a.trilha }))
-      ].slice(-400);
-      await fs.writeFile(ARQ_AVISADOS, JSON.stringify(registro, null, 2) + '\n');
+      enviados = await alertarPassagens(novosAlertas);
+      if (enviados.length) {
+        const registro = [
+          ...jaAvisados,
+          ...enviados.map(({ p, a }) => ({ link: p.link, em: AGORA.toISOString(), trilha: a.trilha }))
+        ].slice(-400);
+        await fs.writeFile(ARQ_AVISADOS, JSON.stringify(registro, null, 2) + '\n');
+      }
     }
-    console.log(`Passagens avaliadas: ${passagens.length} | alertas novos: ${novosAlertas.length}`);
+    console.log(`Passagens avaliadas: ${passagens.length} | a alertar: ${novosAlertas.length} | enviados: ${enviados.length}`);
   } catch (e) {
     console.error('Vigilancia de passagens indisponivel:', e.message);
   }
