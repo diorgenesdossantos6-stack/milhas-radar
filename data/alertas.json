@@ -1,0 +1,24 @@
+{
+  "_leiame": "Vigilancia de passagens. Edite este arquivo quando quiser mudar as regras.",
+  "origens": [
+    "Goiânia",
+    "Brasília",
+    "São Paulo",
+    "Guarulhos",
+    "Campinas",
+    "Belo Horizonte",
+    "Confins"
+  ],
+  "_destinos": "Trilha 1: qualquer promocao para estes lugares gera alerta, mesmo sem ser excepcional. Deixe vazio para desligar.",
+  "destinos": [],
+  "_tetos": "Trilha 2: qualquer destino, mas so abaixo destes valores em reais, ida e volta. Trecho so de ida usa 60% do valor.",
+  "tetos": {
+    "brasil": 250,
+    "america_sul": 700,
+    "america_norte": 2000,
+    "europa": 2200,
+    "resto": 2800
+  },
+  "_somenteIdaEVolta": "Trilha 2 so considera ida e volta. Ponha false para aceitar trecho de ida tambem.",
+  "somenteIdaEVolta": true
+}

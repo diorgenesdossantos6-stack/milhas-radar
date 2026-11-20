@@ -11,9 +11,12 @@ import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
 import { trechoDoEndereco, trechoDoLinkDaCompanhia, valeBuscarPagina } from './voos.mjs';
 import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale, extrairPassagem } from './parser.mjs';
+import { avaliarAlerta } from './alertas.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
+const ARQ_ALERTAS = path.join(RAIZ, 'data', 'alertas.json');
+const ARQ_AVISADOS = path.join(RAIZ, 'data', 'avisados.json');
 const ARQ_FONTES = path.join(RAIZ, 'src', 'fontes.json');
 
 const args = process.argv.slice(2);
@@ -69,6 +72,31 @@ async function alertarTelegram(promos) {
   });
   if (!r.ok) console.error('Falha no alerta Telegram:', r.status, await r.text());
   else console.log(`Alerta enviado: ${promos.length} promocao(oes).`);
+}
+
+async function alertarPassagens(itens) {
+  const token = process.env.TELEGRAM_TOKEN;
+  const chat = process.env.TELEGRAM_CHAT_ID;
+  if (!token || !chat || !itens.length) return;
+  for (const { p, a } of itens) {
+    const rota = p.origem ? `${p.origem} para ${p.destino}` : p.destino || p.titulo;
+    const etiqueta = a.trilha === 'rota' ? 'Destino que voce acompanha' : 'Promocao excepcional';
+    const volta = p.idaEVolta ? 'ida e volta' : 'so ida';
+    const texto = [
+      `*${etiqueta}*`,
+      `*${rota}* (${volta})`,
+      a.motivo,
+      p.titulo,
+      `${p.fonte} - ${p.link}`
+    ].join('\n');
+    const r = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ chat_id: chat, text: texto, parse_mode: 'Markdown' })
+    });
+    if (!r.ok) console.error('Falha no alerta de passagem:', r.status, await r.text());
+  }
+  console.log(`Alertas de passagem enviados: ${itens.length}.`);
 }
 
 async function main() {
@@ -311,6 +339,34 @@ async function main() {
 
   if (SECO) return;
   await fs.writeFile(ARQ_DADOS, JSON.stringify(saida, null, 2) + '\n');
+
+  // Vigilancia de passagens. Guarda o que ja avisou para nunca repetir o mesmo
+  // alerta a cada hora: o registro e por link, que e estavel.
+  try {
+    const cfgAlerta = JSON.parse(await fs.readFile(ARQ_ALERTAS, 'utf8'));
+    let jaAvisados = [];
+    try { jaAvisados = JSON.parse(await fs.readFile(ARQ_AVISADOS, 'utf8')); } catch { /* primeira vez */ }
+    const vistos = new Set(jaAvisados.map((x) => x.link));
+
+    const novosAlertas = [];
+    for (const p of passagens) {
+      if (vistos.has(p.link)) continue;
+      const a = avaliarAlerta(p, cfgAlerta, saida.tetosCompra, referencia);
+      if (a) novosAlertas.push({ p, a });
+    }
+
+    if (novosAlertas.length) {
+      await alertarPassagens(novosAlertas);
+      const registro = [
+        ...jaAvisados,
+        ...novosAlertas.map(({ p, a }) => ({ link: p.link, em: AGORA.toISOString(), trilha: a.trilha }))
+      ].slice(-400);
+      await fs.writeFile(ARQ_AVISADOS, JSON.stringify(registro, null, 2) + '\n');
+    }
+    console.log(`Passagens avaliadas: ${passagens.length} | alertas novos: ${novosAlertas.length}`);
+  } catch (e) {
+    console.error('Vigilancia de passagens indisponivel:', e.message);
+  }
 
   const alertar = novas.filter(
     (p) => (p.percentual ?? 0) >= LIMITE && new Date(p.ate) >= AGORA && p.tipo === 'transferencia_bonificada'
