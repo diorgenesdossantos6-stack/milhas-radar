@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T18:34:33.322Z",
+  "atualizadoEm": "2026-11-20T18:44:32.376Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -1277,18 +1277,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
       "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-18T19:00:01.000Z",
       "ate": "2026-11-21T19:00:01.000Z",
       "dinheiro": 172,
       "milhas": null,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Brasil",
+      "origem": "Fortaleza",
+      "destino": "Juazeiro do Norte",
       "idaEVolta": false,
       "taxas": false,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FOR",
+      "iataDestino": "JDO",
+      "data": "2027-02-16",
+      "comMilhas": false,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
