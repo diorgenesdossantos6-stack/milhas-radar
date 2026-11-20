@@ -2,9 +2,11 @@ name: Coletar promocoes de milhas
 
 on:
   schedule:
-    # De hora em hora, 24h por dia, aos 7 minutos da hora. O cron roda em UTC,
-    # mas como cobre todas as horas, o fuso nao faz diferenca aqui.
-    - cron: '7 * * * *'
+    # A cada 30 minutos. O cron roda em UTC, mas como cobre todas as horas,
+    # o fuso nao faz diferenca aqui. O GitHub despriorizar agendamento em
+    # repositorio publico, entao o gatilho do Apps Script e quem garante a
+    # cadencia: ele tambem precisa estar a cada 30 minutos.
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 
 permissions:

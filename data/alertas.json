@@ -20,5 +20,7 @@
     "resto": 2800
   },
   "_somenteIdaEVolta": "Trilha 2 so considera ida e volta. Ponha false para aceitar trecho de ida tambem.",
-  "somenteIdaEVolta": true
+  "somenteIdaEVolta": true,
+  "_achadoAbaixoDe": "Quanto abaixo do teto a tarifa precisa estar para alertar mesmo sendo so trecho de ida. 0.70 = 70% abaixo, ou seja, 30% do teto.",
+  "achadoAbaixoDe": 0.7
 }

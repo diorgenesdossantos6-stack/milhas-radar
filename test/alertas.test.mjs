@@ -4,7 +4,8 @@ import { regiaoDe, custoEmReais, avaliarAlerta, origemAceita } from '../src/aler
 const cfg = {
   origens: ['Goiânia', 'Brasília', 'São Paulo', 'Campinas', 'Belo Horizonte'],
   destinos: ['Lisboa'],
-  tetos: { brasil: 450, america_sul: 1300, america_norte: 2800, europa: 2800, resto: 3500 }
+  tetos: { brasil: 450, america_sul: 1300, america_norte: 2800, europa: 2800, resto: 3500 },
+  achadoAbaixoDe: 0.70
 };
 const tetosCompra = { 'Azul Fidelidade': { valor: 14.95 }, Smiles: { valor: 19 } };
 const referencia = { programas: { 'Latam Pass': { mediana: 22 } } };
@@ -78,3 +79,28 @@ const rSem = avaliarAlerta(semDestinoBarato, { ...cfg, destinos: [] }, tetosComp
 assert.equal(rSem.teto, menorTeto);
 assert.equal(rSem.regiao, 'indefinida');
 console.log('alertas: destino indefinido ok');
+
+// achado: tarifa muito abaixo do teto alerta mesmo sendo so ida
+const cfgA = { ...cfg, destinos: [], achadoAbaixoDe: 0.70 };
+const corteBrasil = cfg.tetos.brasil * 0.30;           // 70% abaixo
+
+const achado = { origem: 'Goiânia', destino: 'Maceió', dinheiro: Math.round(corteBrasil) - 5, idaEVolta: false };
+assert.equal(avaliarAlerta(achado, cfgA, tetosCompra, referencia).trilha, 'achado');
+
+// so ida acima do corte continua barrado
+const idaComum = { ...achado, dinheiro: Math.round(cfg.tetos.brasil * 0.5) };
+assert.equal(avaliarAlerta(idaComum, cfgA, tetosCompra, referencia), null);
+
+// ida e volta no mesmo preco passa como excepcional
+assert.equal(avaliarAlerta({ ...idaComum, idaEVolta: true }, cfgA, tetosCompra, referencia).trilha, 'excepcional');
+
+// origem errada nao vira achado por ser barata
+assert.equal(avaliarAlerta(
+  { origem: 'Recife', destino: 'Maceió', dinheiro: 40, idaEVolta: false }, cfgA, tetosCompra, referencia
+), null);
+
+// lista de inspiracao nunca vira achado
+assert.equal(avaliarAlerta(
+  { origem: 'Goiânia', destino: 'Maceió', dinheiro: 40, idaEVolta: false, ehLista: true }, cfgA, tetosCompra, referencia
+), null);
+console.log('alertas: achado ok');

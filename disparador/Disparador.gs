@@ -60,7 +60,7 @@ function dispararColeta() {
 /** Cria o gatilho de hora em hora. Rode uma vez. */
 function instalarGatilho() {
   removerGatilhos();
-  ScriptApp.newTrigger('dispararColeta').timeBased().everyHours(1).create();
+  ScriptApp.newTrigger('dispararColeta').timeBased().everyMinutes(30).create();
   console.log('Gatilho criado: dispararColeta roda de hora em hora.');
 }
 

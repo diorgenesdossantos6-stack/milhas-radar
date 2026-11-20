@@ -88,7 +88,8 @@ async function alertarPassagens(itens) {
   const enviados = [];
   for (const { p, a } of itens) {
     const rota = p.origem ? `${p.origem} para ${p.destino}` : p.destino || p.titulo;
-    const etiqueta = a.trilha === 'rota' ? 'Destino que voce acompanha' : 'Promocao excepcional';
+    const etiqueta = { rota: 'Destino que voce acompanha', achado: 'Achado, bem abaixo do normal' }[a.trilha]
+      || 'Promocao excepcional';
     const volta = p.idaEVolta ? 'ida e volta' : 'so ida';
     const texto = [
       `*${etiqueta}*`,
@@ -102,8 +103,23 @@ async function alertarPassagens(itens) {
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ chat_id: chat, text: texto, parse_mode: 'Markdown' })
     });
-    if (!r.ok) console.error('Falha no alerta de passagem:', r.status, await r.text());
-    else enviados.push({ p, a });
+    if (!r.ok) {
+      const corpo = await r.text();
+      // Quando um grupo comum vira supergrupo, o ID muda e o antigo para de
+      // valer. O Telegram devolve o novo nesse campo. Sem isso o alerta
+      // sumiria em silencio e so se descobriria dias depois.
+      let novoId = null;
+      try { novoId = JSON.parse(corpo)?.parameters?.migrate_to_chat_id ?? null; } catch { /* corpo nao e json */ }
+      if (novoId) {
+        console.error('='.repeat(64));
+        console.error('O GRUPO DO TELEGRAM MIGROU PARA SUPERGRUPO.');
+        console.error(`Troque o segredo TELEGRAM_CHAT_ID para: ${novoId}`);
+        console.error('Ate voce trocar, nenhum alerta vai chegar.');
+        console.error('='.repeat(64));
+        return enviados;   // nao adianta tentar os proximos com o ID velho
+      }
+      console.error('Falha no alerta de passagem:', r.status, corpo);
+    } else enviados.push({ p, a });
   }
   console.log(`Alertas de passagem enviados: ${enviados.length} de ${itens.length}.`);
   return enviados;

@@ -87,6 +87,20 @@ export function avaliarAlerta(p, cfg, tetosCompra, referencia) {
   if (destinoEscolhido(p, cfg.destinos)) {
     return { trilha: 'rota', regiao, teto, custo, motivo: `destino que você acompanha` };
   }
+  // Achado: tao abaixo do teto que vale avisar mesmo sendo so ida. A isca de
+  // "a partir de" existe, mas num preco desses o risco de ignorar e maior que
+  // o de olhar. Continua valendo a origem e o filtro de lista de inspiracao.
+  const corteAchado = Number((tetoBase * (1 - (cfg.achadoAbaixoDe ?? 0.70))).toFixed(2));
+  if (custo.reais <= corteAchado) {
+    return {
+      trilha: 'achado',
+      regiao,
+      teto: corteAchado,
+      custo,
+      motivo: `${custo.como} fica em R$ ${custo.reais.toLocaleString('pt-BR')}, bem abaixo do teto de R$ ${tetoBase.toLocaleString('pt-BR')} para ${regiao.replace(/_/g, ' ')}`
+    };
+  }
+
   // Trecho so de ida com "a partir de" quase sempre e isca para uma rota
   // obscura. Fora da lista de destinos, so ida e volta vira alerta.
   if (cfg.somenteIdaEVolta !== false && !p.idaEVolta) return null;
