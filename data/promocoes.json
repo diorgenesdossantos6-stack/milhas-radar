@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-20T12:40:52.898Z",
-  "totalAtivas": 32,
-  "totalCampanhasAtivas": 24,
+  "atualizadoEm": "2026-11-20T13:40:57.514Z",
+  "totalAtivas": 34,
+  "totalCampanhasAtivas": 26,
   "combinacoes": [],
   "passagens": [
     {
@@ -454,8 +454,8 @@
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
-      "campanhas": 2,
-      "ultimaEm": "2026-11-18T15:22:21.000Z"
+      "campanhas": 3,
+      "ultimaEm": "2026-11-20T13:00:16.000Z"
     },
     "Esfera": {
       "maxPercentual": 55,
@@ -476,6 +476,11 @@
       "maxPercentual": 7,
       "campanhas": 2,
       "ultimaEm": "2026-11-20T11:16:50.000Z"
+    },
+    "Livelo": {
+      "maxPercentual": 25,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-20T13:00:57.000Z"
     }
   },
   "observacoes": [
@@ -884,6 +889,48 @@
       }
     },
     {
+      "id": "latam pass|25|transferencia_bonificada|2026-11-23",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Inter"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-23T13:00:16.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 50,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
+      "publicado": "2026-11-20T13:00:16.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
+          "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
+          "publicado": "2026-11-20T13:00:16.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
       "id": "latam pass|25|transferencia_bonificada|2026-11-20",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -933,7 +980,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 2,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -975,7 +1022,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 2,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1037,6 +1084,38 @@
           "publicado": "2026-11-20T11:16:50.000Z"
         }
       ]
+    },
+    {
+      "id": "livelo|25|clube|2026-11-23",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-23T13:00:57.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 25,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
+      "publicado": "2026-11-20T13:00:57.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul/",
+          "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
+          "publicado": "2026-11-20T13:00:57.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "banco do brasil|7|acumulo|2026-11-22",
@@ -1540,6 +1619,58 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul",
+      "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
+      "link": "https://passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-20T13:00:57.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T13:00:57.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em novas ofertas, a Livelo está oferecendo até 25% de desconto na emissão de passagens aéreas para o Nordeste e também para destinos da América do Sul, mediante o uso de cupons destinados aos assinantes do Clube Livelo e demais clientes. As duas campanhas são válidas até às 10h da segunda (23). Saiba mais! O post Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul apareceu primeiro",
+      "coletadoEm": "2026-11-20T13:40:57.514Z",
+      "nota": 25
+    },
+    {
+      "id": "pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje",
+      "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
+      "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-20T13:00:16.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Inter -> Latam Pass",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T13:00:16.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Reunimos neste artigo cinco promoções que estão chegando ao fim, incluindo oportunidades de acúmulo de pontos, transferências bonificadas e ofertas de assinatura de clubes de fidelidade. Confira a seguir os principais benefícios, os prazos de cada campanha e aproveite antes que acabem! LATAM Pass e Inter Loop A bonificação está estruturada da seguinte forma: 25%…",
+      "coletadoEm": "2026-11-20T13:40:57.514Z",
+      "nota": 50
+    },
     {
       "id": "pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes",
       "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
