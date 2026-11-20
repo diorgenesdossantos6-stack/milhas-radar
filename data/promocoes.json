@@ -1,123 +1,72 @@
 {
-  "atualizadoEm": "2026-11-19T21:40:53.901Z",
-  "totalAtivas": 43,
-  "totalCampanhasAtivas": 27,
-  "combinacoes": [
+  "atualizadoEm": "2026-11-20T14:40:54.634Z",
+  "totalAtivas": 34,
+  "totalCampanhasAtivas": 26,
+  "combinacoes": [],
+  "passagens": [
     {
-      "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
-      "origem": "Esfera",
-      "destino": "Smiles",
-      "descontoCompra": 55,
-      "bonusTransferencia": 80,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-19T03:02:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
-              "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-              "publicado": "2026-11-19T14:00:49.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
-              "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
-              "publicado": "2026-11-19T13:00:59.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
-              "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
-              "publicado": "2026-11-19T10:45:00.000Z"
-            }
-          ]
-        }
-      ]
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-19T23:59:15.000Z",
+      "ate": "2026-11-22T23:59:15.000Z",
+      "dinheiro": 276,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
     },
     {
-      "id": "combo|esfera|55|compra_pontos|2026-11-19|azul fidelidade|120|transferencia_bonificada|2026-11-19",
-      "origem": "Esfera",
-      "destino": "Azul Fidelidade",
-      "descontoCompra": 55,
-      "bonusTransferencia": 120,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-19T03:02:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-120-porcento-bonus-transferencias-pontos/",
-              "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-              "publicado": "2026-11-19T20:00:08.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
-              "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos cartões de crédito, inclusive Livelo",
-              "publicado": "2026-11-19T12:00:33.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/azul-parceiros-120-bonus-19nov26.html",
-              "titulo": "Últimas horas! Ganhe até 120% de bônus na transferência de pontos do cartão de crédito para o Azul Fidelidade",
-              "publicado": "2026-11-19T11:32:50.000Z"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "passagens": [
+      "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
+      "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
+      "link": "https://pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-19T22:30:46.000Z",
+      "ate": "2026-11-22T22:30:46.000Z",
+      "dinheiro": null,
+      "milhas": 300000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas",
+      "titulo": "Smiles tem voos a partir de 5 mil milhas ou R$ 92 + taxas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-19T22:00:07.000Z",
+      "ate": "2026-11-22T22:00:07.000Z",
+      "dinheiro": 92,
+      "milhas": 5000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV: encontre passagens internacionais a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-19T21:01:11.000Z",
       "ate": "2026-11-22T21:01:11.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": "Rio de Janeiro",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
       "taxas": true,
-      "ehLista": false,
-      "iataOrigem": "GIG",
-      "iataDestino": "EZE",
-      "data": "2026-11-14",
-      "comMilhas": true,
-      "cabine": "Economy",
-      "trechoDe": "companhia"
+      "ehLista": false
     },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
@@ -290,23 +239,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
       "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-18T19:00:01.000Z",
       "ate": "2026-11-21T19:00:01.000Z",
       "dinheiro": 172,
       "milhas": null,
       "programa": "Latam Pass",
-      "origem": "Fortaleza",
-      "destino": "Juazeiro do Norte",
+      "origem": null,
+      "destino": "Latam Brasil",
       "idaEVolta": false,
       "taxas": false,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FOR",
-      "iataDestino": "JDO",
-      "data": "2027-02-16",
-      "comMilhas": false,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
@@ -458,39 +402,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
-      "titulo": "Portugal 🇵🇹 Voos para Lisboa ou Porto a partir de R$ 3.797 ida e volta, saindo de 42 cidades brasileiras!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T18:22:13.000Z",
-      "ate": "2026-11-20T18:22:13.000Z",
-      "dinheiro": 3797,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Portugal Porto Lisboa",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
-      "titulo": "Marrocos mais Europa! Passagens 2 em 1 para Casablanca mais Lisboa, Porto ou Madri a partir de R$ 4.802",
-      "link": "https://www.melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T15:28:41.000Z",
-      "ate": "2026-11-20T15:28:41.000Z",
-      "dinheiro": 4802,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Casablanca",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -532,8 +443,8 @@
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
-      "campanhas": 2,
-      "ultimaEm": "2026-11-18T15:22:21.000Z"
+      "campanhas": 3,
+      "ultimaEm": "2026-11-20T13:00:16.000Z"
     },
     "Esfera": {
       "maxPercentual": 55,
@@ -552,8 +463,13 @@
     },
     "Banco do Brasil": {
       "maxPercentual": 7,
+      "campanhas": 2,
+      "ultimaEm": "2026-11-20T11:16:50.000Z"
+    },
+    "Livelo": {
+      "maxPercentual": 25,
       "campanhas": 1,
-      "ultimaEm": "2026-11-19T21:40:03.000Z"
+      "ultimaEm": "2026-11-20T13:00:57.000Z"
     }
   },
   "observacoes": [
@@ -741,117 +657,8 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-19",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 88,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-      "publicado": "2026-11-19T10:45:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
-          "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-          "publicado": "2026-11-19T14:00:49.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
-          "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
-          "publicado": "2026-11-19T13:00:59.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
-          "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
-          "publicado": "2026-11-19T10:45:00.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "80% contra um teto de 100% nessa rota",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 0,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-19",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Esfera",
-        "Livelo"
-      ],
-      "percentual": 120,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 85,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-      "publicado": "2026-11-19T11:32:50.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-120-porcento-bonus-transferencias-pontos/",
-          "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-          "publicado": "2026-11-19T20:00:08.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
-          "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos cartões de crédito, inclusive Livelo",
-          "publicado": "2026-11-19T12:00:33.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/azul-parceiros-120-bonus-19nov26.html",
-          "titulo": "Últimas horas! Ganhe até 120% de bônus na transferência de pontos do cartão de crédito para o Azul Fidelidade",
-          "publicado": "2026-11-19T11:32:50.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
       }
     },
     {
@@ -940,7 +747,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -982,7 +789,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1024,7 +831,7 @@
       "teto": 130,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1066,62 +873,46 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
-      "id": "azul fidelidade|30|transferencia_bonificada|2026-11-19",
+      "id": "latam pass|25|transferencia_bonificada|2026-11-23",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": 30,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 58,
+      "destino": "Latam Pass",
+      "origens": [
+        "Inter"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-23T13:00:16.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 50,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
-      "publicado": "2026-11-19T11:00:29.000Z",
+      "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
+      "publicado": "2026-11-20T13:00:16.000Z",
       "fontes": [
         {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
-          "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
-          "publicado": "2026-11-19T18:00:54.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2/",
-          "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
-          "publicado": "2026-11-19T12:38:57.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/all-accor-azul-fidelidade-nov26.html",
-          "titulo": "Só hoje! ALL Accor oferece até 30% de bônus e desconto na transferência de pontos Azul Fidelidade",
-          "publicado": "2026-11-19T12:10:50.000Z"
-        },
-        {
           "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/so-hoje-transfira-pontos-azul-fidelidade-desconto-ate-30-porcento-bonus-all-accor/",
-          "titulo": "SOMENTE HOJE! Transfira pontos do Azul Fidelidade com desconto e até 30% de bônus para o ALL Accor",
-          "publicado": "2026-11-19T11:00:29.000Z"
+          "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
+          "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
+          "publicado": "2026-11-20T13:00:16.000Z"
         }
       ],
       "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
       "veredito": "nao vale",
       "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 100%",
+      "motivo": "essa rota já chegou a 40%",
       "baseVeredito": "teto",
-      "teto": 100,
+      "teto": 40,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -1178,35 +969,9 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
-    },
-    {
-      "id": "esfera|55|compra_pontos|2026-11-19",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Esfera",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 55,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 48,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-      "publicado": "2026-11-19T03:02:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "publicado": "2026-11-19T03:02:00.000Z"
-        }
-      ]
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-21",
@@ -1246,7 +1011,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1277,6 +1042,67 @@
         "min": 18,
         "max": 29.18,
         "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "banco do brasil|7|acumulo|2026-11-23",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": 7,
+      "ate": "2026-11-23T11:16:50.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 29,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
+      "publicado": "2026-11-20T11:16:50.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
+          "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
+          "publicado": "2026-11-20T11:16:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "livelo|25|clube|2026-11-23",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-23T13:00:57.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 25,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
+      "publicado": "2026-11-20T13:00:57.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul/",
+          "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
+          "publicado": "2026-11-20T13:00:57.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
@@ -1379,15 +1205,21 @@
         "Livelo"
       ],
       "percentual": null,
-      "ate": "2026-11-22T15:10:23.000Z",
-      "confiancaPrazo": "baixa",
+      "ate": "2026-11-22T23:59:00.000Z",
+      "confiancaPrazo": "alta",
       "nota": 10,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
       "publicado": "2026-11-19T15:10:23.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
+          "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
+          "publicado": "2026-11-20T12:00:42.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
@@ -1570,38 +1402,6 @@
       }
     },
     {
-      "id": "livelo|x|clube|2026-11-19",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Livelo oferece 100.000 pontos no upgrade do Clube Especial",
-      "publicado": "2026-11-17T15:02:23.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/livelo-oferece-100000-pontos-upgrade-clube-especial/",
-          "titulo": "Livelo oferece 100.000 pontos no upgrade do Clube Especial",
-          "publicado": "2026-11-17T15:02:23.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
       "id": "smiles|x|clube|2026-11-30",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1749,6 +1549,32 @@
       "teto": null
     },
     {
+      "id": "banco do brasil|x|acumulo|2026-11-23",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": null,
+      "ate": "2026-11-23T08:57:00.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+      "publicado": "2026-11-20T08:57:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
+          "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+          "publicado": "2026-11-20T08:57:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "azul fidelidade|x|pontos_dinheiro|2026-11-22",
       "tipo": "pontos_dinheiro",
       "tipoNome": "Pontos + dinheiro",
@@ -1782,6 +1608,241 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul",
+      "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
+      "link": "https://passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-20T13:00:57.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T13:00:57.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em novas ofertas, a Livelo está oferecendo até 25% de desconto na emissão de passagens aéreas para o Nordeste e também para destinos da América do Sul, mediante o uso de cupons destinados aos assinantes do Clube Livelo e demais clientes. As duas campanhas são válidas até às 10h da segunda (23). Saiba mais! O post Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul apareceu primeiro",
+      "coletadoEm": "2026-11-20T13:40:57.514Z",
+      "nota": 25
+    },
+    {
+      "id": "pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje",
+      "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
+      "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-20T13:00:16.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Inter -> Latam Pass",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T13:00:16.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Reunimos neste artigo cinco promoções que estão chegando ao fim, incluindo oportunidades de acúmulo de pontos, transferências bonificadas e ofertas de assinatura de clubes de fidelidade. Confira a seguir os principais benefícios, os prazos de cada campanha e aproveite antes que acabem! LATAM Pass e Inter Loop A bonificação está estruturada da seguinte forma: 25%…",
+      "coletadoEm": "2026-11-20T13:40:57.514Z",
+      "nota": 50
+    },
+    {
+      "id": "pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes",
+      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
+      "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-20T12:00:42.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Livelo está com uma nova promoção para quem deseja assinar o Clube Livelo Especial! Até 22 de novembro, novos assinantes poderão acumular 100 mil pontos ao longo de 12 meses, tanto na modalidade mensal quanto na anual. Confira a seguir as condições da campanha, os valores dos planos e saiba como aproveitar! Promoção Clube…",
+      "coletadoEm": "2026-11-20T12:40:52.898Z",
+      "nota": 10
+    },
+    {
+      "id": "melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
+      "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
+      "link": "https://www.melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-20T11:16:50.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Banco do Brasil"
+      ],
+      "destino": [],
+      "par": "Banco do Brasil",
+      "percentual": 7,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-23T11:16:50.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Banco do Brasil acaba de lançar o seu cartão de crédito Altus Mastercard World Legend, voltado para clientes de altíssima renda do segmento Private, com com gastos mensais a partir de R$ 40 mil. O novo cartão metálico oferece até 7 pontos por dólar gasto ou 1,7% de cashback, acesso grátis e ilimitado a… O post Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 p",
+      "coletadoEm": "2026-11-20T11:40:53.216Z",
+      "nota": 29
+    },
+    {
+      "id": "cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard",
+      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+      "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-20T08:57:00.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Banco do Brasil"
+      ],
+      "destino": [],
+      "par": "Banco do Brasil",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T08:57:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Com até 7 pontos por dólar, salas VIP ilimitadas e IOF zero, o BB World Legend é o melhor cartão de crédito da Mastercard para clientes do Banco do Brasil. The post Cartão de crédito Banco do Brasil Altus World Legend Mastercard appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-20T09:40:54.775Z",
+      "nota": 0
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-19T23:59:15.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass",
+        "Azul Fidelidade"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 276,
+        "milhas": null,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T23:59:15.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Amanhã temos mais um feriado nacional, e que forma melhor de começar ele que pensando no próximo destino? A Gol e Azul já estão com ofertas antecipadas de Black Friday, e claro pesquisamos também os menores preços da Latam, com voos a partir de R$ 276 ida e volta! São mais de 150 mil passagens…",
+      "coletadoEm": "2026-11-20T04:40:53.676Z",
+      "nota": 0
+    },
+    {
+      "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
+      "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
+      "link": "https://pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-19T22:30:46.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 300000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T22:30:46.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em preparação para a Orange Friday, a GOL Linhas Aéreas deu início hoje à promoção Voo Premiado da GOL, campanha que sorteará viagens nacionais e internacionais com hospedagem e direito a acompanhante, além de 300 mil milhas Smiles. A ação comercial começou às 9h desta quinta-feira (19) e permanece válida para compras realizadas até as…",
+      "coletadoEm": "2026-11-19T22:40:54.172Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas",
+      "titulo": "Smiles tem voos a partir de 5 mil milhas ou R$ 92 + taxas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-19T22:00:07.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Livelo -> Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 92,
+        "milhas": 5000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": 15.91,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T22:00:07.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em nossas buscas, encontramos voos da Smiles a partir de 5.800 milhas. Além disso, o programa está oferecendo até 80% de bônus nas transferências de pontos dos parceiros bancários, incluindo Livelo. Assim, transferindo pontos Livelo + dinheiro, você pode gerar o milheiro Smiles a partir de R$ 15,91 e emitir as passagens a partir de R$ 92,27. Lembre-se que o melhor cenário é para assinantes do Club",
+      "coletadoEm": "2026-11-19T22:40:54.172Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar",
       "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
