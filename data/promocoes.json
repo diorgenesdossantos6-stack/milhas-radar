@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-20T10:40:55.224Z",
-  "totalAtivas": 30,
-  "totalCampanhasAtivas": 23,
+  "atualizadoEm": "2026-11-20T11:40:53.216Z",
+  "totalAtivas": 31,
+  "totalCampanhasAtivas": 24,
   "combinacoes": [],
   "passagens": [
     {
@@ -474,8 +474,8 @@
     },
     "Banco do Brasil": {
       "maxPercentual": 7,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-19T21:40:03.000Z"
+      "campanhas": 2,
+      "ultimaEm": "2026-11-20T11:16:50.000Z"
     }
   },
   "observacoes": [
@@ -1010,6 +1010,35 @@
       }
     },
     {
+      "id": "banco do brasil|7|acumulo|2026-11-23",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": 7,
+      "ate": "2026-11-23T11:16:50.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 29,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
+      "publicado": "2026-11-20T11:16:50.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
+          "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
+          "publicado": "2026-11-20T11:16:50.000Z"
+        }
+      ]
+    },
+    {
       "id": "banco do brasil|7|acumulo|2026-11-22",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1505,6 +1534,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
+      "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
+      "link": "https://www.melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-20T11:16:50.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Banco do Brasil"
+      ],
+      "destino": [],
+      "par": "Banco do Brasil",
+      "percentual": 7,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 7,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-23T11:16:50.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Banco do Brasil acaba de lançar o seu cartão de crédito Altus Mastercard World Legend, voltado para clientes de altíssima renda do segmento Private, com com gastos mensais a partir de R$ 40 mil. O novo cartão metálico oferece até 7 pontos por dólar gasto ou 1,7% de cashback, acesso grátis e ilimitado a… O post Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 p",
+      "coletadoEm": "2026-11-20T11:40:53.216Z",
+      "nota": 29
+    },
     {
       "id": "cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard",
       "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
