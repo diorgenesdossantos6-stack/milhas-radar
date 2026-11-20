@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T21:34:30.412Z",
+  "atualizadoEm": "2026-11-20T21:44:31.970Z",
   "totalAtivas": 34,
   "totalCampanhasAtivas": 28,
   "combinacoes": [],
@@ -396,22 +396,6 @@
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
-      "titulo": "EUA 2×1 🇺🇸 Voos para Miami mais Orlando, Los Angeles e outras cidades a partir de R$ 4.184, com bagagem despachada",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T21:38:41.000Z",
-      "ate": "2026-11-20T21:38:41.000Z",
-      "dinheiro": 4184,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Miami",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false
     }
   ],
   "erros": [],
