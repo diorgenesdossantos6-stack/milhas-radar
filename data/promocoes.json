@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-20T14:40:54.634Z",
-  "totalAtivas": 34,
-  "totalCampanhasAtivas": 26,
+  "atualizadoEm": "2026-11-20T15:44:42.340Z",
+  "totalAtivas": 35,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
+      "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-20T14:53:38.000Z",
+      "ate": "2026-11-23T14:53:38.000Z",
+      "dinheiro": 78,
+      "milhas": 3273,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
       "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
@@ -56,17 +72,23 @@
       "id": "pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV: encontre passagens internacionais a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-19T21:01:11.000Z",
       "ate": "2026-11-22T21:01:11.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
+      "origem": "Rio de Janeiro",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
-      "ehLista": false
+      "ehLista": false,
+      "iataOrigem": "GIG",
+      "iataDestino": "EZE",
+      "data": "2026-11-14",
+      "comMilhas": true,
+      "cabine": "Economy",
+      "trechoDe": "companhia"
     },
     {
       "id": "melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
@@ -239,18 +261,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
       "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-18T19:00:01.000Z",
       "ate": "2026-11-21T19:00:01.000Z",
       "dinheiro": 172,
       "milhas": null,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Brasil",
+      "origem": "Fortaleza",
+      "destino": "Juazeiro do Norte",
       "idaEVolta": false,
       "taxas": false,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FOR",
+      "iataDestino": "JDO",
+      "data": "2027-02-16",
+      "comMilhas": false,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
@@ -385,23 +412,6 @@
       "idaEVolta": false,
       "taxas": false,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
-      "titulo": "Peru 🇵🇪 Passagens aéreas para Lima ou Cusco a partir de R$ 2.297 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T19:11:19.000Z",
-      "ate": "2026-11-20T19:11:19.000Z",
-      "dinheiro": 2297,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Peru Lima Cusco",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -436,10 +446,20 @@
       "campanhas": 1,
       "ultimaEm": "2026-11-17T18:22:39.000Z"
     },
+    "Latam Pass": {
+      "maxPercentual": 66,
+      "campanhas": 2,
+      "ultimaEm": "2026-11-20T15:00:00.000Z"
+    },
     "Azul Fidelidade": {
       "maxPercentual": 30,
       "campanhas": 1,
       "ultimaEm": "2026-11-19T11:00:29.000Z"
+    },
+    "Itau -> Latam Pass": {
+      "maxPercentual": 66,
+      "campanhas": 1,
+      "ultimaEm": "2026-11-20T15:00:02.000Z"
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
@@ -455,11 +475,6 @@
       "maxPercentual": 25,
       "campanhas": 1,
       "ultimaEm": "2026-11-16T15:39:13.000Z"
-    },
-    "Latam Pass": {
-      "maxPercentual": 35,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-18T13:24:53.000Z"
     },
     "Banco do Brasil": {
       "maxPercentual": 7,
@@ -549,6 +564,17 @@
       "link": "https://passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591/",
       "fonte": "Passageiro de Primeira",
       "id": "passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591"
+    },
+    {
+      "em": "2026-11-20T15:00:00.000Z",
+      "valor": 23.8,
+      "tipo": "compra_pontos",
+      "programa": null,
+      "destino": "Latam Pass",
+      "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
+      "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
+      "fonte": "Melhores Cartões",
+      "id": "melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html"
     }
   ],
   "regua": {
@@ -619,7 +645,14 @@
       "texto": "sem base ainda, usando um valor de partida"
     }
   },
-  "tetosCompra": {},
+  "tetosCompra": {
+    "Latam Pass": {
+      "valor": 23.8,
+      "menor": 23.8,
+      "amostras": 1,
+      "texto": "uma compra de pontos vista a R$ 23,80 o milheiro"
+    }
+  },
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -875,6 +908,73 @@
         "cadencia": 90,
         "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
+      "id": "latam pass|66|compra_pontos|2026-11-23",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": 66,
+      "ate": "2026-11-23T15:00:00.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 65,
+      "custoMilheiro": 23.8,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
+      "publicado": "2026-11-20T15:00:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
+          "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
+          "publicado": "2026-11-20T15:00:00.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Não vale",
+      "motivo": "R$ 23,80 sai mais caro que comprar pronto a R$ 23,80",
+      "baseVeredito": "compra",
+      "teto": null
+    },
+    {
+      "id": "latam pass|66|compra_pontos|2026-11-20",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Latam Pass",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 66,
+      "ate": "2026-11-20T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 55,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
+      "publicado": "2026-11-20T15:00:02.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
+          "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
+          "publicado": "2026-11-20T15:00:02.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -1498,23 +1598,10 @@
       "ate": "2026-11-20T23:59:00.000Z",
       "confiancaPrazo": "alta",
       "nota": 10,
-      "custoMilheiro": 12.81,
+      "custoMilheiro": null,
       "acumulo": null,
-      "clube": {
-        "milheiro": 12.81,
-        "origem": "publicado na matéria",
-        "veredito": "limite",
-        "rotulo": "No limite",
-        "motivo": "milheiro a R$ 12,81 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
-        "base": "clube",
-        "regua": {
-          "valor": 14.95,
-          "base": "mercado",
-          "texto": "o que o mercado paga pelo milheiro Azul Fidelidade"
-        },
-        "programa": "Azul Fidelidade"
-      },
-      "titulo": "Ganhe até 600 mil pontos no ano ao fazer upgrade do Clube Azul - Milheiro a partir de R$ 12,81",
+      "clube": null,
+      "titulo": "Clube Azul: até 600.000 pontos ao fazer upgrade",
       "publicado": "2026-11-17T12:36:50.000Z",
       "fontes": [
         {
@@ -1522,12 +1609,6 @@
           "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-600-mil-pontos-upgrade-clube/",
           "titulo": "Azul Friday! Azul Fidelidade oferece até 600 mil pontos no upgrade do clube",
           "publicado": "2026-11-17T17:00:29.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ganhe-ate-600-mil-pontos-no-ano-ao-fazer-upgrade-do-clube-azul-milheiro-a-partir-de-r-1281/",
-          "titulo": "Ganhe até 600 mil pontos no ano ao fazer upgrade do Clube Azul - Milheiro a partir de R$ 12,81",
-          "publicado": "2026-11-17T15:00:15.000Z"
         },
         {
           "fonte": "Cartões de Crédito",
@@ -1541,12 +1622,7 @@
         "max": 18,
         "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "milheiro a R$ 12,81 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
-      "baseVeredito": "clube",
-      "teto": null
+      }
     },
     {
       "id": "banco do brasil|x|acumulo|2026-11-23",
@@ -1608,6 +1684,92 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas",
+      "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
+      "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-20T15:00:02.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Itau -> Latam Pass",
+      "percentual": 66,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-20T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "[Oferta] Último dia! O LATAM Pass está oferecendo até 66% de desconto na compra de milhas, com custo de R$ 23,80 por mil para portadores do cartão LATAM Pass Itaú e R$ 25,90 para clientes do programa. A promoção é válida até hoje (20) e permite a compra de até 350.000 milhas. O post Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-20T15:40:56.132Z",
+      "nota": 55
+    },
+    {
+      "id": "melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
+      "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
+      "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-20T15:00:00.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": 66,
+      "passagem": null,
+      "custoMilheiro": 23.8,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T15:00:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Atenção para a última chamada! Em pleno feriadão, temos 7 promoções de pontos e milhas que estão acabando hoje. Confira o resumo na tabela abaixo e, na sequência, detalhes de cada oferta: 🤑 Latam Pass: compre milhas com até 66% de desconto – milheiro a partir de R$ 23,80 O Latam Pass está oferecendo até… O post Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje ",
+      "coletadoEm": "2026-11-20T15:40:56.132Z",
+      "nota": 65
+    },
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
+      "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-20T14:53:38.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 78,
+        "milhas": 3273,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T14:53:38.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Latam está com uma promoção de feriado que oferece voos a partir de 3.273 milhas o trecho, mais taxas aeroportuárias. O menor valor é para viajar entre Macapá e Belém, mas tem muitos outros trechos em promoção, vale a pena pesquisar! Resgate agora clicando aqui. O post Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas apareceu primeiro em Melhores Cartões .",
+      "coletadoEm": "2026-11-20T15:40:56.132Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul",
       "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
