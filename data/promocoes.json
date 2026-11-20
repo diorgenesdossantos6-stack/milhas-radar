@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-20T03:40:53.368Z",
+  "atualizadoEm": "2026-11-20T04:40:53.676Z",
   "totalAtivas": 29,
   "totalCampanhasAtivas": 22,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-19T23:59:15.000Z",
+      "ate": "2026-11-22T23:59:15.000Z",
+      "dinheiro": 276,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
       "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
@@ -393,23 +409,6 @@
       "programa": null,
       "origem": null,
       "destino": "Peru Lima Cusco",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
-      "titulo": "Portugal 🇵🇹 Voos para Lisboa ou Porto a partir de R$ 3.797 ida e volta, saindo de 42 cidades brasileiras!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T18:22:13.000Z",
-      "ate": "2026-11-20T18:22:13.000Z",
-      "dinheiro": 3797,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Portugal Porto Lisboa",
       "idaEVolta": true,
       "taxas": false,
       "ehLista": false,
@@ -1480,6 +1479,41 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-19T23:59:15.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass",
+        "Azul Fidelidade"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 276,
+        "milhas": null,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-22T23:59:15.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Amanhã temos mais um feriado nacional, e que forma melhor de começar ele que pensando no próximo destino? A Gol e Azul já estão com ofertas antecipadas de Black Friday, e claro pesquisamos também os menores preços da Latam, com voos a partir de R$ 276 ida e volta! São mais de 150 mil passagens…",
+      "coletadoEm": "2026-11-20T04:40:53.676Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
       "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
