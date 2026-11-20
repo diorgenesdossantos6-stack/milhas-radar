@@ -1,101 +1,8 @@
 {
-  "atualizadoEm": "2026-11-19T23:40:54.698Z",
-  "totalAtivas": 43,
-  "totalCampanhasAtivas": 27,
-  "combinacoes": [
-    {
-      "id": "combo|esfera|55|compra_pontos|2026-11-19|smiles|80|transferencia_bonificada|2026-11-19",
-      "origem": "Esfera",
-      "destino": "Smiles",
-      "descontoCompra": 55,
-      "bonusTransferencia": 80,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-19T03:02:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
-              "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-              "publicado": "2026-11-19T14:00:49.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
-              "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
-              "publicado": "2026-11-19T13:00:59.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
-              "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
-              "publicado": "2026-11-19T10:45:00.000Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "combo|esfera|55|compra_pontos|2026-11-19|azul fidelidade|120|transferencia_bonificada|2026-11-19",
-      "origem": "Esfera",
-      "destino": "Azul Fidelidade",
-      "descontoCompra": 55,
-      "bonusTransferencia": 120,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-19T03:02:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-120-porcento-bonus-transferencias-pontos/",
-              "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-              "publicado": "2026-11-19T20:00:08.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
-              "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos cartões de crédito, inclusive Livelo",
-              "publicado": "2026-11-19T12:00:33.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/azul-parceiros-120-bonus-19nov26.html",
-              "titulo": "Últimas horas! Ganhe até 120% de bônus na transferência de pontos do cartão de crédito para o Azul Fidelidade",
-              "publicado": "2026-11-19T11:32:50.000Z"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "atualizadoEm": "2026-11-20T00:40:55.188Z",
+  "totalAtivas": 29,
+  "totalCampanhasAtivas": 22,
+  "combinacoes": [],
   "passagens": [
     {
       "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
@@ -762,115 +669,6 @@
       }
     },
     {
-      "id": "smiles|80|transferencia_bonificada|2026-11-19",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 88,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-      "publicado": "2026-11-19T10:45:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/smiles-prorroga-oferta-ate-80-porcento-bonus-transferencia-pontos/",
-          "titulo": "Smiles prorroga oferta de até 80% de bônus na transferência de pontos",
-          "publicado": "2026-11-19T14:00:49.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
-          "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
-          "publicado": "2026-11-19T13:00:59.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-parceiros-80-bonus-nov26.html",
-          "titulo": "Nova chance! Até 80% de bônus ao transferir pontos do cartão para a Smiles",
-          "publicado": "2026-11-19T10:45:00.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "80% contra um teto de 100% nessa rota",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 0,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-19",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Esfera",
-        "Livelo"
-      ],
-      "percentual": 120,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 85,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-      "publicado": "2026-11-19T11:32:50.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-120-porcento-bonus-transferencias-pontos/",
-          "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-          "publicado": "2026-11-19T20:00:08.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
-          "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos cartões de crédito, inclusive Livelo",
-          "publicado": "2026-11-19T12:00:33.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/azul-parceiros-120-bonus-19nov26.html",
-          "titulo": "Últimas horas! Ganhe até 120% de bônus na transferência de pontos do cartão de crédito para o Azul Fidelidade",
-          "publicado": "2026-11-19T11:32:50.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 1,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
       "id": "smiles|130|clube|2026-11-24",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1087,64 +885,6 @@
       }
     },
     {
-      "id": "azul fidelidade|30|transferencia_bonificada|2026-11-19",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": 30,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 58,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
-      "publicado": "2026-11-19T11:00:29.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
-          "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
-          "publicado": "2026-11-19T18:00:54.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/azul-e-all-accor-oferecem-ate-30-de-bonus-nas-transferencias-2/",
-          "titulo": "Azul e ALL Accor oferecem até 30% de bônus nas transferências",
-          "publicado": "2026-11-19T12:38:57.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/all-accor-azul-fidelidade-nov26.html",
-          "titulo": "Só hoje! ALL Accor oferece até 30% de bônus e desconto na transferência de pontos Azul Fidelidade",
-          "publicado": "2026-11-19T12:10:50.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/so-hoje-transfira-pontos-azul-fidelidade-desconto-ate-30-porcento-bonus-all-accor/",
-          "titulo": "SOMENTE HOJE! Transfira pontos do Azul Fidelidade com desconto e até 30% de bônus para o ALL Accor",
-          "publicado": "2026-11-19T11:00:29.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 100%",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 1,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
       "id": "latam pass|25|transferencia_bonificada|2026-11-20",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -1197,32 +937,6 @@
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
-    },
-    {
-      "id": "esfera|55|compra_pontos|2026-11-19",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Esfera",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 55,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 48,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-      "publicado": "2026-11-19T03:02:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/ultimos-dias-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-          "titulo": "Último dia! Esfera oferece até 55% de desconto na compra de pontos",
-          "publicado": "2026-11-19T03:02:00.000Z"
-        }
-      ]
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-21",
@@ -1576,38 +1290,6 @@
           "link": "https://passageirodeprimeira.com/voltou-assine-o-clube-livelo-mini-por-apenas-r-2490-por-mes/",
           "titulo": "Voltou! Assine o Clube Livelo Mini por apenas R$ 24,90 por mês",
           "publicado": "2026-11-17T18:30:11.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|clube|2026-11-19",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-19T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Livelo oferece 100.000 pontos no upgrade do Clube Especial",
-      "publicado": "2026-11-17T15:02:23.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/livelo-oferece-100000-pontos-upgrade-clube-especial/",
-          "titulo": "Livelo oferece 100.000 pontos no upgrade do Clube Especial",
-          "publicado": "2026-11-17T15:02:23.000Z"
         }
       ],
       "referencia": {
