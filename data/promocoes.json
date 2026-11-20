@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-20T18:14:32.271Z",
-  "totalAtivas": 36,
-  "totalCampanhasAtivas": 29,
+  "atualizadoEm": "2026-11-20T18:24:33.109Z",
+  "totalAtivas": 35,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [],
   "passagens": [
     {
@@ -862,48 +862,6 @@
       "motivo": "130% é o topo do que essa rota costuma dar",
       "baseVeredito": "teto",
       "teto": 130,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 1,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-20",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Caixa"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-20T18:22:39.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 68,
-      "custoMilheiro": 15.55,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Milheiro Smiles a partir de R$ 15,55 enviando pontos UAU Caixa mais dinheiro com bônus",
-      "publicado": "2026-11-17T18:22:39.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-uau-caixa-smiles-17nov26",
-          "titulo": "Milheiro Smiles a partir de R$ 15,55 enviando pontos UAU Caixa mais dinheiro com bônus",
-          "publicado": "2026-11-17T18:22:39.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "margem pequena sobre o preço de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
       "esperar": {
         "cadencia": 90,
         "desde": 1,
