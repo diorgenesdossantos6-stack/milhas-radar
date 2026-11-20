@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T20:24:31.141Z",
+  "atualizadoEm": "2026-11-20T20:34:32.788Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -901,20 +901,11 @@
       "confiancaPrazo": "alta",
       "nota": 10,
       "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 24,
-        "loja": "Natura"
-      },
+      "acumulo": null,
       "clube": null,
-      "titulo": "Azul Fidelidade oferece até 24 pontos por real gasto na Natura",
+      "titulo": "Natura Friday! Ganhe até 24 pontos Azul Fidelidade por real gasto",
       "publicado": "2026-11-17T14:00:27.000Z",
       "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-gasto-na-natura/",
-          "titulo": "Azul Fidelidade oferece até 24 pontos por real gasto na Natura",
-          "publicado": "2026-11-17T20:31:15.000Z"
-        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/natura-friday-ganhe-ate-24-pontos-azul-fidelidade-real-gasto/",
