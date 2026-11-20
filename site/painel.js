@@ -555,6 +555,37 @@ function renderPe() {
      dos programas; confira sempre na fonte antes de transferir.</span>`;
 }
 
+/** Carimbo de frescor no topo. E por ele que se percebe se o radar parou. */
+function carimbar(todas) {
+  const hora = new Date(DADOS.atualizadoEm).toLocaleTimeString('pt-BR', {
+    hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo'
+  });
+  const atraso = Math.round((Date.now() - new Date(DADOS.atualizadoEm).getTime()) / 60000);
+  const alerta = atraso > 45 ? ` · sem atualizar há ${atraso} min` : '';
+  document.querySelector('.estado').textContent =
+    `${todas.length} em aberto, lido às ${hora}${alerta}`;
+}
+
+/** O painel se chama radar, entao ele se atualiza sozinho. Busca de novo a
+ *  cada 5 minutos, que e o tempo de cache do GitHub: insistir antes disso so
+ *  traria a mesma resposta. So repinta quando o dado realmente mudou, para
+ *  nao piscar a tela nem perder o que o usuario digitou na calculadora. */
+function manterFresco() {
+  setInterval(async () => {
+    const antes = DADOS.atualizadoEm;
+    try { await carregar(); } catch { return; }
+    if (DADOS.atualizadoEm === antes) return;
+    const todas = ativas();
+    carimbar(todas);
+    renderResumo(todas);
+    renderMelhor(todas[0]);
+    renderLista();
+    renderCombos();
+    renderVoos();
+    renderLivelo();
+  }, 5 * 60 * 1000);
+}
+
 lerMeu();
 carregar().then(() => {
   const todas = ativas();
@@ -562,8 +593,7 @@ carregar().then(() => {
   const custoInicial = custoDoPonto();
   if (custoInicial) document.getElementById('cCusto').value = custoInicial.toFixed(2).replace('.', ',');
   renderResumo(todas);
-  document.querySelector('.estado').textContent =
-    `${todas.length} em aberto, lido às ${new Date(DADOS.atualizadoEm).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })}`;
+  carimbar(todas);
 
   const sel = document.getElementById('cPrograma');
   for (const p of Object.keys(REF.programas || {}).sort()) sel.add(new Option(p, p));
@@ -578,6 +608,7 @@ carregar().then(() => {
   renderLivelo();
   renderPe();
   calcular();
+  manterFresco();
 
   for (const id of ['cPontos', 'cCusto', 'cBonus', 'cDesagio']) {
     document.getElementById(id).addEventListener('input', calcular);
