@@ -555,6 +555,78 @@ function renderPe() {
      dos programas; confira sempre na fonte antes de transferir.</span>`;
 }
 
+/** Abas. A pagina juntou promocoes, passagens, calculadora e referencia, e
+ *  numa rolagem so o usuario perde o que importa. Guarda a ultima escolhida
+ *  e aceita link direto por hash, para dar para favoritar uma aba. */
+function montarAbas() {
+  const botoes = [...document.querySelectorAll('.aba-bt')];
+  const paineis = [...document.querySelectorAll('.aba')];
+  const nomes = botoes.map((b) => b.dataset.aba);
+
+  function abrir(nome, guardar = true) {
+    if (!nomes.includes(nome)) nome = nomes[0];
+    for (const b of botoes) b.setAttribute('aria-selected', String(b.dataset.aba === nome));
+    for (const p of paineis) p.hidden = p.dataset.aba !== nome;
+    if (guardar) {
+      try { localStorage.setItem('radar-milhas-aba', nome); } catch { /* sem storage */ }
+      if (location.hash.slice(1) !== nome) history.replaceState(null, '', '#' + nome);
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  for (const b of botoes) b.addEventListener('click', () => abrir(b.dataset.aba));
+  window.addEventListener('hashchange', () => abrir(location.hash.slice(1)));
+
+  let inicial = location.hash.slice(1);
+  if (!nomes.includes(inicial)) {
+    try { inicial = localStorage.getItem('radar-milhas-aba') || nomes[0]; } catch { inicial = nomes[0]; }
+  }
+  abrir(inicial, false);
+  for (const b of botoes) b.setAttribute('aria-selected', String(b.dataset.aba === (nomes.includes(inicial) ? inicial : nomes[0])));
+  for (const p of paineis) p.hidden = p.dataset.aba !== (nomes.includes(inicial) ? inicial : nomes[0]);
+}
+
+const MESES = ['janeiro','fevereiro','março','abril','maio','junho',
+  'julho','agosto','setembro','outubro','novembro','dezembro'];
+
+/** Quando cai a próxima edição de um evento anual, a partir de hoje.
+ *  Se o mês já passou neste ano, cai no ano que vem. Se é o mês corrente,
+ *  conta como acontecendo agora, que é a informação que muda a decisão. */
+function proximaEdicao(mes) {
+  const hoje = new Date();
+  const mesAtual = hoje.getMonth() + 1;
+  if (mes === mesAtual) return { dias: 0, ano: hoje.getFullYear(), agora: true };
+  const ano = mes > mesAtual ? hoje.getFullYear() : hoje.getFullYear() + 1;
+  const alvo = new Date(ano, mes - 1, 1);
+  return { dias: Math.ceil((alvo - hoje) / 864e5), ano, agora: false };
+}
+
+function renderCalendario() {
+  const alvo = document.getElementById('calendario');
+  const eventos = (DADOS.calendario || [])
+    .map((e) => ({ ...e, q: proximaEdicao(e.mes) }))
+    .sort((a, b) => a.q.dias - b.q.dias);
+  if (!eventos.length) { alvo.innerHTML = ''; return; }
+
+  alvo.innerHTML = eventos.map((e, i) => {
+    const quando = e.q.agora
+      ? '<span class="cal-falta">é este mês</span>'
+      : `<span class="cal-falta">em ${e.q.dias} dias</span>`;
+    const selo = i === 0 ? '<span class="cal-selo">PRÓXIMA</span>' : '';
+    return `<div class="cal-item${i === 0 ? ' cal-proximo' : ''}">
+      <div class="cal-quando">
+        <span class="cal-mes">${MESES[e.mes - 1]}</span>
+        ${quando}
+      </div>
+      <div>
+        <p class="cal-nome">${e.nome} <span class="cal-quem">· ${e.quem}</span>${selo}</p>
+        <p class="cal-texto">${e.oQueSai}</p>
+        <p class="cal-ja">Em anos anteriores: ${e.jaSaiu}</p>
+      </div>
+    </div>`;
+  }).join('');
+}
+
 /** Carimbo de frescor no topo. E por ele que se percebe se o radar parou. */
 function carimbar(todas) {
   const hora = new Date(DADOS.atualizadoEm).toLocaleTimeString('pt-BR', {
@@ -606,6 +678,8 @@ carregar().then(() => {
   renderRegua();
   renderHistorico();
   renderLivelo();
+  renderCalendario();
+  montarAbas();
   renderPe();
   calcular();
   manterFresco();

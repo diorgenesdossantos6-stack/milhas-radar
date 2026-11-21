@@ -1,94 +1,6 @@
 {
-  "atualizadoEm": "2026-11-20T17:34:31.499Z",
+  "atualizadoEm": "2026-11-21T17:39:22.542Z",
   "campanhasAtivas": [
-    {
-      "id": "smiles|130|transferencia_bonificada|2026-11-24",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [],
-      "percentual": 130,
-      "ate": "2026-11-24T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 95,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles e Premmia oferecem até 130% de bônus nas transferências",
-      "publicado": "2026-11-18T15:12:08.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/smiles-e-premmia-oferecem-ate-130-de-bonus-nas-transferencias/",
-          "titulo": "Smiles e Premmia oferecem até 130% de bônus nas transferências",
-          "publicado": "2026-11-18T15:12:08.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "130% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 1,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|130|clube|2026-11-24",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Smiles",
-      "origens": [],
-      "percentual": 130,
-      "ate": "2026-11-24T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 85,
-      "custoMilheiro": 14,
-      "acumulo": null,
-      "clube": {
-        "milheiro": 14,
-        "origem": "publicado na matéria",
-        "veredito": "vale",
-        "rotulo": "Bom preço",
-        "motivo": "milheiro a R$ 14,00 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
-        "base": "clube",
-        "regua": {
-          "valor": 17.54,
-          "base": "mercado",
-          "texto": "o que o mercado paga pelo milheiro Smiles"
-        },
-        "programa": "Smiles"
-      },
-      "titulo": "Milheiro a partir de R$ 14! Troque pontos Premmia por milhas Smiles com até 130% de bônus",
-      "publicado": "2026-11-18T16:19:09.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
-          "titulo": "Milheiro a partir de R$ 14! Troque pontos Premmia por milhas Smiles com até 130% de bônus",
-          "publicado": "2026-11-18T16:19:09.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Bom preço",
-      "motivo": "milheiro a R$ 14,00 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
-      "baseVeredito": "clube",
-      "teto": null
-    },
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-22",
       "tipo": "transferencia_bonificada",
@@ -127,49 +39,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-21",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-21T13:56:13.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 83,
-      "custoMilheiro": 15.8,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
-      "publicado": "2026-11-18T13:56:13.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro/",
-          "titulo": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
-          "publicado": "2026-11-18T13:56:13.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "margem pequena sobre o preço de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -211,33 +81,33 @@
       "teto": 130,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
-      "id": "smiles|80|transferencia_bonificada|2026-11-20",
+      "id": "smiles|130|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
       "destino": "Smiles",
       "origens": [
-        "Caixa"
+        "Premmia"
       ],
-      "percentual": 80,
-      "ate": "2026-11-20T18:22:39.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 68,
-      "custoMilheiro": 15.55,
+      "percentual": 130,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 80,
+      "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Milheiro Smiles a partir de R$ 15,55 enviando pontos UAU Caixa mais dinheiro com bônus",
-      "publicado": "2026-11-17T18:22:39.000Z",
+      "titulo": "Smiles e Premmia oferecem até 130% de bônus nas transferências",
+      "publicado": "2026-11-18T15:12:08.000Z",
       "fontes": [
         {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-uau-caixa-smiles-17nov26",
-          "titulo": "Milheiro Smiles a partir de R$ 15,55 enviando pontos UAU Caixa mais dinheiro com bônus",
-          "publicado": "2026-11-17T18:22:39.000Z"
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/smiles-e-premmia-oferecem-ate-130-de-bonus-nas-transferencias/",
+          "titulo": "Smiles e Premmia oferecem até 130% de bônus nas transferências",
+          "publicado": "2026-11-18T15:12:08.000Z"
         }
       ],
       "referencia": {
@@ -246,14 +116,14 @@
         "mediana": 17.54,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "margem pequena sobre o preço de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
+      "veredito": "vale",
+      "rotulo": "Melhor momento",
+      "motivo": "130% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 130,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -266,7 +136,7 @@
       "percentual": 66,
       "ate": "2026-11-23T15:00:00.000Z",
       "confiancaPrazo": "baixa",
-      "nota": 65,
+      "nota": 50,
       "custoMilheiro": 23.8,
       "acumulo": null,
       "clube": null,
@@ -291,38 +161,6 @@
       "motivo": "R$ 23,80 sai mais caro que comprar pronto a R$ 23,80",
       "baseVeredito": "compra",
       "teto": null
-    },
-    {
-      "id": "latam pass|66|compra_pontos|2026-11-20",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Latam Pass",
-      "origens": [
-        "Itau"
-      ],
-      "percentual": 66,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 55,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
-      "publicado": "2026-11-20T15:00:02.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
-          "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
-          "publicado": "2026-11-20T15:00:02.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-23",
@@ -362,164 +200,9 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-20",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 25,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 50,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
-      "publicado": "2026-11-18T15:00:22.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
-          "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
-          "publicado": "2026-11-19T14:14:40.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-inter-oferecem-25-de-bonus-nas-transferencias/",
-          "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
-          "publicado": "2026-11-18T15:38:14.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/transfira-seus-pontos-inter-loop-e-ganhe-25-de-milhas-bonus-no-latam-pass/",
-          "titulo": "Novidade! Transfira seus pontos Inter Loop e ganhe 25% de milhas bônus no LATAM Pass",
-          "publicado": "2026-11-18T15:00:22.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-21",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 25,
-      "ate": "2026-11-21T15:22:21.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 35,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Latam Pass oferece 25% de bônus na transferência de pontos do Inter Loop",
-      "publicado": "2026-11-18T15:22:21.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/latam-pass-inter-loop-25-bonus-nov26.html",
-          "titulo": "Latam Pass oferece 25% de bônus na transferência de pontos do Inter Loop",
-          "publicado": "2026-11-18T15:22:21.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|35|clube|2026-11-20",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Latam Pass",
-      "origens": [],
-      "percentual": 35,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 31,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "LATAM Pass oferece 35% de desconto no resgate de vale-combustível do Premmia",
-      "publicado": "2026-11-18T13:24:53.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/latam-pass-oferece-35-de-desconto-no-resgate-de-vale-combustivel-do-premmia/",
-          "titulo": "LATAM Pass oferece 35% de desconto no resgate de vale-combustível do Premmia",
-          "publicado": "2026-11-18T13:24:53.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "banco do brasil|7|acumulo|2026-11-23",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Banco do Brasil",
-      "origens": [
-        "Banco do Brasil"
-      ],
-      "percentual": 7,
-      "ate": "2026-11-23T11:16:50.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 29,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 7,
-        "loja": null
-      },
-      "clube": null,
-      "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
-      "publicado": "2026-11-20T11:16:50.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
-          "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
-          "publicado": "2026-11-20T11:16:50.000Z"
-        }
-      ]
     },
     {
       "id": "livelo|25|clube|2026-11-23",
@@ -579,6 +262,86 @@
           "link": "https://passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar/",
           "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
           "publicado": "2026-11-19T21:40:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "smiles|x|clube|2026-11-30",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Smiles",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 10,
+      "custoMilheiro": 13.07,
+      "acumulo": null,
+      "clube": {
+        "milheiro": 13.07,
+        "origem": "publicado na matéria",
+        "veredito": "vale",
+        "rotulo": "Bom preço",
+        "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
+        "base": "clube",
+        "regua": {
+          "valor": 17.54,
+          "base": "mercado",
+          "texto": "o que o mercado paga pelo milheiro Smiles"
+        },
+        "programa": "Smiles"
+      },
+      "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
+      "publicado": "2026-11-20T16:05:48.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
+          "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
+          "publicado": "2026-11-21T12:00:37.000Z"
+        },
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
+          "titulo": "Clube Smiles com até 50.000 milhas na hora para novos assinantes",
+          "publicado": "2026-11-20T16:05:48.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Bom preço",
+      "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
+      "baseVeredito": "clube",
+      "teto": null
+    },
+    {
+      "id": "banco do brasil|x|acumulo|2026-11-23",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Banco do Brasil",
+      "origens": [
+        "Banco do Brasil"
+      ],
+      "percentual": null,
+      "ate": "2026-11-23T08:57:00.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+      "publicado": "2026-11-20T08:57:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
+          "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
+          "publicado": "2026-11-20T08:57:00.000Z"
         }
       ]
     },
@@ -727,47 +490,15 @@
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
-          "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
-          "publicado": "2026-11-18T21:20:45.000Z"
+          "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+          "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+          "publicado": "2026-11-21T13:00:05.000Z"
         }
       ],
       "referencia": {
         "min": 12.5,
         "max": 18,
         "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|clube|2026-11-21",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-21T14:45:01.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Clube Livelo Mini: ganhe 4.000 pontos extras com nosso cupom exclusivo",
-      "publicado": "2026-11-18T14:45:01.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/clube-livelo-mini-4k-bonus-cupom-exclusivo-nov26",
-          "titulo": "Clube Livelo Mini: ganhe 4.000 pontos extras com nosso cupom exclusivo",
-          "publicado": "2026-11-18T14:45:01.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
@@ -787,20 +518,14 @@
         "loja": "Assist Card"
       },
       "clube": null,
-      "titulo": "Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
-      "publicado": "2026-11-18T12:00:32.000Z",
+      "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
+      "publicado": "2026-11-18T20:40:23.000Z",
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
           "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
           "publicado": "2026-11-18T20:40:23.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-12-pontos-real-compras-renner/",
-          "titulo": "Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
-          "publicado": "2026-11-18T12:00:32.000Z"
         }
       ],
       "referencia": {
@@ -811,227 +536,50 @@
       }
     },
     {
-      "id": "livelo|x|clube|2026-11-26",
+      "id": "esfera|x|clube|2026-11-24",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
+      "destino": "Esfera",
       "origens": [
-        "Livelo"
+        "Esfera"
       ],
       "percentual": null,
-      "ate": "2026-11-26T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Livelo oferece 9 mil pontos na assinatura anual do Clube Mini",
-      "publicado": "2026-11-17T18:30:11.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/livelo-oferece-9-mil-pontos-assinatura-anual-clube-mini/",
-          "titulo": "Livelo oferece 9 mil pontos na assinatura anual do Clube Mini",
-          "publicado": "2026-11-18T11:00:19.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/voltou-assine-o-clube-livelo-mini-por-apenas-r-2490-por-mes/",
-          "titulo": "Voltou! Assine o Clube Livelo Mini por apenas R$ 24,90 por mês",
-          "publicado": "2026-11-17T18:30:11.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "smiles|x|clube|2026-11-30",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Smiles",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-30T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": 13.07,
-      "acumulo": null,
-      "clube": {
-        "milheiro": 13.07,
-        "origem": "publicado na matéria",
-        "veredito": "vale",
-        "rotulo": "Bom preço",
-        "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
-        "base": "clube",
-        "regua": {
-          "valor": 17.54,
-          "base": "mercado",
-          "texto": "o que o mercado paga pelo milheiro Smiles"
-        },
-        "programa": "Smiles"
-      },
-      "titulo": "Assine o Clube Smiles 1.000 e ganhe 14 mil milhas na hora",
-      "publicado": "2026-11-17T14:30:57.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
-          "titulo": "Clube Smiles com até 50.000 milhas na hora para novos assinantes",
-          "publicado": "2026-11-20T16:05:48.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/assine-o-clube-smiles-1-000-e-ganhe-14-mil-milhas-na-hora/",
-          "titulo": "Assine o Clube Smiles 1.000 e ganhe 14 mil milhas na hora",
-          "publicado": "2026-11-17T14:30:57.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Bom preço",
-      "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
-      "baseVeredito": "clube",
-      "teto": null
-    },
-    {
-      "id": "azul fidelidade|x|acumulo|2026-11-20",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 24,
-        "loja": "Natura"
-      },
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 24 pontos por real gasto na Natura",
-      "publicado": "2026-11-17T14:00:27.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-gasto-na-natura/",
-          "titulo": "Azul Fidelidade oferece até 24 pontos por real gasto na Natura",
-          "publicado": "2026-11-17T20:31:15.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/natura-friday-ganhe-ate-24-pontos-azul-fidelidade-real-gasto/",
-          "titulo": "Natura Friday! Ganhe até 24 pontos Azul Fidelidade por real gasto",
-          "publicado": "2026-11-17T14:00:27.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|x|clube|2026-11-20",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Clube Azul: até 600.000 pontos ao fazer upgrade",
-      "publicado": "2026-11-17T12:36:50.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/clube-azul-ate-600-000-pontos-ao-fazer-upgrade/",
-          "titulo": "Clube Azul: até 600.000 pontos ao fazer upgrade",
-          "publicado": "2026-11-17T12:36:50.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "banco do brasil|x|acumulo|2026-11-23",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Banco do Brasil",
-      "origens": [
-        "Banco do Brasil"
-      ],
-      "percentual": null,
-      "ate": "2026-11-23T08:57:00.000Z",
+      "ate": "2026-11-24T13:04:15.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
-      "publicado": "2026-11-20T08:57:00.000Z",
+      "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+      "publicado": "2026-11-21T13:04:15.000Z",
       "fontes": [
         {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
-          "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
-          "publicado": "2026-11-20T08:57:00.000Z"
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
+          "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+          "publicado": "2026-11-21T13:04:15.000Z"
         }
       ]
-    },
-    {
-      "id": "azul fidelidade|x|pontos_dinheiro|2026-11-22",
-      "tipo": "pontos_dinheiro",
-      "tipoNome": "Pontos + dinheiro",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-22T16:35:13.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a R$ 3,56 para usar nos hotéis Accor",
-      "publicado": "2026-11-19T16:35:13.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/combina-ofertas-azul-accor-bonus-euro-nov26.html",
-          "titulo": "Transfira pontos mais dinheiro para o Azul Fidelidade e consiga o euro a R$ 3,56 para usar nos hotéis Accor",
-          "publicado": "2026-11-19T16:35:13.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     }
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
+      "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-21T17:00:47.000Z",
+      "ate": "2026-11-24T17:00:47.000Z",
+      "dinheiro": null,
+      "milhas": 3469,
+      "programa": null,
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
       "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
@@ -1046,22 +594,6 @@
       "destino": null,
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
-      "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T23:59:15.000Z",
-      "ate": "2026-11-22T23:59:15.000Z",
-      "dinheiro": 276,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": false,
       "ehLista": false
     },
     {
@@ -1167,22 +699,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
-      "titulo": "Fortaleza! Voos saindo de São Paulo ou do Rio a partir de R$ 230 ou 9 mil milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T17:58:00.000Z",
-      "ate": "2026-11-22T17:58:00.000Z",
-      "dinheiro": 230,
-      "milhas": 9000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-passagens-brasil-7500-milhas-smiles",
@@ -1339,107 +855,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas",
-      "titulo": "Voos com destino ao Nordeste a partir de R$ 95 ou 3 mil milhas LATAM + taxas",
-      "link": "https://passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T17:32:18.000Z",
-      "ate": "2026-11-21T17:32:18.000Z",
-      "dinheiro": 95,
-      "milhas": 3000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Nordeste",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade",
-      "titulo": "Alerta PPV! Passagens para o Uruguai a partir de 13 mil pontos Azul Fidelidade",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-18T16:00:41.000Z",
-      "ate": "2026-11-21T16:00:41.000Z",
-      "dinheiro": null,
-      "milhas": 13000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Uruguai",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas",
-      "titulo": "Trecho de Belo Horizonte para Maceió a partir de 16 mil pontos Azul ou R$ 205 + taxas",
-      "link": "https://passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T15:30:49.000Z",
-      "ate": "2026-11-21T15:30:49.000Z",
-      "dinheiro": 205,
-      "milhas": 16000,
-      "programa": "Azul Fidelidade",
-      "origem": "Belo Horizonte",
-      "destino": "Maceio",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles",
-      "titulo": "Alerta PPV! Viaje para os Estados Unidos com passagens a partir de 65 mil milhas Smiles",
-      "link": "https://pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-18T14:00:43.000Z",
-      "ate": "2026-11-21T14:00:43.000Z",
-      "dinheiro": null,
-      "milhas": 65000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": "Estados Unidos",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas",
-      "titulo": "Muito barato! Voe de Campinas para Lisboa a partir de R$ 991 ou 77 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T12:20:00.000Z",
-      "ate": "2026-11-21T12:20:00.000Z",
-      "dinheiro": 991,
-      "milhas": 77000,
-      "programa": "Azul Fidelidade",
-      "origem": "Campinas",
-      "destino": "Lisboa",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
-      "titulo": "EUA 2×1 🇺🇸 Voos para Miami mais Orlando, Los Angeles e outras cidades a partir de R$ 4.184, com bagagem despachada",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-17T21:38:41.000Z",
-      "ate": "2026-11-20T21:38:41.000Z",
-      "dinheiro": 4184,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Miami",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false
     }
   ],
   "regua": {
@@ -1520,42 +935,6 @@
   },
   "observacoes": [
     {
-      "em": "2026-11-17T15:00:15.000Z",
-      "valor": 12.81,
-      "tipo": "clube",
-      "destino": "Azul Fidelidade",
-      "titulo": "Ganhe até 600 mil pontos no ano ao fazer upgrade do Clube Azul - Milheiro a partir de R$ 12,81",
-      "link": "https://passageirodeprimeira.com/ganhe-ate-600-mil-pontos-no-ano-ao-fazer-upgrade-do-clube-azul-milheiro-a-partir-de-r-1281/",
-      "fonte": "Passageiro de Primeira"
-    },
-    {
-      "em": "2026-11-17T14:30:57.000Z",
-      "valor": 13.07,
-      "tipo": "clube",
-      "destino": "Smiles",
-      "titulo": "Assine o Clube Smiles 1.000 e ganhe 14 mil milhas na hora",
-      "link": "https://passageirodeprimeira.com/assine-o-clube-smiles-1-000-e-ganhe-14-mil-milhas-na-hora/",
-      "fonte": "Passageiro de Primeira"
-    },
-    {
-      "em": "2026-11-17T18:22:39.000Z",
-      "valor": 15.55,
-      "tipo": "transferencia_bonificada",
-      "destino": "Smiles",
-      "titulo": "Milheiro Smiles a partir de R$ 15,55 enviando pontos UAU Caixa mais dinheiro com bônus",
-      "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-uau-caixa-smiles-17nov26",
-      "fonte": "Melhores Destinos"
-    },
-    {
-      "em": "2026-11-17T18:01:10.000Z",
-      "valor": 15.79,
-      "tipo": "transferencia_bonificada",
-      "destino": "Smiles",
-      "titulo": "Milheiro Smiles a partir de R$ 15,79 enviando pontos Livelo mais dinheiro com bônus",
-      "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-17nov26",
-      "fonte": "Melhores Destinos"
-    },
-    {
       "em": "2026-11-18T13:56:13.000Z",
       "valor": 15.8,
       "tipo": "transferencia_bonificada",
@@ -1563,15 +942,6 @@
       "titulo": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
       "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro/",
       "fonte": "Passageiro de Primeira"
-    },
-    {
-      "em": "2026-11-18T16:19:09.000Z",
-      "valor": 14,
-      "tipo": "clube",
-      "destino": "Smiles",
-      "titulo": "Milheiro a partir de R$ 14! Troque pontos Premmia por milhas Smiles com até 130% de bônus",
-      "link": "https://www.melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
-      "fonte": "Melhores Cartões"
     },
     {
       "em": "2026-11-19T20:00:47.000Z",
@@ -1590,78 +960,251 @@
       "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
       "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
       "fonte": "Melhores Cartões"
+    },
+    {
+      "em": "2026-11-21T12:00:37.000Z",
+      "valor": 13.07,
+      "tipo": "clube",
+      "destino": "Smiles",
+      "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
+      "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
+      "fonte": "Passageiro de Primeira"
     }
   ],
   "historico": {
-    "Smiles": {
-      "maxPercentual": 130,
+    "Esfera -> Azul Fidelidade": {
+      "maxPercentual": 120,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T11:32:50.000Z",
+      "mediaPercentual": 120,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
+    },
+    "Livelo -> Smiles": {
+      "maxPercentual": 80,
       "campanhas": 2,
-      "ultimaEm": "2026-11-18T16:19:09.000Z"
+      "inicios": [
+        "2026-11-18",
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T20:00:47.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-19"
+      }
     },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
       "campanhas": 2,
-      "ultimaEm": "2026-11-19T10:45:00.000Z"
-    },
-    "Esfera -> Azul Fidelidade": {
-      "maxPercentual": 120,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-19T11:32:50.000Z"
-    },
-    "Livelo -> Smiles": {
-      "maxPercentual": 80,
-      "campanhas": 3,
-      "ultimaEm": "2026-11-19T20:00:47.000Z"
+      "inicios": [
+        "2026-11-18",
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T10:45:00.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-19"
+      }
     },
     "Premmia -> Smiles": {
       "maxPercentual": 130,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-19T12:00:11.000Z"
-    },
-    "Caixa -> Smiles": {
-      "maxPercentual": 80,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-17T18:22:39.000Z"
-    },
-    "Latam Pass": {
-      "maxPercentual": 66,
       "campanhas": 2,
-      "ultimaEm": "2026-11-20T15:00:00.000Z"
-    },
-    "Azul Fidelidade": {
-      "maxPercentual": 30,
-      "campanhas": 1,
-      "ultimaEm": "2026-11-19T11:00:29.000Z"
+      "inicios": [
+        "2026-11-18",
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T12:00:11.000Z",
+      "mediaPercentual": 130,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-19"
+      }
     },
     "Itau -> Latam Pass": {
       "maxPercentual": 66,
       "campanhas": 1,
-      "ultimaEm": "2026-11-20T15:00:02.000Z"
+      "inicios": [
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T15:00:02.000Z",
+      "mediaPercentual": 66,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-20"
+      }
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
-      "campanhas": 3,
-      "ultimaEm": "2026-11-20T13:00:16.000Z"
+      "campanhas": 2,
+      "inicios": [
+        "2026-11-18",
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T13:00:16.000Z",
+      "mediaPercentual": 25,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-20"
+      }
+    },
+    "Azul Fidelidade": {
+      "maxPercentual": 30,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T11:00:29.000Z",
+      "mediaPercentual": 30,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
+    },
+    "Latam Pass": {
+      "maxPercentual": 66,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T15:00:00.000Z",
+      "mediaPercentual": 66,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-20"
+      }
     },
     "Esfera": {
       "maxPercentual": 55,
       "campanhas": 1,
-      "ultimaEm": "2026-11-19T03:02:00.000Z"
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T03:02:00.000Z",
+      "mediaPercentual": 55,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
     },
-    "C6 Bank -> Latam Pass": {
-      "maxPercentual": 25,
+    "Premmia -> Latam Pass": {
+      "maxPercentual": 35,
       "campanhas": 1,
-      "ultimaEm": "2026-11-16T15:39:13.000Z"
-    },
-    "Banco do Brasil": {
-      "maxPercentual": 7,
-      "campanhas": 2,
-      "ultimaEm": "2026-11-20T11:16:50.000Z"
+      "inicios": [
+        "2026-11-18"
+      ],
+      "ultimaEm": "2026-11-18T13:24:53.000Z",
+      "mediaPercentual": 35,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-18"
+      }
     },
     "Livelo": {
       "maxPercentual": 25,
       "campanhas": 1,
-      "ultimaEm": "2026-11-20T13:00:57.000Z"
+      "inicios": [
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T13:00:57.000Z",
+      "mediaPercentual": 25,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-20"
+      }
+    },
+    "Banco do Brasil": {
+      "maxPercentual": 7,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T21:40:03.000Z",
+      "mediaPercentual": 7,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
     }
-  }
+  },
+  "calendario": [
+    {
+      "nome": "Mês do Consumidor",
+      "quem": "Livelo",
+      "mes": 3,
+      "oQueSai": "Transferência bonificada para as aéreas, compra de pontos com desconto e adesão ao Clube com bônus alto.",
+      "jaSaiu": "Até 110% para a Azul e até 80% para o Latam Pass em anos anteriores. A campanha começa nos primeiros dias de março e vai até o fim do mês.",
+      "fonte": "livelo.com.br"
+    },
+    {
+      "nome": "Aniversário da Livelo",
+      "quem": "Livelo",
+      "mes": 6,
+      "oQueSai": "O mês mais forte do ano para quem junta pontos Livelo. Transferência bonificada, compras bonificadas e ofertas de Clube.",
+      "jaSaiu": "Bônus de 80% a 100% nas transferências, com picos acima disso: 123% para a Azul e 120% para a TAP em campanhas específicas.",
+      "fonte": "passageirodeprimeira.com"
+    },
+    {
+      "nome": "Aniversário do Azul Fidelidade",
+      "quem": "Azul Fidelidade",
+      "mes": 8,
+      "oQueSai": "Transferência bonificada da Livelo para a Azul, em campanhas seguidas ao longo do mês.",
+      "jaSaiu": "Até 120% de bônus, com 60% para cliente comum e 90% para assinante de clube, mais pontos extras na primeira transferência.",
+      "fonte": "melhorescartoes.com.br"
+    },
+    {
+      "nome": "Clube Smiles Day",
+      "quem": "Smiles",
+      "mes": 9,
+      "oQueSai": "Ofertas concentradas para assinante do Clube Smiles: transferência de banco bonificada, adesão ao clube com milhas na hora.",
+      "jaSaiu": "80% a 100% na transferência de pontos de cartão, e bônus muito altos na transferência entre contas Smiles.",
+      "fonte": "smiles.com.br"
+    },
+    {
+      "nome": "Aniversário do Latam Pass",
+      "quem": "Latam Pass",
+      "mes": 10,
+      "oQueSai": "Campanhas curtas, às vezes de um dia só, com bônus na transferência da Livelo.",
+      "jaSaiu": "Até 35% de bônus numa campanha válida só no dia 30 de outubro.",
+      "fonte": "pontospravoar.com"
+    },
+    {
+      "nome": "Black Friday",
+      "quem": "Todos os programas",
+      "mes": 11,
+      "oQueSai": "Compra de pontos com desconto, transferência bonificada e passagem promocional, concentradas na última semana do mês.",
+      "jaSaiu": "Costuma ser o segundo pico do ano, atrás do aniversário da Livelo.",
+      "fonte": "mercado"
+    }
+  ]
 }

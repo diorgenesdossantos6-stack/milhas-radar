@@ -6,6 +6,7 @@ const RAIZ = path.resolve(import.meta.dirname, '..');
 const p = (...x) => path.join(RAIZ, ...x);
 
 const dados = JSON.parse(await fs.readFile(p('data', 'promocoes.json'), 'utf8'));
+const calendario = JSON.parse(await fs.readFile(p('data', 'calendario.json'), 'utf8'));
 let ref = { programas: {} };
 try { ref = JSON.parse(await fs.readFile(p('data', 'referencia.json'), 'utf8')); } catch {}
 
@@ -25,7 +26,8 @@ const enxuto = {
     em: o.em, valor: o.valor, tipo: o.tipo, destino: o.destino,
     titulo: o.titulo, link: o.link, fonte: o.fonte
   })),
-  historico: dados.historico
+  historico: dados.historico,
+  calendario: calendario.eventos || []
 };
 await fs.writeFile(p('site', 'promocoes.json'), JSON.stringify(enxuto, null, 2) + '\n');
 await fs.writeFile(p('site', 'referencia.json'), JSON.stringify(ref, null, 2) + '\n');

@@ -235,6 +235,35 @@
   .pe b { color: var(--texto); font-weight: 600; }
   .pe { margin-top: 52px; padding-top: 20px; border-top: 1px solid var(--azul-linha);
         font-size: .78rem; color: var(--texto-fraco); line-height: 1.55; max-width: 72ch; }
+  /* Abas: a pagina cresceu demais para uma rolagem so. */
+  .abas { display: flex; gap: 4px; margin: 0 0 26px; overflow-x: auto;
+        border-bottom: 1px solid var(--azul-linha); scrollbar-width: none; }
+  .abas::-webkit-scrollbar { display: none; }
+  .aba-bt { flex: 0 0 auto; background: none; border: 0; cursor: pointer;
+        font-family: inherit; font-size: .92rem; font-weight: 600; letter-spacing: .01em;
+        color: var(--texto-fraco); padding: 11px 16px; border-bottom: 2px solid transparent;
+        margin-bottom: -1px; transition: color .15s, border-color .15s; }
+  .aba-bt:hover { color: var(--texto); }
+  .aba-bt[aria-selected="true"] { color: var(--ciano); border-bottom-color: var(--ciano); }
+  .aba-bt:focus-visible { outline: 2px solid var(--ciano); outline-offset: -2px; }
+  .aba[hidden] { display: none; }
+  @media (max-width: 560px) { .aba-bt { padding: 11px 12px; font-size: .86rem; } }
+  .cal-intro { margin: 0 0 16px; color: var(--texto-fraco); font-size: .88rem; }
+  .cal-item { display: grid; grid-template-columns: 92px 1fr; gap: 16px;
+        padding: 14px 0; border-top: 1px solid var(--azul-linha); align-items: start; }
+  .cal-item:first-child { border-top: 0; }
+  .cal-quando { font-weight: 600; font-size: .82rem; line-height: 1.35; }
+  .cal-mes { display: block; color: var(--ciano); text-transform: capitalize; }
+  .cal-falta { display: block; color: var(--texto-fraco); font-weight: 400; margin-top: 2px; }
+  .cal-nome { font-weight: 600; margin: 0 0 4px; }
+  .cal-quem { color: var(--texto-fraco); font-weight: 400; }
+  .cal-texto { margin: 0 0 6px; font-size: .88rem; }
+  .cal-ja { margin: 0; font-size: .82rem; color: var(--texto-fraco); }
+  .cal-proximo { background: rgba(0,229,255,.06); border-left: 3px solid var(--ciano);
+        padding-left: 13px; margin-left: -16px; }
+  .cal-selo { display: inline-block; font-size: .7rem; letter-spacing: .04em;
+        color: var(--azul-base); background: var(--ciano); padding: 2px 7px;
+        border-radius: 3px; margin-left: 8px; vertical-align: 2px; }
   .aviso-marcas { display: block; margin-top: 14px; padding-top: 12px;
         border-top: 1px solid var(--azul-linha); font-size: .74rem; opacity: .85; }
   .independente { margin: 6px 0 0; font-size: .76rem; color: var(--texto-fraco); letter-spacing: .01em; }
@@ -272,8 +301,47 @@
     <p class="independente">Projeto pessoal e independente. Sem vínculo com Livelo, Smiles, Latam Pass, Azul Fidelidade ou qualquer programa citado.</p>
   </header>
 
+  <nav class="abas" id="abas" role="tablist">
+    <button class="aba-bt" data-aba="promocoes" role="tab" aria-selected="true">Promoções</button>
+    <button class="aba-bt" data-aba="passagens" role="tab" aria-selected="false">Passagens</button>
+    <button class="aba-bt" data-aba="conta" role="tab" aria-selected="false">Minha conta</button>
+    <button class="aba-bt" data-aba="referencia" role="tab" aria-selected="false">Referência</button>
+  </nav>
+
+  <div class="aba" data-aba="promocoes">
+
   <div class="resumo" id="resumo"></div>
 
+
+  <section class="melhor" id="melhor" hidden></section>
+
+  <section id="combos-sec" hidden>
+    <div class="secao"><h2>Vale combinar</h2></div>
+    <div id="combos"></div>
+  </section>
+
+  <section>
+    <div class="secao">
+      <h2>Outras promoções em aberto</h2>
+      <div class="controles" id="controles"></div>
+    </div>
+    <ul class="lista" id="lista"></ul>
+  </section>
+
+  </div>
+
+  <div class="aba" data-aba="passagens" hidden>
+  <section class="voos-sec">
+    <div class="secao">
+      <h2>Oportunidades de voo</h2>
+      <span class="link-fonte" id="voosResumo"></span>
+    </div>
+    <div id="voos"></div>
+  </section>
+
+  </div>
+
+  <div class="aba" data-aba="conta" hidden>
   <div class="meu">
     <label>Seus pontos na Livelo
       <input id="mSaldo" type="text" inputmode="numeric" placeholder="ex.: 120.000" autocomplete="off"></label>
@@ -291,29 +359,6 @@
       <input id="mCusto" type="text" inputmode="decimal" placeholder="ex.: 18,00" autocomplete="off"></label>
     <p class="meu-nota" id="meuNota">Fica salvo só neste navegador.</p>
   </div>
-
-  <section class="melhor" id="melhor" hidden></section>
-
-  <section id="combos-sec" hidden>
-    <div class="secao"><h2>Vale combinar</h2></div>
-    <div id="combos"></div>
-  </section>
-
-  <section>
-    <div class="secao">
-      <h2>Outras promoções em aberto</h2>
-      <div class="controles" id="controles"></div>
-    </div>
-    <ul class="lista" id="lista"></ul>
-  </section>
-
-  <section class="voos-sec">
-    <div class="secao">
-      <h2>Oportunidades de voo</h2>
-      <span class="link-fonte" id="voosResumo"></span>
-    </div>
-    <div id="voos"></div>
-  </section>
 
   <section class="conta">
     <div class="secao"><h2>Quanto vai sair o seu milheiro</h2></div>
@@ -336,6 +381,9 @@
     </div>
   </section>
 
+  </div>
+
+  <div class="aba" data-aba="referencia" hidden>
   <section class="lojas-sec">
     <div class="secao"><h2>Ofertas de pontos nas lojas parceiras da Livelo</h2><a class="link-fonte" href="https://www.livelo.com.br/ofertas" target="_blank" rel="noopener">ver na Livelo</a></div>
     <div id="livelo"></div>
@@ -346,10 +394,18 @@
     <div id="regua"></div>
   </section>
 
+  <section class="cal-sec">
+    <div class="secao"><h2>O que se repete todo ano</h2></div>
+    <p class="cal-intro">Campanhas que voltam na mesma época. Serve para decidir se vale transferir agora ou segurar os pontos.</p>
+    <div id="calendario"></div>
+  </section>
+
   <section class="hist">
     <div class="secao"><h2>Histórico de bônus por rota</h2></div>
     <div id="historico"></div>
   </section>
+
+  </div>
 
   <p class="pe" id="pe"></p>
 </div>

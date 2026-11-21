@@ -12,6 +12,7 @@ import { coletarLivelo } from './livelo.mjs';
 import { trechoDoEndereco, trechoDoLinkDaCompanhia, valeBuscarPagina } from './voos.mjs';
 import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale, extrairPassagem } from './parser.mjs';
 import { avaliarAlerta } from './alertas.mjs';
+import { preverJanela, media } from './janela.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const ARQ_DADOS = path.join(RAIZ, 'data', 'promocoes.json');
@@ -243,12 +244,22 @@ async function main() {
     const rota = origens.length ? `${origens[0]} -> ${c.destino}` : c.destino;
     if (rota === 'indefinido') continue;
 
-    const h = historico[rota] || { maxPercentual: 0, campanhas: 0 };
+    const h = historico[rota] || { maxPercentual: 0, campanhas: 0, inicios: [], percentuais: [] };
     h.maxPercentual = Math.max(h.maxPercentual, c.percentual);
     h.campanhas += 1;
+    h.percentuais.push(c.percentual);
     const quando = c.publicado || c.ate;
+    if (quando) h.inicios.push(String(quando).slice(0, 10));
     if (quando && (!h.ultimaEm || quando > h.ultimaEm)) h.ultimaEm = quando;
     historico[rota] = h;
+  }
+  // Media dos percentuais e estimativa da proxima janela, a partir das datas
+  // que o proprio radar coletou. Rota com amostra curta fica sem previsao.
+  for (const [rota, h] of Object.entries(historico)) {
+    h.mediaPercentual = media(h.percentuais);
+    h.previsao = preverJanela(h.inicios);
+    delete h.percentuais;
+    h.inicios = [...new Set(h.inicios)].sort().slice(-24);
   }
   base.historico = historico;
 
