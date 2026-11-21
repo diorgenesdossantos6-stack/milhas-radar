@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T18:24:29.999Z",
+  "atualizadoEm": "2026-11-21T18:34:29.807Z",
   "totalAtivas": 26,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
@@ -310,23 +310,6 @@
       "idaEVolta": false,
       "taxas": false,
       "ehLista": true
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
-      "titulo": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-18T18:26:03.000Z",
-      "ate": "2026-11-21T18:26:03.000Z",
-      "dinheiro": 3541,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Espanha Madri Barcelona",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
