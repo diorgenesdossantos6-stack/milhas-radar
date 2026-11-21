@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T11:54:30.833Z",
+  "atualizadoEm": "2026-11-21T12:04:30.390Z",
   "totalAtivas": 27,
   "totalCampanhasAtivas": 23,
   "combinacoes": [],
@@ -559,6 +559,17 @@
       "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
       "fonte": "Melhores Cartões",
       "id": "melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html"
+    },
+    {
+      "em": "2026-11-21T12:00:37.000Z",
+      "valor": 13.07,
+      "tipo": "clube",
+      "programa": null,
+      "destino": "Smiles",
+      "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
+      "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
+      "fonte": "Passageiro de Primeira",
+      "id": "passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000"
     }
   ],
   "regua": {
@@ -1249,6 +1260,39 @@
       }
     },
     {
+      "id": "azul fidelidade|x|acumulo|2026-11-21",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-21T20:40:23.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 24,
+        "loja": "Assist Card"
+      },
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
+      "publicado": "2026-11-18T20:40:23.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
+          "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
+          "publicado": "2026-11-18T20:40:23.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|clube|2026-11-21",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1277,45 +1321,6 @@
         "min": 21,
         "max": 21,
         "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|x|acumulo|2026-11-21",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-21T20:40:23.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 24,
-        "loja": "Assist Card"
-      },
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
-      "publicado": "2026-11-18T12:00:32.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
-          "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
-          "publicado": "2026-11-18T20:40:23.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-12-pontos-real-compras-renner/",
-          "titulo": "Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
-          "publicado": "2026-11-18T12:00:32.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
@@ -1383,20 +1388,20 @@
         },
         "programa": "Smiles"
       },
-      "titulo": "Assine o Clube Smiles 1.000 e ganhe 14 mil milhas na hora",
+      "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
       "publicado": "2026-11-17T14:30:57.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
+          "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
+          "publicado": "2026-11-21T12:00:37.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
           "titulo": "Clube Smiles com até 50.000 milhas na hora para novos assinantes",
           "publicado": "2026-11-20T16:05:48.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/assine-o-clube-smiles-1-000-e-ganhe-14-mil-milhas-na-hora/",
-          "titulo": "Assine o Clube Smiles 1.000 e ganhe 14 mil milhas na hora",
-          "publicado": "2026-11-17T14:30:57.000Z"
         }
       ],
       "referencia": {
@@ -1471,6 +1476,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000",
+      "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
+      "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-21T12:00:37.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": 13.07,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Smiles segue oferecendo até 13 mil milhas bônus para quem realizar a contratação do Clube no Plano 1.000 mediante o uso do cupom \"VEMPROCLUBE\" [sem aspas]. Com a oferta, que é válida até o dia 30 de novembro, é possível gerar o milheiro a partir de R$ 13,07. O post Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000 apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-21T12:04:30.390Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/missao-latam-pass-1500-milhas-bonus-nov26.html",
       "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
