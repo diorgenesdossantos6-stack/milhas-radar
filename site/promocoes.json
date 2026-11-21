@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T02:54:30.514Z",
+  "atualizadoEm": "2026-11-21T03:04:29.211Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -288,7 +288,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -330,7 +330,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
