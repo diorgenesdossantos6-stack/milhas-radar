@@ -655,6 +655,10 @@ function manterFresco() {
     renderCombos();
     renderVoos();
     renderLivelo();
+    renderRegua();
+    renderHistorico();
+    renderCalendario();
+    renderPe();
   }, 5 * 60 * 1000);
 }
 
