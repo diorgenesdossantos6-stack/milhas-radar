@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T23:54:33.284Z",
+  "atualizadoEm": "2026-11-21T00:04:30.488Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -251,38 +251,6 @@
       "teto": null
     },
     {
-      "id": "latam pass|66|compra_pontos|2026-11-20",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Latam Pass",
-      "origens": [
-        "Itau"
-      ],
-      "percentual": 66,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 55,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
-      "publicado": "2026-11-20T15:00:02.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
-          "titulo": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
-          "publicado": "2026-11-20T15:00:02.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
       "id": "latam pass|25|transferencia_bonificada|2026-11-23",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -305,60 +273,6 @@
           "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
           "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
           "publicado": "2026-11-20T13:00:16.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-20",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 25,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 50,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
-      "publicado": "2026-11-18T15:00:22.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
-          "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
-          "publicado": "2026-11-19T14:14:40.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-inter-oferecem-25-de-bonus-nas-transferencias/",
-          "titulo": "LATAM Pass e Inter oferecem 25% de bônus nas transferências",
-          "publicado": "2026-11-18T15:38:14.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/transfira-seus-pontos-inter-loop-e-ganhe-25-de-milhas-bonus-no-latam-pass/",
-          "titulo": "Novidade! Transfira seus pontos Inter Loop e ganhe 25% de milhas bônus no LATAM Pass",
-          "publicado": "2026-11-18T15:00:22.000Z"
         }
       ],
       "referencia": {
@@ -418,36 +332,6 @@
         "cadencia": 60,
         "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|35|clube|2026-11-20",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Latam Pass",
-      "origens": [],
-      "percentual": 35,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 31,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "LATAM Pass oferece 35% de desconto no resgate de vale-combustível do Premmia",
-      "publicado": "2026-11-18T13:24:53.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/latam-pass-oferece-35-de-desconto-no-resgate-de-vale-combustivel-do-premmia/",
-          "titulo": "LATAM Pass oferece 35% de desconto no resgate de vale-combustível do Premmia",
-          "publicado": "2026-11-18T13:24:53.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -889,66 +773,6 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
-    },
-    {
-      "id": "azul fidelidade|x|acumulo|2026-11-20",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Natura Friday! Ganhe até 24 pontos Azul Fidelidade por real gasto",
-      "publicado": "2026-11-17T14:00:27.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/natura-friday-ganhe-ate-24-pontos-azul-fidelidade-real-gasto/",
-          "titulo": "Natura Friday! Ganhe até 24 pontos Azul Fidelidade por real gasto",
-          "publicado": "2026-11-17T14:00:27.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|x|clube|2026-11-20",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-20T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Clube Azul: até 600.000 pontos ao fazer upgrade",
-      "publicado": "2026-11-17T12:36:50.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/clube-azul-ate-600-000-pontos-ao-fazer-upgrade/",
-          "titulo": "Clube Azul: até 600.000 pontos ao fazer upgrade",
-          "publicado": "2026-11-17T12:36:50.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "banco do brasil|x|acumulo|2026-11-23",
