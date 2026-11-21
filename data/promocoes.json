@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T18:54:30.662Z",
+  "atualizadoEm": "2026-11-21T19:04:29.550Z",
   "totalAtivas": 26,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
@@ -272,28 +272,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
-      "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "companhia",
-      "publicado": "2026-11-18T19:00:01.000Z",
-      "ate": "2026-11-21T19:00:01.000Z",
-      "dinheiro": 172,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": "Fortaleza",
-      "destino": "Juazeiro do Norte",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FOR",
-      "iataDestino": "JDO",
-      "data": "2027-02-16",
-      "comMilhas": false,
-      "cabine": "Economy"
     }
   ],
   "erros": [],
