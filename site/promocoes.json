@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T19:44:30.162Z",
+  "atualizadoEm": "2026-11-21T19:54:29.826Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -990,23 +990,6 @@
       "idaEVolta": true,
       "taxas": false,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
-      "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-18T19:51:23.000Z",
-      "ate": "2026-11-21T19:51:23.000Z",
-      "dinheiro": 6059,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Asia",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "regua": {
