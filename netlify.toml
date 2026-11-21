@@ -1,3 +1,19 @@
+# O painel passou a morar no GitHub Pages, que publica junto com a coleta e
+# nao consome credito. Este site existe so para manter vivo o endereco antigo:
+# tudo que chega aqui e encaminhado para la, inclusive o caminho pedido.
+#
+# Usamos 302 e nao 301 de proposito. O 301 fica gravado no navegador de quem
+# visitou e e dificil de desfazer; o 302 permite voltar atras sem dor.
+#
+# Se este redirecionamento falhar, o visitante ainda ve o painel publicado
+# aqui na ultima vez, que funciona, so nao recebe mudancas de codigo.
+
 [build]
   command = "node src/build.mjs"
   publish = "site"
+
+[[redirects]]
+  from = "/*"
+  to = "https://diorgenesdossantos6-stack.github.io/milhas-radar/:splat"
+  status = 302
+  force = true
