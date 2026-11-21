@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-21T16:54:29.422Z",
+  "atualizadoEm": "2026-11-21T17:04:33.702Z",
   "totalAtivas": 26,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
+      "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-21T17:00:47.000Z",
+      "ate": "2026-11-24T17:00:47.000Z",
+      "dinheiro": null,
+      "milhas": 3469,
+      "programa": null,
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
       "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
@@ -1318,6 +1334,38 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
+      "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-21T17:00:47.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 3469,
+        "programa": null,
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T17:00:47.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Planejando sua próxima viagem? Na edição do alerta de passagens deste sábado, reunimos 15 opções de passagens nacionais para você emitir, gastando a partir de 3.469 milhas + taxas. Confira as disponibilidades a seguir. Passagens nacionais com pontos e milhas Na tabela a seguir, mesclamos algumas emissões dos três programas de companhias aéreas nacionais para…",
+      "coletadoEm": "2026-11-21T17:04:33.702Z",
+      "nota": 10
+    },
     {
       "id": "pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera",
       "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",

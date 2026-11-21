@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T16:54:29.422Z",
+  "atualizadoEm": "2026-11-21T17:04:33.702Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -739,6 +739,22 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
+      "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-21T17:00:47.000Z",
+      "ate": "2026-11-24T17:00:47.000Z",
+      "dinheiro": null,
+      "milhas": 3469,
+      "programa": null,
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
       "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
