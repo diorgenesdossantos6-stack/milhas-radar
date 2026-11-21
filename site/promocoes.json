@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T15:54:29.467Z",
+  "atualizadoEm": "2026-11-21T16:04:30.228Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -1059,23 +1059,6 @@
       "programa": "Latam Pass",
       "origem": null,
       "destino": "Nordeste",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade",
-      "titulo": "Alerta PPV! Passagens para o Uruguai a partir de 13 mil pontos Azul Fidelidade",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-uruguai-13-mil-pontos-azul-fidelidade/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-18T16:00:41.000Z",
-      "ate": "2026-11-21T16:00:41.000Z",
-      "dinheiro": null,
-      "milhas": 13000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Uruguai",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
