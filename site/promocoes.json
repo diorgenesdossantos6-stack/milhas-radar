@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T18:44:31.769Z",
+  "atualizadoEm": "2026-11-21T18:54:30.662Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -1029,22 +1029,6 @@
       "data": "2027-02-16",
       "comMilhas": false,
       "cabine": "Economy"
-    },
-    {
-      "id": "passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles",
-      "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
-      "link": "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T18:54:23.000Z",
-      "ate": "2026-11-21T18:54:23.000Z",
-      "dinheiro": null,
-      "milhas": 44000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": true
     }
   ],
   "regua": {
