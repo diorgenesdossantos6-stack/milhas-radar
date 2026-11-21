@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-21T15:14:31.660Z",
-  "totalAtivas": 27,
-  "totalCampanhasAtivas": 22,
+  "atualizadoEm": "2026-11-21T15:24:31.979Z",
+  "totalAtivas": 26,
+  "totalCampanhasAtivas": 21,
   "combinacoes": [],
   "passagens": [
     {
@@ -845,48 +845,6 @@
           "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
           "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
           "publicado": "2026-11-20T13:00:16.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 1,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-21",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 25,
-      "ate": "2026-11-21T15:22:21.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 35,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Latam Pass oferece 25% de bônus na transferência de pontos do Inter Loop",
-      "publicado": "2026-11-18T15:22:21.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/latam-pass-inter-loop-25-bonus-nov26.html",
-          "titulo": "Latam Pass oferece 25% de bônus na transferência de pontos do Inter Loop",
-          "publicado": "2026-11-18T15:22:21.000Z"
         }
       ],
       "referencia": {
