@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T17:24:32.940Z",
+  "atualizadoEm": "2026-11-21T17:34:36.242Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -1060,23 +1060,6 @@
       "destino": "Espanha Madri Barcelona",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas",
-      "titulo": "Voos com destino ao Nordeste a partir de R$ 95 ou 3 mil milhas LATAM + taxas",
-      "link": "https://passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T17:32:18.000Z",
-      "ate": "2026-11-21T17:32:18.000Z",
-      "dinheiro": 95,
-      "milhas": 3000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Nordeste",
-      "idaEVolta": false,
-      "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
     }
