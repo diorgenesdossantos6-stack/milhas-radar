@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-21T13:04:30.447Z",
-  "totalAtivas": 28,
-  "totalCampanhasAtivas": 23,
+  "atualizadoEm": "2026-11-21T13:14:32.100Z",
+  "totalAtivas": 29,
+  "totalCampanhasAtivas": 24,
   "combinacoes": [],
   "passagens": [
     {
@@ -1400,6 +1400,32 @@
       "teto": null
     },
     {
+      "id": "esfera|x|clube|2026-11-24",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-24T13:04:15.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+      "publicado": "2026-11-21T13:04:15.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
+          "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+          "publicado": "2026-11-21T13:04:15.000Z"
+        }
+      ]
+    },
+    {
       "id": "banco do brasil|x|acumulo|2026-11-23",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1459,6 +1485,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera",
+      "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+      "link": "https://pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-21T13:04:15.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T13:04:15.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Perdeu o prazo? A Esfera decidiu prorrogar sua promoção, em que oferece aos seus clientes até 60 mil pontos bônus na assinatura ou upgrade do clube ao longo de 12 meses. Vamos aos detalhes! Clube Esfera em promoção Esta promoção de assinatura ou upgrade do Clube Esfera está estruturada da seguinte maneira: Clube Pro: 3.000…",
+      "coletadoEm": "2026-11-21T13:14:32.100Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau",
       "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",

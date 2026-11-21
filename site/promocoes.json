@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T13:04:30.447Z",
+  "atualizadoEm": "2026-11-21T13:14:32.100Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -767,6 +767,32 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "esfera|x|clube|2026-11-24",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-24T13:04:15.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+      "publicado": "2026-11-21T13:04:15.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
+          "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
+          "publicado": "2026-11-21T13:04:15.000Z"
+        }
+      ]
     },
     {
       "id": "banco do brasil|x|acumulo|2026-11-23",
