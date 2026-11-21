@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-21T12:54:31.778Z",
-  "totalAtivas": 27,
+  "atualizadoEm": "2026-11-21T13:04:30.447Z",
+  "totalAtivas": 28,
   "totalCampanhasAtivas": 23,
   "combinacoes": [],
   "passagens": [
@@ -1230,9 +1230,9 @@
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
-          "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
-          "publicado": "2026-11-18T21:20:45.000Z"
+          "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+          "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+          "publicado": "2026-11-21T13:00:05.000Z"
         }
       ],
       "referencia": {
@@ -1459,6 +1459,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau",
+      "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+      "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-21T13:00:05.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Muito bom! O cartão Azul Itaú continua com uma oferta imperdível: até 80.000 pontos bônus ao cumprir as metas de gastos. A promoção é válida até 29 de novembro e inclui até 50.000 pontos para novos clientes e até 30.000 pontos extras ao assinar o Clube Azul. O post Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-21T13:04:30.447Z",
+      "nota": 10
+    },
     {
       "id": "passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000",
       "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
