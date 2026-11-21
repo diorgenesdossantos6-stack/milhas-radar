@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T20:34:29.509Z",
+  "atualizadoEm": "2026-11-21T20:44:29.329Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -518,39 +518,6 @@
           "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
           "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
           "publicado": "2026-11-21T13:00:05.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|x|acumulo|2026-11-21",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-21T20:40:23.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 24,
-        "loja": "Assist Card"
-      },
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
-      "publicado": "2026-11-18T20:40:23.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
-          "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
-          "publicado": "2026-11-18T20:40:23.000Z"
         }
       ],
       "referencia": {
