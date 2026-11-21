@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-21T22:24:30.784Z",
-  "totalAtivas": 25,
-  "totalCampanhasAtivas": 20,
+  "atualizadoEm": "2026-11-21T22:34:30.257Z",
+  "totalAtivas": 24,
+  "totalCampanhasAtivas": 19,
   "combinacoes": [],
   "passagens": [
     {
@@ -239,22 +239,6 @@
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
-      "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-18T22:28:42.000Z",
-      "ate": "2026-11-21T22:28:42.000Z",
-      "dinheiro": 276,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -1121,32 +1105,6 @@
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
-    },
-    {
-      "id": "esfera|x|clube|2026-11-21",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Esfera",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": null,
-      "ate": "2026-11-21T22:33:08.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
-      "publicado": "2026-11-18T22:33:08.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
-          "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
-          "publicado": "2026-11-18T22:33:08.000Z"
-        }
-      ]
     },
     {
       "id": "azul fidelidade|x|clube|2026-11-29",
