@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T13:54:29.621Z",
+  "atualizadoEm": "2026-11-21T14:04:31.802Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -112,48 +112,6 @@
           "link": "https://passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591/",
           "titulo": "Confira a oportunidade de gerar o milheiro Smiles a partir de R$ 15,91",
           "publicado": "2026-11-19T20:00:47.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "margem pequena sobre o preço de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-21",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-21T13:56:13.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 83,
-      "custoMilheiro": 15.8,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
-      "publicado": "2026-11-18T13:56:13.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro/",
-          "titulo": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
-          "publicado": "2026-11-18T13:56:13.000Z"
         }
       ],
       "referencia": {
@@ -1209,23 +1167,6 @@
       "programa": "Azul Fidelidade",
       "origem": "Belo Horizonte",
       "destino": "Maceio",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles",
-      "titulo": "Alerta PPV! Viaje para os Estados Unidos com passagens a partir de 65 mil milhas Smiles",
-      "link": "https://pontospravoar.com/alerta-ppv-viaje-estados-unidos-passagens-65-mil-milhas-smiles/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-18T14:00:43.000Z",
-      "ate": "2026-11-21T14:00:43.000Z",
-      "dinheiro": null,
-      "milhas": 65000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": "Estados Unidos",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
