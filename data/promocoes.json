@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T22:34:30.257Z",
+  "atualizadoEm": "2026-11-21T22:44:34.551Z",
   "totalAtivas": 24,
   "totalCampanhasAtivas": 19,
   "combinacoes": [],
@@ -220,23 +220,6 @@
       "destino": "Porto Seguro Salvador",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas",
-      "titulo": "Barato! Voe para Buenos Aires a partir de R$ 235 ou 18 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T22:40:42.000Z",
-      "ate": "2026-11-21T22:40:42.000Z",
-      "dinheiro": 235,
-      "milhas": 18000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
-      "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
     }
