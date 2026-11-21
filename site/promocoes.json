@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T18:34:29.807Z",
+  "atualizadoEm": "2026-11-21T18:44:31.769Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -1210,72 +1210,268 @@
     "Smiles": {
       "maxPercentual": 130,
       "campanhas": 2,
-      "ultimaEm": "2026-11-18T16:19:09.000Z"
+      "inicios": [
+        "2026-11-18"
+      ],
+      "ultimaEm": "2026-11-18T16:19:09.000Z",
+      "mediaPercentual": 130,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-18"
+      }
     },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
       "campanhas": 2,
-      "ultimaEm": "2026-11-19T10:45:00.000Z"
+      "inicios": [
+        "2026-11-17",
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T10:45:00.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-19"
+      }
     },
     "Esfera -> Azul Fidelidade": {
       "maxPercentual": 120,
       "campanhas": 1,
-      "ultimaEm": "2026-11-19T11:32:50.000Z"
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T11:32:50.000Z",
+      "mediaPercentual": 120,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
     },
     "Livelo -> Smiles": {
       "maxPercentual": 80,
       "campanhas": 3,
-      "ultimaEm": "2026-11-19T20:00:47.000Z"
+      "inicios": [
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T20:00:47.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 3,
+        "faltam": 2,
+        "ultima": "2026-11-19"
+      }
     },
     "Premmia -> Smiles": {
       "maxPercentual": 130,
       "campanhas": 1,
-      "ultimaEm": "2026-11-19T12:00:11.000Z"
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T12:00:11.000Z",
+      "mediaPercentual": 130,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
     },
     "Caixa -> Smiles": {
       "maxPercentual": 80,
       "campanhas": 1,
-      "ultimaEm": "2026-11-17T18:22:39.000Z"
+      "inicios": [
+        "2026-11-17"
+      ],
+      "ultimaEm": "2026-11-17T18:22:39.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-17"
+      }
     },
     "Latam Pass": {
       "maxPercentual": 66,
       "campanhas": 2,
-      "ultimaEm": "2026-11-20T15:00:00.000Z"
+      "inicios": [
+        "2026-11-18",
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T15:00:00.000Z",
+      "mediaPercentual": 51,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-20"
+      }
     },
     "Azul Fidelidade": {
       "maxPercentual": 30,
       "campanhas": 1,
-      "ultimaEm": "2026-11-19T11:00:29.000Z"
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T11:00:29.000Z",
+      "mediaPercentual": 30,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
     },
     "Itau -> Latam Pass": {
       "maxPercentual": 66,
       "campanhas": 1,
-      "ultimaEm": "2026-11-20T15:00:02.000Z"
+      "inicios": [
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T15:00:02.000Z",
+      "mediaPercentual": 66,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-20"
+      }
     },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
       "campanhas": 3,
-      "ultimaEm": "2026-11-20T13:00:16.000Z"
+      "inicios": [
+        "2026-11-18",
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T13:00:16.000Z",
+      "mediaPercentual": 25,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-20"
+      }
     },
     "Esfera": {
       "maxPercentual": 55,
       "campanhas": 1,
-      "ultimaEm": "2026-11-19T03:02:00.000Z"
+      "inicios": [
+        "2026-11-19"
+      ],
+      "ultimaEm": "2026-11-19T03:02:00.000Z",
+      "mediaPercentual": 55,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-19"
+      }
     },
     "C6 Bank -> Latam Pass": {
       "maxPercentual": 25,
       "campanhas": 1,
-      "ultimaEm": "2026-11-16T15:39:13.000Z"
+      "inicios": [
+        "2026-11-16"
+      ],
+      "ultimaEm": "2026-11-16T15:39:13.000Z",
+      "mediaPercentual": 25,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-16"
+      }
     },
     "Banco do Brasil": {
       "maxPercentual": 7,
       "campanhas": 2,
-      "ultimaEm": "2026-11-20T11:16:50.000Z"
+      "inicios": [
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T11:16:50.000Z",
+      "mediaPercentual": 7,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-20"
+      }
     },
     "Livelo": {
       "maxPercentual": 25,
       "campanhas": 1,
-      "ultimaEm": "2026-11-20T13:00:57.000Z"
+      "inicios": [
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T13:00:57.000Z",
+      "mediaPercentual": 25,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-20"
+      }
     }
-  }
+  },
+  "calendario": [
+    {
+      "nome": "Mês do Consumidor",
+      "quem": "Livelo",
+      "mes": 3,
+      "oQueSai": "Transferência bonificada para as aéreas, compra de pontos com desconto e adesão ao Clube com bônus alto.",
+      "jaSaiu": "Até 110% para a Azul e até 80% para o Latam Pass em anos anteriores. A campanha começa nos primeiros dias de março e vai até o fim do mês.",
+      "fonte": "livelo.com.br"
+    },
+    {
+      "nome": "Aniversário da Livelo",
+      "quem": "Livelo",
+      "mes": 6,
+      "oQueSai": "O mês mais forte do ano para quem junta pontos Livelo. Transferência bonificada, compras bonificadas e ofertas de Clube.",
+      "jaSaiu": "Bônus de 80% a 100% nas transferências, com picos acima disso: 123% para a Azul e 120% para a TAP em campanhas específicas.",
+      "fonte": "passageirodeprimeira.com"
+    },
+    {
+      "nome": "Aniversário do Azul Fidelidade",
+      "quem": "Azul Fidelidade",
+      "mes": 8,
+      "oQueSai": "Transferência bonificada da Livelo para a Azul, em campanhas seguidas ao longo do mês.",
+      "jaSaiu": "Até 120% de bônus, com 60% para cliente comum e 90% para assinante de clube, mais pontos extras na primeira transferência.",
+      "fonte": "melhorescartoes.com.br"
+    },
+    {
+      "nome": "Clube Smiles Day",
+      "quem": "Smiles",
+      "mes": 9,
+      "oQueSai": "Ofertas concentradas para assinante do Clube Smiles: transferência de banco bonificada, adesão ao clube com milhas na hora.",
+      "jaSaiu": "80% a 100% na transferência de pontos de cartão, e bônus muito altos na transferência entre contas Smiles.",
+      "fonte": "smiles.com.br"
+    },
+    {
+      "nome": "Aniversário do Latam Pass",
+      "quem": "Latam Pass",
+      "mes": 10,
+      "oQueSai": "Campanhas curtas, às vezes de um dia só, com bônus na transferência da Livelo.",
+      "jaSaiu": "Até 35% de bônus numa campanha válida só no dia 30 de outubro.",
+      "fonte": "pontospravoar.com"
+    },
+    {
+      "nome": "Black Friday",
+      "quem": "Todos os programas",
+      "mes": 11,
+      "oQueSai": "Compra de pontos com desconto, transferência bonificada e passagem promocional, concentradas na última semana do mês.",
+      "jaSaiu": "Costuma ser o segundo pico do ano, atrás do aniversário da Livelo.",
+      "fonte": "mercado"
+    }
+  ]
 }
