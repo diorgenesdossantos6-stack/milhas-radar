@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-21T14:44:29.548Z",
-  "totalAtivas": 28,
-  "totalCampanhasAtivas": 23,
+  "atualizadoEm": "2026-11-21T14:54:29.228Z",
+  "totalAtivas": 27,
+  "totalCampanhasAtivas": 22,
   "combinacoes": [],
   "passagens": [
     {
@@ -1213,38 +1213,6 @@
         "min": 12.5,
         "max": 18,
         "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|clube|2026-11-21",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-21T14:45:01.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Clube Livelo Mini: ganhe 4.000 pontos extras com nosso cupom exclusivo",
-      "publicado": "2026-11-18T14:45:01.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/clube-livelo-mini-4k-bonus-cupom-exclusivo-nov26",
-          "titulo": "Clube Livelo Mini: ganhe 4.000 pontos extras com nosso cupom exclusivo",
-          "publicado": "2026-11-18T14:45:01.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
