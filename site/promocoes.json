@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T19:04:29.598Z",
+  "atualizadoEm": "2026-11-22T19:14:30.769Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -768,23 +768,6 @@
       "comMilhas": true,
       "cabine": "Economy",
       "trechoDe": "companhia"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
-      "titulo": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T19:11:54.000Z",
-      "ate": "2026-11-22T19:11:54.000Z",
-      "dinheiro": 4099,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Italia",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "regua": {
