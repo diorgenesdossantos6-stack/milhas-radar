@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T22:24:31.969Z",
+  "atualizadoEm": "2026-11-22T22:34:30.712Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -635,22 +635,6 @@
       "origem": null,
       "destino": null,
       "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false
-    },
-    {
-      "id": "pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles",
-      "titulo": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
-      "link": "https://pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-19T22:30:46.000Z",
-      "ate": "2026-11-22T22:30:46.000Z",
-      "dinheiro": null,
-      "milhas": 300000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
       "taxas": false,
       "ehLista": false
     }
