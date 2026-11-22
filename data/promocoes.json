@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-22T11:54:29.578Z",
-  "totalAtivas": 24,
-  "totalCampanhasAtivas": 19,
+  "atualizadoEm": "2026-11-22T12:04:30.505Z",
+  "totalAtivas": 23,
+  "totalCampanhasAtivas": 18,
   "combinacoes": [],
   "passagens": [
     {
@@ -746,49 +746,6 @@
       "motivo": "margem pequena sobre o preço de referência",
       "baseVeredito": "cotacao",
       "teto": null,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 3,
-        "falta": 87,
-        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
-      }
-    },
-    {
-      "id": "smiles|130|transferencia_bonificada|2026-11-22",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Premmia"
-      ],
-      "percentual": 130,
-      "ate": "2026-11-22T12:00:11.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 80,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles oferece até 130% de bônus na troca de pontos do Premmia",
-      "publicado": "2026-11-19T12:00:11.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/smiles-oferece-ate-130-porcento-bonus-troca-pontos-premmia/",
-          "titulo": "Smiles oferece até 130% de bônus na troca de pontos do Premmia",
-          "publicado": "2026-11-19T12:00:11.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "130% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 130,
       "esperar": {
         "cadencia": 90,
         "desde": 3,
