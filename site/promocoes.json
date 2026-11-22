@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T21:04:31.333Z",
+  "atualizadoEm": "2026-11-22T21:14:31.053Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -390,35 +390,6 @@
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
-    },
-    {
-      "id": "banco do brasil|x|acumulo|2026-11-22",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Banco do Brasil",
-      "origens": [
-        "Banco do Brasil"
-      ],
-      "percentual": null,
-      "ate": "2026-11-22T21:08:58.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 7,
-        "loja": null
-      },
-      "clube": null,
-      "titulo": "BB lança Altus World Legend Mastercard com até 7 pontos por dólar gasto",
-      "publicado": "2026-11-19T21:08:58.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/cartoes/bb-lanca-altus-world-legend-mastercard-com-ate-7-pontos-por-dolar-gasto/",
-          "titulo": "BB lança Altus World Legend Mastercard com até 7 pontos por dólar gasto",
-          "publicado": "2026-11-19T21:08:58.000Z"
-        }
-      ]
     },
     {
       "id": "azul fidelidade|x|clube|2026-11-29",
