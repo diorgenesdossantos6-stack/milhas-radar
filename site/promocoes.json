@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T16:04:29.304Z",
+  "atualizadoEm": "2026-11-22T16:14:30.770Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -673,6 +673,22 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
+      "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-22T16:04:38.000Z",
+      "ate": "2026-11-25T16:04:38.000Z",
+      "dinheiro": null,
+      "milhas": 13350,
+      "programa": null,
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
       "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",

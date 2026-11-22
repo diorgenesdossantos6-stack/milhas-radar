@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-22T16:04:29.304Z",
+  "atualizadoEm": "2026-11-22T16:14:30.770Z",
   "totalAtivas": 24,
   "totalCampanhasAtivas": 19,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
+      "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-22T16:04:38.000Z",
+      "ate": "2026-11-25T16:04:38.000Z",
+      "dinheiro": null,
+      "milhas": 13350,
+      "programa": null,
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
       "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",
@@ -1258,6 +1274,38 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
+      "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-22T16:04:38.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [],
+      "par": "indefinido",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 13350,
+        "programa": null,
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T16:04:38.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Na edição do alerta de passagens PPV deste domingo, você confere 15 sugestões de passagens internacionais a partir de 13.350 pontos + taxas para viajar nos próximos meses. Abaixo, veja as disponibilidades e aproveite. Passagens internacionais Nessa tabela, mesclamos algumas emissões dos três programas de companhias aéreas nacionais para você aproveitar e emitir sua próxima…",
+      "coletadoEm": "2026-11-22T16:14:30.770Z",
+      "nota": 10
+    },
     {
       "id": "pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-12-pontos-real-compras-renner",
       "titulo": "Último dia! Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
