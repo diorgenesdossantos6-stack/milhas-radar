@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T15:36:52.276Z",
+  "atualizadoEm": "2026-11-22T15:44:31.654Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -853,23 +853,6 @@
       "programa": "Smiles",
       "origem": null,
       "destino": "Brasil",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas",
-      "titulo": "Trecho para Nova York a partir de R$ 1.436 ou 112 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-19T15:40:10.000Z",
-      "ate": "2026-11-22T15:40:10.000Z",
-      "dinheiro": 1436,
-      "milhas": 112000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Nova York",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
