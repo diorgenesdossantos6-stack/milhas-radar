@@ -104,3 +104,27 @@ assert.equal(avaliarAlerta(
   { origem: 'Goiânia', destino: 'Maceió', dinheiro: 40, idaEVolta: false, ehLista: true }, cfgA, tetosCompra, referencia
 ), null);
 console.log('alertas: achado ok');
+
+// bonificacao: so o veredito 'vale' vira alerta
+import { campanhaAlerta, chaveCampanha } from '../src/alertas.mjs';
+
+const camp = { destino: 'Smiles', origens: ['Livelo'], percentual: 130, veredito: 'vale', motivo: 'topo da rota' };
+assert.equal(campanhaAlerta(camp).trilha, 'bonus');
+assert.equal(campanhaAlerta({ ...camp, veredito: 'limite' }), null);
+assert.equal(campanhaAlerta({ ...camp, veredito: 'nao vale' }), null);
+assert.equal(campanhaAlerta({ ...camp, veredito: undefined }), null);
+assert.equal(campanhaAlerta({ ...camp, percentual: null }), null);
+assert.equal(campanhaAlerta(null), null);
+
+// a chave ignora a ordem das origens e separa por percentual
+assert.equal(
+  chaveCampanha({ destino: 'Smiles', origens: ['Esfera', 'Livelo'], percentual: 130 }),
+  chaveCampanha({ destino: 'Smiles', origens: ['Livelo', 'Esfera'], percentual: 130 })
+);
+assert.notEqual(
+  chaveCampanha({ destino: 'Smiles', origens: ['Livelo'], percentual: 130 }),
+  chaveCampanha({ destino: 'Smiles', origens: ['Livelo'], percentual: 140 })
+);
+// o destino nao polui a lista de origens
+assert.ok(!chaveCampanha({ destino: 'Smiles', origens: ['Smiles', 'Livelo'], percentual: 80 }).includes('Smiles+'));
+console.log('alertas: bonificacao ok');

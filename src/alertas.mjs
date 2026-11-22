@@ -115,3 +115,23 @@ export function avaliarAlerta(p, cfg, tetosCompra, referencia) {
   }
   return null;
 }
+
+/** Chave estavel de uma campanha, para nao repetir o mesmo alerta a cada
+ *  rodada. Inclui o percentual de proposito: se o bonus subir, e noticia nova. */
+export function chaveCampanha(c) {
+  const de = (c.origens || []).filter((o) => o !== c.destino).sort().join('+') || 'indef';
+  // Oferta de clube nao tem percentual: o que a identifica e o custo do
+  // milheiro. Sem isso, duas ofertas diferentes virariam a mesma chave.
+  const valor = c.percentual ? `${c.percentual}%` : `R$${c.custoMilheiro}`;
+  return `campanha:${de}->${c.destino}:${valor}`;
+}
+
+/** Bonificacao que merece aviso. So o veredito 'vale': 'no limite' nao e
+ *  chamado para agir, e avisar sobre ele gastaria a atencao a toa. */
+export function campanhaAlerta(c) {
+  if (!c || c.veredito !== 'vale') return null;
+  // Precisa de um numero que sustente o veredito: ou o bonus, ou o custo do
+  // milheiro. Sem nenhum dos dois nao da para dizer por que vale.
+  if (!c.percentual && !c.custoMilheiro) return null;
+  return { trilha: 'bonus', chave: chaveCampanha(c), motivo: c.motivo || c.rotulo };
+}

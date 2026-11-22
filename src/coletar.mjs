@@ -11,7 +11,7 @@ import { montarReferencia } from './cotacao.mjs';
 import { coletarLivelo } from './livelo.mjs';
 import { trechoDoEndereco, trechoDoLinkDaCompanhia, valeBuscarPagina } from './voos.mjs';
 import { parseFeed, classificar, programas, percentual, prazo, chave, agruparCampanhas, custoMilheiro, acumuloLoja, avaliar, avaliarClube, valeEsperar, combinar, valorJustoAuto, tetoCompra, aindaVale, extrairPassagem } from './parser.mjs';
-import { avaliarAlerta } from './alertas.mjs';
+import { avaliarAlerta, campanhaAlerta } from './alertas.mjs';
 import { preverJanela, media } from './janela.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
@@ -78,31 +78,23 @@ async function alertarTelegram(promos) {
 // Devolve apenas os itens que o Telegram confirmou. Quem nao saiu nao entra
 // no registro, senao uma rodada sem segredo configurado silenciaria a promocao
 // para sempre.
-async function alertarPassagens(itens) {
+/** Envia uma lista de {chave, texto} e devolve so as chaves que o Telegram
+ *  confirmou. Centralizado aqui para que passagem e bonificacao compartilhem
+ *  o mesmo tratamento de erro, inclusive a migracao de grupo. */
+async function enviarAlertas(itens, rotulo) {
   const token = process.env.TELEGRAM_TOKEN;
   const chat = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chat) {
-    console.log('Telegram nao configurado: nada enviado, nada registrado.');
+    if (itens.length) console.log(`Telegram nao configurado: ${itens.length} alerta(s) de ${rotulo} nao enviados, nada registrado.`);
     return [];
   }
   if (!itens.length) return [];
   const enviados = [];
-  for (const { p, a } of itens) {
-    const rota = p.origem ? `${p.origem} para ${p.destino}` : p.destino || p.titulo;
-    const etiqueta = { rota: 'Destino que voce acompanha', achado: 'Achado, bem abaixo do normal' }[a.trilha]
-      || 'Promocao excepcional';
-    const volta = p.idaEVolta ? 'ida e volta' : 'so ida';
-    const texto = [
-      `*${etiqueta}*`,
-      `*${rota}* (${volta})`,
-      a.motivo,
-      p.titulo,
-      `${p.fonte} - ${p.link}`
-    ].join('\n');
+  for (const item of itens) {
     const r = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ chat_id: chat, text: texto, parse_mode: 'Markdown' })
+      body: JSON.stringify({ chat_id: chat, text: item.texto, parse_mode: 'Markdown' })
     });
     if (!r.ok) {
       const corpo = await r.text();
@@ -119,12 +111,43 @@ async function alertarPassagens(itens) {
         console.error('='.repeat(64));
         return enviados;   // nao adianta tentar os proximos com o ID velho
       }
-      console.error('Falha no alerta de passagem:', r.status, corpo);
-    } else enviados.push({ p, a });
+      console.error(`Falha no alerta de ${rotulo}:`, r.status, corpo);
+    } else enviados.push(item);
   }
-  console.log(`Alertas de passagem enviados: ${enviados.length} de ${itens.length}.`);
+  console.log(`Alertas de ${rotulo} enviados: ${enviados.length} de ${itens.length}.`);
   return enviados;
 }
+
+function textoPassagem(p, a) {
+  const rota = p.origem ? `${p.origem} para ${p.destino}` : p.destino || p.titulo;
+  const etiqueta = { rota: 'Destino que voce acompanha', achado: 'Achado, bem abaixo do normal' }[a.trilha]
+    || 'Promocao excepcional';
+  const volta = p.idaEVolta ? 'ida e volta' : 'so ida';
+  return [`*${etiqueta}*`, `*${rota}* (${volta})`, a.motivo, p.titulo, `${p.fonte} - ${p.link}`].join('\n');
+}
+
+function textoCampanha(c) {
+  const de = (c.origens || []).filter((o) => o !== c.destino).join(' e ');
+  const prazo = c.ate ? `acaba ${new Date(c.ate).toLocaleDateString('pt-BR')}` : 'prazo nao informado';
+  const custo = c.custoMilheiro ? `milheiro sai a R$ ${c.custoMilheiro.toFixed(2).replace('.', ',')}` : null;
+  const fonte = (c.fontes && c.fontes[0]) || {};
+  // Sem origem identificada nao inventa "varios programas": o titulo logo
+  // abaixo costuma dizer de onde vem, e chute vago mina a confianca no aviso.
+  const alvo = de ? `${de} para ${c.destino}` : c.destino;
+  const manchete = c.percentual
+    ? `${c.percentual}% ${alvo}`
+    : `Milheiro ${c.destino} a R$ ${String(c.custoMilheiro).replace('.', ',')}`;
+  return [
+    `*${c.rotulo || 'Vale a pena'}*`,
+    `*${manchete}*`,
+    c.motivo,
+    custo,
+    prazo,
+    c.titulo,
+    fonte.link ? `${fonte.fonte || ''} ${fonte.link}`.trim() : null
+  ].filter(Boolean).join('\n');
+}
+
 
 async function main() {
   const cfg = JSON.parse(await fs.readFile(ARQ_FONTES, 'utf8'));
@@ -389,16 +412,23 @@ async function main() {
     for (const p of passagens) {
       if (vistos.has(p.link)) continue;
       const a = avaliarAlerta(p, cfgAlerta, saida.tetosCompra, referencia);
-      if (a) novosAlertas.push({ p, a });
+      if (a) novosAlertas.push({ chave: p.link, texto: textoPassagem(p, a), trilha: a.trilha });
+    }
+
+    // Bonificacoes com veredito 'vale'. Era a lacuna maior: o projeto nasceu
+    // para isso e so a aba de passagens avisava.
+    for (const c of saida.campanhasAtivas || []) {
+      const a = campanhaAlerta(c);
+      if (a && !vistos.has(a.chave)) novosAlertas.push({ chave: a.chave, texto: textoCampanha(c), trilha: 'bonus' });
     }
 
     let enviados = [];
     if (novosAlertas.length) {
-      enviados = await alertarPassagens(novosAlertas);
+      enviados = await enviarAlertas(novosAlertas, 'promocao');
       if (enviados.length) {
         const registro = [
           ...jaAvisados,
-          ...enviados.map(({ p, a }) => ({ link: p.link, em: AGORA.toISOString(), trilha: a.trilha }))
+          ...enviados.map((x) => ({ link: x.chave, em: AGORA.toISOString(), trilha: x.trilha }))
         ].slice(-400);
         await fs.writeFile(ARQ_AVISADOS, JSON.stringify(registro, null, 2) + '\n');
       }
