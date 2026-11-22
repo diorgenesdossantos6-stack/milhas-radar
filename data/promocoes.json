@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T06:24:29.449Z",
+  "atualizadoEm": "2026-11-22T06:34:31.109Z",
   "totalAtivas": 24,
   "totalCampanhasAtivas": 19,
   "combinacoes": [],
@@ -225,7 +225,7 @@
     }
   ],
   "erros": [
-    "HTTP 503"
+    "HTTP 500"
   ],
   "historico": {
     "Smiles": {
