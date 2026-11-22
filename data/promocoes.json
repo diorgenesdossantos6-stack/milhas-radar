@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T07:54:31.415Z",
+  "atualizadoEm": "2026-11-22T08:04:29.105Z",
   "totalAtivas": 24,
   "totalCampanhasAtivas": 19,
   "combinacoes": [],
@@ -657,8 +657,9 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
+        "desde": 3,
+        "falta": 87,
+        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
     },
     {
@@ -747,8 +748,9 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
+        "desde": 3,
+        "falta": 87,
+        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
     },
     {
@@ -789,8 +791,9 @@
       "teto": 130,
       "esperar": {
         "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
+        "desde": 3,
+        "falta": 87,
+        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
     },
     {
