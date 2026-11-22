@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T20:54:30.968Z",
+  "atualizadoEm": "2026-11-22T21:04:31.333Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -727,28 +727,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass",
-      "titulo": "Alerta PPV: encontre passagens internacionais a partir de 16 mil milhas LATAM Pass",
-      "link": "https://pontospravoar.com/alerta-ppv-encontre-passagens-internacionais-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
-      "publicado": "2026-11-19T21:01:11.000Z",
-      "ate": "2026-11-22T21:01:11.000Z",
-      "dinheiro": null,
-      "milhas": 16000,
-      "programa": "Latam Pass",
-      "origem": "Rio de Janeiro",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "iataOrigem": "GIG",
-      "iataDestino": "EZE",
-      "data": "2026-11-14",
-      "comMilhas": true,
-      "cabine": "Economy",
-      "trechoDe": "companhia"
     }
   ],
   "regua": {
