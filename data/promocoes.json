@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-22T15:04:30.989Z",
-  "totalAtivas": 25,
+  "atualizadoEm": "2026-11-22T15:14:31.725Z",
+  "totalAtivas": 24,
   "totalCampanhasAtivas": 19,
   "combinacoes": [],
   "passagens": [
@@ -934,6 +934,44 @@
       }
     },
     {
+      "id": "livelo|x|clube|2026-11-22",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-22T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
+      "publicado": "2026-11-20T12:00:42.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ultimo-dia-receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
+          "titulo": "Último dia! Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+          "publicado": "2026-11-22T13:00:33.000Z"
+        },
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
+          "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
+          "publicado": "2026-11-20T12:00:42.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "banco do brasil|x|acumulo|2026-11-22",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -985,44 +1023,6 @@
           "link": "https://passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi/",
           "titulo": "Como acumular milhas e pontos na compra do GTA VI",
           "publicado": "2026-11-19T17:20:49.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|clube|2026-11-22",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-22T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
-      "publicado": "2026-11-19T15:10:23.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimo-dia-receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
-          "titulo": "Último dia! Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
-          "publicado": "2026-11-22T13:00:33.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
-          "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
-          "publicado": "2026-11-20T12:00:42.000Z"
         }
       ],
       "referencia": {
