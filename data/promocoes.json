@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-22T18:04:30.532Z",
-  "totalAtivas": 22,
-  "totalCampanhasAtivas": 17,
+  "atualizadoEm": "2026-11-22T18:14:33.798Z",
+  "totalAtivas": 23,
+  "totalCampanhasAtivas": 18,
   "combinacoes": [],
   "passagens": [
     {
@@ -326,6 +326,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-19"
+      }
+    },
+    "Livelo -> Latam Pass": {
+      "maxPercentual": 27,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-22"
+      ],
+      "ultimaEm": "2026-11-22T18:11:19.000Z",
+      "mediaPercentual": 27,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-22"
       }
     },
     "C6 Bank -> Latam Pass": {
@@ -758,7 +773,49 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 2,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "latam pass|27|transferencia_bonificada|2026-11-25",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 27,
+      "ate": "2026-11-25T18:11:19.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 36,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",
+      "publicado": "2026-11-22T18:11:19.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/vem-ai-latam-pass-e-livelo-com-27-de-bonus/",
+          "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",
+          "publicado": "2026-11-22T18:11:19.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1160,6 +1217,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "cartoesdecredito.me/noticia/vem-ai-latam-pass-e-livelo-com-27-de-bonus",
+      "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",
+      "link": "https://www.cartoesdecredito.me/noticia/vem-ai-latam-pass-e-livelo-com-27-de-bonus/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-22T18:11:19.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Livelo -> Latam Pass",
+      "percentual": 27,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T18:11:19.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Oferta vazou antes da hora e deve oferecer 27% de bônus nas transferências de pontos Livelo para o LATAM Pass nos dias 23 e 24 de novembro The post Vem aí: LATAM Pass e Livelo com 27% de bônus appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-22T18:14:33.798Z",
+      "nota": 36
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
       "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
