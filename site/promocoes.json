@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T18:54:30.662Z",
+  "atualizadoEm": "2026-11-22T12:44:30.709Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -37,8 +37,9 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
+        "desde": 3,
+        "falta": 87,
+        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
     },
     {
@@ -127,50 +128,9 @@
       "teto": null,
       "esperar": {
         "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "smiles|130|transferencia_bonificada|2026-11-22",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Premmia"
-      ],
-      "percentual": 130,
-      "ate": "2026-11-22T12:00:11.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 80,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles oferece até 130% de bônus na troca de pontos do Premmia",
-      "publicado": "2026-11-19T12:00:11.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/smiles-oferece-ate-130-porcento-bonus-troca-pontos-premmia/",
-          "titulo": "Smiles oferece até 130% de bônus na troca de pontos do Premmia",
-          "publicado": "2026-11-19T12:00:11.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "130% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 130,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 2,
-        "texto": "costuma repetir a cada 90 dias"
+        "desde": 3,
+        "falta": 87,
+        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
     },
     {
@@ -246,7 +206,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -470,32 +430,6 @@
       }
     },
     {
-      "id": "esfera|x|clube|2026-11-21",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Esfera",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": null,
-      "ate": "2026-11-21T22:33:08.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
-      "publicado": "2026-11-18T22:33:08.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/segue-valendo-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
-          "titulo": "Segue valendo: Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
-          "publicado": "2026-11-18T22:33:08.000Z"
-        }
-      ]
-    },
-    {
       "id": "azul fidelidade|x|clube|2026-11-29",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -518,39 +452,6 @@
           "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
           "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
           "publicado": "2026-11-21T13:00:05.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|x|acumulo|2026-11-21",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-21T20:40:23.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 24,
-        "loja": "Assist Card"
-      },
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
-      "publicado": "2026-11-18T20:40:23.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
-          "titulo": "Azul Fidelidade oferece até 24 pontos por real na Assist Card e Renner",
-          "publicado": "2026-11-18T20:40:23.000Z"
         }
       ],
       "referencia": {
@@ -957,78 +858,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas",
-      "titulo": "Barato! Voe para Buenos Aires a partir de R$ 235 ou 18 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-18T22:40:42.000Z",
-      "ate": "2026-11-21T22:40:42.000Z",
-      "dinheiro": 235,
-      "milhas": 18000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
-      "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-18T22:28:42.000Z",
-      "ate": "2026-11-21T22:28:42.000Z",
-      "dinheiro": 276,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
-      "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-18T19:51:23.000Z",
-      "ate": "2026-11-21T19:51:23.000Z",
-      "dinheiro": 6059,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Asia",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais",
-      "titulo": "Alerta PPV! Passagens LATAM pelo Brasil a partir de R$ 172",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-brasil-172-reais/",
-      "fonte": "companhia",
-      "publicado": "2026-11-18T19:00:01.000Z",
-      "ate": "2026-11-21T19:00:01.000Z",
-      "dinheiro": 172,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": "Fortaleza",
-      "destino": "Juazeiro do Norte",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FOR",
-      "iataDestino": "JDO",
-      "data": "2027-02-16",
-      "comMilhas": false,
-      "cabine": "Economy"
     }
   ],
   "regua": {

@@ -1,10 +1,10 @@
 {
-  "atualizadoEm": "2026-11-21T18:54:31.109Z",
-  "lidoEm": "2026-11-21T18:54:31.109Z",
+  "atualizadoEm": "2026-11-22T12:44:31.226Z",
+  "lidoEm": "2026-11-22T12:44:31.226Z",
   "fonte": "https://www.livelo.com.br/ofertas",
   "ok": true,
-  "total": 43,
-  "emCampanha": 43,
+  "total": 41,
+  "emCampanha": 41,
   "parceiros": [
     {
       "id": "INS",
@@ -40,25 +40,6 @@
       "regras": "Campanha válida de 19 a 22/11/2026. Ganhe 10 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 8 pontos por real demais clientes. Exceto taças e decanters. Consulte o regulamento."
     },
     {
-      "id": "PTH",
-      "loja": "Posthaus",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/posthaus/PTH",
-      "categorias": [
-        "calcados",
-        "modaebeleza",
-        "infantil",
-        "modaeacessorios"
-      ],
-      "pontosPorReal": 10,
-      "pontosClube": 10,
-      "pontosNormal": 1,
-      "multiplicador": 10,
-      "emCampanha": true,
-      "de": "2026-11-20T03:00:00.000Z",
-      "ate": "2026-11-22T02:59:00.000Z",
-      "regras": "Campanha válida de 20 a 21/11/2026. Ganhe 10 pontos a cada real gasto, exclusivo para primeira compra e 1 ponto por real demais compras. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
       "id": "AGE",
       "loja": "Angeloni",
       "link": "https://livelo.com.br/juntar-pontos/parceiros/angeloni/AGE",
@@ -78,24 +59,6 @@
       "de": "2026-11-18T03:00:00.000Z",
       "ate": "2026-11-24T02:59:00.000Z",
       "regras": "Campanha válida de 18 a 23/11/2026. Ganhe 8 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo em produtos selecionados; 6 pontos por real demais clientes na lista selecionada e 1 ponto por real demais itens. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
-      "id": "LVE",
-      "loja": "LIVE!",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/live-oficial/LVE",
-      "categorias": [
-        "modaebeleza",
-        "infantil",
-        "modaeacessorios"
-      ],
-      "pontosPorReal": 8,
-      "pontosClube": 8,
-      "pontosNormal": 1,
-      "multiplicador": 8,
-      "emCampanha": true,
-      "de": "2026-11-18T03:00:00.000Z",
-      "ate": "2026-11-22T02:59:00.000Z",
-      "regras": "Campanha válida de 18 a 21/11/2026. Ganhe 8 pontos a cada real gasto. Utilize o cupom LIVELO. Consulte o regulamento."
     },
     {
       "id": "HTC",
