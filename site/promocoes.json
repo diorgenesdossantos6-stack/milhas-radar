@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T21:34:29.639Z",
+  "atualizadoEm": "2026-11-22T21:44:30.176Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -293,35 +293,6 @@
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
-    },
-    {
-      "id": "banco do brasil|7|acumulo|2026-11-22",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Banco do Brasil",
-      "origens": [
-        "Banco do Brasil"
-      ],
-      "percentual": 7,
-      "ate": "2026-11-22T21:40:03.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 14,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 7,
-        "loja": null
-      },
-      "clube": null,
-      "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
-      "publicado": "2026-11-19T21:40:03.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar/",
-          "titulo": "Banco do Brasil lança cartão Altus World Legend com até 7 pontos por dólar",
-          "publicado": "2026-11-19T21:40:03.000Z"
-        }
-      ]
     },
     {
       "id": "latam pass|x|transferencia_bonificada|2026-12-18",
