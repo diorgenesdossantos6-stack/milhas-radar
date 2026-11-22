@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T17:14:30.581Z",
+  "atualizadoEm": "2026-11-22T17:24:30.820Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -396,38 +396,6 @@
           "publicado": "2026-11-19T21:08:58.000Z"
         }
       ]
-    },
-    {
-      "id": "livelo|x|acumulo|2026-11-22",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-22T17:20:49.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Como acumular milhas e pontos na compra do GTA VI",
-      "publicado": "2026-11-19T17:20:49.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi/",
-          "titulo": "Como acumular milhas e pontos na compra do GTA VI",
-          "publicado": "2026-11-19T17:20:49.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "azul fidelidade|x|clube|2026-11-29",
