@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-22T19:54:29.921Z",
-  "totalAtivas": 24,
-  "totalCampanhasAtivas": 19,
+  "atualizadoEm": "2026-11-22T20:04:35.634Z",
+  "totalAtivas": 23,
+  "totalCampanhasAtivas": 18,
   "combinacoes": [],
   "passagens": [
     {
@@ -638,49 +638,6 @@
       "motivo": "milheiro a R$ 14,00 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-22",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-22T20:00:47.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 83,
-      "custoMilheiro": 15.91,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Confira a oportunidade de gerar o milheiro Smiles a partir de R$ 15,91",
-      "publicado": "2026-11-19T20:00:47.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591/",
-          "titulo": "Confira a oportunidade de gerar o milheiro Smiles a partir de R$ 15,91",
-          "publicado": "2026-11-19T20:00:47.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "margem pequena sobre o preço de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 3,
-        "falta": 87,
-        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
-      }
     },
     {
       "id": "aeroplan|100|compra_pontos|2026-12-10",
