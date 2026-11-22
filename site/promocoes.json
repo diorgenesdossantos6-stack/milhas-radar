@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T18:54:32.942Z",
+  "atualizadoEm": "2026-11-22T19:04:29.598Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -785,22 +785,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-azul-pelo-mundo-oferece-voos-internacionais-a-partir-de-36-mil-pontos",
-      "titulo": "Alerta PPV! Azul pelo Mundo oferece voos internacionais a partir de 36 mil pontos",
-      "link": "https://pontospravoar.com/alerta-ppv-azul-pelo-mundo-oferece-voos-internacionais-a-partir-de-36-mil-pontos/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-19T19:00:10.000Z",
-      "ate": "2026-11-22T19:00:10.000Z",
-      "dinheiro": null,
-      "milhas": 36000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Mundo",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "regua": {
