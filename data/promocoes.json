@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T06:34:31.109Z",
+  "atualizadoEm": "2026-11-22T06:44:34.839Z",
   "totalAtivas": 24,
   "totalCampanhasAtivas": 19,
   "combinacoes": [],
@@ -224,9 +224,7 @@
       "trechoDe": "endereco"
     }
   ],
-  "erros": [
-    "HTTP 500"
-  ],
+  "erros": [],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
