@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T17:54:30.409Z",
+  "atualizadoEm": "2026-11-22T18:04:30.532Z",
   "totalAtivas": 22,
   "totalCampanhasAtivas": 17,
   "combinacoes": [],
@@ -152,39 +152,6 @@
       "origem": null,
       "destino": "Mundo",
       "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
-      "titulo": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T18:01:05.000Z",
-      "ate": "2026-11-22T18:01:05.000Z",
-      "dinheiro": 1141,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Chile Santiago",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
-      "titulo": "Fortaleza! Voos saindo de São Paulo ou do Rio a partir de R$ 230 ou 9 mil milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-rio-sao-for-latam-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T17:58:00.000Z",
-      "ate": "2026-11-22T17:58:00.000Z",
-      "dinheiro": 230,
-      "milhas": 9000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
       "taxas": true,
       "ehLista": false
     }
