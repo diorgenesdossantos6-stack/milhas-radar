@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T14:54:32.195Z",
+  "atualizadoEm": "2026-11-22T15:04:30.989Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -872,23 +872,6 @@
       "destino": "Nova York",
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
-      "titulo": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
-      "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T15:01:34.000Z",
-      "ate": "2026-11-22T15:01:34.000Z",
-      "dinheiro": 573,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Porto Seguro Salvador",
-      "idaEVolta": true,
-      "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
     }
