@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-22T19:14:30.769Z",
-  "totalAtivas": 23,
-  "totalCampanhasAtivas": 18,
+  "atualizadoEm": "2026-11-22T19:24:30.950Z",
+  "totalAtivas": 24,
+  "totalCampanhasAtivas": 19,
   "combinacoes": [],
   "passagens": [
     {
@@ -201,6 +201,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-19"
+      }
+    },
+    "Aeroplan": {
+      "maxPercentual": 100,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-22"
+      ],
+      "ultimaEm": "2026-11-22T19:22:41.000Z",
+      "mediaPercentual": 100,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-22"
       }
     },
     "Caixa -> Smiles": {
@@ -666,6 +681,30 @@
         "falta": 87,
         "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
+    },
+    {
+      "id": "aeroplan|100|compra_pontos|2026-12-10",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Aeroplan",
+      "origens": [],
+      "percentual": 100,
+      "ate": "2026-12-10T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 70,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+      "publicado": "2026-11-22T19:22:41.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6/",
+          "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+          "publicado": "2026-11-22T19:22:41.000Z"
+        }
+      ]
     },
     {
       "id": "latam pass|66|compra_pontos|2026-11-23",
@@ -1184,6 +1223,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6",
+      "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+      "link": "https://www.cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-22T19:22:41.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [],
+      "destino": [
+        "Aeroplan"
+      ],
+      "par": "Aeroplan",
+      "percentual": 100,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-10T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A oferta é válida até o dia 10 de dezembro The post Compre milhas Aeroplan da Air Canada com até 100% de bônus appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-22T19:24:30.950Z",
+      "nota": 70
+    },
     {
       "id": "cartoesdecredito.me/noticia/vem-ai-latam-pass-e-livelo-com-27-de-bonus",
       "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",

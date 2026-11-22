@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T19:14:30.769Z",
+  "atualizadoEm": "2026-11-22T19:24:30.950Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -132,6 +132,30 @@
         "falta": 87,
         "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
       }
+    },
+    {
+      "id": "aeroplan|100|compra_pontos|2026-12-10",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Aeroplan",
+      "origens": [],
+      "percentual": 100,
+      "ate": "2026-12-10T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 70,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+      "publicado": "2026-11-22T19:22:41.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6/",
+          "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+          "publicado": "2026-11-22T19:22:41.000Z"
+        }
+      ]
     },
     {
       "id": "latam pass|66|compra_pontos|2026-11-23",
@@ -1006,6 +1030,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-19"
+      }
+    },
+    "Aeroplan": {
+      "maxPercentual": 100,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-22"
+      ],
+      "ultimaEm": "2026-11-22T19:22:41.000Z",
+      "mediaPercentual": 100,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-22"
       }
     },
     "Caixa -> Smiles": {
