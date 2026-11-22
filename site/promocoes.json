@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T21:54:33.196Z",
+  "atualizadoEm": "2026-11-22T22:04:29.617Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -652,22 +652,6 @@
       "destino": null,
       "idaEVolta": false,
       "taxas": false,
-      "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas",
-      "titulo": "Smiles tem voos a partir de 5 mil milhas ou R$ 92 + taxas",
-      "link": "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-19T22:00:07.000Z",
-      "ate": "2026-11-22T22:00:07.000Z",
-      "dinheiro": 92,
-      "milhas": 5000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
       "ehLista": false
     }
   ],
