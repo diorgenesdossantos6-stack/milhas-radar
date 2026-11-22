@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T12:54:30.591Z",
+  "atualizadoEm": "2026-11-22T13:04:29.569Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -410,16 +410,16 @@
       "publicado": "2026-11-19T15:10:23.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ultimo-dia-receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
+          "titulo": "Último dia! Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
+          "publicado": "2026-11-22T13:00:33.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
           "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
           "publicado": "2026-11-20T12:00:42.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
-          "titulo": "Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
-          "publicado": "2026-11-19T15:10:23.000Z"
         }
       ],
       "referencia": {
