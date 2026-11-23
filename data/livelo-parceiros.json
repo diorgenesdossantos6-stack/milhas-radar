@@ -1,8 +1,8 @@
 {
-  "atualizadoEm": "2026-11-23T09:24:33.814Z",
-  "lidoEm": "2026-11-23T09:14:30.351Z",
+  "atualizadoEm": "2026-11-23T09:34:36.386Z",
+  "lidoEm": "2026-11-23T09:34:36.386Z",
   "fonte": "https://www.livelo.com.br/ofertas",
-  "ok": false,
+  "ok": true,
   "total": 42,
   "emCampanha": 42,
   "parceiros": [
@@ -753,6 +753,5 @@
       "ate": null,
       "regras": "Se o usuário participante realizar o pagamento de seu pedido através de: Cupom de Desconto, Vale-Compra e Gift Card, estes valores não serão considerados para efeito de acúmulo de Pontos Livelo."
     }
-  ],
-  "erro": "HTTP 403"
+  ]
 }
