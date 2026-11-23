@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T20:14:31.785Z",
+  "atualizadoEm": "2026-11-23T20:24:33.047Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -1013,6 +1013,23 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas",
+      "titulo": "LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas",
+      "link": "https://passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T20:20:41.000Z",
+      "ate": "2026-11-26T20:20:41.000Z",
+      "dinheiro": 1460,
+      "milhas": 61000,
+      "programa": "Latam Pass",
+      "origem": "Latam Disponibiliza",
+      "destino": "Lisboa",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
       "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",

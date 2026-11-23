@@ -1,9 +1,26 @@
 {
-  "atualizadoEm": "2026-11-23T20:14:31.785Z",
+  "atualizadoEm": "2026-11-23T20:24:33.047Z",
   "totalAtivas": 38,
   "totalCampanhasAtivas": 26,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas",
+      "titulo": "LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas",
+      "link": "https://passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T20:20:41.000Z",
+      "ate": "2026-11-26T20:20:41.000Z",
+      "dinheiro": 1460,
+      "milhas": 61000,
+      "programa": "Latam Pass",
+      "origem": "Latam Disponibiliza",
+      "destino": "Lisboa",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
       "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
@@ -1639,6 +1656,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas",
+      "titulo": "LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas",
+      "link": "https://passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T20:20:41.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 1460,
+        "milhas": 61000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Lisboa",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T20:20:41.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Alerta direto dos Grupos do PP no WhatsApp! 🚨 Em nossas pesquisas, encontramos disponibilidade de bilhetes de ida e volta entre Fortaleza (FOR) e Lisboa (LIS). Os voos são operados pela LATAM e a emissão pode ser feita a partir de 61.343 milhas LATAM Pass ou R$ 1.460,10 + taxas. O post LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas apareceu primeiro em Passag",
+      "coletadoEm": "2026-11-23T20:24:33.047Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/ganhe-ate-5-pontos-real-gasto-reservar-hoteis-universal-orlando-resort-azul-viagens",
       "titulo": "Ganhe até 5 pontos por real gasto ao reservar hotéis do Universal Orlando Resort pela Azul Viagens",
