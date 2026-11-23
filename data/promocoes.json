@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T14:04:30.718Z",
-  "totalAtivas": 22,
-  "totalCampanhasAtivas": 15,
+  "atualizadoEm": "2026-11-23T14:14:29.946Z",
+  "totalAtivas": 24,
+  "totalCampanhasAtivas": 17,
   "combinacoes": [],
   "passagens": [
     {
@@ -53,9 +53,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "HTTP 500"
-  ],
+  "erros": [],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
@@ -75,18 +73,19 @@
     },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
         "2026-11-17",
-        "2026-11-19"
+        "2026-11-19",
+        "2026-11-23"
       ],
-      "ultimaEm": "2026-11-19T10:45:00.000Z",
+      "ultimaEm": "2026-11-23T14:01:18.000Z",
       "mediaPercentual": 80,
       "previsao": {
         "pronta": false,
-        "campanhas": 2,
-        "faltam": 3,
-        "ultima": "2026-11-19"
+        "campanhas": 3,
+        "faltam": 2,
+        "ultima": "2026-11-23"
       }
     },
     "Esfera -> Azul Fidelidade": {
@@ -431,6 +430,17 @@
       "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
       "fonte": "Melhores Destinos",
       "id": "melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26"
+    },
+    {
+      "em": "2026-11-23T14:00:52.000Z",
+      "valor": 9,
+      "tipo": "clube",
+      "programa": "Itau",
+      "destino": "Azul Fidelidade",
+      "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+      "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
+      "fonte": "Melhores Cartões",
+      "id": "melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html"
     }
   ],
   "regua": {
@@ -597,6 +607,48 @@
       "motivo": "milheiro a R$ 14,00 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "smiles|80|transferencia_bonificada|2026-11-26",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-26T14:01:18.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 83,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
+      "publicado": "2026-11-23T14:01:18.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/smiles-bonus-80-bf-nov26.html",
+          "titulo": "Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
+          "publicado": "2026-11-23T14:01:18.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
+      }
     },
     {
       "id": "aeroplan|100|compra_pontos|2026-12-10",
@@ -866,6 +918,56 @@
       ]
     },
     {
+      "id": "azul fidelidade|x|clube|2026-11-23",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": null,
+      "ate": "2026-11-23T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 15,
+      "custoMilheiro": 9,
+      "acumulo": null,
+      "clube": {
+        "milheiro": 9,
+        "origem": "publicado na matéria",
+        "veredito": "vale",
+        "rotulo": "Bom preço",
+        "motivo": "milheiro a R$ 9,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
+        "base": "clube",
+        "regua": {
+          "valor": 14.95,
+          "base": "mercado",
+          "texto": "o que o mercado paga pelo milheiro Azul Fidelidade"
+        },
+        "programa": "Azul Fidelidade"
+      },
+      "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+      "publicado": "2026-11-23T14:00:52.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
+          "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+          "publicado": "2026-11-23T14:00:52.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Bom preço",
+      "motivo": "milheiro a R$ 9,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
+      "baseVeredito": "clube",
+      "teto": null
+    },
+    {
       "id": "latam pass|x|transferencia_bonificada|2026-12-18",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -1076,6 +1178,60 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/smiles-bonus-80-bf-nov26.html",
+      "titulo": "Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
+      "link": "https://www.melhorescartoes.com.br/smiles-bonus-80-bf-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-23T14:01:18.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Esfera -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T14:01:18.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Smiles está com uma promoção que oferece até 80% de bônus na transferência de pontos dos cartões de crédito parceiros para o programa, exceto Esfera. A campanha vale até às 23h59 de amanhã, 24 de novembro e, para aproveitar, é obrigatório se cadastrar no site da promoção antes de enviar os pontos. A bonificação… O post Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos do ",
+      "coletadoEm": "2026-11-23T14:14:29.946Z",
+      "nota": 83
+    },
+    {
+      "id": "melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
+      "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+      "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-23T14:00:52.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": 9,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Se você estava esperando uma oportunidade para assinar o Clube Azul, agora é uma boa hora! O programa está com uma oferta especial para assinar o Plano 5.000 anual por apenas R$ 50 por mês, ou R$ 45 para quem pagar com o Cartão Azul Itaú e conseguir o milheiro a partir de R$ 9.… O post Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9 apareceu primeiro em Melhores Cartões .",
+      "coletadoEm": "2026-11-23T14:14:29.946Z",
+      "nota": 15
+    },
     {
       "id": "pontospravoar.com/blackissima-esfera-oferece-ate-14-pontos-por-real-em-lojas-parceiras",
       "titulo": "Blackíssima! Esfera oferece até 14 pontos por real em lojas parceiras",

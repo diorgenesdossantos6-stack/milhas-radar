@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T14:04:30.718Z",
+  "atualizadoEm": "2026-11-23T14:14:29.946Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -88,6 +88,48 @@
       "motivo": "milheiro a R$ 14,00 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "smiles|80|transferencia_bonificada|2026-11-26",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-26T14:01:18.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 83,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
+      "publicado": "2026-11-23T14:01:18.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/smiles-bonus-80-bf-nov26.html",
+          "titulo": "Orange Friday! Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
+          "publicado": "2026-11-23T14:01:18.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
+      }
     },
     {
       "id": "aeroplan|100|compra_pontos|2026-12-10",
@@ -355,6 +397,56 @@
           "publicado": "2026-11-23T12:00:34.000Z"
         }
       ]
+    },
+    {
+      "id": "azul fidelidade|x|clube|2026-11-23",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": null,
+      "ate": "2026-11-23T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 15,
+      "custoMilheiro": 9,
+      "acumulo": null,
+      "clube": {
+        "milheiro": 9,
+        "origem": "publicado na matéria",
+        "veredito": "vale",
+        "rotulo": "Bom preço",
+        "motivo": "milheiro a R$ 9,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
+        "base": "clube",
+        "regua": {
+          "valor": 14.95,
+          "base": "mercado",
+          "texto": "o que o mercado paga pelo milheiro Azul Fidelidade"
+        },
+        "programa": "Azul Fidelidade"
+      },
+      "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+      "publicado": "2026-11-23T14:00:52.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
+          "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+          "publicado": "2026-11-23T14:00:52.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Bom preço",
+      "motivo": "milheiro a R$ 9,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
+      "baseVeredito": "clube",
+      "teto": null
     },
     {
       "id": "latam pass|x|transferencia_bonificada|2026-12-18",
@@ -783,6 +875,15 @@
       "titulo": "Milheiro por R$ 23,53! Transfira da Livelo para o Latam Pass com bônus usando pontos mais dinheiro",
       "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
       "fonte": "Melhores Destinos"
+    },
+    {
+      "em": "2026-11-23T14:00:52.000Z",
+      "valor": 9,
+      "tipo": "clube",
+      "destino": "Azul Fidelidade",
+      "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
+      "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
+      "fonte": "Melhores Cartões"
     }
   ],
   "historico": {
@@ -804,18 +905,19 @@
     },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
         "2026-11-17",
-        "2026-11-19"
+        "2026-11-19",
+        "2026-11-23"
       ],
-      "ultimaEm": "2026-11-19T10:45:00.000Z",
+      "ultimaEm": "2026-11-23T14:01:18.000Z",
       "mediaPercentual": 80,
       "previsao": {
         "pronta": false,
-        "campanhas": 2,
-        "faltam": 3,
-        "ultima": "2026-11-19"
+        "campanhas": 3,
+        "faltam": 2,
+        "ultima": "2026-11-23"
       }
     },
     "Esfera -> Azul Fidelidade": {
