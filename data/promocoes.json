@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-23T19:34:33.303Z",
-  "totalAtivas": 36,
+  "atualizadoEm": "2026-11-23T19:44:30.185Z",
+  "totalAtivas": 37,
   "totalCampanhasAtivas": 25,
   "combinacoes": [],
   "passagens": [
@@ -1398,9 +1398,15 @@
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
       "publicado": "2026-11-23T15:58:28.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
+          "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
+          "publicado": "2026-11-23T19:30:49.000Z"
+        },
         {
           "fonte": "Cartões de Crédito",
           "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
@@ -1600,6 +1606,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/azul-friday-compre-pontos-azul-fidelidade-ate-320-porcento-bonus",
+      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
+      "link": "https://pontospravoar.com/azul-friday-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-23T19:30:49.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Em comemoração a Azul Friday, o Azul Fidelidade começou a semana com uma nova promoção para os clientes que desejam turbinar seu saldo de pontos. Até amanhã, dia 24 de novembro, é possível comprar pontos até 320% de bônus. Vamos aos detalhes! Azul Fidelidade oferece até 320% de bônus na compra de pontos 320% de…",
+      "coletadoEm": "2026-11-23T19:44:30.185Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/azul-oferece-ate-120-de-bonus-nas-transferencias-da-premmia-cpm-a-partir-de-r-1532",
       "titulo": "Azul oferece até 120% de bônus nas transferências da Premmia - CPM a partir de R$ 15,32",

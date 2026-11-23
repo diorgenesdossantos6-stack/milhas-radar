@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T19:34:33.303Z",
+  "atualizadoEm": "2026-11-23T19:44:30.185Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -771,9 +771,15 @@
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
       "publicado": "2026-11-23T15:58:28.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
+          "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
+          "publicado": "2026-11-23T19:30:49.000Z"
+        },
         {
           "fonte": "Cartões de Crédito",
           "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
