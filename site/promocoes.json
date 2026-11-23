@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T13:34:30.802Z",
+  "atualizadoEm": "2026-11-23T13:44:32.572Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -37,9 +37,8 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 4,
-        "falta": 86,
-        "texto": "a próxima costuma demorar mais 86 dias, então esperar tem custo"
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
@@ -150,6 +149,46 @@
       "teto": null
     },
     {
+      "id": "smiles|80|transferencia_bonificada|2026-11-24",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [],
+      "percentual": 80,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 58,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Smiles oferece até 80% de bônus nas transferências",
+      "publicado": "2026-11-23T13:40:56.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/smiles-oferece-ate-80-de-bonus-nas-transferencias-10/",
+          "titulo": "Smiles oferece até 80% de bônus nas transferências",
+          "publicado": "2026-11-23T13:40:56.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
       "id": "latam pass|27|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -161,12 +200,18 @@
       "ate": "2026-11-24T23:59:00.000Z",
       "confiancaPrazo": "alta",
       "nota": 51,
-      "custoMilheiro": null,
+      "custoMilheiro": 23.53,
       "acumulo": null,
       "clube": null,
       "titulo": "LATAM Pass e Livelo oferecem 27% de bônus nas transferências",
       "publicado": "2026-11-23T12:59:49.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Destinos",
+          "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
+          "titulo": "Milheiro por R$ 23,53! Transfira da Livelo para o Latam Pass com bônus usando pontos mais dinheiro",
+          "publicado": "2026-11-23T13:42:33.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/latam-pass-oferece-27-de-bonus-na-transferencia-de-pontos-livelo/",
@@ -192,11 +237,11 @@
         "mediana": 24.3,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
+      "veredito": "limite",
+      "rotulo": "No limite",
+      "motivo": "R$ 23,53 contra R$ 23,80 de comprar pronto: diferença pequena",
+      "baseVeredito": "compra",
+      "teto": null,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -700,22 +745,32 @@
       "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
       "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
       "fonte": "Passageiro de Primeira"
+    },
+    {
+      "em": "2026-11-23T13:42:33.000Z",
+      "valor": 23.53,
+      "tipo": "transferencia_bonificada",
+      "destino": "Latam Pass",
+      "titulo": "Milheiro por R$ 23,53! Transfira da Livelo para o Latam Pass com bônus usando pontos mais dinheiro",
+      "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
+      "fonte": "Melhores Destinos"
     }
   ],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
-        "2026-11-18"
+        "2026-11-18",
+        "2026-11-23"
       ],
-      "ultimaEm": "2026-11-18T16:19:09.000Z",
-      "mediaPercentual": 130,
+      "ultimaEm": "2026-11-23T13:40:56.000Z",
+      "mediaPercentual": 113,
       "previsao": {
         "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-18"
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-23"
       }
     },
     "Esfera -> Smiles": {
