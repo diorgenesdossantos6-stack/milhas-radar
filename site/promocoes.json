@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T13:04:34.330Z",
+  "atualizadoEm": "2026-11-23T13:14:37.176Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -184,6 +184,48 @@
           "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-livelo-oferecem-27-de-bonus-nas-transferencias/",
           "titulo": "LATAM Pass e Livelo oferecem 27% de bônus nas transferências",
           "publicado": "2026-11-23T12:59:49.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "latam pass|27|transferencia_bonificada|2026-11-26",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 27,
+      "ate": "2026-11-26T12:59:48.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 51,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Aproveite! LATAM Pass oferece 27% de bônus na transferência de pontos da Livelo",
+      "publicado": "2026-11-23T12:59:48.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/aproveite-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
+          "titulo": "Aproveite! LATAM Pass oferece 27% de bônus na transferência de pontos da Livelo",
+          "publicado": "2026-11-23T12:59:48.000Z"
         }
       ],
       "referencia": {
@@ -817,7 +859,7 @@
     },
     "Livelo -> Latam Pass": {
       "maxPercentual": 27,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
         "2026-11-22",
         "2026-11-23"
