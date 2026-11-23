@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T12:54:30.308Z",
+  "atualizadoEm": "2026-11-23T13:04:34.330Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -150,28 +150,40 @@
       "teto": null
     },
     {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-23",
+      "id": "latam pass|27|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
       "destino": "Latam Pass",
       "origens": [
-        "Inter"
+        "Livelo"
       ],
-      "percentual": 25,
-      "ate": "2026-11-23T13:00:16.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 50,
+      "percentual": 27,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 51,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
-      "publicado": "2026-11-20T13:00:16.000Z",
+      "titulo": "LATAM Pass e Livelo oferecem 27% de bônus nas transferências",
+      "publicado": "2026-11-23T12:59:49.000Z",
       "fontes": [
         {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/confira-5-promocoes-pontos-milhas-encerram-hoje/",
-          "titulo": "Confira 5 promoções de pontos e milhas que encerram hoje!",
-          "publicado": "2026-11-20T13:00:16.000Z"
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/latam-pass-oferece-27-de-bonus-na-transferencia-de-pontos-livelo/",
+          "titulo": "LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-23T13:02:08.000Z"
+        },
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-livelo-bonus-bf-2026.html",
+          "titulo": "Muito bom! Latam Pass Friday oferece 27% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-23T13:00:14.000Z"
+        },
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-livelo-oferecem-27-de-bonus-nas-transferencias/",
+          "titulo": "LATAM Pass e Livelo oferecem 27% de bônus nas transferências",
+          "publicado": "2026-11-23T12:59:49.000Z"
         }
       ],
       "referencia": {
@@ -187,7 +199,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -229,7 +241,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -256,38 +268,6 @@
           "publicado": "2026-11-23T12:00:34.000Z"
         }
       ]
-    },
-    {
-      "id": "livelo|25|clube|2026-11-23",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 25,
-      "ate": "2026-11-23T13:00:57.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 25,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
-      "publicado": "2026-11-20T13:00:57.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul/",
-          "titulo": "Livelo oferece até 25% OFF em voos para o Nordeste e América do Sul",
-          "publicado": "2026-11-20T13:00:57.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "latam pass|x|transferencia_bonificada|2026-12-18",
@@ -835,6 +815,22 @@
         "ultima": "2026-11-20"
       }
     },
+    "Livelo -> Latam Pass": {
+      "maxPercentual": 27,
+      "campanhas": 2,
+      "inicios": [
+        "2026-11-22",
+        "2026-11-23"
+      ],
+      "ultimaEm": "2026-11-23T12:59:49.000Z",
+      "mediaPercentual": 27,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-23"
+      }
+    },
     "Inter -> Latam Pass": {
       "maxPercentual": 25,
       "campanhas": 3,
@@ -864,21 +860,6 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-19"
-      }
-    },
-    "Livelo -> Latam Pass": {
-      "maxPercentual": 27,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-22"
-      ],
-      "ultimaEm": "2026-11-22T18:11:19.000Z",
-      "mediaPercentual": 27,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-22"
       }
     },
     "C6 Bank -> Latam Pass": {
