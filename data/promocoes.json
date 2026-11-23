@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-23T20:24:33.047Z",
+  "atualizadoEm": "2026-11-23T20:34:30.588Z",
   "totalAtivas": 38,
   "totalCampanhasAtivas": 26,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
+      "titulo": "Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-23T20:27:22.000Z",
+      "ate": "2026-11-26T20:27:22.000Z",
+      "dinheiro": 273,
+      "milhas": 11000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "São Luís",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas",
       "titulo": "LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas",
@@ -1656,6 +1672,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
+      "titulo": "Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-23T20:27:22.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 273,
+        "milhas": 11000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "São Luís",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T20:27:22.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Bom preço para você conhecer ou revisitar os Lençóis Maranhenses! Encontramos passagens aéreas para a capital São Luís a partir de 11.626 milhas Latam Pass ou R$ 273,56 o trecho + taxas, com saídas do Aeroporto de Guarulhos, em São Paulo. Os menores preços são para viajar entre março e maio de 2027. Mas os… O post Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho",
+      "coletadoEm": "2026-11-23T20:34:30.588Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas",
       "titulo": "LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas",
