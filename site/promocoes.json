@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T16:54:32.404Z",
+  "atualizadoEm": "2026-11-23T17:04:32.004Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -720,7 +720,7 @@
         "Livelo"
       ],
       "percentual": null,
-      "ate": "2026-11-26T14:41:07.000Z",
+      "ate": "2026-11-26T17:00:37.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -732,6 +732,12 @@
       "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
       "publicado": "2026-11-23T14:41:07.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/mequi-friday-mcdonalds-oferece-10-pontos-livelo-real-gasto-combo-promocional/",
+          "titulo": "Méqui Friday! McDonald's oferece 10 pontos Livelo por real gasto em combo promocional",
+          "publicado": "2026-11-23T17:00:37.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo/",
@@ -891,6 +897,23 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
+      "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
+      "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T17:00:27.000Z",
+      "ate": "2026-11-26T17:00:27.000Z",
+      "dinheiro": 3401,
+      "milhas": null,
+      "programa": null,
+      "origem": "Classe Executiva da Tap",
+      "destino": "Roma",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas",
       "titulo": "Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + taxas",

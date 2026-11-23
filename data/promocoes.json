@@ -1,9 +1,26 @@
 {
-  "atualizadoEm": "2026-11-23T16:54:32.404Z",
-  "totalAtivas": 33,
+  "atualizadoEm": "2026-11-23T17:04:32.004Z",
+  "totalAtivas": 34,
   "totalCampanhasAtivas": 23,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
+      "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
+      "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T17:00:27.000Z",
+      "ate": "2026-11-26T17:00:27.000Z",
+      "dinheiro": 3401,
+      "milhas": null,
+      "programa": null,
+      "origem": "Classe Executiva da Tap",
+      "destino": "Roma",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas",
       "titulo": "Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + taxas",
@@ -1281,7 +1298,7 @@
         "Livelo"
       ],
       "percentual": null,
-      "ate": "2026-11-26T14:41:07.000Z",
+      "ate": "2026-11-26T17:00:37.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -1293,6 +1310,12 @@
       "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
       "publicado": "2026-11-23T14:41:07.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/mequi-friday-mcdonalds-oferece-10-pontos-livelo-real-gasto-combo-promocional/",
+          "titulo": "Méqui Friday! McDonald's oferece 10 pontos Livelo por real gasto em combo promocional",
+          "publicado": "2026-11-23T17:00:37.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo/",
@@ -1451,6 +1474,66 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/mequi-friday-mcdonalds-oferece-10-pontos-livelo-real-gasto-combo-promocional",
+      "titulo": "Méqui Friday! McDonald's oferece 10 pontos Livelo por real gasto em combo promocional",
+      "link": "https://pontospravoar.com/mequi-friday-mcdonalds-oferece-10-pontos-livelo-real-gasto-combo-promocional/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-23T17:00:37.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T17:00:37.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Méqui Friday chegou com uma oportunidade para quem deseja acumular pontos Livelo! Em parceria com o McDonald's, o programa está oferecendo 10 pontos por real gasto na compra de uma McOferta Clássica + Sundae, exclusivamente pelo aplicativo do Méqui. McDonald's oferece 10 pontos Livelo por real gasto Durante a campanha, os clientes poderão acumular…",
+      "coletadoEm": "2026-11-23T17:04:32.004Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
+      "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
+      "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T17:00:27.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo",
+        "Bradesco"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 3401,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Roma",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T17:00:27.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo está oferecendo 30% de desconto em voos para a Itália para correntistas Bradesco mediante o uso do cupom \"ITALIABRA30\" [sem aspas] + 30% de pontos de volta. Para completar, utilizando a ferramenta Turbo Livelo, você pode comprar pontos Livelo por um valor mais baixo para fazer a emissão. Juntando as oportunidades você emite uma passagem em Classe Executiva para Roma por R$ 3.401 + taxas o",
+      "coletadoEm": "2026-11-23T17:04:32.004Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas",
       "titulo": "Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + taxas",
