@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-23T14:44:31.459Z",
-  "totalAtivas": 29,
+  "atualizadoEm": "2026-11-23T14:54:31.472Z",
+  "totalAtivas": 30,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
+      "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-23T14:47:30.000Z",
+      "ate": "2026-11-26T14:47:30.000Z",
+      "dinheiro": 208,
+      "milhas": 8000,
+      "programa": "Latam Pass",
+      "origem": "São Paulo",
+      "destino": "Palmas",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
       "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
@@ -35,27 +51,9 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
-      "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-20T14:53:38.000Z",
-      "ate": "2026-11-23T14:53:38.000Z",
-      "dinheiro": 78,
-      "milhas": 3273,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
-  "erros": [
-    "This operation was aborted"
-  ],
+  "erros": [],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
@@ -993,7 +991,7 @@
       ],
       "percentual": null,
       "ate": "2026-11-23T23:59:00.000Z",
-      "confiancaPrazo": "media",
+      "confiancaPrazo": "alta",
       "nota": 15,
       "custoMilheiro": 9,
       "acumulo": null,
@@ -1014,6 +1012,12 @@
       "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
       "publicado": "2026-11-23T14:00:52.000Z",
       "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/clube-azul-5-000-assine-a-partir-de-9-00/",
+          "titulo": "Clube Azul 5.000: assine a partir de R$ 9,00",
+          "publicado": "2026-11-23T14:44:21.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
@@ -1366,6 +1370,65 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
+      "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-23T14:47:30.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 208,
+        "milhas": 8000,
+        "programa": "Latam Pass",
+        "origem": "São Paulo",
+        "destino": "Palmas",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T14:47:30.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Latam Pass está com voos diretos de São Paulo para Palmas a partir de 8.852 milhas o trecho, mais taxas aeroportuárias. A tarifa está disponível para viajar entre fevereiro e março de 2027. Aproveite agora clicando aqui. Os valores abaixo são para viagem de ida e volta, mais taxas aeroportuárias. Resgate agora clicando aqui. O post Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milha",
+      "coletadoEm": "2026-11-23T14:54:31.472Z",
+      "nota": 0
+    },
+    {
+      "id": "cartoesdecredito.me/noticia/clube-azul-5-000-assine-a-partir-de-9-00",
+      "titulo": "Clube Azul 5.000: assine a partir de R$ 9,00",
+      "link": "https://www.cartoesdecredito.me/noticia/clube-azul-5-000-assine-a-partir-de-9-00/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-23T14:44:21.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-23T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A promoção é válida apenas hoje, dia 23 de novembro de 2026 The post Clube Azul 5.000: assine a partir de R$ 9,00 appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-23T14:54:31.472Z",
+      "nota": 5
+    },
     {
       "id": "passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo",
       "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",

@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T14:44:31.459Z",
+  "atualizadoEm": "2026-11-23T14:54:31.472Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -446,7 +446,7 @@
       ],
       "percentual": null,
       "ate": "2026-11-23T23:59:00.000Z",
-      "confiancaPrazo": "media",
+      "confiancaPrazo": "alta",
       "nota": 15,
       "custoMilheiro": 9,
       "acumulo": null,
@@ -467,6 +467,12 @@
       "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
       "publicado": "2026-11-23T14:00:52.000Z",
       "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/clube-azul-5-000-assine-a-partir-de-9-00/",
+          "titulo": "Clube Azul 5.000: assine a partir de R$ 9,00",
+          "publicado": "2026-11-23T14:44:21.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
@@ -821,6 +827,22 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
+      "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-23T14:47:30.000Z",
+      "ate": "2026-11-26T14:47:30.000Z",
+      "dinheiro": 208,
+      "milhas": 8000,
+      "programa": "Latam Pass",
+      "origem": "São Paulo",
+      "destino": "Palmas",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
       "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
       "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas/",
@@ -846,22 +868,6 @@
       "dinheiro": null,
       "milhas": 3469,
       "programa": null,
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
-      "titulo": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-20T14:53:38.000Z",
-      "ate": "2026-11-23T14:53:38.000Z",
-      "dinheiro": 78,
-      "milhas": 3273,
-      "programa": "Latam Pass",
       "origem": null,
       "destino": null,
       "idaEVolta": false,
