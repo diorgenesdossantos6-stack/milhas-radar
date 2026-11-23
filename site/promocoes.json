@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T23:54:32.068Z",
+  "atualizadoEm": "2026-11-23T00:04:34.890Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -325,44 +325,6 @@
       }
     },
     {
-      "id": "livelo|x|clube|2026-11-22",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-22T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 10,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
-      "publicado": "2026-11-20T12:00:42.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ultimo-dia-receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
-          "titulo": "Último dia! Receba até 104 mil pontos ao assinar o Clube Livelo Especial com nosso cupom exclusivo",
-          "publicado": "2026-11-22T13:00:33.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/clube-livelo-especial-oferece-100-mil-pontos-novos-assinantes/",
-          "titulo": "Clube Livelo Especial oferece 100 mil pontos para novos assinantes",
-          "publicado": "2026-11-20T12:00:42.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
       "id": "azul fidelidade|x|clube|2026-11-29",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -487,39 +449,6 @@
       "teto": null
     },
     {
-      "id": "azul fidelidade|x|acumulo|2026-11-22",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-22T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 5,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 12,
-        "loja": "Renner"
-      },
-      "clube": null,
-      "titulo": "Último dia! Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
-      "publicado": "2026-11-22T13:00:56.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-12-pontos-real-compras-renner/",
-          "titulo": "Último dia! Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
-          "publicado": "2026-11-22T13:00:56.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
       "id": "esfera|x|clube|2026-11-24",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -620,22 +549,6 @@
       "destino": null,
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
-      "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm passagens nacionais a partir de R$ 276 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-19T23:59:15.000Z",
-      "ate": "2026-11-22T23:59:15.000Z",
-      "dinheiro": 276,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": false,
       "ehLista": false
     }
   ],
