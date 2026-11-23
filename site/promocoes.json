@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T16:04:32.970Z",
+  "atualizadoEm": "2026-11-23T16:14:35.774Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -132,45 +132,29 @@
       }
     },
     {
-      "id": "aeroplan|100|compra_pontos|2026-12-10",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Aeroplan",
-      "origens": [],
-      "percentual": 100,
-      "ate": "2026-12-10T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 70,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
-      "publicado": "2026-11-22T19:22:41.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6/",
-          "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
-          "publicado": "2026-11-22T19:22:41.000Z"
-        }
-      ]
-    },
-    {
       "id": "smiles|80|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
       "destino": "Smiles",
-      "origens": [],
+      "origens": [
+        "Esfera"
+      ],
       "percentual": 80,
       "ate": "2026-11-24T23:59:00.000Z",
       "confiancaPrazo": "alta",
-      "nota": 58,
+      "nota": 83,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
       "titulo": "Smiles oferece até 80% de bônus nas transferências",
       "publicado": "2026-11-23T13:40:56.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/voltou-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros/",
+          "titulo": "Voltou! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros",
+          "publicado": "2026-11-23T16:00:34.000Z"
+        },
         {
           "fonte": "Cartões de Crédito",
           "link": "https://www.cartoesdecredito.me/noticia/smiles-oferece-ate-80-de-bonus-nas-transferencias-10/",
@@ -194,6 +178,30 @@
         "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
       }
+    },
+    {
+      "id": "aeroplan|100|compra_pontos|2026-12-10",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Aeroplan",
+      "origens": [],
+      "percentual": 100,
+      "ate": "2026-12-10T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 70,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+      "publicado": "2026-11-22T19:22:41.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6/",
+          "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
+          "publicado": "2026-11-22T19:22:41.000Z"
+        }
+      ]
     },
     {
       "id": "azul fidelidade|76|clube|2026-11-26",
@@ -644,6 +652,36 @@
       }
     },
     {
+      "id": "azul fidelidade|x|compra_pontos|2026-11-24",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+      "publicado": "2026-11-23T15:58:28.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
+          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+          "publicado": "2026-11-23T15:58:28.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-26",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1061,23 +1099,22 @@
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
-      "campanhas": 3,
+      "campanhas": 2,
       "inicios": [
-        "2026-11-18",
-        "2026-11-23"
+        "2026-11-18"
       ],
-      "ultimaEm": "2026-11-23T13:40:56.000Z",
-      "mediaPercentual": 113,
+      "ultimaEm": "2026-11-18T16:19:09.000Z",
+      "mediaPercentual": 130,
       "previsao": {
         "pronta": false,
-        "campanhas": 2,
-        "faltam": 3,
-        "ultima": "2026-11-23"
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-18"
       }
     },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
-      "campanhas": 3,
+      "campanhas": 4,
       "inicios": [
         "2026-11-17",
         "2026-11-19",
