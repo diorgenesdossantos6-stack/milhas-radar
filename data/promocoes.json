@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T16:14:35.774Z",
-  "totalAtivas": 32,
-  "totalCampanhasAtivas": 22,
+  "atualizadoEm": "2026-11-23T16:24:32.309Z",
+  "totalAtivas": 33,
+  "totalCampanhasAtivas": 23,
   "combinacoes": [],
   "passagens": [
     {
@@ -1196,6 +1196,36 @@
       }
     },
     {
+      "id": "smiles|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Smiles",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Smiles oferece até 375% de bônus na compra de milhas",
+      "publicado": "2026-11-23T16:21:37.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/smiles-375-bonus-compra-milhas-bf-nov26.html",
+          "titulo": "Smiles oferece até 375% de bônus na compra de milhas",
+          "publicado": "2026-11-23T16:21:37.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "azul fidelidade|x|compra_pontos|2026-11-24",
       "tipo": "compra_pontos",
       "tipoNome": "Compra de pontos com desconto",
@@ -1404,6 +1434,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/smiles-375-bonus-compra-milhas-bf-nov26.html",
+      "titulo": "Smiles oferece até 375% de bônus na compra de milhas",
+      "link": "https://www.melhorescartoes.com.br/smiles-375-bonus-compra-milhas-bf-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-23T16:21:37.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Smiles está oferecendo até 375% de bônus na compra de milhas para assinantes do Clube Smiles e/ou clientes Diamante. A oferta faz parte da Orange Friday e é válida até as 21h do dia 26 de novembro. É possível conseguir entre 325% e 375% de bônus, a depender do plano assinado. Clique aqui para… O post Smiles oferece até 375% de bônus na compra de milhas apareceu primeiro em Melhores Cartões .",
+      "coletadoEm": "2026-11-23T16:24:32.309Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/voltou-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros",
       "titulo": "Voltou! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros",

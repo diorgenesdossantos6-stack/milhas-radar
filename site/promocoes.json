@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T16:14:35.774Z",
+  "atualizadoEm": "2026-11-23T16:24:32.309Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -648,6 +648,36 @@
         "min": 12.5,
         "max": 18,
         "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "smiles|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Smiles",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Smiles oferece até 375% de bônus na compra de milhas",
+      "publicado": "2026-11-23T16:21:37.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/smiles-375-bonus-compra-milhas-bf-nov26.html",
+          "titulo": "Smiles oferece até 375% de bônus na compra de milhas",
+          "publicado": "2026-11-23T16:21:37.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
