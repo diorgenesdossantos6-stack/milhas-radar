@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T12:24:30.394Z",
+  "atualizadoEm": "2026-11-23T12:34:32.963Z",
   "totalAtivas": 17,
   "totalCampanhasAtivas": 13,
   "combinacoes": [],
@@ -53,9 +53,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "This operation was aborted"
-  ],
+  "erros": [],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
