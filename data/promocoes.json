@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T14:54:31.472Z",
+  "atualizadoEm": "2026-11-23T15:04:38.795Z",
   "totalAtivas": 30,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
@@ -198,12 +198,12 @@
     },
     "Itau -> Azul Fidelidade": {
       "maxPercentual": 76,
-      "campanhas": 1,
+      "campanhas": 2,
       "inicios": [
         "2026-11-23"
       ],
-      "ultimaEm": "2026-11-23T14:15:55.000Z",
-      "mediaPercentual": 76,
+      "ultimaEm": "2026-11-23T15:00:24.000Z",
+      "mediaPercentual": 43,
       "previsao": {
         "pronta": false,
         "campanhas": 1,
@@ -701,41 +701,6 @@
       ]
     },
     {
-      "id": "latam pass|66|compra_pontos|2026-11-23",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Latam Pass",
-      "origens": [],
-      "percentual": 66,
-      "ate": "2026-11-23T15:00:00.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 65,
-      "custoMilheiro": 23.8,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
-      "publicado": "2026-11-20T15:00:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
-          "titulo": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
-          "publicado": "2026-11-20T15:00:00.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "R$ 23,80 sai mais caro que comprar pronto a R$ 23,80",
-      "baseVeredito": "compra",
-      "teto": null
-    },
-    {
       "id": "smiles|80|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -1192,6 +1157,38 @@
       "teto": null
     },
     {
+      "id": "azul fidelidade|10|compra_pontos|2026-11-24",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 10,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 6,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+      "publicado": "2026-11-23T15:00:24.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
+          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+          "publicado": "2026-11-23T15:00:24.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-26",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1370,6 +1367,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2",
+      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+      "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T15:00:24.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": 10,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A Azul Fidelidade está oferecendo até 320% de bônus na compra de pontos até amanhã (24). Assinantes do Clube Azul podem adquirir pontos a partir de R$ 15,00, enquanto clientes dos níveis Topázio, Safira, Diamante e Unique pagam a partir de R$ 19,69, com um desconto adicional de 10% para portadores do cartão Azul Itaú. Aproveite essa oportunidade para turbinar suas milhas! O post Azul Fidelidade of",
+      "coletadoEm": "2026-11-23T15:04:38.795Z",
+      "nota": 6
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
       "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",
