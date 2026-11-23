@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T14:14:29.946Z",
+  "atualizadoEm": "2026-11-23T14:24:29.692Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -228,6 +228,38 @@
         "cadencia": 90,
         "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
+      "id": "azul fidelidade|76|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 76,
+      "ate": "2026-11-26T14:15:55.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 56,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Oferta relâmpago! Assine o Clube Azul 5.000 com até 76% de desconto – CPM a partir de R$ 9",
+      "publicado": "2026-11-23T14:15:55.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/oferta-relampago-assine-o-clube-azul-5-000-com-ate-76-de-desconto-cpm-a-partir-de-r-9/",
+          "titulo": "Oferta relâmpago! Assine o Clube Azul 5.000 com até 76% de desconto – CPM a partir de R$ 9",
+          "publicado": "2026-11-23T14:15:55.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -1026,6 +1058,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-19"
+      }
+    },
+    "Itau -> Azul Fidelidade": {
+      "maxPercentual": 76,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-23"
+      ],
+      "ultimaEm": "2026-11-23T14:15:55.000Z",
+      "mediaPercentual": 76,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-23"
       }
     },
     "Itau -> Latam Pass": {
