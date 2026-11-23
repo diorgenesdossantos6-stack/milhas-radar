@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T11:54:31.422Z",
+  "atualizadoEm": "2026-11-23T12:04:31.760Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -232,6 +232,30 @@
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
+    },
+    {
+      "id": "accor all|40|clube|2026-12-02",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Accor ALL",
+      "origens": [],
+      "percentual": 40,
+      "ate": "2026-12-02T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 34,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+      "publicado": "2026-11-23T12:00:34.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/melhor-oferta-do-ano-assine-o-all-signature-com-ate-40-de-desconto-incluindo-ex-assinantes-2/",
+          "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+          "publicado": "2026-11-23T12:00:34.000Z"
+        }
+      ]
     },
     {
       "id": "livelo|25|clube|2026-11-23",
@@ -870,6 +894,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-16"
+      }
+    },
+    "Accor ALL": {
+      "maxPercentual": 40,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-23"
+      ],
+      "ultimaEm": "2026-11-23T12:00:34.000Z",
+      "mediaPercentual": 40,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-23"
       }
     },
     "Banco do Brasil": {

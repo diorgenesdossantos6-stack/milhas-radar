@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T11:54:31.422Z",
-  "totalAtivas": 16,
-  "totalCampanhasAtivas": 12,
+  "atualizadoEm": "2026-11-23T12:04:31.760Z",
+  "totalAtivas": 17,
+  "totalCampanhasAtivas": 13,
   "combinacoes": [],
   "passagens": [
     {
@@ -268,6 +268,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-16"
+      }
+    },
+    "Accor ALL": {
+      "maxPercentual": 40,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-23"
+      ],
+      "ultimaEm": "2026-11-23T12:00:34.000Z",
+      "mediaPercentual": 40,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-23"
       }
     },
     "Banco do Brasil": {
@@ -713,6 +728,30 @@
       }
     },
     {
+      "id": "accor all|40|clube|2026-12-02",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Accor ALL",
+      "origens": [],
+      "percentual": 40,
+      "ate": "2026-12-02T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 34,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+      "publicado": "2026-11-23T12:00:34.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/melhor-oferta-do-ano-assine-o-all-signature-com-ate-40-de-desconto-incluindo-ex-assinantes-2/",
+          "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+          "publicado": "2026-11-23T12:00:34.000Z"
+        }
+      ]
+    },
+    {
       "id": "livelo|25|clube|2026-11-23",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -926,6 +965,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/melhor-oferta-do-ano-assine-o-all-signature-com-ate-40-de-desconto-incluindo-ex-assinantes-2",
+      "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+      "link": "https://passageirodeprimeira.com/melhor-oferta-do-ano-assine-o-all-signature-com-ate-40-de-desconto-incluindo-ex-assinantes-2/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T12:00:34.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Accor ALL"
+      ],
+      "par": "Accor ALL",
+      "percentual": 40,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-02T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "[Oferta] Muito bom! O ALL Accor está com uma promoção imperdível: até 40% de desconto na assinatura do ALL Signature até 2 de dezembro. Ex-assinantes também têm desconto, utilizando os cupons 'BLACK26PP' ou 'VOLTABF26PP'. O post Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-23T12:04:31.760Z",
+      "nota": 34
+    },
     {
       "id": "cartoesdecredito.me/milhas/compre-milhas-aeroplan-da-air-canada-com-ate-100-de-bonus-6",
       "titulo": "Compre milhas Aeroplan da Air Canada com até 100% de bônus",
