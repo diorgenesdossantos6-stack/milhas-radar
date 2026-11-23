@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T13:54:36.437Z",
+  "atualizadoEm": "2026-11-23T14:04:30.718Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -509,6 +509,35 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "esfera|x|acumulo|2026-11-26",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T14:00:26.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Blackíssima! Esfera oferece até 14 pontos por real em lojas parceiras",
+      "publicado": "2026-11-23T14:00:26.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-14-pontos-por-real-em-lojas-parceiras/",
+          "titulo": "Blackíssima! Esfera oferece até 14 pontos por real em lojas parceiras",
+          "publicado": "2026-11-23T14:00:26.000Z"
+        }
+      ]
     },
     {
       "id": "esfera|x|clube|2026-11-24",

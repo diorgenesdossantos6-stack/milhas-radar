@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T13:54:36.437Z",
-  "totalAtivas": 21,
-  "totalCampanhasAtivas": 14,
+  "atualizadoEm": "2026-11-23T14:04:30.718Z",
+  "totalAtivas": 22,
+  "totalCampanhasAtivas": 15,
   "combinacoes": [],
   "passagens": [
     {
@@ -53,7 +53,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "HTTP 500"
+  ],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
@@ -1018,6 +1020,35 @@
       "teto": null
     },
     {
+      "id": "esfera|x|acumulo|2026-11-26",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T14:00:26.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Blackíssima! Esfera oferece até 14 pontos por real em lojas parceiras",
+      "publicado": "2026-11-23T14:00:26.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-14-pontos-por-real-em-lojas-parceiras/",
+          "titulo": "Blackíssima! Esfera oferece até 14 pontos por real em lojas parceiras",
+          "publicado": "2026-11-23T14:00:26.000Z"
+        }
+      ]
+    },
+    {
       "id": "esfera|x|clube|2026-11-24",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1045,6 +1076,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/blackissima-esfera-oferece-ate-14-pontos-por-real-em-lojas-parceiras",
+      "titulo": "Blackíssima! Esfera oferece até 14 pontos por real em lojas parceiras",
+      "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-14-pontos-por-real-em-lojas-parceiras/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-23T14:00:26.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-26T14:00:26.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A semana da Black Friday começou com diversas oportunidades para acumular pontos na Esfera! O programa está oferecendo até 14 pontos por real gasto em compras realizadas nas lojas parceiras, incluindo marcas de diferentes categorias. Uma boa oportunidade para aproveitar as compras da Black Friday e ainda aumentar seu saldo de pontos. Confira a seguir…",
+      "coletadoEm": "2026-11-23T14:04:30.718Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
       "titulo": "Milheiro por R$ 23,53! Transfira da Livelo para o Latam Pass com bônus usando pontos mais dinheiro",
