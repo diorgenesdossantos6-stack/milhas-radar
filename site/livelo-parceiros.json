@@ -1,8 +1,8 @@
 {
-  "atualizadoEm": "2026-11-23T00:04:35.072Z",
-  "lidoEm": "2026-11-22T23:54:32.558Z",
+  "atualizadoEm": "2026-11-23T00:14:33.021Z",
+  "lidoEm": "2026-11-23T00:14:33.021Z",
   "fonte": "https://www.livelo.com.br/ofertas",
-  "ok": false,
+  "ok": true,
   "total": 41,
   "emCampanha": 41,
   "parceiros": [
@@ -728,6 +728,5 @@
       "ate": null,
       "regras": "Ganhe 4 pontos por real para assinantes Clube Livelo e 3 pontos por real para demais clientes. Utilize o cupom LIVELO."
     }
-  ],
-  "erro": "HTTP 403"
+  ]
 }
