@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T14:34:31.638Z",
-  "totalAtivas": 27,
-  "totalCampanhasAtivas": 20,
+  "atualizadoEm": "2026-11-23T14:44:31.459Z",
+  "totalAtivas": 29,
+  "totalCampanhasAtivas": 21,
   "combinacoes": [],
   "passagens": [
     {
@@ -53,7 +53,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "This operation was aborted"
+  ],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
@@ -258,6 +260,21 @@
         "ultima": "2026-11-20"
       }
     },
+    "Accor ALL": {
+      "maxPercentual": 40,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-23"
+      ],
+      "ultimaEm": "2026-11-23T12:00:34.000Z",
+      "mediaPercentual": 40,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-23"
+      }
+    },
     "Esfera": {
       "maxPercentual": 55,
       "campanhas": 1,
@@ -286,21 +303,6 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-16"
-      }
-    },
-    "Accor ALL": {
-      "maxPercentual": 40,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-23"
-      ],
-      "ultimaEm": "2026-11-23T12:00:34.000Z",
-      "mediaPercentual": 40,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-23"
       }
     },
     "Banco do Brasil": {
@@ -910,6 +912,36 @@
       }
     },
     {
+      "id": "accor all|40|clube|2026-12-02",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Accor ALL",
+      "origens": [],
+      "percentual": 40,
+      "ate": "2026-12-02T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 49,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+      "publicado": "2026-11-23T12:00:34.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/oferta-all-signature-black-friday-40-off-nov26.html",
+          "titulo": "Melhor desconto do ano! ALL Signature oferece até 40% OFF na assinatura – vale para quem já foi assinante!",
+          "publicado": "2026-11-23T14:34:43.000Z"
+        },
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/melhor-oferta-do-ano-assine-o-all-signature-com-ate-40-de-desconto-incluindo-ex-assinantes-2/",
+          "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+          "publicado": "2026-11-23T12:00:34.000Z"
+        }
+      ]
+    },
+    {
       "id": "latam pass|27|transferencia_bonificada|2026-11-25",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -950,30 +982,6 @@
         "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
-    },
-    {
-      "id": "accor all|40|clube|2026-12-02",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Accor ALL",
-      "origens": [],
-      "percentual": 40,
-      "ate": "2026-12-02T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 34,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
-      "publicado": "2026-11-23T12:00:34.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/melhor-oferta-do-ano-assine-o-all-signature-com-ate-40-de-desconto-incluindo-ex-assinantes-2/",
-          "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
-          "publicado": "2026-11-23T12:00:34.000Z"
-        }
-      ]
     },
     {
       "id": "azul fidelidade|x|clube|2026-11-23",
@@ -1180,6 +1188,41 @@
       "teto": null
     },
     {
+      "id": "livelo|x|acumulo|2026-11-26",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T14:41:07.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 10,
+        "loja": "McDonald's"
+      },
+      "clube": null,
+      "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
+      "publicado": "2026-11-23T14:41:07.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo/",
+          "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
+          "publicado": "2026-11-23T14:41:07.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "latam pass|x|pontos_dinheiro|2026-11-26",
       "tipo": "pontos_dinheiro",
       "tipoNome": "Pontos + dinheiro",
@@ -1323,6 +1366,59 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo",
+      "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
+      "link": "https://passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T14:41:07.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 10,
+        "loja": "McDonald's"
+      },
+      "clube": null,
+      "ate": "2026-11-26T14:41:07.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo e o McDonald's lançaram uma oferta que oferece até 10 pontos por real gasto na compra de uma McOferta Clássica + Sundae pelo app do Méqui (McDelivery ou Peça & Retire), utilizando o cupom “LIVELO” [sem aspas]. A oferta é válida até quarta-feira (25). Saiba mais! O post Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo apareceu primeiro em Passageiro de Primeir",
+      "coletadoEm": "2026-11-23T14:44:31.459Z",
+      "nota": 0
+    },
+    {
+      "id": "melhorescartoes.com.br/oferta-all-signature-black-friday-40-off-nov26.html",
+      "titulo": "Melhor desconto do ano! ALL Signature oferece até 40% OFF na assinatura – vale para quem já foi assinante!",
+      "link": "https://www.melhorescartoes.com.br/oferta-all-signature-black-friday-40-off-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-23T14:34:43.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Accor ALL"
+      ],
+      "par": "Accor ALL",
+      "percentual": 40,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-02T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "O ALL Signature, clube de pontos da rede de hotéis ALL Accor, está com uma nova promoção de Black Friday que oferece até 40% de desconto para novos e antigos assinantes! Esse é o maior desconto do ano e vale até o próximo dia 2 de dezembro. Para aproveitar, acesse o link da promoção e… O post Melhor desconto do ano! ALL Signature oferece até 40% OFF na assinatura – vale para quem já foi assinante!",
+      "coletadoEm": "2026-11-23T14:44:31.459Z",
+      "nota": 49
+    },
     {
       "id": "passageirodeprimeira.com/milheiro-latam-a-partir-de-r-2355-transfira-pontos-livelo-para-o-latam-pass-usando-pontos-dinheiro",
       "titulo": "Milheiro LATAM a partir de R$ 23,55! Transfira pontos Livelo para o LATAM Pass usando pontos + dinheiro",
