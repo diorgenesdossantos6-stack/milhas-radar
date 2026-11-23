@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T19:54:33.296Z",
+  "atualizadoEm": "2026-11-23T20:04:31.860Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -684,6 +684,39 @@
           "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
           "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
           "publicado": "2026-11-23T15:00:24.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "azul fidelidade|x|acumulo|2027-12-31",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2027-12-31T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 5,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Ganhe até 5 pontos por real gasto ao reservar hotéis do Universal Orlando Resort pela Azul Viagens",
+      "publicado": "2026-11-23T20:02:01.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ganhe-ate-5-pontos-real-gasto-reservar-hoteis-universal-orlando-resort-azul-viagens/",
+          "titulo": "Ganhe até 5 pontos por real gasto ao reservar hotéis do Universal Orlando Resort pela Azul Viagens",
+          "publicado": "2026-11-23T20:02:01.000Z"
         }
       ],
       "referencia": {
