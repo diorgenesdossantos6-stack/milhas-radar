@@ -1,9 +1,26 @@
 {
-  "atualizadoEm": "2026-11-23T17:54:31.888Z",
+  "atualizadoEm": "2026-11-23T18:04:31.289Z",
   "totalAtivas": 35,
   "totalCampanhasAtivas": 24,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade",
+      "titulo": "Alerta PPV! Passagens para a Europa a partir de 62.300 pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-23T18:00:30.000Z",
+      "ate": "2026-11-26T18:00:30.000Z",
+      "dinheiro": null,
+      "milhas": 62300,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Europa",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
       "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
@@ -1509,6 +1526,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade",
+      "titulo": "Alerta PPV! Passagens para a Europa a partir de 62.300 pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-23T18:00:30.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 62300,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Europa",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T18:00:30.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar seus pontos para conhecer a Europa ainda este ano? No Alerta de Passagens PPV de hoje, nossa equipe selecionou oportunidades para viajar a Portugal e Espanha, com voos para Lisboa, Porto e Madri, utilizando pontos Azul Fidelidade, com emissões a partir de 62.300 pontos + taxas. As opções incluem datas para viajar…",
+      "coletadoEm": "2026-11-23T18:04:31.289Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/livelo-mcdonalds-10-pontos-nov26.html",
       "titulo": "Hora do lanche! Livelo oferece 10 pontos por real no McDonald’s",

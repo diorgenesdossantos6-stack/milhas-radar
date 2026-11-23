@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T17:54:31.888Z",
+  "atualizadoEm": "2026-11-23T18:04:31.289Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -932,6 +932,23 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade",
+      "titulo": "Alerta PPV! Passagens para a Europa a partir de 62.300 pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-23T18:00:30.000Z",
+      "ate": "2026-11-26T18:00:30.000Z",
+      "dinheiro": null,
+      "milhas": 62300,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Europa",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
       "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
