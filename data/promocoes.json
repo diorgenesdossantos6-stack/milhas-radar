@@ -1,9 +1,31 @@
 {
-  "atualizadoEm": "2026-11-23T21:54:32.327Z",
+  "atualizadoEm": "2026-11-23T22:04:32.495Z",
   "totalAtivas": 39,
   "totalCampanhasAtivas": 27,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
+      "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
+      "fonte": "companhia",
+      "publicado": "2026-11-23T22:00:49.000Z",
+      "ate": "2026-11-26T22:00:49.000Z",
+      "dinheiro": null,
+      "milhas": 3000,
+      "programa": "Latam Pass",
+      "origem": "Macapá",
+      "destino": "Belém",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "companhia",
+      "iataOrigem": "MCP",
+      "iataDestino": "BEL",
+      "data": "2027-02-15",
+      "comMilhas": true,
+      "cabine": "Economy"
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
       "titulo": "Alerta PPV! Confira voos internacionais a partir de 22 mil milhas Smiles + taxas",
@@ -1714,6 +1736,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
+      "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-23T22:00:49.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 3000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T22:00:49.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar suas milhas para conhecer um novo destino pelo Brasil? Nossa equipe encontrou passagens aéreas nacionais a partir de 3 mil milhas LATAM Pass + taxas. Reunimos diferentes oportunidades para você planejar sua próxima viagem, gastando menos. Confira! Passagens nacionais no LATAM Pass Para garantir as suas passagens nacionais no LATAM Pass, siga estes…",
+      "coletadoEm": "2026-11-23T22:04:32.495Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/ganhe-60-mil-pontos-bonus-na-assinatura-ou-atualizacao-do-clube-esfera",
       "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
