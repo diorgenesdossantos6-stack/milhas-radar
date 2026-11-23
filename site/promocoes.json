@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T18:34:33.216Z",
+  "atualizadoEm": "2026-11-23T18:44:37.210Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -932,6 +932,23 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
+      "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
+      "link": "https://passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T18:40:17.000Z",
+      "ate": "2026-11-26T18:40:17.000Z",
+      "dinheiro": null,
+      "milhas": 66000,
+      "programa": "Smiles",
+      "origem": "Otimo Preco",
+      "destino": "Nova York",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade",
       "titulo": "Alerta PPV! Passagens para a Europa a partir de 62.300 pontos Azul Fidelidade",
