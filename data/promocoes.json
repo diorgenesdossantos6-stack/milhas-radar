@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T08:54:32.141Z",
-  "totalAtivas": 18,
-  "totalCampanhasAtivas": 14,
+  "atualizadoEm": "2026-11-23T09:04:32.695Z",
+  "totalAtivas": 17,
+  "totalCampanhasAtivas": 13,
   "combinacoes": [],
   "passagens": [
     {
@@ -950,32 +950,6 @@
           "link": "https://pontospravoar.com/prorrogou-ganhe-ate-60-mil-pontos-bonus-assinatura-upgrade-clube-esfera/",
           "titulo": "Prorrogou! Ganhe até 60 mil pontos bônus na assinatura ou upgrade do Clube Esfera",
           "publicado": "2026-11-21T13:04:15.000Z"
-        }
-      ]
-    },
-    {
-      "id": "banco do brasil|x|acumulo|2026-11-23",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Banco do Brasil",
-      "origens": [
-        "Banco do Brasil"
-      ],
-      "percentual": null,
-      "ate": "2026-11-23T08:57:00.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
-      "publicado": "2026-11-20T08:57:00.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/cartoes/cartao-de-credito-banco-do-brasil-altus-world-legend-mastercard/",
-          "titulo": "Cartão de crédito Banco do Brasil Altus World Legend Mastercard",
-          "publicado": "2026-11-20T08:57:00.000Z"
         }
       ]
     }
