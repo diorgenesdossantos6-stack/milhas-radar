@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T15:54:30.084Z",
+  "atualizadoEm": "2026-11-23T16:04:32.970Z",
   "totalAtivas": 30,
   "totalCampanhasAtivas": 21,
   "combinacoes": [],
@@ -53,7 +53,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "fetch failed"
+  ],
   "historico": {
     "Smiles": {
       "maxPercentual": 130,
