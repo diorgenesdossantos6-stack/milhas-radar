@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T18:54:31.287Z",
-  "totalAtivas": 35,
-  "totalCampanhasAtivas": 24,
+  "atualizadoEm": "2026-11-23T19:04:34.406Z",
+  "totalAtivas": 36,
+  "totalCampanhasAtivas": 25,
   "combinacoes": [],
   "passagens": [
     {
@@ -185,6 +185,21 @@
         "campanhas": 3,
         "faltam": 2,
         "ultima": "2026-11-19"
+      }
+    },
+    "Premmia -> Azul Fidelidade": {
+      "maxPercentual": 120,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-23"
+      ],
+      "ultimaEm": "2026-11-23T19:03:49.000Z",
+      "mediaPercentual": 120,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-23"
       }
     },
     "Premmia -> Smiles": {
@@ -789,6 +804,48 @@
         "cadencia": 90,
         "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
+      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-24",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Premmia"
+      ],
+      "percentual": 120,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 80,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul oferece até 120% de bônus nas transferências da Premmia - CPM a partir de R$ 15,32",
+      "publicado": "2026-11-23T19:03:49.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-oferece-ate-120-de-bonus-nas-transferencias-da-premmia-cpm-a-partir-de-r-1532/",
+          "titulo": "Azul oferece até 120% de bônus nas transferências da Premmia - CPM a partir de R$ 15,32",
+          "publicado": "2026-11-23T19:03:49.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Melhor momento",
+      "motivo": "120% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 120,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
       }
     },
     {
@@ -1543,6 +1600,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/azul-oferece-ate-120-de-bonus-nas-transferencias-da-premmia-cpm-a-partir-de-r-1532",
+      "titulo": "Azul oferece até 120% de bônus nas transferências da Premmia - CPM a partir de R$ 15,32",
+      "link": "https://passageirodeprimeira.com/azul-oferece-ate-120-de-bonus-nas-transferencias-da-premmia-cpm-a-partir-de-r-1532/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T19:03:49.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Premmia"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Premmia -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A Azul está oferecendo 120% de bônus nas transferências de pontos da Premmia, programa de fidelidade dos postos Petrobras. A oferta é válida até amanhã (24). O post Azul oferece até 120% de bônus nas transferências da Premmia - CPM a partir de R$ 15,32 apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-23T19:04:34.406Z",
+      "nota": 80
+    },
     {
       "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
       "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
