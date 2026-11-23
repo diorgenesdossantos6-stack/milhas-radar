@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T11:14:32.564Z",
-  "totalAtivas": 17,
-  "totalCampanhasAtivas": 13,
+  "atualizadoEm": "2026-11-23T11:24:30.803Z",
+  "totalAtivas": 16,
+  "totalCampanhasAtivas": 12,
   "combinacoes": [],
   "passagens": [
     {
@@ -711,35 +711,6 @@
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
-    },
-    {
-      "id": "banco do brasil|7|acumulo|2026-11-23",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Banco do Brasil",
-      "origens": [
-        "Banco do Brasil"
-      ],
-      "percentual": 7,
-      "ate": "2026-11-23T11:16:50.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 29,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 7,
-        "loja": null
-      },
-      "clube": null,
-      "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
-      "publicado": "2026-11-20T11:16:50.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/cartao-banco-brasil-altus-mastercard-world-legend.html",
-          "titulo": "Novidade! Banco do Brasil lança cartão World Legend com salas VIP ilimitadas e até 7 pontos por dólar",
-          "publicado": "2026-11-20T11:16:50.000Z"
-        }
-      ]
     },
     {
       "id": "livelo|25|clube|2026-11-23",
