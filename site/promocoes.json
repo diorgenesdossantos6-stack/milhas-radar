@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T20:34:30.588Z",
+  "atualizadoEm": "2026-11-23T20:44:31.292Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -694,6 +694,32 @@
       }
     },
     {
+      "id": "esfera|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T20:40:07.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
+      "publicado": "2026-11-23T20:40:07.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ganhe-60-mil-pontos-bonus-na-assinatura-ou-atualizacao-do-clube-esfera/",
+          "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
+          "publicado": "2026-11-23T20:40:07.000Z"
+        }
+      ]
+    },
+    {
       "id": "azul fidelidade|x|acumulo|2027-12-31",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1013,6 +1039,22 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
+      "titulo": "Alerta PPV! Confira voos internacionais a partir de 22 mil milhas Smiles + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-23T20:30:29.000Z",
+      "ate": "2026-11-26T20:30:29.000Z",
+      "dinheiro": null,
+      "milhas": 22000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
       "titulo": "Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho mais taxas",

@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-23T20:34:30.588Z",
-  "totalAtivas": 38,
-  "totalCampanhasAtivas": 26,
+  "atualizadoEm": "2026-11-23T20:44:31.292Z",
+  "totalAtivas": 39,
+  "totalCampanhasAtivas": 27,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
+      "titulo": "Alerta PPV! Confira voos internacionais a partir de 22 mil milhas Smiles + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-23T20:30:29.000Z",
+      "ate": "2026-11-26T20:30:29.000Z",
+      "dinheiro": null,
+      "milhas": 22000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
       "titulo": "Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho mais taxas",
@@ -1354,6 +1370,32 @@
       }
     },
     {
+      "id": "esfera|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T20:40:07.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
+      "publicado": "2026-11-23T20:40:07.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ganhe-60-mil-pontos-bonus-na-assinatura-ou-atualizacao-do-clube-esfera/",
+          "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
+          "publicado": "2026-11-23T20:40:07.000Z"
+        }
+      ]
+    },
+    {
       "id": "azul fidelidade|x|acumulo|2027-12-31",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1672,6 +1714,65 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/ganhe-60-mil-pontos-bonus-na-assinatura-ou-atualizacao-do-clube-esfera",
+      "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
+      "link": "https://passageirodeprimeira.com/ganhe-60-mil-pontos-bonus-na-assinatura-ou-atualizacao-do-clube-esfera/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T20:40:07.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T20:40:07.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A oferta do Clube Esfera foi prorrogada! O programa está oferecendo até 60.000 pontos bônus para quem realizar a assinatura ou upgrade de plano. O post Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-23T20:44:31.292Z",
+      "nota": 0
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
+      "titulo": "Alerta PPV! Confira voos internacionais a partir de 22 mil milhas Smiles + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-23T20:30:29.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 22000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T20:30:29.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal começar a semana planejando sua próxima viagem internacional? No alerta de passagens PPV desta segunda-feira, nossa equipe selecionou diversas oportunidades para explorar destinos ao redor do mundo utilizando milhas Smiles, com emissões a partir de 22 mil milhas + taxas. Confira os trechos e as datas disponíveis e aproveite para planejar sua próxima…",
+      "coletadoEm": "2026-11-23T20:44:31.292Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
       "titulo": "Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho mais taxas",
