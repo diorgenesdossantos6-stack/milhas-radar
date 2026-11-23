@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T16:34:32.169Z",
+  "atualizadoEm": "2026-11-23T16:44:31.152Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -891,6 +891,23 @@
   ],
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas",
+      "titulo": "Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T16:41:59.000Z",
+      "ate": "2026-11-24T23:59:00.000Z",
+      "dinheiro": 117,
+      "milhas": 4000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Gramado Na Pascoa",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
       "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",

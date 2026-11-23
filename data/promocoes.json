@@ -1,9 +1,26 @@
 {
-  "atualizadoEm": "2026-11-23T16:34:32.169Z",
+  "atualizadoEm": "2026-11-23T16:44:31.152Z",
   "totalAtivas": 33,
   "totalCampanhasAtivas": 23,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas",
+      "titulo": "Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T16:41:59.000Z",
+      "ate": "2026-11-24T23:59:00.000Z",
+      "dinheiro": 117,
+      "milhas": 4000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Gramado Na Pascoa",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
       "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",
@@ -1434,6 +1451,42 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas",
+      "titulo": "Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-gramado-na-pascoa-a-partir-de-r-117-ou-4-mil-milhas-latam-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-23T16:41:59.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Livelo -> Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 117,
+        "milhas": 4000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Gramado",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A LATAM está com passagens para Gramado a partir de 4.159 milhas + taxas por trecho ou R$ 117,75 + taxas. Além disso, até amanhã (24), você pode transferir pontos Livelo para o LATAM Pass com 27% de bônus e ainda ganhar 2.000 milhas extras na sua primeira transferência. Não perca essa oportunidade de viajar na Páscoa! O post Voe para Gramado na Páscoa a partir de R$ 117 ou 4 mil milhas LATAM + tax",
+      "coletadoEm": "2026-11-23T16:44:31.152Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/smiles-375-bonus-compra-milhas-bf-nov26.html",
       "titulo": "Smiles oferece até 375% de bônus na compra de milhas",
