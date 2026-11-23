@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T17:24:33.425Z",
+  "atualizadoEm": "2026-11-23T17:34:36.848Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -648,6 +648,41 @@
         "min": 12.5,
         "max": 18,
         "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "livelo|x|acumulo|2026-11-25",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 10,
+        "loja": "McDonald"
+      },
+      "clube": null,
+      "titulo": "Hora do lanche! Livelo oferece 10 pontos por real no McDonald’s",
+      "publicado": "2026-11-23T17:31:49.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/livelo-mcdonalds-10-pontos-nov26.html",
+          "titulo": "Hora do lanche! Livelo oferece 10 pontos por real no McDonald’s",
+          "publicado": "2026-11-23T17:31:49.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
