@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T14:24:29.692Z",
+  "atualizadoEm": "2026-11-23T14:34:31.638Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -635,6 +635,93 @@
       "teto": null
     },
     {
+      "id": "latam pass|x|pontos_dinheiro|2026-11-26",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "destino": "Latam Pass",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T14:30:20.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": 23.55,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Milheiro LATAM a partir de R$ 23,55! Transfira pontos Livelo para o LATAM Pass usando pontos + dinheiro",
+      "publicado": "2026-11-23T14:30:20.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/milheiro-latam-a-partir-de-r-2355-transfira-pontos-livelo-para-o-latam-pass-usando-pontos-dinheiro/",
+          "titulo": "Milheiro LATAM a partir de R$ 23,55! Transfira pontos Livelo para o LATAM Pass usando pontos + dinheiro",
+          "publicado": "2026-11-23T14:30:20.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "No limite",
+      "motivo": "R$ 23,55 contra R$ 23,80 de comprar pronto: diferença pequena",
+      "baseVeredito": "compra",
+      "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T14:22:58.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": 45,
+      "acumulo": null,
+      "clube": {
+        "milheiro": 45,
+        "origem": "publicado na matéria",
+        "veredito": "nao vale",
+        "rotulo": "Caro",
+        "motivo": "milheiro a R$ 45,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
+        "base": "clube",
+        "regua": {
+          "valor": 14.95,
+          "base": "mercado",
+          "texto": "o que o mercado paga pelo milheiro Azul Fidelidade"
+        },
+        "programa": "Azul Fidelidade"
+      },
+      "titulo": "Oferta relâmpago! Clube Azul 5.000 anual a partir de R$ 45 por mês com milheiro a partir de R$ 9",
+      "publicado": "2026-11-23T14:22:58.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/oferta-relampago-clube-azul-5-000-anual-a-partir-de-r-45-por-mes-milheiro-a-partir-de-r-9/",
+          "titulo": "Oferta relâmpago! Clube Azul 5.000 anual a partir de R$ 45 por mês com milheiro a partir de R$ 9",
+          "publicado": "2026-11-23T14:22:58.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Caro",
+      "motivo": "milheiro a R$ 45,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
+      "baseVeredito": "clube",
+      "teto": null
+    },
+    {
       "id": "esfera|x|acumulo|2026-11-26",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -916,6 +1003,15 @@
       "titulo": "Só hoje! Assine o Clube Azul 5.000 e consiga o milheiro a partir de R$ 9",
       "link": "https://www.melhorescartoes.com.br/so-hoje-clube-azul-5k-oferta-nov26.html",
       "fonte": "Melhores Cartões"
+    },
+    {
+      "em": "2026-11-23T14:22:58.000Z",
+      "valor": 45,
+      "tipo": "clube",
+      "destino": "Azul Fidelidade",
+      "titulo": "Oferta relâmpago! Clube Azul 5.000 anual a partir de R$ 45 por mês com milheiro a partir de R$ 9",
+      "link": "https://pontospravoar.com/oferta-relampago-clube-azul-5-000-anual-a-partir-de-r-45-por-mes-milheiro-a-partir-de-r-9/",
+      "fonte": "Pontos pra Voar"
     }
   ],
   "historico": {
