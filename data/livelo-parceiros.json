@@ -1,10 +1,10 @@
 {
-  "atualizadoEm": "2026-11-23T08:44:31.937Z",
-  "lidoEm": "2026-11-23T08:44:31.937Z",
+  "atualizadoEm": "2026-11-23T08:54:32.598Z",
+  "lidoEm": "2026-11-23T08:54:32.598Z",
   "fonte": "https://www.livelo.com.br/ofertas",
   "ok": true,
-  "total": 41,
-  "emCampanha": 41,
+  "total": 42,
+  "emCampanha": 42,
   "parceiros": [
     {
       "id": "INS",
@@ -62,6 +62,20 @@
       "de": "2026-11-18T03:00:00.000Z",
       "ate": "2026-11-24T02:59:00.000Z",
       "regras": "Campanha válida de 18 a 23/11/2026. Ganhe 8 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo em produtos selecionados; 6 pontos por real demais clientes na lista selecionada e 1 ponto por real demais itens. Utilize o cupom LIVELO. Consulte o regulamento."
+    },
+    {
+      "id": "KRS",
+      "loja": "Karsten",
+      "link": "https://livelo.com.br/juntar-pontos/parceiros/karsten/KRS",
+      "categorias": [],
+      "pontosPorReal": 5,
+      "pontosClube": 6,
+      "pontosNormal": 1,
+      "multiplicador": 6,
+      "emCampanha": true,
+      "de": "2026-11-23T03:00:00.000Z",
+      "ate": "2026-11-26T02:59:00.000Z",
+      "regras": "Campanha válida de 23 a 25/11/2026. Ganhe 6 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 5 pontos por real demais clientes. Consulte o regulamento."
     },
     {
       "id": "HTC",
