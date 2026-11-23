@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T07:54:31.656Z",
+  "atualizadoEm": "2026-11-23T08:04:31.049Z",
   "totalAtivas": 18,
   "totalCampanhasAtivas": 14,
   "combinacoes": [],
@@ -516,9 +516,9 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 3,
-        "falta": 87,
-        "texto": "a próxima costuma demorar mais 87 dias, então esperar tem custo"
+        "desde": 4,
+        "falta": 86,
+        "texto": "a próxima costuma demorar mais 86 dias, então esperar tem custo"
       }
     },
     {
