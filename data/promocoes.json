@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-24T13:34:32.390Z",
-  "totalAtivas": 41,
-  "totalCampanhasAtivas": 27,
+  "atualizadoEm": "2026-11-24T13:44:33.592Z",
+  "totalAtivas": 43,
+  "totalCampanhasAtivas": 29,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -303,11 +303,11 @@
   "historico": {
     "Inter -> Azul Fidelidade": {
       "maxPercentual": 120,
-      "campanhas": 1,
+      "campanhas": 2,
       "inicios": [
         "2026-11-24"
       ],
-      "ultimaEm": "2026-11-24T12:16:45.000Z",
+      "ultimaEm": "2026-11-24T13:40:42.000Z",
       "mediaPercentual": 120,
       "previsao": {
         "pronta": false,
@@ -329,6 +329,22 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-18"
+      }
+    },
+    "Azul Fidelidade": {
+      "maxPercentual": 90,
+      "campanhas": 2,
+      "inicios": [
+        "2026-11-19",
+        "2026-11-24"
+      ],
+      "ultimaEm": "2026-11-24T13:42:29.000Z",
+      "mediaPercentual": 60,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-24"
       }
     },
     "Esfera -> Smiles": {
@@ -470,21 +486,6 @@
         "campanhas": 2,
         "faltam": 3,
         "ultima": "2026-11-24"
-      }
-    },
-    "Azul Fidelidade": {
-      "maxPercentual": 30,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-19"
-      ],
-      "ultimaEm": "2026-11-19T11:00:29.000Z",
-      "mediaPercentual": 30,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-19"
       }
     },
     "Itau -> Azul Fidelidade": {
@@ -743,6 +744,17 @@
       "link": "https://pontospravoar.com/oferta-relampago-clube-azul-5-000-anual-a-partir-de-r-45-por-mes-milheiro-a-partir-de-r-9/",
       "fonte": "Pontos pra Voar",
       "id": "pontospravoar.com/oferta-relampago-clube-azul-5-000-anual-a-partir-de-r-45-por-mes-milheiro-a-partir-de-r-9"
+    },
+    {
+      "em": "2026-11-24T13:40:42.000Z",
+      "valor": 12.23,
+      "tipo": "transferencia_bonificada",
+      "programa": "Inter",
+      "destino": "Azul Fidelidade",
+      "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
+      "link": "https://www.melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
+      "fonte": "Melhores Cartões",
+      "id": "melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html"
     }
   ],
   "regua": {
@@ -822,6 +834,48 @@
     }
   },
   "campanhasAtivas": [
+    {
+      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Inter"
+      ],
+      "percentual": 120,
+      "ate": "2026-11-27T13:40:42.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 95,
+      "custoMilheiro": 12.23,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
+      "publicado": "2026-11-24T13:40:42.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
+          "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
+          "publicado": "2026-11-24T13:40:42.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 12,23 contra R$ 14,95 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-25",
       "tipo": "transferencia_bonificada",
@@ -908,6 +962,46 @@
         "cadencia": 90,
         "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
+      "id": "azul fidelidade|90|transferencia_bonificada|2026-11-25",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": 90,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 89,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul e Inter oferecem até 90% de bônus nas transferências",
+      "publicado": "2026-11-24T13:42:29.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/azul-e-inter-oferecem-ate-90-de-bonus-nas-transferencias-4/",
+          "titulo": "Azul e Inter oferecem até 90% de bônus nas transferências",
+          "publicado": "2026-11-24T13:42:29.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "90% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
       }
     },
     {
@@ -1857,6 +1951,58 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "cartoesdecredito.me/noticia/azul-e-inter-oferecem-ate-90-de-bonus-nas-transferencias-4",
+      "titulo": "Azul e Inter oferecem até 90% de bônus nas transferências",
+      "link": "https://www.cartoesdecredito.me/noticia/azul-e-inter-oferecem-ate-90-de-bonus-nas-transferencias-4/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-24T13:42:29.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": 90,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A promoção é válida até o dia 25 de novembro de 2026 The post Azul e Inter oferecem até 90% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-24T13:44:33.592Z",
+      "nota": 89
+    },
+    {
+      "id": "melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
+      "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
+      "link": "https://www.melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-24T13:40:42.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Inter -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": 12.23,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T13:40:42.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Fidelidade está com uma oferta de Black Friday que oferece até 120% de bônus na transferência de pontos do Inter Loop para o programa. A promoção vai até as 23h59 de amanhã, 25 de novembro. Dessa vez, usando a opção “Pontos + Dinheiro”, é possível conseguir o milheiro a partir de R$ 12,23,… O post Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23 ap",
+      "coletadoEm": "2026-11-24T13:44:33.592Z",
+      "nota": 95
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
       "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
