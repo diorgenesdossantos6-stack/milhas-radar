@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T19:34:33.162Z",
+  "atualizadoEm": "2026-11-24T19:44:31.115Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1348,6 +1348,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
+      "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-24T19:38:54.000Z",
+      "ate": "2026-11-27T19:38:54.000Z",
+      "dinheiro": null,
+      "milhas": 7000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Porto Seguro Bahia Nov26",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-voos-internacionais-a-partir-22-mil-milhas-smiles-taxas",
       "titulo": "5 sugestões de voos internacionais a partir de 22 mil milhas Smiles + taxas",

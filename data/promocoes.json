@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T19:34:33.162Z",
+  "atualizadoEm": "2026-11-24T19:44:31.115Z",
   "totalAtivas": 52,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
@@ -115,6 +115,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
+      "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-24T19:38:54.000Z",
+      "ate": "2026-11-27T19:38:54.000Z",
+      "dinheiro": null,
+      "milhas": 7000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Porto Seguro Bahia Nov26",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/5-sugestoes-voos-internacionais-a-partir-22-mil-milhas-smiles-taxas",
       "titulo": "5 sugestões de voos internacionais a partir de 22 mil milhas Smiles + taxas",
@@ -2156,6 +2173,42 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
+      "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-24T19:38:54.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles",
+        "Latam Pass",
+        "Azul Fidelidade"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 7000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": "Porto Seguro",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T19:38:54.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Bora pra Bahia? Encontramos passagens aéreas para Porto Seguro a partir de 7.628 milhas o trecho + taxas, com opções de resgates no Latam Pass, Azul Fidelidade e Smiles. O melhor preço é saindo do Rio de Janeiro (a partir de 15.256 milhas ida e volta) voando com a Latam. Mas também há bons valores… O post Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho apareceu primeiro",
+      "coletadoEm": "2026-11-24T19:44:31.115Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/transfira-pontos-premmia-azul-fidelidade-ate-120-porcento-bonus",
       "titulo": "Transfira pontos do Premmia para o Azul Fidelidade com até 120% de bônus",
