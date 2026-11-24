@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T19:24:37.473Z",
-  "totalAtivas": 51,
+  "atualizadoEm": "2026-11-24T19:34:33.162Z",
+  "totalAtivas": 52,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
@@ -387,13 +387,29 @@
   ],
   "erros": [],
   "historico": {
-    "Inter -> Azul Fidelidade": {
+    "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
       "campanhas": 2,
       "inicios": [
+        "2026-11-23",
         "2026-11-24"
       ],
       "ultimaEm": "2026-11-24T13:40:42.000Z",
+      "mediaPercentual": 120,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-24"
+      }
+    },
+    "Inter -> Azul Fidelidade": {
+      "maxPercentual": 120,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-24"
+      ],
+      "ultimaEm": "2026-11-24T12:16:45.000Z",
       "mediaPercentual": 120,
       "previsao": {
         "pronta": false,
@@ -480,21 +496,6 @@
         "campanhas": 3,
         "faltam": 2,
         "ultima": "2026-11-19"
-      }
-    },
-    "Premmia -> Azul Fidelidade": {
-      "maxPercentual": 120,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-23"
-      ],
-      "ultimaEm": "2026-11-23T19:03:49.000Z",
-      "mediaPercentual": 120,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-23"
       }
     },
     "Premmia -> Smiles": {
@@ -926,18 +927,25 @@
       "tipoNome": "Transferência bonificada",
       "destino": "Azul Fidelidade",
       "origens": [
+        "Premmia",
         "Inter"
       ],
       "percentual": 120,
-      "ate": "2026-11-27T13:40:42.000Z",
+      "ate": "2026-11-27T19:30:26.000Z",
       "confiancaPrazo": "baixa",
       "nota": 95,
       "custoMilheiro": 12.23,
       "acumulo": null,
       "clube": null,
-      "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
+      "titulo": "Transfira pontos do Premmia para o Azul Fidelidade com até 120% de bônus",
       "publicado": "2026-11-24T13:40:42.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/transfira-pontos-premmia-azul-fidelidade-ate-120-porcento-bonus/",
+          "titulo": "Transfira pontos do Premmia para o Azul Fidelidade com até 120% de bônus",
+          "publicado": "2026-11-24T19:30:26.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
@@ -2148,6 +2156,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/transfira-pontos-premmia-azul-fidelidade-ate-120-porcento-bonus",
+      "titulo": "Transfira pontos do Premmia para o Azul Fidelidade com até 120% de bônus",
+      "link": "https://pontospravoar.com/transfira-pontos-premmia-azul-fidelidade-ate-120-porcento-bonus/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T19:30:26.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Premmia"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Premmia -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T19:30:26.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Fidelidade, em parceria com o Premmia, programa de fidelidade da Petrobras, liberou novamente a promoção que oferece até 120% de bônus na transferência de pontos entre os programas. Além disso, os clientes podem aproveitar descontos em passagens aéreas, trocar pontos por Vale-Premmia e muito mais! A campanha é válida somente até o final…",
+      "coletadoEm": "2026-11-24T19:34:33.162Z",
+      "nota": 95
+    },
     {
       "id": "melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
       "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
