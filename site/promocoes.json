@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T21:24:31.134Z",
+  "atualizadoEm": "2026-11-24T21:34:31.552Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -883,6 +883,42 @@
       "teto": null
     },
     {
+      "id": "azul fidelidade|x|compra_pontos|2026-11-24",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
+      "publicado": "2026-11-23T15:58:28.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/ultimas-horas-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
+          "titulo": "Últimas horas: Compre pontos Azul Fidelidade com até 320% de bônus",
+          "publicado": "2026-11-24T21:30:18.000Z"
+        },
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
+          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+          "publicado": "2026-11-23T15:58:28.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-27",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -1045,42 +1081,6 @@
         "min": 14,
         "max": 20.77,
         "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|x|compra_pontos|2026-11-24",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-24T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
-      "publicado": "2026-11-23T15:58:28.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/azul-friday-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
-          "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
-          "publicado": "2026-11-23T19:30:49.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
-          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
-          "publicado": "2026-11-23T15:58:28.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },

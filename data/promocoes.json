@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T21:24:31.134Z",
-  "totalAtivas": 55,
+  "atualizadoEm": "2026-11-24T21:34:31.552Z",
+  "totalAtivas": 56,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
@@ -458,7 +458,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "HTTP 500"
+  ],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
@@ -1876,6 +1878,42 @@
       "teto": null
     },
     {
+      "id": "azul fidelidade|x|compra_pontos|2026-11-24",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
+      "publicado": "2026-11-23T15:58:28.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/ultimas-horas-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
+          "titulo": "Últimas horas: Compre pontos Azul Fidelidade com até 320% de bônus",
+          "publicado": "2026-11-24T21:30:18.000Z"
+        },
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
+          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+          "publicado": "2026-11-23T15:58:28.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-27",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2042,42 +2080,6 @@
       }
     },
     {
-      "id": "azul fidelidade|x|compra_pontos|2026-11-24",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-24T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
-      "publicado": "2026-11-23T15:58:28.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/azul-friday-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
-          "titulo": "Azul Friday! Compre pontos Azul Fidelidade com até 320% de bônus",
-          "publicado": "2026-11-23T19:30:49.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
-          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
-          "publicado": "2026-11-23T15:58:28.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
       "id": "livelo|x|acumulo|2026-11-26",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2236,6 +2238,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/ultimas-horas-compre-pontos-azul-fidelidade-ate-320-porcento-bonus",
+      "titulo": "Últimas horas: Compre pontos Azul Fidelidade com até 320% de bônus",
+      "link": "https://pontospravoar.com/ultimas-horas-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T21:30:18.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Últimas horas para aproveitar! O Azul Fidelidade está com uma promoção para quem deseja turbinar o saldo de pontos. Hoje é o último dia para comprar pontos com até 320% de bônus. Confira os detalhes e aproveite a oportunidade! Azul Fidelidade oferece até 320% de bônus na compra de pontos 320% de bônus – assinantes…",
+      "coletadoEm": "2026-11-24T21:34:31.552Z",
+      "nota": 5
+    },
     {
       "id": "passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas",
       "titulo": "Voe de São Paulo para Dubai a partir de R$ 2.295 ou 153 mil pontos Azul + taxas",
