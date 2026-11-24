@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T12:44:30.832Z",
+  "atualizadoEm": "2026-11-24T12:54:30.450Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-25",
@@ -1138,6 +1138,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
+      "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-24T12:53:18.000Z",
+      "ate": "2026-11-27T12:53:18.000Z",
+      "dinheiro": 240,
+      "milhas": 10000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-for-lis-latam-nov26",
       "titulo": "Voos diretos da Latam para Lisboa a partir de R$ 1.463 ou 62 mil milhas o trecho mais taxas",

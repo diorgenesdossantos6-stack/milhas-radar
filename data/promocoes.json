@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T12:44:30.832Z",
+  "atualizadoEm": "2026-11-24T12:54:30.450Z",
   "totalAtivas": 42,
   "totalCampanhasAtivas": 28,
   "combinacoes": [
@@ -79,6 +79,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
+      "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-24T12:53:18.000Z",
+      "ate": "2026-11-27T12:53:18.000Z",
+      "dinheiro": 240,
+      "milhas": 10000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-for-lis-latam-nov26",
       "titulo": "Voos diretos da Latam para Lisboa a partir de R$ 1.463 ou 62 mil milhas o trecho mais taxas",
@@ -1867,6 +1883,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
+      "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-24T12:53:18.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 240,
+        "milhas": 10000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T12:53:18.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Latam Pass está com voos diretos de São Paulo para o Recife (e vice-versa) a partir de 10.239 milhas o trecho, mais taxas aeroportuárias. A tarifa está disponível para viajar entre fevereiro e junho de 2027. Aproveite agora clicando aqui. Os preços abaixo são para viagem de ida e volta, mais taxas aeroportuárias. Aproveite… O post Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milh",
+      "coletadoEm": "2026-11-24T12:54:30.450Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade",
       "titulo": "Azul Friday! Ganhe até 120% de bônus na transferência de pontos do Inter Loop para o Azul Fidelidade",
