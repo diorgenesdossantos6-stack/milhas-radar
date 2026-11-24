@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-24T22:14:33.620Z",
-  "totalAtivas": 56,
-  "totalCampanhasAtivas": 32,
+  "atualizadoEm": "2026-11-24T22:25:12.220Z",
+  "totalAtivas": 57,
+  "totalCampanhasAtivas": 33,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -1929,6 +1929,38 @@
       }
     },
     {
+      "id": "latam pass|x|clube|2026-11-25",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Latam Pass",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
+      "publicado": "2026-11-24T22:20:58.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-magalu-12-milhas-nov26.html",
+          "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
+          "publicado": "2026-11-24T22:20:58.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-27",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2253,6 +2285,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/latam-pass-magalu-12-milhas-nov26.html",
+      "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
+      "link": "https://www.melhorescartoes.com.br/latam-pass-magalu-12-milhas-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-24T22:20:58.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Itau -> Latam Pass",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Latam Pass está oferecendo até 12 milhas por real gasto em compras no Magalu pelo Shopping Latam Pass. A oferta é válida até amanhã, 25 de novembro, pelo site da parceria. A bonificação vai funcionar assim: 12 pontos – Assinantes do Clube Latam Pass E clientes dos cartões Latam Pass Itaú; 7 pontos –… O post Latam Pass oferece até 12 milhas por real em compras no Magalu apareceu primeiro em Melho",
+      "coletadoEm": "2026-11-24T22:25:12.220Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas",
       "titulo": "LATAM tem passagens para destinos de Carnaval a partir de R$ 117 ou 4 mil milhas + taxas",

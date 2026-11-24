@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T22:14:33.620Z",
+  "atualizadoEm": "2026-11-24T22:25:12.220Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -915,6 +915,38 @@
         "min": 12.5,
         "max": 18,
         "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "latam pass|x|clube|2026-11-25",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Latam Pass",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
+      "publicado": "2026-11-24T22:20:58.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-magalu-12-milhas-nov26.html",
+          "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
+          "publicado": "2026-11-24T22:20:58.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
