@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T20:04:30.632Z",
+  "atualizadoEm": "2026-11-24T20:14:36.957Z",
   "totalAtivas": 53,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
@@ -115,6 +115,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
+      "titulo": "Voe para São Francisco a partir de R$ 1.372 ou 91 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-24T20:10:17.000Z",
+      "ate": "2026-11-27T20:10:17.000Z",
+      "dinheiro": 1372,
+      "milhas": 91000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Sao Francisco",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
       "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
@@ -2180,6 +2197,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
+      "titulo": "Voe para São Francisco a partir de R$ 1.372 ou 91 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T20:10:17.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 1372,
+        "milhas": 91000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "São Francisco",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T20:10:17.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Encontramos disponibilidade de bilhetes ida e volta entre São Paulo (GRU) e São Francisco (SFO) a partir de 18.500 pontos Azul Fidelidade + taxas por trecho com a Azul. Além disso, caso você não tenha pontos para realizar a emissão, é possível comprar pontos Azul com até 320% de bônus e emitir o trecho a partir de R$ 1.372,50 + taxas. O post Voe para São Francisco a partir de R$ 1.372 ou 91 mil po",
+      "coletadoEm": "2026-11-24T20:14:36.957Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar",
       "titulo": "Bradesco lança nova versão do Amex The Platinum Card em metal com até 4 pontos por dólar",
