@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T12:04:30.570Z",
-  "totalAtivas": 39,
+  "atualizadoEm": "2026-11-24T12:14:32.393Z",
+  "totalAtivas": 40,
   "totalCampanhasAtivas": 27,
   "combinacoes": [
     {
@@ -1112,6 +1112,12 @@
       "publicado": "2026-11-23T12:59:49.000Z",
       "fontes": [
         {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
+          "titulo": "Último dia! LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-24T12:00:40.000Z"
+        },
+        {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/latam-pass-livelo-bonus-bf-nov2026.html",
           "titulo": "Últimas horas! Latam Pass Friday oferece 27% de bônus na transferência de pontos Livelo",
@@ -1798,6 +1804,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo",
+      "titulo": "Último dia! LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
+      "link": "https://pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T12:00:40.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Livelo -> Latam Pass",
+      "percentual": 27,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Não perca o prazo! Como parte das ofertas da Black Friday, o LATAM Pass está oferecendo aos seus clientes 27% de bônus na transferência de pontos da Livelo. Além disso, os clientes que realizarem sua primeira transferência poderão receber 2.000 milhas extras. A promoção termina hoje, 24 de novembro, então ainda dá tempo de aproveitar! Confira…",
+      "coletadoEm": "2026-11-24T12:14:32.393Z",
+      "nota": 56
+    },
     {
       "id": "cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos",
       "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
