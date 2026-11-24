@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T18:34:35.852Z",
+  "atualizadoEm": "2026-11-24T18:44:32.460Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -399,6 +399,12 @@
       "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
       "publicado": "2026-11-24T11:45:00.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+          "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+          "publicado": "2026-11-24T18:36:27.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
@@ -1236,6 +1242,12 @@
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "fontes": [
             {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
+            {
               "fonte": "Pontos pra Voar",
               "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
               "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
@@ -1281,6 +1293,12 @@
           "papel": "compra",
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
             {
               "fonte": "Pontos pra Voar",
               "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
@@ -1425,18 +1443,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Pass",
+      "origem": "Macapá",
+      "destino": "Belém",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "MCP",
+      "iataDestino": "BEL",
+      "data": "2027-02-15",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",

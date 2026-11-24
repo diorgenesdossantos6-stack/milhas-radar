@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T18:34:35.852Z",
-  "totalAtivas": 50,
+  "atualizadoEm": "2026-11-24T18:44:32.460Z",
+  "totalAtivas": 51,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
@@ -15,6 +15,12 @@
           "papel": "compra",
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
             {
               "fonte": "Pontos pra Voar",
               "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
@@ -61,6 +67,12 @@
           "papel": "compra",
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
             {
               "fonte": "Pontos pra Voar",
               "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
@@ -205,18 +217,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Pass",
+      "origem": "Macapá",
+      "destino": "Belém",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "MCP",
+      "iataDestino": "BEL",
+      "data": "2027-02-15",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
@@ -1302,6 +1319,12 @@
       "publicado": "2026-11-24T11:45:00.000Z",
       "fontes": [
         {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+          "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+          "publicado": "2026-11-24T18:36:27.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
           "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
@@ -2125,6 +2148,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+      "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+      "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-24T18:36:27.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": 55,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Alerta de cupom exclusivo para os leitores do Melhores Cartões! A Esfera está oferecendo até 55% de desconto na compra de pontos do programa para assinantes do Clube Esfera até o dia 30 de novembro, as 23h59. O maior desconto é para assinantes do Clube Esfera há mais de 1 ano, que podem gerar o… O post Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito apa",
+      "coletadoEm": "2026-11-24T18:44:32.460Z",
+      "nota": 58
+    },
     {
       "id": "melhorescartoes.com.br/novo-bradesco-tpc-amex-metal.html",
       "titulo": "Bradesco terá versão de metal do cartão Amex The Platinum Card",
