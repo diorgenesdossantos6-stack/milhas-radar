@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T20:24:30.335Z",
+  "atualizadoEm": "2026-11-24T20:34:33.494Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -645,6 +645,38 @@
       }
     },
     {
+      "id": "azul fidelidade|10|compra_pontos|2026-11-24",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 10,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 11,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
+      "publicado": "2026-11-23T15:00:24.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ultimas-horas-receber-ate-320-bonus-compra-pontos-azul-fidelidade/",
+          "titulo": "Últimas horas para receber até 320% de bônus na compra de pontos do Azul Fidelidade",
+          "publicado": "2026-11-24T20:30:35.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "bradesco|x|acumulo|2026-11-27",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -826,16 +858,16 @@
       "publicado": "2026-11-17T14:30:57.000Z",
       "fontes": [
         {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/segue-valendo-clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
+          "titulo": "Segue valendo: Clube Smiles com até 50.000 milhas na hora para novos assinantes",
+          "publicado": "2026-11-24T20:30:12.000Z"
+        },
+        {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
           "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
           "publicado": "2026-11-21T12:00:37.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
-          "titulo": "Clube Smiles com até 50.000 milhas na hora para novos assinantes",
-          "publicado": "2026-11-20T16:05:48.000Z"
         }
       ],
       "referencia": {
@@ -849,38 +881,6 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
-    },
-    {
-      "id": "azul fidelidade|10|compra_pontos|2026-11-24",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Itau"
-      ],
-      "percentual": 10,
-      "ate": "2026-11-24T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 6,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
-      "publicado": "2026-11-23T15:00:24.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
-          "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
-          "publicado": "2026-11-23T15:00:24.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "livelo|x|acumulo|2026-11-27",
