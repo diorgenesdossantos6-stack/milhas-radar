@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T22:34:31.252Z",
-  "totalAtivas": 57,
+  "atualizadoEm": "2026-11-24T22:44:39.760Z",
+  "totalAtivas": 58,
   "totalCampanhasAtivas": 33,
   "combinacoes": [
     {
@@ -475,9 +475,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "HTTP 500"
-  ],
+  "erros": [],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
@@ -1495,16 +1493,16 @@
       "publicado": "2026-11-23T12:59:49.000Z",
       "fontes": [
         {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/vai-acabar-transfira-pontos-livelo-latam-pass-27-porcento-bonus/",
+          "titulo": "Vai acabar! Transfira pontos da Livelo para o LATAM Pass com 27% de bônus",
+          "publicado": "2026-11-24T22:36:38.000Z"
+        },
+        {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo/",
           "titulo": "Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo",
           "publicado": "2026-11-24T17:30:29.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
-          "titulo": "Último dia! LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
-          "publicado": "2026-11-24T12:00:40.000Z"
         },
         {
           "fonte": "Melhores Cartões",
@@ -2287,6 +2285,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/vai-acabar-transfira-pontos-livelo-latam-pass-27-porcento-bonus",
+      "titulo": "Vai acabar! Transfira pontos da Livelo para o LATAM Pass com 27% de bônus",
+      "link": "https://pontospravoar.com/vai-acabar-transfira-pontos-livelo-latam-pass-27-porcento-bonus/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T22:36:38.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Livelo -> Latam Pass",
+      "percentual": 27,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A promoção da LATAM Friday entrou nas últimas horas! Apenas até as 23h59, você pode transferir seus pontos da Livelo para o LATAM Pass com 27% de bônus. Além disso, clientes que realizarem a primeira transferência garantem 2.000 milhas extras. Abaixo, veja como aproveitar antes que acabe! LATAM Pass e Livelo Para esta campanha, a…",
+      "coletadoEm": "2026-11-24T22:44:39.760Z",
+      "nota": 56
+    },
     {
       "id": "melhorescartoes.com.br/latam-pass-magalu-12-milhas-nov26.html",
       "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
