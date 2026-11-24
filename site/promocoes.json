@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T16:54:30.041Z",
+  "atualizadoEm": "2026-11-24T17:04:33.981Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1526,22 +1526,6 @@
       "ate": "2026-11-25T16:04:38.000Z",
       "dinheiro": null,
       "milhas": 13350,
-      "programa": null,
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas",
-      "titulo": "Alerta PPV! Passagens nacionais a partir de 3.469 milhas + taxas",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-nacionais-3469-milhas-taxas/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-21T17:00:47.000Z",
-      "ate": "2026-11-24T17:00:47.000Z",
-      "dinheiro": null,
-      "milhas": 3469,
       "programa": null,
       "origem": null,
       "destino": null,
