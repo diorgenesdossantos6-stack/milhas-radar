@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T14:14:33.233Z",
-  "totalAtivas": 44,
+  "atualizadoEm": "2026-11-24T14:24:31.877Z",
+  "totalAtivas": 45,
   "totalCampanhasAtivas": 30,
   "combinacoes": [
     {
@@ -894,6 +894,12 @@
       "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
       "publicado": "2026-11-24T12:16:45.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
+          "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos do Inter Loop",
+          "publicado": "2026-11-24T14:23:29.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade/",
@@ -1986,6 +1992,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop",
+      "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos do Inter Loop",
+      "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T14:23:29.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Inter -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Azul Fidelidade está oferecendo até 90% de bônus nas transferências de pontos Inter Loop + até 30% de bônus adicional, dependendo do seu tempo de permanência no Clube Azul. A campanha é válida somente até amanhã (25). Confira! O post Azul Fidelidade oferece até 120% de bônus nas transferências de pontos do Inter Loop apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-24T14:24:31.877Z",
+      "nota": 95
+    },
     {
       "id": "pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras",
       "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
