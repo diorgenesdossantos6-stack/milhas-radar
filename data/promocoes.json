@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T15:34:36.710Z",
+  "atualizadoEm": "2026-11-24T15:44:31.232Z",
   "totalAtivas": 46,
   "totalCampanhasAtivas": 30,
   "combinacoes": [
@@ -91,6 +91,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
+      "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-24T15:43:29.000Z",
+      "ate": "2026-11-27T15:43:29.000Z",
+      "dinheiro": 3468,
+      "milhas": null,
+      "programa": null,
+      "origem": "Especial Bradesco Executiva da Tap",
+      "destino": "Milao",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
       "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
@@ -2010,6 +2027,41 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
+      "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T15:43:29.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo",
+        "Bradesco"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 3468,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Milão",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T15:43:29.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal voar para a Europa com todo o conforto da Classe Executiva pagando muito menos do que na tarifa tradicional da companhia aérea? A Livelo está com uma campanha exclusiva para clientes Bradesco que oferece 30% de desconto na emissão de passagens com pontos ou via ‘Pontos + Dinheiro’ para a Itália com o cupom \"ITALIABRA30\" [sem aspas], além de 30% de pointsback (devolução de parte dos pontos ",
+      "coletadoEm": "2026-11-24T15:44:31.232Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos",
       "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",

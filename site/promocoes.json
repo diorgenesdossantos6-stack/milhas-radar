@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T15:34:36.710Z",
+  "atualizadoEm": "2026-11-24T15:44:31.232Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1253,6 +1253,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
+      "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-24T15:43:29.000Z",
+      "ate": "2026-11-27T15:43:29.000Z",
+      "dinheiro": 3468,
+      "milhas": null,
+      "programa": null,
+      "origem": "Especial Bradesco Executiva da Tap",
+      "destino": "Milao",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
       "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
