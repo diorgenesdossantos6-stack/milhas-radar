@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T14:04:34.654Z",
+  "atualizadoEm": "2026-11-24T14:14:33.233Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -796,6 +796,41 @@
         "min": 12.5,
         "max": 18,
         "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "livelo|x|acumulo|2026-11-27",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-27T14:00:17.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 15,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
+      "publicado": "2026-11-24T14:00:17.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",
+          "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
+          "publicado": "2026-11-24T14:00:17.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
