@@ -1,8 +1,8 @@
 {
-  "atualizadoEm": "2026-11-24T06:54:34.267Z",
-  "lidoEm": "2026-11-24T06:44:31.128Z",
+  "atualizadoEm": "2026-11-24T07:04:31.473Z",
+  "lidoEm": "2026-11-24T07:04:31.473Z",
   "fonte": "https://www.livelo.com.br/ofertas",
-  "ok": false,
+  "ok": true,
   "total": 36,
   "emCampanha": 36,
   "parceiros": [
@@ -661,6 +661,5 @@
       "ate": "2026-11-27T02:59:00.000Z",
       "regras": "Campanha válida de 24 a 26/11/2026. Ganhe 14 pontos a cada real gasto, exclusivo para assinantes do Clube Livelo e 12 pontos por real demais clientes na contratação do seguro viagem. Consulte o regulamento."
     }
-  ],
-  "erro": "HTTP 403"
+  ]
 }
