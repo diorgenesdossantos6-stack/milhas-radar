@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-24T11:24:32.683Z",
+  "atualizadoEm": "2026-11-24T11:34:37.152Z",
   "totalAtivas": 38,
   "totalCampanhasAtivas": 26,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-for-lis-latam-nov26",
+      "titulo": "Voos diretos da Latam para Lisboa a partir de R$ 1.463 ou 62 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-for-lis-latam-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-24T11:32:57.000Z",
+      "ate": "2026-11-27T11:32:57.000Z",
+      "dinheiro": 1463,
+      "milhas": 62000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Lisboa",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
@@ -1680,6 +1696,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-for-lis-latam-nov26",
+      "titulo": "Voos diretos da Latam para Lisboa a partir de R$ 1.463 ou 62 mil milhas o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-for-lis-latam-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-24T11:32:57.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 1463,
+        "milhas": 62000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Lisboa",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T11:32:57.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Latam Pass está com voos diretos para Lisboa saindo de Fortaleza a partir de 62.196 milhas o trecho, mais taxas aeroportuárias. O menor valor sai de Fortaleza, mas também há opção de voo direto saindo de São Paulo. O post Voos diretos da Latam para Lisboa a partir de R$ 1.463 ou 62 mil milhas o trecho mais taxas apareceu primeiro em Melhores Cartões .",
+      "coletadoEm": "2026-11-24T11:34:37.152Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/latam-pass-livelo-bonus-bf-nov2026.html",
       "titulo": "Últimas horas! Latam Pass Friday oferece 27% de bônus na transferência de pontos Livelo",
