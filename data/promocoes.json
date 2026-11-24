@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-24T16:14:32.302Z",
-  "totalAtivas": 47,
-  "totalCampanhasAtivas": 30,
+  "atualizadoEm": "2026-11-24T16:24:33.536Z",
+  "totalAtivas": 48,
+  "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -156,23 +156,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": "Macapá",
-      "destino": "Belém",
+      "origem": null,
+      "destino": "Latam Pass",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "MCP",
-      "iataDestino": "BEL",
-      "data": "2027-02-15",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
@@ -1506,6 +1501,32 @@
       }
     },
     {
+      "id": "marriott bonvoy|x|acumulo|2027-01-15",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Marriott Bonvoy",
+      "origens": [
+        "Bradesco"
+      ],
+      "percentual": null,
+      "ate": "2027-01-15T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil pontos bônus e até 4× mais pontos em hospedagens",
+      "publicado": "2026-11-24T16:20:27.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens/",
+          "titulo": "Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil pontos bônus e até 4× mais pontos em hospedagens",
+          "publicado": "2026-11-24T16:20:27.000Z"
+        }
+      ]
+    },
+    {
       "id": "latam pass|x|transferencia_bonificada|2026-12-18",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -2045,6 +2066,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens",
+      "titulo": "Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil pontos bônus e até 4× mais pontos em hospedagens",
+      "link": "https://passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T16:20:27.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Bradesco"
+      ],
+      "destino": [
+        "Marriott Bonvoy"
+      ],
+      "par": "Bradesco -> Marriott Bonvoy",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2027-01-15T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "[Oferta] Vem aí a Black Friday Marriott! De 26 a 29 de novembro, mais de 40 hotéis na América Latina terão tarifas promocionais com café da manhã incluso e você pode solicitar o cartão Bradesco Marriott Bonvoy® com até 40.000 milhas bônus e até 4 pontos por dólar em hospedagens. A adesão para os cartões vai até 15/01/2027. O post Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil ponto",
+      "coletadoEm": "2026-11-24T16:24:33.536Z",
+      "nota": 10
+    },
     {
       "id": "passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
       "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
