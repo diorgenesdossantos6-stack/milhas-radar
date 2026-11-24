@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T12:34:34.384Z",
-  "totalAtivas": 41,
+  "atualizadoEm": "2026-11-24T12:44:30.832Z",
+  "totalAtivas": 42,
   "totalCampanhasAtivas": 28,
   "combinacoes": [
     {
@@ -285,6 +285,21 @@
   ],
   "erros": [],
   "historico": {
+    "Inter -> Azul Fidelidade": {
+      "maxPercentual": 120,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-24"
+      ],
+      "ultimaEm": "2026-11-24T12:16:45.000Z",
+      "mediaPercentual": 120,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-24"
+      }
+    },
     "Smiles": {
       "maxPercentual": 130,
       "campanhas": 2,
@@ -347,21 +362,6 @@
         "campanhas": 3,
         "faltam": 2,
         "ultima": "2026-11-19"
-      }
-    },
-    "Inter -> Azul Fidelidade": {
-      "maxPercentual": 120,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-24"
-      ],
-      "ultimaEm": "2026-11-24T12:16:45.000Z",
-      "mediaPercentual": 120,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-24"
       }
     },
     "Premmia -> Azul Fidelidade": {
@@ -807,6 +807,54 @@
   },
   "campanhasAtivas": [
     {
+      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-25",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Inter"
+      ],
+      "percentual": 120,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 95,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
+      "publicado": "2026-11-24T12:16:45.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade/",
+          "titulo": "Azul Friday! Ganhe até 120% de bônus na transferência de pontos do Inter Loop para o Azul Fidelidade",
+          "publicado": "2026-11-24T12:33:56.000Z"
+        },
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
+          "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
+          "publicado": "2026-11-24T12:16:45.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Melhor momento",
+      "motivo": "120% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 120,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -982,48 +1030,6 @@
         "cadencia": 90,
         "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-25",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 120,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 80,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
-      "publicado": "2026-11-24T12:16:45.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
-          "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
-          "publicado": "2026-11-24T12:16:45.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
       }
     },
     {
@@ -1861,6 +1867,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade",
+      "titulo": "Azul Friday! Ganhe até 120% de bônus na transferência de pontos do Inter Loop para o Azul Fidelidade",
+      "link": "https://pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T12:33:56.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Inter -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "O Azul Fidelidade lançou uma nova promoção da Azul Friday! Desta vez, os clientes do Inter Loop podem transferir pontos para o programa da Azul e receberem até 120% de bônus sobre os pontos enviados. Esta campanha vai até amanhã, dia 25 de novembro, e você confere os detalhes abaixo. Azul Fidelidade e Inter Loop Para…",
+      "coletadoEm": "2026-11-24T12:44:30.832Z",
+      "nota": 95
+    },
     {
       "id": "melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
       "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
