@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T18:24:31.334Z",
+  "atualizadoEm": "2026-11-24T18:34:35.852Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -630,6 +630,32 @@
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
+    },
+    {
+      "id": "bradesco|x|acumulo|2026-11-27",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Bradesco",
+      "origens": [
+        "Bradesco"
+      ],
+      "percentual": null,
+      "ate": "2026-11-27T18:34:37.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 10,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Bradesco terá versão de metal do cartão Amex The Platinum Card",
+      "publicado": "2026-11-24T18:34:37.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/novo-bradesco-tpc-amex-metal.html",
+          "titulo": "Bradesco terá versão de metal do cartão Amex The Platinum Card",
+          "publicado": "2026-11-24T18:34:37.000Z"
+        }
+      ]
     },
     {
       "id": "marriott bonvoy|x|acumulo|2027-01-15",
@@ -1298,6 +1324,22 @@
   ],
   "passagens": [
     {
+      "id": "passageirodeprimeira.com/5-sugestoes-voos-internacionais-a-partir-22-mil-milhas-smiles-taxas",
+      "titulo": "5 sugestões de voos internacionais a partir de 22 mil milhas Smiles + taxas",
+      "link": "https://passageirodeprimeira.com/5-sugestoes-voos-internacionais-a-partir-22-mil-milhas-smiles-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-24T18:27:14.000Z",
+      "ate": "2026-11-27T18:27:14.000Z",
+      "dinheiro": null,
+      "milhas": 22000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": true
+    },
+    {
       "id": "passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas",
       "titulo": "Voo de São Paulo para Buenos Aires por apenas 15 mil pontos Azul + taxas",
       "link": "https://passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas/",
@@ -1383,23 +1425,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": "Macapá",
-      "destino": "Belém",
+      "origem": null,
+      "destino": "Latam Pass",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "MCP",
-      "iataDestino": "BEL",
-      "data": "2027-02-15",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
