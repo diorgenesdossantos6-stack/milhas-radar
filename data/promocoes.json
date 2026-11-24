@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T16:34:33.788Z",
+  "atualizadoEm": "2026-11-24T16:44:33.051Z",
   "totalAtivas": 48,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
@@ -103,6 +103,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos",
+      "titulo": "Alerta PPV! Azul Fidelidade tem passagens nacionais a partir de 2.800 pontos",
+      "link": "https://pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-24T16:33:41.000Z",
+      "ate": "2026-11-27T16:33:41.000Z",
+      "dinheiro": null,
+      "milhas": 2800,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
       "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
@@ -2071,6 +2087,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos",
+      "titulo": "Alerta PPV! Azul Fidelidade tem passagens nacionais a partir de 2.800 pontos",
+      "link": "https://pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T16:33:41.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 2800,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T16:33:41.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal planejar sua próxima viagem pelo Brasil utilizando pontos? No alerta de passagens PPV desta terça-feira, nossa equipe reuniu diversas oportunidades de voos nacionais pelo Azul Fidelidade, com emissões a partir de apenas 2.800 pontos + taxas. Confira os trechos e as datas disponíveis e aproveite para garantir sua próxima viagem! Passagens nacionais com…",
+      "coletadoEm": "2026-11-24T16:44:33.051Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens",
       "titulo": "Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil pontos bônus e até 4× mais pontos em hospedagens",
