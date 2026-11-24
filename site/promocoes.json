@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T15:44:31.232Z",
+  "atualizadoEm": "2026-11-24T15:54:33.592Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -399,6 +399,12 @@
       "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
       "publicado": "2026-11-24T11:45:00.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
+          "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
+          "publicado": "2026-11-24T15:40:19.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
@@ -1178,6 +1184,12 @@
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "fontes": [
             {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
+              "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
+              "publicado": "2026-11-24T15:40:19.000Z"
+            },
+            {
               "fonte": "Passageiro de Primeira",
               "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
               "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
@@ -1217,6 +1229,12 @@
           "papel": "compra",
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "fontes": [
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
+              "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
+              "publicado": "2026-11-24T15:40:19.000Z"
+            },
             {
               "fonte": "Passageiro de Primeira",
               "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
