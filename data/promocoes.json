@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-24T12:14:32.393Z",
-  "totalAtivas": 40,
-  "totalCampanhasAtivas": 27,
+  "atualizadoEm": "2026-11-24T12:24:33.726Z",
+  "totalAtivas": 41,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -347,6 +347,21 @@
         "campanhas": 3,
         "faltam": 2,
         "ultima": "2026-11-19"
+      }
+    },
+    "Inter -> Azul Fidelidade": {
+      "maxPercentual": 120,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-24"
+      ],
+      "ultimaEm": "2026-11-24T12:16:45.000Z",
+      "mediaPercentual": 120,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-24"
       }
     },
     "Premmia -> Azul Fidelidade": {
@@ -970,6 +985,48 @@
       }
     },
     {
+      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-25",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Inter"
+      ],
+      "percentual": 120,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 80,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
+      "publicado": "2026-11-24T12:16:45.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
+          "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
+          "publicado": "2026-11-24T12:16:45.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Melhor momento",
+      "motivo": "120% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 120,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-24",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -1007,7 +1064,7 @@
       "teto": 120,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1804,6 +1861,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
+      "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
+      "link": "https://www.melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-24T12:16:45.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Inter"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Inter -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A Azul Friday começou e o Azul Fidelidade está oferecendo até 120% de bônus nas transferências de pontos do Inter Loop para o programa. A oferta é válida até amanhã, 25 de novembro. Para aproveitar e garantir a bonificação, você precisa se cadastrar na página da promoção ANTES de fazer a transferência. Veja como vai… O post Azul Fidelidade oferece até 120% de bônus na transferência de pontos do In",
+      "coletadoEm": "2026-11-24T12:24:33.726Z",
+      "nota": 80
+    },
     {
       "id": "pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo",
       "titulo": "Último dia! LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
