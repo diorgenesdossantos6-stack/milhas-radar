@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T18:14:34.095Z",
+  "atualizadoEm": "2026-11-24T18:24:31.334Z",
   "totalAtivas": 49,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
@@ -357,7 +357,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "This operation was aborted"
+  ],
   "historico": {
     "Inter -> Azul Fidelidade": {
       "maxPercentual": 120,
