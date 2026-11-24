@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T22:25:12.220Z",
+  "atualizadoEm": "2026-11-24T22:34:31.252Z",
   "totalAtivas": 57,
   "totalCampanhasAtivas": 33,
   "combinacoes": [
@@ -475,7 +475,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "HTTP 500"
+  ],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
