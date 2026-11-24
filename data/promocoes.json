@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T20:54:32.748Z",
+  "atualizadoEm": "2026-11-24T21:04:32.271Z",
   "totalAtivas": 55,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
@@ -115,6 +115,28 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
+      "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
+      "fonte": "companhia",
+      "publicado": "2026-11-24T21:00:21.000Z",
+      "ate": "2026-11-27T21:00:21.000Z",
+      "dinheiro": null,
+      "milhas": 16000,
+      "programa": "Latam Pass",
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
       "titulo": "Voe para São Francisco a partir de R$ 1.372 ou 91 mil pontos Azul + taxas",
@@ -2197,6 +2219,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
+      "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-24T21:00:21.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 16000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Argentina",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T21:00:21.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar esta terça-feira para planejar sua próxima viagem para a Argentina usando milhas? O alerta de passagens PPV traz novas oportunidades pelo LATAM Pass, com passagens para diferentes destinos no país a partir de 16 mil milhas + taxas. Confira as opções selecionadas e aproveite para pesquisar sua próxima viagem! Passagens internacionais no…",
+      "coletadoEm": "2026-11-24T21:04:32.271Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/ultimas-horas-receber-ate-320-bonus-compra-pontos-azul-fidelidade",
       "titulo": "Últimas horas para receber até 320% de bônus na compra de pontos do Azul Fidelidade",
