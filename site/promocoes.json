@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T10:34:32.208Z",
+  "atualizadoEm": "2026-11-24T10:44:30.986Z",
   "campanhasAtivas": [
     {
       "id": "smiles|130|transferencia_bonificada|2026-11-24",
@@ -288,13 +288,19 @@
       "percentual": 27,
       "ate": "2026-11-24T23:59:00.000Z",
       "confiancaPrazo": "alta",
-      "nota": 51,
+      "nota": 56,
       "custoMilheiro": 23.53,
       "acumulo": null,
       "clube": null,
       "titulo": "LATAM Pass e Livelo oferecem 27% de bônus nas transferências",
       "publicado": "2026-11-23T12:59:49.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-livelo-bonus-bf-nov2026.html",
+          "titulo": "Últimas horas! Latam Pass Friday oferece 27% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-24T10:36:08.000Z"
+        },
         {
           "fonte": "Melhores Destinos",
           "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
@@ -306,12 +312,6 @@
           "link": "https://passageirodeprimeira.com/latam-pass-oferece-27-de-bonus-na-transferencia-de-pontos-livelo/",
           "titulo": "LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
           "publicado": "2026-11-23T13:02:08.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/latam-pass-livelo-bonus-bf-2026.html",
-          "titulo": "Muito bom! Latam Pass Friday oferece 27% de bônus na transferência de pontos Livelo",
-          "publicado": "2026-11-23T13:00:14.000Z"
         },
         {
           "fonte": "Cartões de Crédito",
@@ -1528,21 +1528,6 @@
         "ultima": "2026-11-23"
       }
     },
-    "Itau -> Latam Pass": {
-      "maxPercentual": 66,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-20"
-      ],
-      "ultimaEm": "2026-11-20T15:00:02.000Z",
-      "mediaPercentual": 66,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-20"
-      }
-    },
     "Livelo -> Latam Pass": {
       "maxPercentual": 27,
       "campanhas": 3,
@@ -1557,6 +1542,21 @@
         "campanhas": 2,
         "faltam": 3,
         "ultima": "2026-11-23"
+      }
+    },
+    "Itau -> Latam Pass": {
+      "maxPercentual": 66,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-20"
+      ],
+      "ultimaEm": "2026-11-20T15:00:02.000Z",
+      "mediaPercentual": 66,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-20"
       }
     },
     "Inter -> Latam Pass": {
