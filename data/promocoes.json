@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T17:44:34.124Z",
+  "atualizadoEm": "2026-11-24T17:54:33.233Z",
   "totalAtivas": 49,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
@@ -103,6 +103,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas",
+      "titulo": "Voo de São Paulo para Buenos Aires por apenas 15 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-24T17:50:26.000Z",
+      "ate": "2026-11-27T17:50:26.000Z",
+      "dinheiro": null,
+      "milhas": 15000,
+      "programa": "Azul Fidelidade",
+      "origem": "Sao Paulo",
+      "destino": "Buenos Aires Por Apenas",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos",
       "titulo": "Alerta PPV! Azul Fidelidade tem passagens nacionais a partir de 2.800 pontos",
@@ -2071,6 +2088,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas",
+      "titulo": "Voo de São Paulo para Buenos Aires por apenas 15 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T17:50:26.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 15000,
+        "programa": "Azul Fidelidade",
+        "origem": "São Paulo",
+        "destino": "Buenos Aires",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T17:50:26.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Encontramos disponibilidade de bilhetes ida e volta entre São Paulo (GRU) e Buenos Aires (EZE) a partir de 15.000 pontos Azul Fidelidade + taxas por trecho com a Azul. O post Voo de São Paulo para Buenos Aires por apenas 15 mil pontos Azul + taxas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-24T17:54:33.233Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo",
       "titulo": "Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo",
