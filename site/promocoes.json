@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T19:44:31.115Z",
+  "atualizadoEm": "2026-11-24T19:54:34.063Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -888,10 +888,11 @@
       "tipoNome": "Acúmulo em loja parceira",
       "destino": "Livelo",
       "origens": [
-        "Livelo"
+        "Livelo",
+        "Bradesco"
       ],
       "percentual": null,
-      "ate": "2026-11-27T14:00:17.000Z",
+      "ate": "2026-11-27T19:47:02.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -903,6 +904,12 @@
       "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
       "publicado": "2026-11-24T14:00:17.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar/",
+          "titulo": "Bradesco lança nova versão do Amex The Platinum Card em metal com até 4 pontos por dólar",
+          "publicado": "2026-11-24T19:47:02.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",

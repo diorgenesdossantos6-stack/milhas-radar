@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T19:44:31.115Z",
-  "totalAtivas": 52,
+  "atualizadoEm": "2026-11-24T19:54:34.063Z",
+  "totalAtivas": 53,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
@@ -1825,10 +1825,11 @@
       "tipoNome": "Acúmulo em loja parceira",
       "destino": "Livelo",
       "origens": [
-        "Livelo"
+        "Livelo",
+        "Bradesco"
       ],
       "percentual": null,
-      "ate": "2026-11-27T14:00:17.000Z",
+      "ate": "2026-11-27T19:47:02.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -1840,6 +1841,12 @@
       "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
       "publicado": "2026-11-24T14:00:17.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar/",
+          "titulo": "Bradesco lança nova versão do Amex The Platinum Card em metal com até 4 pontos por dólar",
+          "publicado": "2026-11-24T19:47:02.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",
@@ -2173,6 +2180,35 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar",
+      "titulo": "Bradesco lança nova versão do Amex The Platinum Card em metal com até 4 pontos por dólar",
+      "link": "https://passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T19:47:02.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo",
+        "Bradesco"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 4,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-27T19:47:02.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Bradesco lançará em 1º de dezembro de 2026 uma nova versão do The Platinum Card® American Express em metal, com até 4 pontos Livelo por dólar. O cartão oferece benefícios como acesso a salas VIP e seguro viagem completo, sendo exclusivo para clientes dos segmentos Bradesco Prime, Principal e Private Bank. Além disso, os pontos acumulados não expiram, garantindo mais vantagens para os usuários. O",
+      "coletadoEm": "2026-11-24T19:54:34.063Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
       "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
