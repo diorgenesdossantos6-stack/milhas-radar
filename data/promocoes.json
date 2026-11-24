@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-24T17:24:33.777Z",
-  "totalAtivas": 48,
+  "atualizadoEm": "2026-11-24T17:34:33.307Z",
+  "totalAtivas": 49,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
@@ -1344,6 +1344,12 @@
       "publicado": "2026-11-23T12:59:49.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo/",
+          "titulo": "Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo",
+          "publicado": "2026-11-24T17:30:29.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
           "titulo": "Último dia! LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
@@ -1360,12 +1366,6 @@
           "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-latam-livelo-nov26",
           "titulo": "Milheiro por R$ 23,53! Transfira da Livelo para o Latam Pass com bônus usando pontos mais dinheiro",
           "publicado": "2026-11-23T13:42:33.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/latam-pass-oferece-27-de-bonus-na-transferencia-de-pontos-livelo/",
-          "titulo": "LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
-          "publicado": "2026-11-23T13:02:08.000Z"
         },
         {
           "fonte": "Cartões de Crédito",
@@ -2071,6 +2071,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo",
+      "titulo": "Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo",
+      "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-24T17:30:29.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Livelo -> Latam Pass",
+      "percentual": 27,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-24T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Alerta de oportunidade! O LATAM Pass está oferecendo 27% de bônus nas transferências de pontos Livelo até hoje (24), além de 2.000 milhas adicionais na primeira transferência. Para participar, é necessário transferir no mínimo 12.000 pontos e se cadastrar na campanha. O post Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-24T17:34:33.307Z",
+      "nota": 56
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos",
       "titulo": "Alerta PPV! Azul Fidelidade tem passagens nacionais a partir de 2.800 pontos",
