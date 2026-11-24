@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T22:04:31.341Z",
+  "atualizadoEm": "2026-11-24T22:14:33.620Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1355,6 +1355,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas",
+      "titulo": "LATAM tem passagens para destinos de Carnaval a partir de R$ 117 ou 4 mil milhas + taxas",
+      "link": "https://passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-24T22:10:21.000Z",
+      "ate": "2026-11-25T23:59:00.000Z",
+      "dinheiro": 117,
+      "milhas": 4000,
+      "programa": "Latam Pass",
+      "origem": "Latam Tem",
+      "destino": "Destinos de Carnaval",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas",
       "titulo": "Voe de São Paulo para Dubai a partir de R$ 2.295 ou 153 mil pontos Azul + taxas",
