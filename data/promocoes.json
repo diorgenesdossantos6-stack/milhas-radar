@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T16:04:32.240Z",
-  "totalAtivas": 56,
+  "atualizadoEm": "2026-11-25T16:24:31.977Z",
+  "totalAtivas": 57,
   "totalCampanhasAtivas": 34,
   "combinacoes": [
     {
@@ -398,22 +398,6 @@
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas",
-      "titulo": "Alerta PPV! Resgate passagens internacionais a partir de 13.350 pontos + taxas",
-      "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-internacionais-13350-pontos-taxas/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-22T16:04:38.000Z",
-      "ate": "2026-11-25T16:04:38.000Z",
-      "dinheiro": null,
-      "milhas": 13350,
-      "programa": null,
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -549,6 +533,21 @@
         "ultima": "2026-11-19"
       }
     },
+    "Premmia -> Latam Pass": {
+      "maxPercentual": 60,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-25"
+      ],
+      "ultimaEm": "2026-11-25T14:49:10.000Z",
+      "mediaPercentual": 60,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-25"
+      }
+    },
     "Aeroplan": {
       "maxPercentual": 100,
       "campanhas": 1,
@@ -610,21 +609,6 @@
         "campanhas": 2,
         "faltam": 3,
         "ultima": "2026-11-24"
-      }
-    },
-    "Premmia -> Latam Pass": {
-      "maxPercentual": 60,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-25"
-      ],
-      "ultimaEm": "2026-11-25T14:49:10.000Z",
-      "mediaPercentual": 60,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-25"
       }
     },
     "Itau -> Azul Fidelidade": {
@@ -1242,6 +1226,54 @@
       }
     },
     {
+      "id": "latam pass|60|transferencia_bonificada|2026-11-28",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Premmia"
+      ],
+      "percentual": 60,
+      "ate": "2026-11-28T16:20:06.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 71,
+      "custoMilheiro": 24.06,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
+      "publicado": "2026-11-25T14:49:10.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406/",
+          "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia - CPM a partir de R$ 24,06",
+          "publicado": "2026-11-25T16:20:06.000Z"
+        },
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
+          "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
+          "publicado": "2026-11-25T14:49:10.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Não vale",
+      "motivo": "R$ 24,06 sai mais caro que comprar pronto a R$ 23,80",
+      "baseVeredito": "compra",
+      "teto": null,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
       "id": "aeroplan|100|compra_pontos|2026-12-10",
       "tipo": "compra_pontos",
       "tipoNome": "Compra de pontos com desconto",
@@ -1308,48 +1340,6 @@
           "publicado": "2026-11-24T11:45:00.000Z"
         }
       ]
-    },
-    {
-      "id": "latam pass|60|transferencia_bonificada|2026-11-28",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Premmia"
-      ],
-      "percentual": 60,
-      "ate": "2026-11-28T14:49:10.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 56,
-      "custoMilheiro": 24.06,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
-      "publicado": "2026-11-25T14:49:10.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
-          "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
-          "publicado": "2026-11-25T14:49:10.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "R$ 24,06 sai mais caro que comprar pronto a R$ 23,80",
-      "baseVeredito": "compra",
-      "teto": null,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
     },
     {
       "id": "azul fidelidade|76|clube|2026-11-26",
@@ -2298,6 +2288,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406",
+      "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia - CPM a partir de R$ 24,06",
+      "link": "https://passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T16:20:06.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Premmia"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Premmia -> Latam Pass",
+      "percentual": 60,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T16:20:06.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A LATAM Pass está oferecendo 60% de bônus na transferência de pontos do Premmia até sexta-feira (27). Ao transferir, você pode acumular até 10.000 milhas LATAM Pass, dependendo da quantidade de pontos e do valor pago. Aproveite essa oportunidade para potencializar suas milhas e viajar mais! O post LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia - CPM a partir de R$ 24,06 apar",
+      "coletadoEm": "2026-11-25T16:24:31.977Z",
+      "nota": 71
+    },
     {
       "id": "passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes",
       "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
