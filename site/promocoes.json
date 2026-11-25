@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T01:34:37.846Z",
+  "atualizadoEm": "2026-11-25T01:44:30.673Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -46,7 +46,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -100,7 +100,7 @@
       "teto": 120,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -140,7 +140,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 60,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
