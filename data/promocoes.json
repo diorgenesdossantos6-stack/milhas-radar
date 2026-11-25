@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T14:04:38.006Z",
-  "totalAtivas": 50,
+  "atualizadoEm": "2026-11-25T14:14:32.669Z",
+  "totalAtivas": 51,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
@@ -1415,7 +1415,7 @@
         "Esfera"
       ],
       "percentual": 25,
-      "ate": "2026-11-28T13:51:38.000Z",
+      "ate": "2026-11-28T14:00:14.000Z",
       "confiancaPrazo": "baixa",
       "nota": 40,
       "custoMilheiro": null,
@@ -1424,6 +1424,12 @@
       "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
       "publicado": "2026-11-25T11:00:51.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/latam-pass-oferece-25-porcento-bonus-transferencia-parceiros-selecionados/",
+          "titulo": "LATAM Pass oferece 25% de bônus na transferência de parceiros selecionados",
+          "publicado": "2026-11-25T14:00:14.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
@@ -2155,6 +2161,31 @@
       "resumo": "A Smiles está com uma promoção válida somente hoje, 25 de novembro, que oferece até 80% de bônus na transferência de pontos Livelo para o programa (confira aqui)! O post Milheiro Smiles a partir de R$ 15,30 enviando pontos Livelo mais dinheiro com bônus apareceu primeiro em Melhores Cartões .",
       "coletadoEm": "2026-11-25T14:04:38.006Z",
       "nota": 88
+    },
+    {
+      "id": "pontospravoar.com/latam-pass-oferece-25-porcento-bonus-transferencia-parceiros-selecionados",
+      "titulo": "LATAM Pass oferece 25% de bônus na transferência de parceiros selecionados",
+      "link": "https://pontospravoar.com/latam-pass-oferece-25-porcento-bonus-transferencia-parceiros-selecionados/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-25T14:00:14.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T14:00:14.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Boa oportunidade para aumentar seu saldo de milhas! O LATAM Pass está oferecendo 25% de bônus na transferência de pontos de parceiros selecionados. Para tornar a oferta ainda mais atrativa, novos clientes podem receber 1.000 milhas extras. Confira os parceiros participantes, as condições da campanha e saiba como aproveitar! LATAM Pass e parceiros selecionados A…",
+      "coletadoEm": "2026-11-25T14:14:32.669Z",
+      "nota": 25
     },
     {
       "id": "passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4",
