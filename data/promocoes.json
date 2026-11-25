@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T15:04:34.349Z",
-  "totalAtivas": 54,
+  "atualizadoEm": "2026-11-25T15:14:33.152Z",
+  "totalAtivas": 55,
   "totalCampanhasAtivas": 33,
   "combinacoes": [
     {
@@ -1811,16 +1811,16 @@
       "publicado": "2026-11-17T18:30:11.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/receba-ate-390-000-pontos-ao-assinar-o-clube-livelo-premium-cpm-a-partir-de-r-2404/",
+          "titulo": "Receba até 390.000 pontos ao assinar o Clube Livelo Premium - CPM a partir de R$ 24,04",
+          "publicado": "2026-11-25T15:05:20.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/livelo-oferece-9-mil-pontos-assinatura-anual-clube-mini/",
           "titulo": "Livelo oferece 9 mil pontos na assinatura anual do Clube Mini",
           "publicado": "2026-11-18T11:00:19.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/voltou-assine-o-clube-livelo-mini-por-apenas-r-2490-por-mes/",
-          "titulo": "Voltou! Assine o Clube Livelo Mini por apenas R$ 24,90 por mês",
-          "publicado": "2026-11-17T18:30:11.000Z"
         }
       ],
       "referencia": {
@@ -2265,6 +2265,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/receba-ate-390-000-pontos-ao-assinar-o-clube-livelo-premium-cpm-a-partir-de-r-2404",
+      "titulo": "Receba até 390.000 pontos ao assinar o Clube Livelo Premium - CPM a partir de R$ 24,04",
+      "link": "https://passageirodeprimeira.com/receba-ate-390-000-pontos-ao-assinar-o-clube-livelo-premium-cpm-a-partir-de-r-2404/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T15:05:20.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "[Oferta] Muito bom! O Clube Livelo Premium está oferecendo até 390.000 pontos ao longo de 12 meses, com CPM a partir de R$ 24,04. A promoção é válida até amanhã (26) e contempla assinaturas mensais e anuais. O post Receba até 390.000 pontos ao assinar o Clube Livelo Premium - CPM a partir de R$ 24,04 apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T15:14:33.152Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
       "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
