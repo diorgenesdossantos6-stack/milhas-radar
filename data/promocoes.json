@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T14:34:33.512Z",
+  "atualizadoEm": "2026-11-25T14:44:32.958Z",
   "totalAtivas": 53,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
@@ -58,6 +58,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
+      "titulo": "Arraial do Cabo! Voos de São Paulo ou de BH para Cabo Frio a partir de 5 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-25T14:41:59.000Z",
+      "ate": "2026-11-28T14:41:59.000Z",
+      "dinheiro": null,
+      "milhas": 5000,
+      "programa": "Latam Pass",
+      "origem": "BH",
+      "destino": "Cabo Frio",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas",
       "titulo": "LATAM tem passagens para destinos de Carnaval a partir de R$ 117 ou 4 mil milhas + taxas",
       "link": "https://passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas/",
@@ -95,23 +111,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": "Florianópolis",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
+      "origem": null,
+      "destino": "Argentina",
+      "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FLN",
-      "iataDestino": "EZE",
-      "data": "2027-02-17",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -400,7 +411,9 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "HTTP 504"
+  ],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
@@ -2181,6 +2194,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
+      "titulo": "Arraial do Cabo! Voos de São Paulo ou de BH para Cabo Frio a partir de 5 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-25T14:41:59.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 5000,
+        "programa": "Latam Pass",
+        "origem": "BH",
+        "destino": "Cabo Frio",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T14:41:59.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Latam Pass está com voos promocionais de São Paulo ou de Belo Horizonte para Cabo Frio, pertinho de Arraial do Cabo, a partir de 5 mil milhas o trecho, mais taxas aeroportuárias. A tarifa está disponível para viajar entre janeiro e junho de 2027. Aproveite agora clicando aqui. O post Arraial do Cabo! Voos de São Paulo ou de BH para Cabo Frio a partir de 5 mil milhas o trecho apareceu primeiro em",
+      "coletadoEm": "2026-11-25T14:44:32.958Z",
+      "nota": 0
+    },
     {
       "id": "cartoesdecredito.me/noticia/smiles-e-livelo-oferecem-ate-80-de-bonus-nas-transferencias-4",
       "titulo": "Smiles e Livelo oferecem até 80% de bônus nas transferências",
