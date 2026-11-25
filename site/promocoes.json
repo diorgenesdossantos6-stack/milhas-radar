@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T19:04:32.185Z",
+  "atualizadoEm": "2026-11-25T19:14:31.034Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1399,6 +1399,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-smiles-oferece-passagens-nacionais-promocionais-7-mil-milhas",
+      "titulo": "Alerta PPV! Smiles oferece passagens nacionais promocionais a partir de 7 mil milhas",
+      "link": "https://pontospravoar.com/alerta-ppv-smiles-oferece-passagens-nacionais-promocionais-7-mil-milhas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-25T19:00:45.000Z",
+      "ate": "2026-11-28T19:00:45.000Z",
+      "dinheiro": null,
+      "milhas": 7000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Promocionais",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-smiles-nov26",
       "titulo": "Voos de São Paulo para Belo Horizonte por R$ 130 ou 8.500 milhas Smiles o trecho mais taxas",
