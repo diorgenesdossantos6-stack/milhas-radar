@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T19:54:31.980Z",
+  "atualizadoEm": "2026-11-25T20:04:31.464Z",
   "totalAtivas": 59,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -57,6 +57,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas",
+      "titulo": "Voe para Buenos Aires a partir 18.500 pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-25T20:00:13.000Z",
+      "ate": "2026-11-28T20:00:13.000Z",
+      "dinheiro": null,
+      "milhas": 18500,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2",
       "titulo": "Smiles tem voos nacionais a partir de 6 mil milhas",
@@ -447,22 +464,6 @@
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
-      "titulo": "Jalapão! Voos de São Paulo para Palmas por R$ 208 ou 8 mil milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-pmw-latam-bf-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-23T14:47:30.000Z",
-      "ate": "2026-11-26T14:47:30.000Z",
-      "dinheiro": 208,
-      "milhas": 8000,
-      "programa": "Latam Pass",
-      "origem": "São Paulo",
-      "destino": "Palmas",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -2400,6 +2401,41 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas",
+      "titulo": "Voe para Buenos Aires a partir 18.500 pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T20:00:13.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade",
+        "Aeroplan"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 18500,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Buenos Aires",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T20:00:13.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Alerta] Alerta direto dos Grupos do PP no WhatsApp! Encontramos disponibilidade de bilhetes ida e volta entre São Paulo (GRU) e Buenos Aires (EZE) a partir de 18.500 pontos Azul Fidelidade + taxas por trecho com a Air Canada. O post Voe para Buenos Aires a partir 18.500 pontos Azul + taxas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T20:04:31.464Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2",
       "titulo": "Smiles tem voos nacionais a partir de 6 mil milhas",
