@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T13:34:35.604Z",
+  "atualizadoEm": "2026-11-25T13:44:31.178Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -142,6 +142,48 @@
         "cadencia": 60,
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "smiles|80|transferencia_bonificada|2026-11-25",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 88,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
+      "publicado": "2026-11-25T13:38:48.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
+          "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-25T13:38:48.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
@@ -1778,6 +1820,27 @@
         "ultima": "2026-11-24"
       }
     },
+    "Livelo -> Smiles": {
+      "maxPercentual": 80,
+      "campanhas": 4,
+      "inicios": [
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-25"
+      ],
+      "ultimaEm": "2026-11-25T13:38:48.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": true,
+        "campanhas": 4,
+        "medianaDias": 1,
+        "maiorDias": 6,
+        "ultima": "2026-11-25",
+        "de": "2026-11-26",
+        "ate": "2026-12-01"
+      }
+    },
     "Esfera -> Smiles": {
       "maxPercentual": 80,
       "campanhas": 4,
@@ -1807,23 +1870,6 @@
         "pronta": false,
         "campanhas": 1,
         "faltam": 4,
-        "ultima": "2026-11-19"
-      }
-    },
-    "Livelo -> Smiles": {
-      "maxPercentual": 80,
-      "campanhas": 3,
-      "inicios": [
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19"
-      ],
-      "ultimaEm": "2026-11-19T20:00:47.000Z",
-      "mediaPercentual": 80,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 3,
-        "faltam": 2,
         "ultima": "2026-11-19"
       }
     },
