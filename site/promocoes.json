@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T17:54:34.134Z",
+  "atualizadoEm": "2026-11-25T18:04:29.954Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -894,6 +894,36 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|clube|2026-11-25",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Acaba rápido! Azul oferece resgate de mala de viagem, robô aspirador, TV e mais produtos a partir de 11.000 pontos",
+      "publicado": "2026-11-25T17:59:25.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-resgate-favorito-produtos-11k-nov26.html",
+          "titulo": "Acaba rápido! Azul oferece resgate de mala de viagem, robô aspirador, TV e mais produtos a partir de 11.000 pontos",
+          "publicado": "2026-11-25T17:59:25.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "livelo|x|compra_pontos|2026-11-25",
