@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T13:54:30.315Z",
+  "atualizadoEm": "2026-11-25T14:04:38.006Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -156,12 +156,18 @@
       "ate": "2026-11-25T23:59:00.000Z",
       "confiancaPrazo": "alta",
       "nota": 88,
-      "custoMilheiro": null,
+      "custoMilheiro": 15.3,
       "acumulo": null,
       "clube": null,
       "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
       "publicado": "2026-11-25T13:38:48.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Destinos",
+          "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-25nov26",
+          "titulo": "Milheiro Smiles a partir de R$ 15,30 enviando pontos Livelo mais dinheiro com bônus",
+          "publicado": "2026-11-25T14:03:23.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
@@ -181,11 +187,11 @@
         "mediana": 17.54,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "80% contra um teto de 100% nessa rota",
-      "baseVeredito": "teto",
-      "teto": 100,
+      "veredito": "vale",
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 15,30 contra R$ 17,54 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null,
       "esperar": {
         "cadencia": 90,
         "desde": 0,
@@ -1760,6 +1766,15 @@
       "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
       "link": "https://www.melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
       "fonte": "Melhores Cartões"
+    },
+    {
+      "em": "2026-11-25T14:03:23.000Z",
+      "valor": 15.3,
+      "tipo": "transferencia_bonificada",
+      "destino": "Smiles",
+      "titulo": "Milheiro Smiles a partir de R$ 15,30 enviando pontos Livelo mais dinheiro com bônus",
+      "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-25nov26",
+      "fonte": "Melhores Destinos"
     }
   ],
   "historico": {
