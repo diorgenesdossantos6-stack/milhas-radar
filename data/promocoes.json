@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T12:04:30.925Z",
-  "totalAtivas": 42,
-  "totalCampanhasAtivas": 28,
+  "atualizadoEm": "2026-11-25T12:14:32.525Z",
+  "totalAtivas": 44,
+  "totalCampanhasAtivas": 30,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -400,9 +400,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "HTTP 504"
-  ],
+  "erros": [],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
@@ -437,17 +435,18 @@
     },
     "Smiles": {
       "maxPercentual": 130,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
-        "2026-11-18"
+        "2026-11-18",
+        "2026-11-25"
       ],
-      "ultimaEm": "2026-11-18T16:19:09.000Z",
-      "mediaPercentual": 130,
+      "ultimaEm": "2026-11-25T12:00:26.000Z",
+      "mediaPercentual": 110,
       "previsao": {
         "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-18"
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-25"
       }
     },
     "Azul Fidelidade": {
@@ -1120,7 +1119,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 2,
+        "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1222,6 +1221,46 @@
         "max": 18,
         "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "smiles|70|transferencia_bonificada|2026-11-28",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [],
+      "percentual": 70,
+      "ate": "2026-11-28T12:00:26.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 52,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "BB Empresas e Smiles: transfira pontos com até 70% de bônus",
+      "publicado": "2026-11-25T12:00:26.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/bb-empresas-smiles-transfira-pontos-ate-70-porcento-bonus/",
+          "titulo": "BB Empresas e Smiles: transfira pontos com até 70% de bônus",
+          "publicado": "2026-11-25T12:00:26.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 100%",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
@@ -1625,6 +1664,30 @@
       "teto": null
     },
     {
+      "id": "accor all|x|clube|2026-11-28",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Accor ALL",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-28T12:10:47.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo",
+      "publicado": "2026-11-25T12:10:47.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-383-para-gastar-em-hoteis-accor-no-mundo/",
+          "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo",
+          "publicado": "2026-11-25T12:10:47.000Z"
+        }
+      ]
+    },
+    {
       "id": "latam pass|x|clube|2026-11-25",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -1981,6 +2044,56 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-383-para-gastar-em-hoteis-accor-no-mundo",
+      "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo",
+      "link": "https://passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-383-para-gastar-em-hoteis-accor-no-mundo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T12:10:47.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Accor ALL"
+      ],
+      "par": "Accor ALL",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T12:10:47.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo O post Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T12:14:32.525Z",
+      "nota": 0
+    },
+    {
+      "id": "pontospravoar.com/bb-empresas-smiles-transfira-pontos-ate-70-porcento-bonus",
+      "titulo": "BB Empresas e Smiles: transfira pontos com até 70% de bônus",
+      "link": "https://pontospravoar.com/bb-empresas-smiles-transfira-pontos-ate-70-porcento-bonus/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-25T12:00:26.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": 70,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T12:00:26.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Quer turbinar seu saldo de milhas? A Smiles, em parceria com o BB Empresas, está oferecendo até 70% de bônus na transferência de pontos para o programa. A campanha é uma oportunidade para quem deseja acumular mais milhas e planejar suas próximas viagens. Confira as condições da promoção e saiba como aproveitar! Smiles e BB…",
+      "coletadoEm": "2026-11-25T12:14:32.525Z",
+      "nota": 52
+    },
     {
       "id": "pontospravoar.com/black-friday-all-accor-transfira-pontos-latam-pass-desconto-ganhe-ate-25-porcento-bonus",
       "titulo": "Black Friday ALL Accor! Transfira pontos do LATAM Pass com desconto e ganhe até 25% de bônus",
