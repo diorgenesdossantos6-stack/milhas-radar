@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T13:14:34.576Z",
+  "atualizadoEm": "2026-11-25T13:24:32.042Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -399,6 +399,55 @@
       ]
     },
     {
+      "id": "latam pass|25|transferencia_bonificada|2026-11-28",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Livelo",
+        "Esfera"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-28T13:21:22.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 40,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
+      "publicado": "2026-11-25T11:00:51.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-bancos-25-bonus-nov26.html",
+          "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
+          "publicado": "2026-11-25T13:21:22.000Z"
+        },
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/black-friday-all-accor-oferece-ate-25-de-bonus-nas-transferencias-de-milhas-do-latam-pass/",
+          "titulo": "Black Friday! ALL Accor oferece até 25% de bônus nas transferências de milhas do LATAM Pass",
+          "publicado": "2026-11-25T11:00:51.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
       "id": "latam pass|27|transferencia_bonificada|2026-11-25",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -467,46 +516,6 @@
           "link": "https://pontospravoar.com/black-friday-all-accor-transfira-pontos-latam-pass-desconto-ganhe-ate-25-porcento-bonus/",
           "titulo": "Black Friday ALL Accor! Transfira pontos do LATAM Pass com desconto e ganhe até 25% de bônus",
           "publicado": "2026-11-25T11:10:51.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-28",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [],
-      "percentual": 25,
-      "ate": "2026-11-28T11:00:51.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 25,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Black Friday! ALL Accor oferece até 25% de bônus nas transferências de milhas do LATAM Pass",
-      "publicado": "2026-11-25T11:00:51.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/black-friday-all-accor-oferece-ate-25-de-bonus-nas-transferencias-de-milhas-do-latam-pass/",
-          "titulo": "Black Friday! ALL Accor oferece até 25% de bônus nas transferências de milhas do LATAM Pass",
-          "publicado": "2026-11-25T11:00:51.000Z"
         }
       ],
       "referencia": {
@@ -1865,14 +1874,14 @@
     },
     "Latam Pass": {
       "maxPercentual": 66,
-      "campanhas": 4,
+      "campanhas": 3,
       "inicios": [
         "2026-11-18",
         "2026-11-20",
         "2026-11-25"
       ],
       "ultimaEm": "2026-11-25T11:10:51.000Z",
-      "mediaPercentual": 38,
+      "mediaPercentual": 42,
       "previsao": {
         "pronta": false,
         "campanhas": 3,
@@ -1913,18 +1922,19 @@
     },
     "Livelo -> Latam Pass": {
       "maxPercentual": 27,
-      "campanhas": 3,
+      "campanhas": 4,
       "inicios": [
         "2026-11-22",
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-25"
       ],
-      "ultimaEm": "2026-11-23T12:59:49.000Z",
+      "ultimaEm": "2026-11-25T11:00:51.000Z",
       "mediaPercentual": 27,
       "previsao": {
         "pronta": false,
-        "campanhas": 2,
-        "faltam": 3,
-        "ultima": "2026-11-23"
+        "campanhas": 3,
+        "faltam": 2,
+        "ultima": "2026-11-25"
       }
     },
     "Itau -> Latam Pass": {
