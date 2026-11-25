@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T14:44:32.958Z",
-  "totalAtivas": 53,
-  "totalCampanhasAtivas": 32,
+  "atualizadoEm": "2026-11-25T14:54:30.993Z",
+  "totalAtivas": 54,
+  "totalCampanhasAtivas": 33,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -111,18 +111,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Argentina",
-      "idaEVolta": false,
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -411,9 +416,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "HTTP 504"
-  ],
+  "erros": [],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
@@ -607,6 +610,21 @@
         "campanhas": 2,
         "faltam": 3,
         "ultima": "2026-11-24"
+      }
+    },
+    "Premmia -> Latam Pass": {
+      "maxPercentual": 60,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-25"
+      ],
+      "ultimaEm": "2026-11-25T14:49:10.000Z",
+      "mediaPercentual": 60,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-25"
       }
     },
     "Itau -> Azul Fidelidade": {
@@ -888,6 +906,17 @@
       "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-25nov26",
       "fonte": "Melhores Destinos",
       "id": "melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-25nov26"
+    },
+    {
+      "em": "2026-11-25T14:49:10.000Z",
+      "valor": 24.06,
+      "tipo": "transferencia_bonificada",
+      "programa": "Premmia",
+      "destino": "Latam Pass",
+      "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
+      "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
+      "fonte": "Melhores Cartões",
+      "id": "melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html"
     }
   ],
   "regua": {
@@ -1279,6 +1308,48 @@
           "publicado": "2026-11-24T11:45:00.000Z"
         }
       ]
+    },
+    {
+      "id": "latam pass|60|transferencia_bonificada|2026-11-28",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [
+        "Premmia"
+      ],
+      "percentual": 60,
+      "ate": "2026-11-28T14:49:10.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 56,
+      "custoMilheiro": 24.06,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
+      "publicado": "2026-11-25T14:49:10.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
+          "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
+          "publicado": "2026-11-25T14:49:10.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Não vale",
+      "motivo": "R$ 24,06 sai mais caro que comprar pronto a R$ 23,80",
+      "baseVeredito": "compra",
+      "teto": null,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
     },
     {
       "id": "azul fidelidade|76|clube|2026-11-26",
@@ -2194,6 +2265,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
+      "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
+      "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-25T14:49:10.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Premmia"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Premmia -> Latam Pass",
+      "percentual": 60,
+      "passagem": null,
+      "custoMilheiro": 24.06,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T14:49:10.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Latam Pass está oferecendo 60% de bônus na transferência de pontos Premmia durante a Black Friday. Com a oferta, é possível conseguir o milheiro a partir de R$ 24,06. A promoção é válida até sexta-feira (27/11), mas é necessário ter pontos Premmia disponíveis para aproveitar. Confira os lotes disponíveis e os valores do milheiro:… O post Latam Pass oferece 60% de bônus na transferência de pontos",
+      "coletadoEm": "2026-11-25T14:54:30.993Z",
+      "nota": 56
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
       "titulo": "Arraial do Cabo! Voos de São Paulo ou de BH para Cabo Frio a partir de 5 mil milhas o trecho",
