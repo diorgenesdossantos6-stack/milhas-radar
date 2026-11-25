@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T14:14:32.669Z",
+  "atualizadoEm": "2026-11-25T14:24:31.680Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -159,9 +159,15 @@
       "custoMilheiro": 15.3,
       "acumulo": null,
       "clube": null,
-      "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
+      "titulo": "Smiles e Livelo oferecem até 80% de bônus nas transferências",
       "publicado": "2026-11-25T13:38:48.000Z",
       "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/smiles-e-livelo-oferecem-ate-80-de-bonus-nas-transferencias-4/",
+          "titulo": "Smiles e Livelo oferecem até 80% de bônus nas transferências",
+          "publicado": "2026-11-25T14:19:00.000Z"
+        },
         {
           "fonte": "Melhores Destinos",
           "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-25nov26",
@@ -530,6 +536,46 @@
           "link": "https://www.cartoesdecredito.me/noticia/vem-ai-latam-pass-e-livelo-com-27-de-bonus/",
           "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",
           "publicado": "2026-11-22T18:11:19.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "latam pass|25|transferencia_bonificada|2026-11-29",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": 25,
+      "ate": "2026-11-29T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 25,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "LATAM Pass oferece 25% de bônus nas transferências",
+      "publicado": "2026-11-25T14:16:42.000Z",
+      "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-oferece-25-de-bonus-nas-transferencias-6/",
+          "titulo": "LATAM Pass oferece 25% de bônus nas transferências",
+          "publicado": "2026-11-25T14:16:42.000Z"
         }
       ],
       "referencia": {
@@ -1947,14 +1993,14 @@
     },
     "Latam Pass": {
       "maxPercentual": 66,
-      "campanhas": 3,
+      "campanhas": 4,
       "inicios": [
         "2026-11-18",
         "2026-11-20",
         "2026-11-25"
       ],
-      "ultimaEm": "2026-11-25T11:10:51.000Z",
-      "mediaPercentual": 42,
+      "ultimaEm": "2026-11-25T14:16:42.000Z",
+      "mediaPercentual": 38,
       "previsao": {
         "pronta": false,
         "campanhas": 3,
