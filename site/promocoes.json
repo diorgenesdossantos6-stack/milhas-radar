@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T18:04:29.954Z",
+  "atualizadoEm": "2026-11-25T18:14:32.758Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -542,48 +542,6 @@
           "link": "https://www.melhorescartoes.com.br/latam-pass-bancos-25-bonus-nov26.html",
           "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
           "publicado": "2026-11-25T13:21:22.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|27|transferencia_bonificada|2026-11-25",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 27,
-      "ate": "2026-11-25T18:11:19.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 36,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",
-      "publicado": "2026-11-22T18:11:19.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/vem-ai-latam-pass-e-livelo-com-27-de-bonus/",
-          "titulo": "Vem aí: LATAM Pass e Livelo com 27% de bônus",
-          "publicado": "2026-11-22T18:11:19.000Z"
         }
       ],
       "referencia": {
