@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T17:04:38.377Z",
+  "atualizadoEm": "2026-11-25T17:14:38.524Z",
   "totalAtivas": 59,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -58,6 +58,22 @@
   ],
   "passagens": [
     {
+      "id": "pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo",
+      "titulo": "Alerta PPV! Passagens internacionais a partir de 42.500 pontos no Azul pelo Mundo",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-25T17:00:05.000Z",
+      "ate": "2026-11-28T17:00:05.000Z",
+      "dinheiro": null,
+      "milhas": 42500,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
       "titulo": "Arraial do Cabo! Voos de São Paulo ou de BH para Cabo Frio a partir de 5 mil milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
@@ -111,18 +127,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Argentina",
-      "idaEVolta": false,
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -260,18 +281,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Pass",
+      "origem": "Macapá",
+      "destino": "Belém",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "MCP",
+      "iataDestino": "BEL",
+      "data": "2027-02-15",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
@@ -2361,6 +2387,40 @@
       "resumo": "A Livelo está oferecendo a possibilidade de acumular pontos de forma mais rápida com o Turbo Livelo. Na campanha, você turbina em até 25 vezes os pontos adquiridos nos últimos 12 meses e o CPM [Custo para cada mil pontos] pode ser obtido a partir de R$ 29 para pagamento no Pix ou R$ 29,90 para pagamento no cartão de crédito, com parcelamento em até 12x sem juros. A campanha é válida apenas hoje (2",
       "coletadoEm": "2026-11-25T17:04:38.377Z",
       "nota": 5
+    },
+    {
+      "id": "pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo",
+      "titulo": "Alerta PPV! Passagens internacionais a partir de 42.500 pontos no Azul pelo Mundo",
+      "link": "https://pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-25T17:00:05.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 42500,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T17:00:05.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "No alerta de passagens PPV de hoje, nossa equipe reuniu diversas oportunidades de voos internacionais disponíveis no Azul pelo Mundo, com emissões a partir de 42.500 pontos Azul Fidelidade + taxas. Confira os destinos, trechos e datas disponíveis e aproveite para organizar sua próxima viagem ao exterior! Passagens internacionais com pontos Azul Fidelidade Confira na…",
+      "coletadoEm": "2026-11-25T17:14:38.524Z",
+      "nota": 0
     },
     {
       "id": "melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html",
