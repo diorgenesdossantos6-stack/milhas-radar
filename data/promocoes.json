@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T15:14:33.152Z",
-  "totalAtivas": 55,
-  "totalCampanhasAtivas": 33,
+  "atualizadoEm": "2026-11-25T15:24:36.593Z",
+  "totalAtivas": 56,
+  "totalCampanhasAtivas": 34,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -1885,6 +1885,39 @@
       "teto": null
     },
     {
+      "id": "azul fidelidade|x|acumulo|2026-11-28",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-28T15:18:03.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 25,
+        "loja": "Insider"
+      },
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
+      "publicado": "2026-11-25T15:18:03.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes/",
+          "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
+          "publicado": "2026-11-25T15:18:03.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "accor all|x|clube|2026-11-28",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -2265,6 +2298,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes",
+      "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
+      "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T15:18:03.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 25,
+        "loja": "Insider"
+      },
+      "clube": null,
+      "ate": "2026-11-28T15:18:03.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Fidelidade está oferecendo até 25 pontos por real gasto em compras realizadas na Insider e Netshoes. As ofertas contam com pontuações e validades diferentes. Confira! O post Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T15:24:36.593Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/receba-ate-390-000-pontos-ao-assinar-o-clube-livelo-premium-cpm-a-partir-de-r-2404",
       "titulo": "Receba até 390.000 pontos ao assinar o Clube Livelo Premium - CPM a partir de R$ 24,04",

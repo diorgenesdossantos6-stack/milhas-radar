@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T15:14:33.152Z",
+  "atualizadoEm": "2026-11-25T15:24:36.593Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -888,6 +888,39 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|acumulo|2026-11-28",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-28T15:18:03.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 25,
+        "loja": "Insider"
+      },
+      "clube": null,
+      "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
+      "publicado": "2026-11-25T15:18:03.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes/",
+          "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
+          "publicado": "2026-11-25T15:18:03.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "accor all|x|clube|2026-11-28",
