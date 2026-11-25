@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T21:44:30.964Z",
-  "totalAtivas": 60,
+  "atualizadoEm": "2026-11-25T21:54:30.682Z",
+  "totalAtivas": 61,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
     {
@@ -3151,6 +3151,31 @@
       "confiancaPrazo": "baixa",
       "resumo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo O post Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo apareceu primeiro em Passageiro de Primeira .",
       "coletadoEm": "2026-11-25T12:14:32.525Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-408-para-gastar-em-hoteis-accor-no-mundo",
+      "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 4,08 para gastar em hotéis Accor no mundo",
+      "link": "https://passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-408-para-gastar-em-hoteis-accor-no-mundo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T12:10:47.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Accor ALL"
+      ],
+      "par": "Accor ALL",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T12:10:47.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 4,08 para gastar em hotéis Accor no mundo O post Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 4,08 para gastar em hotéis Accor no mundo apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T21:54:30.682Z",
       "nota": 0
     },
     {
