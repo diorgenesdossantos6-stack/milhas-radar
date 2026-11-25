@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T00:54:32.770Z",
+  "atualizadoEm": "2026-11-25T01:04:31.890Z",
   "totalAtivas": 40,
   "totalCampanhasAtivas": 26,
   "combinacoes": [
@@ -1259,7 +1259,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1331,7 +1331,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
