@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T21:57:31.404Z",
+  "atualizadoEm": "2026-11-25T22:04:33.341Z",
   "totalAtivas": 61,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -57,6 +57,28 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149",
+      "titulo": "Alerta PPV! Confira ofertas de voos nacionais da LATAM a partir de R$ 149",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149/",
+      "fonte": "companhia",
+      "publicado": "2026-11-25T22:00:11.000Z",
+      "ate": "2026-11-28T22:00:11.000Z",
+      "dinheiro": 149,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": "Macapá",
+      "destino": "Belém",
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false,
+      "iataOrigem": "MCP",
+      "iataDestino": "BEL",
+      "data": "2027-02-15",
+      "comMilhas": false,
+      "cabine": "Economy",
+      "trechoDe": "companhia"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
       "titulo": "Muito bom! Voos diretos da Air Canada para Buenos Aires a partir de R$ 222 ou 18 mil pontos Azul o trecho mais taxas",
@@ -442,23 +464,6 @@
       "programa": "Latam Pass",
       "origem": "Latam Disponibiliza",
       "destino": "Lisboa",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
-      "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
-      "link": "https://passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-23T18:40:17.000Z",
-      "ate": "2026-11-26T18:40:17.000Z",
-      "dinheiro": null,
-      "milhas": 66000,
-      "programa": "Smiles",
-      "origem": "Otimo Preco",
-      "destino": "Nova York",
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
@@ -2406,6 +2411,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149",
+      "titulo": "Alerta PPV! Confira ofertas de voos nacionais da LATAM a partir de R$ 149",
+      "link": "https://pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-25T22:00:11.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 149,
+        "milhas": null,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T22:00:11.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar esta quarta-feira para planejar sua próxima viagem pelo Brasil? No Alerta de Passagens PPV de hoje, nossa equipe selecionou diversas oportunidades de voos nacionais da LATAM, com passagens a partir de R$ 149. Confira os destinos, trechos e datas disponíveis e veja como economizar na sua próxima viagem! Como emitir passagens nacionais…",
+      "coletadoEm": "2026-11-25T22:04:33.341Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
       "titulo": "Muito bom! Voos diretos da Air Canada para Buenos Aires a partir de R$ 222 ou 18 mil pontos Azul o trecho mais taxas",
