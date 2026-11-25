@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T21:14:33.048Z",
+  "atualizadoEm": "2026-11-25T21:24:31.276Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1406,6 +1406,39 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
+      "titulo": "Muito bom! Voos diretos da Air Canada para Buenos Aires a partir de R$ 222 ou 18 mil pontos Azul o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-25T21:22:35.000Z",
+      "ate": "2026-11-28T21:22:35.000Z",
+      "dinheiro": 222,
+      "milhas": 18000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Buenos Aires",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/especial-bradesco-voe-para-japao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
+      "titulo": "Especial Bradesco! Voe para Japão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/especial-bradesco-voe-para-japao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-25T21:20:25.000Z",
+      "ate": "2026-11-28T21:20:25.000Z",
+      "dinheiro": 3468,
+      "milhas": null,
+      "programa": null,
+      "origem": "Especial Bradesco",
+      "destino": "Japao",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas",
       "titulo": "Voe para Buenos Aires a partir 18.500 pontos Azul + taxas",
       "link": "https://passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas/",
@@ -1775,40 +1808,6 @@
       "origem": "Otimo Preco",
       "destino": "Nova York",
       "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade",
-      "titulo": "Alerta PPV! Passagens para a Europa a partir de 62.300 pontos Azul Fidelidade",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-23T18:00:30.000Z",
-      "ate": "2026-11-26T18:00:30.000Z",
-      "dinheiro": null,
-      "milhas": 62300,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Europa",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
-      "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
-      "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-23T17:00:27.000Z",
-      "ate": "2026-11-26T17:00:27.000Z",
-      "dinheiro": 3401,
-      "milhas": null,
-      "programa": null,
-      "origem": "Classe Executiva da Tap",
-      "destino": "Roma",
-      "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"

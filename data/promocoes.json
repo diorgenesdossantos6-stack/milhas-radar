@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T21:14:33.048Z",
+  "atualizadoEm": "2026-11-25T21:24:31.276Z",
   "totalAtivas": 60,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -57,6 +57,39 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
+      "titulo": "Muito bom! Voos diretos da Air Canada para Buenos Aires a partir de R$ 222 ou 18 mil pontos Azul o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-25T21:22:35.000Z",
+      "ate": "2026-11-28T21:22:35.000Z",
+      "dinheiro": 222,
+      "milhas": 18000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Buenos Aires",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "passageirodeprimeira.com/especial-bradesco-voe-para-japao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
+      "titulo": "Especial Bradesco! Voe para Japão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/especial-bradesco-voe-para-japao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-25T21:20:25.000Z",
+      "ate": "2026-11-28T21:20:25.000Z",
+      "dinheiro": 3468,
+      "milhas": null,
+      "programa": null,
+      "origem": "Especial Bradesco",
+      "destino": "Japao",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas",
       "titulo": "Voe para Buenos Aires a partir 18.500 pontos Azul + taxas",
@@ -427,40 +460,6 @@
       "origem": "Otimo Preco",
       "destino": "Nova York",
       "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade",
-      "titulo": "Alerta PPV! Passagens para a Europa a partir de 62.300 pontos Azul Fidelidade",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-europa-62300-pontos-azul-fidelidade/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-23T18:00:30.000Z",
-      "ate": "2026-11-26T18:00:30.000Z",
-      "dinheiro": null,
-      "milhas": 62300,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Europa",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo",
-      "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
-      "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-23T17:00:27.000Z",
-      "ate": "2026-11-26T17:00:27.000Z",
-      "dinheiro": 3401,
-      "milhas": null,
-      "programa": null,
-      "origem": "Classe Executiva da Tap",
-      "destino": "Roma",
-      "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
@@ -2407,6 +2406,76 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
+      "titulo": "Muito bom! Voos diretos da Air Canada para Buenos Aires a partir de R$ 222 ou 18 mil pontos Azul o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-air-canada-argentina-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-25T21:22:35.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade",
+        "Aeroplan"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 222,
+        "milhas": 18000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Buenos Aires",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T21:22:35.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Nova oportunidade para conseguir seus voos para a Argentina no precinho! O Azul Pelo Mundo está com passagens aéreas para Buenos Aires a partir de 18.500 pontos Azul ou R$ 222,93 o trecho + taxas aeroportuárias, com saídas do Aeroporto Internacional de Guarulhos, em São Paulo. São voos DIRETOS da Air Canada, para viajar entre… O post Muito bom! Voos diretos da Air Canada para Buenos Aires a partir",
+      "coletadoEm": "2026-11-25T21:24:31.276Z",
+      "nota": 0
+    },
+    {
+      "id": "passageirodeprimeira.com/especial-bradesco-voe-para-japao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
+      "titulo": "Especial Bradesco! Voe para Japão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/especial-bradesco-voe-para-japao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T21:20:25.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo",
+        "Bradesco"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 3468,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Japão",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T21:20:25.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo está com uma oferta imperdível para clientes Bradesco, com 30% de desconto na emissão de passagens para o Japão usando o cupom \"JAPAOBRA30\". É possível voar de São Paulo (GRU) para Tóquio (NRT) por apenas R$ 2.552 + taxas por trecho, economizando mais de 41% em relação ao preço normal. Aproveite também 30% de pointsback na sua conta após a compra. O post Especial Bradesco! Voe para Japão ",
+      "coletadoEm": "2026-11-25T21:24:31.276Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/azul-netshoes-18-pontos-nov26.html",
       "titulo": "Azul Fidelidade oferece até 18 pontos por real em compras na Netshoes",
