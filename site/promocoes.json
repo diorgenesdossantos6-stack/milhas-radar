@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T13:44:31.178Z",
+  "atualizadoEm": "2026-11-25T13:54:30.315Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -154,7 +154,7 @@
       ],
       "percentual": 80,
       "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "media",
+      "confiancaPrazo": "alta",
       "nota": 88,
       "custoMilheiro": null,
       "acumulo": null,
@@ -166,6 +166,12 @@
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
           "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-25T13:38:48.000Z"
+        },
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/apenas-hoje-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
+          "titulo": "Apenas hoje! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
           "publicado": "2026-11-25T13:38:48.000Z"
         }
       ],
@@ -450,7 +456,7 @@
         "Esfera"
       ],
       "percentual": 25,
-      "ate": "2026-11-28T13:21:22.000Z",
+      "ate": "2026-11-28T13:51:38.000Z",
       "confiancaPrazo": "baixa",
       "nota": 40,
       "custoMilheiro": null,
@@ -460,16 +466,16 @@
       "publicado": "2026-11-25T11:00:51.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+          "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito",
+          "publicado": "2026-11-25T13:51:38.000Z"
+        },
+        {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/latam-pass-bancos-25-bonus-nov26.html",
           "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
           "publicado": "2026-11-25T13:21:22.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/black-friday-all-accor-oferece-ate-25-de-bonus-nas-transferencias-de-milhas-do-latam-pass/",
-          "titulo": "Black Friday! ALL Accor oferece até 25% de bônus nas transferências de milhas do LATAM Pass",
-          "publicado": "2026-11-25T11:00:51.000Z"
         }
       ],
       "referencia": {

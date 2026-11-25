@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T13:44:31.178Z",
-  "totalAtivas": 47,
+  "atualizadoEm": "2026-11-25T13:54:30.315Z",
+  "totalAtivas": 49,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
@@ -1096,7 +1096,7 @@
       ],
       "percentual": 80,
       "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "media",
+      "confiancaPrazo": "alta",
       "nota": 88,
       "custoMilheiro": null,
       "acumulo": null,
@@ -1108,6 +1108,12 @@
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
           "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-25T13:38:48.000Z"
+        },
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/apenas-hoje-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
+          "titulo": "Apenas hoje! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
           "publicado": "2026-11-25T13:38:48.000Z"
         }
       ],
@@ -1392,7 +1398,7 @@
         "Esfera"
       ],
       "percentual": 25,
-      "ate": "2026-11-28T13:21:22.000Z",
+      "ate": "2026-11-28T13:51:38.000Z",
       "confiancaPrazo": "baixa",
       "nota": 40,
       "custoMilheiro": null,
@@ -1402,16 +1408,16 @@
       "publicado": "2026-11-25T11:00:51.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+          "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito",
+          "publicado": "2026-11-25T13:51:38.000Z"
+        },
+        {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/latam-pass-bancos-25-bonus-nov26.html",
           "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
           "publicado": "2026-11-25T13:21:22.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/black-friday-all-accor-oferece-ate-25-de-bonus-nas-transferencias-de-milhas-do-latam-pass/",
-          "titulo": "Black Friday! ALL Accor oferece até 25% de bônus nas transferências de milhas do LATAM Pass",
-          "publicado": "2026-11-25T11:00:51.000Z"
         }
       ],
       "referencia": {
@@ -2107,6 +2113,31 @@
   ],
   "promocoes": [
     {
+      "id": "passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4",
+      "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito",
+      "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T13:51:38.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T13:51:38.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O LATAM Pass está oferecendo 25% de bônus nas transferências de pontos dos cartões de crédito até domingo (29). Além disso, quem fizer a primeira transferência ainda ganha 1.000 milhas extras. É necessário se cadastrar na campanha para garantir a bonificação. O post LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T13:54:30.315Z",
+      "nota": 25
+    },
+    {
       "id": "melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
       "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
       "link": "https://www.melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
@@ -2131,6 +2162,33 @@
       "confiancaPrazo": "media",
       "resumo": "É oferta de Black Friday! Ou melhor, de Orange Friday! A Smiles está oferecendo até 80% de bônus na transferência de pontos da Livelo. A oferta vale para transferências feitas somente hoje (25/11), e para ter o maior bônus, é necessário ser das categorias Diamante ou Magno ou ser assinante dos Clube Livelo ou Smiles.… O post Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos L",
       "coletadoEm": "2026-11-25T13:44:31.178Z",
+      "nota": 88
+    },
+    {
+      "id": "pontospravoar.com/apenas-hoje-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo",
+      "titulo": "Apenas hoje! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
+      "link": "https://pontospravoar.com/apenas-hoje-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-25T13:38:48.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Livelo -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Em nova oferta da Orange Friday, a Smiles lançou uma nova promoção, em que oferece aos seus clientes até 80% de bônus na transferência de pontos Livelo. A seguir, veja os detalhes desta campanha válida apenas hoje, dia 25 de novembro. Promoção Smiles e Livelo Para esta campanha, a bonificação está estruturada da seguinte forma:…",
+      "coletadoEm": "2026-11-25T13:54:30.315Z",
       "nota": 88
     },
     {
