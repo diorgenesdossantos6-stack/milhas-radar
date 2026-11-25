@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T20:14:32.305Z",
+  "atualizadoEm": "2026-11-25T20:24:33.617Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -973,7 +973,7 @@
       "destino": "Azul Fidelidade",
       "origens": [],
       "percentual": null,
-      "ate": "2026-11-28T15:18:03.000Z",
+      "ate": "2026-11-28T20:23:59.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -985,6 +985,12 @@
       "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
       "publicado": "2026-11-25T15:18:03.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-netshoes-18-pontos-nov26.html",
+          "titulo": "Azul Fidelidade oferece até 18 pontos por real em compras na Netshoes",
+          "publicado": "2026-11-25T20:23:59.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes/",

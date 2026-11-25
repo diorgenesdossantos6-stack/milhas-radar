@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T20:14:32.305Z",
-  "totalAtivas": 59,
+  "atualizadoEm": "2026-11-25T20:24:33.617Z",
+  "totalAtivas": 60,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
     {
@@ -2029,7 +2029,7 @@
       "destino": "Azul Fidelidade",
       "origens": [],
       "percentual": null,
-      "ate": "2026-11-28T15:18:03.000Z",
+      "ate": "2026-11-28T20:23:59.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -2041,6 +2041,12 @@
       "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
       "publicado": "2026-11-25T15:18:03.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-netshoes-18-pontos-nov26.html",
+          "titulo": "Azul Fidelidade oferece até 18 pontos por real em compras na Netshoes",
+          "publicado": "2026-11-25T20:23:59.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes/",
@@ -2401,6 +2407,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/azul-netshoes-18-pontos-nov26.html",
+      "titulo": "Azul Fidelidade oferece até 18 pontos por real em compras na Netshoes",
+      "link": "https://www.melhorescartoes.com.br/azul-netshoes-18-pontos-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-25T20:23:59.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": "Netshoes"
+      },
+      "clube": null,
+      "ate": "2026-11-28T20:23:59.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Fidelidade está oferecendo até 18 pontos por real em compras na Netshoes. Os assinantes do Clube Azul recebem a maior pontuação, enquanto os demais clientes recebem 12 pontos por real. A oferta é válida até sexta-feira, 27 de novembro. Aproveite a promoção fazendo suas compras pelo hotsite da parceria. A oferta é exclusiva… O post Azul Fidelidade oferece até 18 pontos por real em compras na",
+      "coletadoEm": "2026-11-25T20:24:33.617Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas",
       "titulo": "Voe para Buenos Aires a partir 18.500 pontos Azul + taxas",
