@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T01:54:32.726Z",
+  "atualizadoEm": "2026-11-25T02:04:32.554Z",
   "totalAtivas": 40,
   "totalCampanhasAtivas": 26,
   "combinacoes": [
@@ -1117,7 +1117,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
