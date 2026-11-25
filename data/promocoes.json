@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T19:34:30.106Z",
+  "atualizadoEm": "2026-11-25T19:44:32.159Z",
   "totalAtivas": 59,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -57,6 +57,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2",
+      "titulo": "Smiles tem voos nacionais a partir de 6 mil milhas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-25T19:40:45.000Z",
+      "ate": "2026-11-28T19:40:45.000Z",
+      "dinheiro": null,
+      "milhas": 6000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-smiles-oferece-passagens-nacionais-promocionais-7-mil-milhas",
       "titulo": "Alerta PPV! Smiles oferece passagens nacionais promocionais a partir de 7 mil milhas",
@@ -2384,6 +2400,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2",
+      "titulo": "Smiles tem voos nacionais a partir de 6 mil milhas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-25T19:40:45.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 6000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-28T19:40:45.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Em nossas pesquisas identificamos que a Smiles está oferecendo voos nacionais a partir de 6.400 milhas por trecho + taxas. Nessa matéria te mostramos alguns exemplos. O post Smiles tem voos nacionais a partir de 6 mil milhas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-25T19:44:32.159Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-smiles-oferece-passagens-nacionais-promocionais-7-mil-milhas",
       "titulo": "Alerta PPV! Smiles oferece passagens nacionais promocionais a partir de 7 mil milhas",

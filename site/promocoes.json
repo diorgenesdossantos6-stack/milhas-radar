@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T19:34:30.106Z",
+  "atualizadoEm": "2026-11-25T19:44:32.159Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1399,6 +1399,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2",
+      "titulo": "Smiles tem voos nacionais a partir de 6 mil milhas",
+      "link": "https://passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-25T19:40:45.000Z",
+      "ate": "2026-11-28T19:40:45.000Z",
+      "dinheiro": null,
+      "milhas": 6000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-smiles-oferece-passagens-nacionais-promocionais-7-mil-milhas",
       "titulo": "Alerta PPV! Smiles oferece passagens nacionais promocionais a partir de 7 mil milhas",
