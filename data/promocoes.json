@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-25T12:54:29.991Z",
-  "totalAtivas": 44,
+  "atualizadoEm": "2026-11-25T13:04:31.962Z",
+  "totalAtivas": 45,
   "totalCampanhasAtivas": 30,
   "combinacoes": [
     {
@@ -1390,9 +1390,15 @@
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Black Friday ALL Accor! Transfira pontos do LATAM Pass com desconto e ganhe até 25% de bônus",
+      "titulo": "LATAM Pass e ALL Accor oferecem até 25% de bônus nas transferências",
       "publicado": "2026-11-25T11:10:51.000Z",
       "fontes": [
+        {
+          "fonte": "Cartões de Crédito",
+          "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-all-accor-oferecem-ate-25-de-bonus-nas-transferencias/",
+          "titulo": "LATAM Pass e ALL Accor oferecem até 25% de bônus nas transferências",
+          "publicado": "2026-11-25T13:02:39.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/black-friday-all-accor-transfira-pontos-latam-pass-desconto-ganhe-ate-25-porcento-bonus/",
@@ -2044,6 +2050,32 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "cartoesdecredito.me/noticia/latam-pass-e-all-accor-oferecem-ate-25-de-bonus-nas-transferencias",
+      "titulo": "LATAM Pass e ALL Accor oferecem até 25% de bônus nas transferências",
+      "link": "https://www.cartoesdecredito.me/noticia/latam-pass-e-all-accor-oferecem-ate-25-de-bonus-nas-transferencias/",
+      "fonte": "cartoesdecredito",
+      "fonteNome": "Cartões de Crédito",
+      "publicado": "2026-11-25T13:02:39.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Latam Pass",
+        "Accor ALL"
+      ],
+      "par": "Latam Pass",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A promoção é valida até o dia 30 de novembro de 2026 The post LATAM Pass e ALL Accor oferecem até 25% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
+      "coletadoEm": "2026-11-25T13:04:31.962Z",
+      "nota": 25
+    },
     {
       "id": "passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-383-para-gastar-em-hoteis-accor-no-mundo",
       "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo",
