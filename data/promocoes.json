@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T16:44:31.482Z",
-  "totalAtivas": 57,
-  "totalCampanhasAtivas": 34,
+  "atualizadoEm": "2026-11-25T16:54:33.708Z",
+  "totalAtivas": 58,
+  "totalCampanhasAtivas": 35,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -901,6 +901,17 @@
       "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
       "fonte": "Melhores Cartões",
       "id": "melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html"
+    },
+    {
+      "em": "2026-11-25T16:46:38.000Z",
+      "valor": 29,
+      "tipo": "compra_pontos",
+      "programa": "Livelo",
+      "destino": null,
+      "titulo": "Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo",
+      "link": "https://www.melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html",
+      "fonte": "Melhores Cartões",
+      "id": "melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html"
     }
   ],
   "regua": {
@@ -1875,6 +1886,43 @@
       "teto": null
     },
     {
+      "id": "livelo|x|compra_pontos|2026-11-25",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 5,
+      "custoMilheiro": 29,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo",
+      "publicado": "2026-11-25T16:46:38.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html",
+          "titulo": "Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo",
+          "publicado": "2026-11-25T16:46:38.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Não vale",
+      "motivo": "sai mais caro do que a referência de mercado",
+      "baseVeredito": "cotacao",
+      "teto": null
+    },
+    {
       "id": "azul fidelidade|x|acumulo|2026-11-28",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2288,6 +2336,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html",
+      "titulo": "Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo",
+      "link": "https://www.melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-25T16:46:38.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": 29,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-25T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Turbo Livelo está com condições especiais para multiplicar seus pontos no programa e conseguir o milheiro a partir de R$ 29. A oferta é válida somente hoje, 25 de novembro, e é exclusiva para assinantes do Clube Livelo. O desconto varia de acordo com o multiplicador escolhido e a forma de pagamento. Confira: Veja… O post Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo apareceu primei",
+      "coletadoEm": "2026-11-25T16:54:33.708Z",
+      "nota": 5
+    },
     {
       "id": "passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406",
       "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia - CPM a partir de R$ 24,06",
