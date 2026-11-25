@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T18:54:33.950Z",
+  "atualizadoEm": "2026-11-25T19:04:32.185Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1400,6 +1400,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-smiles-nov26",
+      "titulo": "Voos de São Paulo para Belo Horizonte por R$ 130 ou 8.500 milhas Smiles o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-cnf-smiles-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-25T18:57:12.000Z",
+      "ate": "2026-11-28T18:57:12.000Z",
+      "dinheiro": 130,
+      "milhas": 8500,
+      "programa": "Smiles",
+      "origem": "São Paulo",
+      "destino": "Belo Horizonte",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo",
       "titulo": "Alerta PPV! Passagens internacionais a partir de 42.500 pontos no Azul pelo Mundo",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo/",
@@ -1469,18 +1485,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Argentina",
-      "idaEVolta": false,
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
