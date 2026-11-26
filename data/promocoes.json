@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T12:54:29.538Z",
-  "totalAtivas": 53,
-  "totalCampanhasAtivas": 32,
+  "atualizadoEm": "2026-11-26T13:04:31.931Z",
+  "totalAtivas": 52,
+  "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -1391,48 +1391,6 @@
         "cadencia": 90,
         "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
-      }
-    },
-    {
-      "id": "latam pass|27|transferencia_bonificada|2026-11-26",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 27,
-      "ate": "2026-11-26T12:59:48.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 51,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Aproveite! LATAM Pass oferece 27% de bônus na transferência de pontos da Livelo",
-      "publicado": "2026-11-23T12:59:48.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/aproveite-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
-          "titulo": "Aproveite! LATAM Pass oferece 27% de bônus na transferência de pontos da Livelo",
-          "publicado": "2026-11-23T12:59:48.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
       }
     },
     {
