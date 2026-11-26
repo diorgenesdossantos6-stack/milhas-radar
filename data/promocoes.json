@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-26T13:14:33.137Z",
-  "totalAtivas": 53,
+  "atualizadoEm": "2026-11-26T13:24:33.022Z",
+  "totalAtivas": 55,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
@@ -247,23 +247,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": "Florianópolis",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
+      "origem": null,
+      "destino": "Argentina",
+      "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FLN",
-      "iataDestino": "EZE",
-      "data": "2027-02-17",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -401,23 +396,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": "Macapá",
-      "destino": "Belém",
+      "origem": null,
+      "destino": "Latam Pass",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "MCP",
-      "iataDestino": "BEL",
-      "data": "2027-02-15",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
@@ -1498,6 +1488,18 @@
       "publicado": "2026-11-26T12:59:51.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/oferta-relampago-assine-clube-azul-plano-anual-50-desconto-12-cartao-azul-itau/",
+          "titulo": "Oferta relâmpago! Assine o Clube Azul no plano anual com 50% de desconto + 12% ao utilizar o Cartão Azul Itaú",
+          "publicado": "2026-11-26T13:17:52.000Z"
+        },
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/oferta-relampago-clube-azul-50-off-bf-nov26.html",
+          "titulo": "Oferta relâmpago! Assine o Clube Azul com 50% de desconto em todos os planos anuais",
+          "publicado": "2026-11-26T13:15:32.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau/",
           "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
@@ -2261,6 +2263,60 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/oferta-relampago-assine-clube-azul-plano-anual-50-desconto-12-cartao-azul-itau",
+      "titulo": "Oferta relâmpago! Assine o Clube Azul no plano anual com 50% de desconto + 12% ao utilizar o Cartão Azul Itaú",
+      "link": "https://passageirodeprimeira.com/oferta-relampago-assine-clube-azul-plano-anual-50-desconto-12-cartao-azul-itau/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-26T13:17:52.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": 50,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Azul Fidelidade está com uma oportunidade para quem desejar assinar o Clube Azul! Somente hoje (26), é possível assinar qualquer plano anual com 50% de desconto nas primeiras 12 mensalidades. Para quem possui o cartão Azul Itaú e o utiliza na adesão, garante mais 12% de desconto. Confira! O post Oferta relâmpago! Assine o Clube Azul no plano anual com 50% de desconto + 12% ao utilizar o Cartão A",
+      "coletadoEm": "2026-11-26T13:24:33.022Z",
+      "nota": 35
+    },
+    {
+      "id": "melhorescartoes.com.br/oferta-relampago-clube-azul-50-off-bf-nov26.html",
+      "titulo": "Oferta relâmpago! Assine o Clube Azul com 50% de desconto em todos os planos anuais",
+      "link": "https://www.melhorescartoes.com.br/oferta-relampago-clube-azul-50-off-bf-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-26T13:15:32.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": 50,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Azul Fidelidade está com uma nova oferta relâmpago de adesão do Clube Azul que oferece 50% OFF para novas assinaturas dos planos anuais e mais 12% de desconto adicional sobre o desconto já aplicado para clientes com cartão Azul Itaú. A oferta é válida somente HOJE, 26 de novembro. Para aproveitar, basta assinar qualquer… O post Oferta relâmpago! Assine o Clube Azul com 50% de desconto em todos o",
+      "coletadoEm": "2026-11-26T13:24:33.022Z",
+      "nota": 35
+    },
     {
       "id": "pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau",
       "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",

@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T13:14:33.137Z",
+  "atualizadoEm": "2026-11-26T13:24:33.022Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -431,6 +431,18 @@
       "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
       "publicado": "2026-11-26T12:59:51.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/oferta-relampago-assine-clube-azul-plano-anual-50-desconto-12-cartao-azul-itau/",
+          "titulo": "Oferta relâmpago! Assine o Clube Azul no plano anual com 50% de desconto + 12% ao utilizar o Cartão Azul Itaú",
+          "publicado": "2026-11-26T13:17:52.000Z"
+        },
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/oferta-relampago-clube-azul-50-off-bf-nov26.html",
+          "titulo": "Oferta relâmpago! Assine o Clube Azul com 50% de desconto em todos os planos anuais",
+          "publicado": "2026-11-26T13:15:32.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau/",
@@ -1439,23 +1451,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": "Florianópolis",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
+      "origem": null,
+      "destino": "Argentina",
+      "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FLN",
-      "iataDestino": "EZE",
-      "data": "2027-02-17",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -1593,23 +1600,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": "Macapá",
-      "destino": "Belém",
+      "origem": null,
+      "destino": "Latam Pass",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "MCP",
-      "iataDestino": "BEL",
-      "data": "2027-02-15",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
