@@ -1,9 +1,26 @@
 {
-  "atualizadoEm": "2026-11-26T21:04:31.873Z",
+  "atualizadoEm": "2026-11-26T21:14:34.296Z",
   "totalAtivas": 54,
   "totalCampanhasAtivas": 31,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas",
+      "titulo": "Voe para Barbados no Caribe a partir de 76 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-26T21:10:00.000Z",
+      "ate": "2026-11-29T21:10:00.000Z",
+      "dinheiro": null,
+      "milhas": 76000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Barbados No Caribe",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-europa-mega-promo-milhas-nov26",
       "titulo": "Mega Promo Latam Pass tem voos para a Europa a partir de 53 mil milhas o trecho",
@@ -396,23 +413,6 @@
       "data": "2027-02-17",
       "comMilhas": true,
       "cabine": "Economy"
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
-      "titulo": "Voe para São Francisco a partir de R$ 1.372 ou 91 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-24T20:10:17.000Z",
-      "ate": "2026-11-27T20:10:17.000Z",
-      "dinheiro": 1372,
-      "milhas": 91000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Sao Francisco",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -2199,6 +2199,41 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas",
+      "titulo": "Voe para Barbados no Caribe a partir de 76 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-26T21:10:00.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade",
+        "ConnectMiles"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 76000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Barbados",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T21:10:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Alerta] Alerta direto dos Grupos do PP no WhatsApp! Encontramos disponibilidade de bilhetes ida e volta entre São Paulo (GRU) e Barbados (BGI) a partir de 76.000 pontos Azul Fidelidade + taxas por trecho, operados pela Copa Airlines em várias datas nos próximos meses. O post Voe para Barbados no Caribe a partir de 76 mil pontos Azul + taxas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-26T21:14:34.296Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/segue-valendo-oferta-livelo-ate-10-pontos-real-gasto-compra-combo-mcdonalds",
       "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
