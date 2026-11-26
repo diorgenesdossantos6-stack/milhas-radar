@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T14:54:34.182Z",
-  "totalAtivas": 49,
-  "totalCampanhasAtivas": 27,
+  "atualizadoEm": "2026-11-26T15:04:31.974Z",
+  "totalAtivas": 50,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [],
   "passagens": [
     {
@@ -210,18 +210,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Argentina",
-      "idaEVolta": false,
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -1755,6 +1760,38 @@
       "teto": null
     },
     {
+      "id": "livelo|x|clube|2026-11-29",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-29T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Pink Friday! Ganhe até 390 mil pontos no upgrade para o Clube Livelo Premium",
+      "publicado": "2026-11-26T15:00:47.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-ganhe-ate-390-mil-pontos-upgrade-clube-livelo-premium/",
+          "titulo": "Pink Friday! Ganhe até 390 mil pontos no upgrade para o Clube Livelo Premium",
+          "publicado": "2026-11-26T15:00:47.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "azul fidelidade|x|acumulo|2026-11-29",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2015,6 +2052,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/pink-friday-ganhe-ate-390-mil-pontos-upgrade-clube-livelo-premium",
+      "titulo": "Pink Friday! Ganhe até 390 mil pontos no upgrade para o Clube Livelo Premium",
+      "link": "https://pontospravoar.com/pink-friday-ganhe-ate-390-mil-pontos-upgrade-clube-livelo-premium/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-26T15:00:47.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Livelo está com uma oferta especial para os assinantes que desejam realizar o upgrade para o Clube Premium. Com a campanha, os clientes podem acumular 390 mil pontos na modalidade anual ou 384 mil pontos na modalidade mensal. A promoção é válida até o dia 29 de novembro. Confira os valores, as condições da…",
+      "coletadoEm": "2026-11-26T15:04:31.974Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas",
       "titulo": "Alerta PPV! Voos internacionais a partir de 22 mil milhas Smiles + taxas",
