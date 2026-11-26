@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T14:04:35.444Z",
+  "atualizadoEm": "2026-11-26T14:14:38.225Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1138,6 +1138,22 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas",
+      "titulo": "Alerta PPV! Voos internacionais a partir de 22 mil milhas Smiles + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-26T14:00:11.000Z",
+      "ate": "2026-11-29T14:00:11.000Z",
+      "dinheiro": null,
+      "milhas": 22000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
       "titulo": "Muito bom! Voos diretos da Latam de São Paulo para Jericoacoara por 11 mil milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
@@ -1327,23 +1343,18 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
+      "fonte": "Pontos pra Voar",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": "Florianópolis",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
+      "origem": null,
+      "destino": "Argentina",
+      "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FLN",
-      "iataDestino": "EZE",
-      "data": "2027-02-17",
-      "comMilhas": true,
-      "cabine": "Economy"
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
@@ -1530,23 +1541,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas",
-      "titulo": "LATAM disponibiliza trecho para Lisboa a partir de 61 mil milhas ou R$ 1.460 + taxas",
-      "link": "https://passageirodeprimeira.com/latam-disponibiliza-trecho-para-lisboa-a-partir-61-mil-milhas-ou-r-1-460-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-23T20:20:41.000Z",
-      "ate": "2026-11-26T20:20:41.000Z",
-      "dinheiro": 1460,
-      "milhas": 61000,
-      "programa": "Latam Pass",
-      "origem": "Latam Disponibiliza",
-      "destino": "Lisboa",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "regua": {
