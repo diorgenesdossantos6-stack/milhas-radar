@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T18:04:31.141Z",
+  "atualizadoEm": "2026-11-26T18:14:30.107Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -746,6 +746,36 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "latam pass|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Só hoje! Latam Pass oferece até 10 milhas por real em compras nas Casas Bahia",
+      "publicado": "2026-11-26T18:08:26.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-casas-bahia-10-1-nov26.html",
+          "titulo": "Só hoje! Latam Pass oferece até 10 milhas por real em compras nas Casas Bahia",
+          "publicado": "2026-11-26T18:08:26.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "livelo|x|acumulo|2026-11-30",

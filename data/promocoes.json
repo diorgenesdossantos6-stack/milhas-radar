@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T18:04:31.141Z",
-  "totalAtivas": 50,
-  "totalCampanhasAtivas": 28,
+  "atualizadoEm": "2026-11-26T18:14:30.107Z",
+  "totalAtivas": 51,
+  "totalCampanhasAtivas": 29,
   "combinacoes": [],
   "passagens": [
     {
@@ -1760,6 +1760,36 @@
       "teto": null
     },
     {
+      "id": "latam pass|x|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Só hoje! Latam Pass oferece até 10 milhas por real em compras nas Casas Bahia",
+      "publicado": "2026-11-26T18:08:26.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/latam-pass-casas-bahia-10-1-nov26.html",
+          "titulo": "Só hoje! Latam Pass oferece até 10 milhas por real em compras nas Casas Bahia",
+          "publicado": "2026-11-26T18:08:26.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-30",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2052,6 +2082,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/latam-pass-casas-bahia-10-1-nov26.html",
+      "titulo": "Só hoje! Latam Pass oferece até 10 milhas por real em compras nas Casas Bahia",
+      "link": "https://www.melhorescartoes.com.br/latam-pass-casas-bahia-10-1-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-26T18:08:26.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Latam Pass está oferecendo até 10 milhas por real gasto em compras nas Casas Bahia pelo Shopping Latam Pass. A promoção é válida somente até as 23h59 de hoje, 26 de novembro, pelo site da parceria. A bonificação será da seguinte forma: 10 milhas por real para quem assina o Clube Latam Pass e… O post Só hoje! Latam Pass oferece até 10 milhas por real em compras nas Casas Bahia apareceu primeiro e",
+      "coletadoEm": "2026-11-26T18:14:30.107Z",
+      "nota": 5
+    },
     {
       "id": "pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds",
       "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
