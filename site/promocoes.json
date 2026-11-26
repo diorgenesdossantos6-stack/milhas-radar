@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T20:44:29.167Z",
+  "atualizadoEm": "2026-11-26T20:54:29.888Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -816,6 +816,41 @@
         "min": 18,
         "max": 29.18,
         "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "livelo|x|acumulo|2026-11-29",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-29T20:50:20.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 10,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
+      "publicado": "2026-11-26T20:50:20.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/segue-valendo-oferta-livelo-ate-10-pontos-real-gasto-compra-combo-mcdonalds/",
+          "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
+          "publicado": "2026-11-26T20:50:20.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },

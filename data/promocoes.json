@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T20:44:29.167Z",
-  "totalAtivas": 53,
-  "totalCampanhasAtivas": 30,
+  "atualizadoEm": "2026-11-26T20:54:29.888Z",
+  "totalAtivas": 54,
+  "totalCampanhasAtivas": 31,
   "combinacoes": [],
   "passagens": [
     {
@@ -1844,6 +1844,41 @@
       }
     },
     {
+      "id": "livelo|x|acumulo|2026-11-29",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-29T20:50:20.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 10,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
+      "publicado": "2026-11-26T20:50:20.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/segue-valendo-oferta-livelo-ate-10-pontos-real-gasto-compra-combo-mcdonalds/",
+          "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
+          "publicado": "2026-11-26T20:50:20.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "smiles|x|clube|2026-12-10",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -2164,6 +2199,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/segue-valendo-oferta-livelo-ate-10-pontos-real-gasto-compra-combo-mcdonalds",
+      "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
+      "link": "https://passageirodeprimeira.com/segue-valendo-oferta-livelo-ate-10-pontos-real-gasto-compra-combo-mcdonalds/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-26T20:50:20.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 10,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-29T20:50:20.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo e o McDonald's prorrogaram a promoção que oferece até 10 pontos por real gasto na compra de uma McOferta Clássica + Sundae pelo app do Méqui (McDelivery ou Peça & Retire), utilizando o cupom “LIVELO” [sem aspas]. A oferta agora é válida até segunda-feira (30). Saiba mais! O post Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's apareceu prim",
+      "coletadoEm": "2026-11-26T20:54:29.888Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/clube-smiles-14k-milhas-hora-cupom-bf-nov26.html",
       "titulo": "Assine o Clube Smiles e receba até 14.000 milhas na hora – milheiro a partir de R$ 13,07",
