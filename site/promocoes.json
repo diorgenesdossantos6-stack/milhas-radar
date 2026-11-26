@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T19:24:32.987Z",
+  "atualizadoEm": "2026-11-26T19:34:30.546Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -848,7 +848,7 @@
       "destino": "Azul Fidelidade",
       "origens": [],
       "percentual": null,
-      "ate": "2026-11-29T12:00:53.000Z",
+      "ate": "2026-11-29T19:30:12.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -857,9 +857,15 @@
         "loja": "Netshoes"
       },
       "clube": null,
-      "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
+      "titulo": "Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
       "publicado": "2026-11-26T12:00:53.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-14-pontos-por-real-gasto-no-magalu-9/",
+          "titulo": "Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
+          "publicado": "2026-11-26T19:30:12.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-18-pontos-real-netshoes/",
@@ -1124,6 +1130,55 @@
       "comMilhas": false,
       "cabine": "Economy",
       "trechoDe": "companhia"
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/black-friday-latam-passagens-nacionais-267",
+      "titulo": "Black Friday Latam no ar! Passagens aéreas nacionais a partir de R$ 267 ida e volta – opções para 55 destinos",
+      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-passagens-nacionais-267",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T18:55:23.000Z",
+      "ate": "2026-11-29T18:55:23.000Z",
+      "dinheiro": 267,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": true
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/black-friday-latam-europa-voos-lisboa-roma-3895",
+      "titulo": "Black Friday Latam Europa! Voos para Lisboa, Roma, Amsterdã e mais destinos a partir de R$ 3.895 ida e volta, em 10x sem juros",
+      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-europa-voos-lisboa-roma-3895",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T18:50:46.000Z",
+      "ate": "2026-11-29T18:50:46.000Z",
+      "dinheiro": 3895,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Lisboa",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/black-friday-latam-eua-passagens-nova-york-orlando-miami-2868",
+      "titulo": "Black Friday Latam EUA! Voos para Nova York, Orlando e Miami a partir de R$ 2.828 ida e volta, em 10x sem juros",
+      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-eua-passagens-nova-york-orlando-miami-2868",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T18:45:57.000Z",
+      "ate": "2026-11-29T18:45:57.000Z",
+      "dinheiro": 2828,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Nova York Orlando Miami",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false,
+      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119",
@@ -1432,55 +1487,6 @@
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos",
-      "titulo": "Alerta PPV! Azul Fidelidade tem passagens nacionais a partir de 2.800 pontos",
-      "link": "https://pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-24T16:33:41.000Z",
-      "ate": "2026-11-27T16:33:41.000Z",
-      "dinheiro": null,
-      "milhas": 2800,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo",
-      "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo - confira o passo a passo",
-      "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-24T15:43:29.000Z",
-      "ate": "2026-11-27T15:43:29.000Z",
-      "dinheiro": 3468,
-      "milhas": null,
-      "programa": null,
-      "origem": "Especial Bradesco Executiva da Tap",
-      "destino": "Milao",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
-      "titulo": "Voos entre São Paulo e o Recife a partir de R$ 240 ou 10 mil milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-rec-latam-bf-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-24T12:53:18.000Z",
-      "ate": "2026-11-27T12:53:18.000Z",
-      "dinheiro": 240,
-      "milhas": 10000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "regua": {
