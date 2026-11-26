@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T19:04:29.462Z",
+  "atualizadoEm": "2026-11-26T19:14:35.047Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1072,6 +1072,28 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "pontospravoar.com/latam-friday-voos-nacionais-119-reais-2535-milhas",
+      "titulo": "LATAM Friday! Voos nacionais a partir de R$ 119 ou 2.535 milhas",
+      "link": "https://pontospravoar.com/latam-friday-voos-nacionais-119-reais-2535-milhas/",
+      "fonte": "companhia",
+      "publicado": "2026-11-26T19:00:53.000Z",
+      "ate": "2026-11-29T19:00:53.000Z",
+      "dinheiro": 119,
+      "milhas": 2535,
+      "programa": "Latam Pass",
+      "origem": "Campinas",
+      "destino": "Porto Alegre",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "iataOrigem": "VCP",
+      "iataDestino": "POA",
+      "data": "2027-03-01",
+      "comMilhas": false,
+      "cabine": "Economy",
+      "trechoDe": "companhia"
+    },
+    {
       "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119",
       "titulo": "LATAM Friday oferece passagens promocionais a partir de R$ 119",
       "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119/",
@@ -1448,34 +1470,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas",
       "titulo": "Alerta PPV: passagens no LATAM Pass a partir de 3 mil milhas",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-latam-pass-3-mil-milhas/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-23T22:00:49.000Z",
       "ate": "2026-11-26T22:00:49.000Z",
       "dinheiro": null,
       "milhas": 3000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Latam Pass",
+      "origem": "Macapá",
+      "destino": "Belém",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas",
-      "titulo": "Alerta PPV! Confira voos internacionais a partir de 22 mil milhas Smiles + taxas",
-      "link": "https://pontospravoar.com/alerta-ppv-confira-voos-internacionais-a-partir-de-22-mil-milhas-smiles-taxas/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-23T20:30:29.000Z",
-      "ate": "2026-11-26T20:30:29.000Z",
-      "dinheiro": null,
-      "milhas": 22000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
+      "trechoDe": "companhia",
+      "iataOrigem": "MCP",
+      "iataDestino": "BEL",
+      "data": "2027-02-15",
+      "comMilhas": true,
+      "cabine": "Economy"
     }
   ],
   "regua": {
