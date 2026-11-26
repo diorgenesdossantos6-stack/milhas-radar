@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-26T11:04:31.703Z",
-  "totalAtivas": 49,
+  "atualizadoEm": "2026-11-26T11:14:32.118Z",
+  "totalAtivas": 50,
   "totalCampanhasAtivas": 29,
   "combinacoes": [
     {
@@ -1120,15 +1120,21 @@
         "Livelo"
       ],
       "percentual": 80,
-      "ate": "2026-11-29T10:54:46.000Z",
+      "ate": "2026-11-29T11:00:41.000Z",
       "confiancaPrazo": "baixa",
       "nota": 83,
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+      "titulo": "Prorrogou! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
       "publicado": "2026-11-26T10:54:46.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/prorrogou-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
+          "titulo": "Prorrogou! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
+          "publicado": "2026-11-26T11:00:41.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
@@ -2155,6 +2161,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/prorrogou-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo",
+      "titulo": "Prorrogou! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
+      "link": "https://pontospravoar.com/prorrogou-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-26T11:00:41.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Livelo -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T11:00:41.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Perdeu o prazo? A Smiles decidiu seguir com sua promoção da Orange Friday, oferecendo aos seus clientes até 80% de bônus na transferência de pontos Livelo. Quer participar? Confira todos os detalhes a seguir. Promoção Smiles e Livelo Para esta campanha, a bonificação está estruturada da seguinte forma: 80% de bônus – clientes Magno, Diamante…",
+      "coletadoEm": "2026-11-26T11:14:32.118Z",
+      "nota": 83
+    },
     {
       "id": "melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
       "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
