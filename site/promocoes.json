@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T12:34:31.217Z",
+  "atualizadoEm": "2026-11-26T12:44:32.894Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1260,6 +1260,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
+      "titulo": "Muito bom! Voos diretos da Latam de São Paulo para Jericoacoara por 11 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T12:36:00.000Z",
+      "ate": "2026-11-29T12:36:00.000Z",
+      "dinheiro": null,
+      "milhas": 11000,
+      "programa": "Latam Pass",
+      "origem": "São Paulo",
+      "destino": "Jericoacoara",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149",
       "titulo": "Alerta PPV! Confira ofertas de voos nacionais da LATAM a partir de R$ 149",
       "link": "https://pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149/",
@@ -1649,23 +1665,6 @@
       "programa": "Latam Pass",
       "origem": "Latam Disponibiliza",
       "destino": "Lisboa",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
-      "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
-      "link": "https://passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-23T18:40:17.000Z",
-      "ate": "2026-11-26T18:40:17.000Z",
-      "dinheiro": null,
-      "milhas": 66000,
-      "programa": "Smiles",
-      "origem": "Otimo Preco",
-      "destino": "Nova York",
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
