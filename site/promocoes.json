@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T10:54:32.067Z",
+  "atualizadoEm": "2026-11-26T11:04:31.703Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -51,6 +51,48 @@
       }
     },
     {
+      "id": "smiles|80|transferencia_bonificada|2026-11-29",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-29T10:54:46.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 83,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+      "publicado": "2026-11-26T10:54:46.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
+          "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+          "publicado": "2026-11-26T10:54:46.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
       "id": "smiles|80|transferencia_bonificada|2026-11-26",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -88,7 +130,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -276,7 +318,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1807,23 +1849,24 @@
     },
     "Livelo -> Smiles": {
       "maxPercentual": 80,
-      "campanhas": 4,
+      "campanhas": 5,
       "inicios": [
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-25T13:38:48.000Z",
+      "ultimaEm": "2026-11-26T10:54:46.000Z",
       "mediaPercentual": 80,
       "previsao": {
         "pronta": true,
-        "campanhas": 4,
+        "campanhas": 5,
         "medianaDias": 1,
         "maiorDias": 6,
-        "ultima": "2026-11-25",
-        "de": "2026-11-26",
-        "ate": "2026-12-01"
+        "ultima": "2026-11-26",
+        "de": "2026-11-27",
+        "ate": "2026-12-02"
       }
     },
     "Esfera -> Smiles": {

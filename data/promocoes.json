@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T10:54:32.067Z",
-  "totalAtivas": 48,
-  "totalCampanhasAtivas": 28,
+  "atualizadoEm": "2026-11-26T11:04:31.703Z",
+  "totalAtivas": 49,
+  "totalCampanhasAtivas": 29,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -537,23 +537,24 @@
     },
     "Livelo -> Smiles": {
       "maxPercentual": 80,
-      "campanhas": 4,
+      "campanhas": 5,
       "inicios": [
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-25T13:38:48.000Z",
+      "ultimaEm": "2026-11-26T10:54:46.000Z",
       "mediaPercentual": 80,
       "previsao": {
         "pronta": true,
-        "campanhas": 4,
+        "campanhas": 5,
         "medianaDias": 1,
         "maiorDias": 6,
-        "ultima": "2026-11-25",
-        "de": "2026-11-26",
-        "ate": "2026-12-01"
+        "ultima": "2026-11-26",
+        "de": "2026-11-27",
+        "ate": "2026-12-02"
       }
     },
     "Esfera -> Smiles": {
@@ -1111,6 +1112,48 @@
       }
     },
     {
+      "id": "smiles|80|transferencia_bonificada|2026-11-29",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Smiles",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-29T10:54:46.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 83,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+      "publicado": "2026-11-26T10:54:46.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
+          "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+          "publicado": "2026-11-26T10:54:46.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 14,
+        "max": 20.77,
+        "mediana": 17.54,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "80% contra um teto de 100% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 100,
+      "esperar": {
+        "cadencia": 90,
+        "desde": 0,
+        "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
       "id": "smiles|80|transferencia_bonificada|2026-11-26",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -1148,7 +1191,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1336,7 +1379,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -2112,6 +2155,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
+      "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+      "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-26T10:54:46.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Livelo -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T10:54:46.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Smiles prorrogou a oferta de Black Friday que oferece até 80% de bônus na transferência de pontos da Livelo. Agora, a oferta é válida até as 23h59 de hoje, 26 de novembro. Para ter o maior bônus, é necessário ser das categorias Diamante ou Magno ou ser assinante dos Clube Livelo ou Smiles. É… O post Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles apareceu prime",
+      "coletadoEm": "2026-11-26T11:04:31.703Z",
+      "nota": 83
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149",
       "titulo": "Alerta PPV! Confira ofertas de voos nacionais da LATAM a partir de R$ 149",
