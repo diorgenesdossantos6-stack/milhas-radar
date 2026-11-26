@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T21:14:34.296Z",
+  "atualizadoEm": "2026-11-26T21:24:30.316Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1177,6 +1177,22 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
+      "titulo": "Nova Zelândia! Voos para Auckland por 102 mil milhas Latam Pass o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T21:19:23.000Z",
+      "ate": "2026-11-29T21:19:23.000Z",
+      "dinheiro": null,
+      "milhas": 102000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Auckland",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas",
       "titulo": "Voe para Barbados no Caribe a partir de 76 mil pontos Azul + taxas",
       "link": "https://passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas/",
@@ -1563,28 +1579,6 @@
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
-      "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "companhia",
-      "publicado": "2026-11-24T21:00:21.000Z",
-      "ate": "2026-11-27T21:00:21.000Z",
-      "dinheiro": null,
-      "milhas": 16000,
-      "programa": "Latam Pass",
-      "origem": "Florianópolis",
-      "destino": "Buenos Aires",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "companhia",
-      "iataOrigem": "FLN",
-      "iataDestino": "EZE",
-      "data": "2027-02-17",
-      "comMilhas": true,
-      "cabine": "Economy"
     }
   ],
   "regua": {
