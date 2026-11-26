@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T17:54:32.134Z",
-  "totalAtivas": 49,
-  "totalCampanhasAtivas": 27,
+  "atualizadoEm": "2026-11-26T18:04:31.141Z",
+  "totalAtivas": 50,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [],
   "passagens": [
     {
@@ -1760,6 +1760,38 @@
       "teto": null
     },
     {
+      "id": "livelo|x|acumulo|2026-11-30",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
+      "publicado": "2026-11-26T18:00:55.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds/",
+          "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
+          "publicado": "2026-11-26T18:00:55.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|clube|2026-11-29",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -2020,6 +2052,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds",
+      "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
+      "link": "https://pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-26T18:00:55.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Méqui Friday continua para quem deseja acumular pontos Livelo! Em parceria com o McDonald’s, o programa prorrogou a promoção, oferecendo 10 pontos por real gasto na compra de uma McOferta Clássica + Sundae, exclusivamente pelo aplicativo do Méqui. Campanha válida até o dia 30 de novembro. McDonald's oferece 10 pontos Livelo por real gasto Durante…",
+      "coletadoEm": "2026-11-26T18:04:31.141Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/pink-friday-ganhe-ate-390-mil-pontos-upgrade-clube-livelo-premium",
       "titulo": "Pink Friday! Ganhe até 390 mil pontos no upgrade para o Clube Livelo Premium",

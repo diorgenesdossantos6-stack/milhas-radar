@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T17:54:32.134Z",
+  "atualizadoEm": "2026-11-26T18:04:31.141Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -746,6 +746,38 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "livelo|x|acumulo|2026-11-30",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
+      "publicado": "2026-11-26T18:00:55.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds/",
+          "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
+          "publicado": "2026-11-26T18:00:55.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "livelo|x|clube|2026-11-29",
