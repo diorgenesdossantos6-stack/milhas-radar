@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T20:24:31.505Z",
+  "atualizadoEm": "2026-11-26T20:34:32.592Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1136,6 +1136,22 @@
       "ehLista": false
     },
     {
+      "id": "melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
+      "titulo": "Black Friday Chile! Passagens Latam para Santiago desde R$ 1.597 ida e volta, em 10x sem juros – incluindo inverno 2027",
+      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T19:50:57.000Z",
+      "ate": "2026-11-29T19:50:57.000Z",
+      "dinheiro": 1597,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Santiago",
+      "idaEVolta": true,
+      "taxas": false,
+      "ehLista": false
+    },
+    {
       "id": "passageirodeprimeira.com/voe-para-nova-york-a-partir-de-66-mil-milhas-smiles-taxas",
       "titulo": "Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
       "link": "https://passageirodeprimeira.com/voe-para-nova-york-a-partir-de-66-mil-milhas-smiles-taxas/",
@@ -1508,23 +1524,6 @@
       "programa": "Azul Fidelidade",
       "origem": null,
       "destino": "Sao Francisco",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
-      "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-24T19:38:54.000Z",
-      "ate": "2026-11-27T19:38:54.000Z",
-      "dinheiro": null,
-      "milhas": 7000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": "Porto Seguro Bahia Nov26",
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false,

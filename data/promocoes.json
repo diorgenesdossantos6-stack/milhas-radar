@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T20:24:31.505Z",
+  "atualizadoEm": "2026-11-26T20:34:32.592Z",
   "totalAtivas": 53,
   "totalCampanhasAtivas": 30,
   "combinacoes": [],
@@ -18,6 +18,22 @@
       "destino": "Europa",
       "idaEVolta": false,
       "taxas": true,
+      "ehLista": false
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
+      "titulo": "Black Friday Chile! Passagens Latam para Santiago desde R$ 1.597 ida e volta, em 10x sem juros – incluindo inverno 2027",
+      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T19:50:57.000Z",
+      "ate": "2026-11-29T19:50:57.000Z",
+      "dinheiro": 1597,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Santiago",
+      "idaEVolta": true,
+      "taxas": false,
       "ehLista": false
     },
     {
@@ -393,23 +409,6 @@
       "programa": "Azul Fidelidade",
       "origem": null,
       "destino": "Sao Francisco",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
-      "titulo": "Bahia! Passagens aéreas para Porto Seguro a partir de 7 mil milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/passagens-porto-seguro-bahia-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-24T19:38:54.000Z",
-      "ate": "2026-11-27T19:38:54.000Z",
-      "dinheiro": null,
-      "milhas": 7000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": "Porto Seguro Bahia Nov26",
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
@@ -2191,6 +2190,40 @@
       "confiancaPrazo": "baixa",
       "resumo": "A Mega Promo da Latam tá no ar! E, para começar, preparamos uma seleção de passagens aéreas para tirar sua Eurotrip do papel! Encontramos voos da Latam para Amsterdam, na Holanda, Lisboa, em Portugal, ou Bruxelas, na Bélgica, a partir de 53.477 milhas Latam Pass o trecho + taxas. O menor preço é para a… O post Mega Promo Latam Pass tem voos para a Europa a partir de 53 mil milhas o trecho apareceu",
       "coletadoEm": "2026-11-26T19:54:31.283Z",
+      "nota": 0
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
+      "titulo": "Black Friday Chile! Passagens Latam para Santiago desde R$ 1.597 ida e volta, em 10x sem juros – incluindo inverno 2027",
+      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
+      "fonte": "melhoresdestinos",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-26T19:50:57.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 1597,
+        "milhas": null,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Santiago",
+        "idaEVolta": true,
+        "taxas": false,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T19:50:57.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Mega Promo de Black Friday da Latam está no ar e tem bons preços para quem pretende viajar para o Chile! Encontramos passagens aéreas para Santiago a partir de R$ 1.597 ida e volta em 10x sem juros, com saídas de várias cidades brasileiras e datas entre dezembro de 2026 e setembro de 2027,…",
+      "coletadoEm": "2026-11-26T20:34:32.592Z",
       "nota": 0
     },
     {
