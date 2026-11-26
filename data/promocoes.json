@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T11:34:30.684Z",
-  "totalAtivas": 50,
-  "totalCampanhasAtivas": 29,
+  "atualizadoEm": "2026-11-26T11:44:33.091Z",
+  "totalAtivas": 51,
+  "totalCampanhasAtivas": 30,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -651,19 +651,23 @@
     },
     "Latam Pass": {
       "maxPercentual": 66,
-      "campanhas": 4,
+      "campanhas": 5,
       "inicios": [
         "2026-11-18",
         "2026-11-20",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-25T14:16:42.000Z",
-      "mediaPercentual": 38,
+      "ultimaEm": "2026-11-26T11:40:21.000Z",
+      "mediaPercentual": 33,
       "previsao": {
-        "pronta": false,
-        "campanhas": 3,
-        "faltam": 2,
-        "ultima": "2026-11-25"
+        "pronta": true,
+        "campanhas": 4,
+        "medianaDias": 2,
+        "maiorDias": 5,
+        "ultima": "2026-11-26",
+        "de": "2026-11-28",
+        "ate": "2026-12-01"
       }
     },
     "Esfera": {
@@ -1245,7 +1249,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1427,7 +1431,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1512,7 +1516,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1552,7 +1556,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1598,7 +1602,47 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "latam pass|15|transferencia_bonificada|2026-11-29",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Latam Pass",
+      "origens": [],
+      "percentual": 15,
+      "ate": "2026-11-29T11:40:21.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 19,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Gere euro a partir de R$ 3,85 ao transferir milhas LATAM Pass para o ALL Accor",
+      "publicado": "2026-11-26T11:40:21.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/gere-euro-a-partir-de-r-385-ao-transferir-milhas-latam-pass-para-o-all-accor/",
+          "titulo": "Gere euro a partir de R$ 3,85 ao transferir milhas LATAM Pass para o ALL Accor",
+          "publicado": "2026-11-26T11:40:21.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Dá para esperar",
+      "motivo": "essa rota já chegou a 40%",
+      "baseVeredito": "teto",
+      "teto": 40,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -2161,6 +2205,32 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/gere-euro-a-partir-de-r-385-ao-transferir-milhas-latam-pass-para-o-all-accor",
+      "titulo": "Gere euro a partir de R$ 3,85 ao transferir milhas LATAM Pass para o ALL Accor",
+      "link": "https://passageirodeprimeira.com/gere-euro-a-partir-de-r-385-ao-transferir-milhas-latam-pass-para-o-all-accor/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-26T11:40:21.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [],
+      "destino": [
+        "Latam Pass",
+        "Accor ALL"
+      ],
+      "par": "Latam Pass",
+      "percentual": 15,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T11:40:21.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Até segunda-feira (30), quem transferir milhas do LATAM Pass para o ALL Accor ganha 15% de pontos Reward bônus, com 10% extras para assinantes do ALL Signature. Com a promoção, a conversão será de 4:1, permitindo gerar vouchers de hospedagem com euro a partir de R$ 3,85. Não perca a chance de aproveitar essa oportunidade incrível! O post Gere euro a partir de R$ 3,85 ao transferir milhas LATAM Pas",
+      "coletadoEm": "2026-11-26T11:44:33.091Z",
+      "nota": 19
+    },
     {
       "id": "pontospravoar.com/prorrogou-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo",
       "titulo": "Prorrogou! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
