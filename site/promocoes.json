@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T13:04:31.931Z",
+  "atualizadoEm": "2026-11-26T13:14:33.137Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -46,7 +46,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 60,
-        "desde": 2,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -411,6 +411,38 @@
         "cadencia": 60,
         "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "azul fidelidade|50|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 50,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 35,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
+      "publicado": "2026-11-26T12:59:51.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau/",
+          "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
+          "publicado": "2026-11-26T12:59:51.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -2068,17 +2100,18 @@
     },
     "Itau -> Azul Fidelidade": {
       "maxPercentual": 76,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-23T15:00:24.000Z",
-      "mediaPercentual": 43,
+      "ultimaEm": "2026-11-26T12:59:51.000Z",
+      "mediaPercentual": 45,
       "previsao": {
         "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-23"
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-26"
       }
     },
     "Livelo -> Latam Pass": {

@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T13:04:31.931Z",
-  "totalAtivas": 52,
-  "totalCampanhasAtivas": 31,
+  "atualizadoEm": "2026-11-26T13:14:33.137Z",
+  "totalAtivas": 53,
+  "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -687,17 +687,18 @@
     },
     "Itau -> Azul Fidelidade": {
       "maxPercentual": 76,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-23T15:00:24.000Z",
-      "mediaPercentual": 43,
+      "ultimaEm": "2026-11-26T12:59:51.000Z",
+      "mediaPercentual": 45,
       "previsao": {
         "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-23"
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-26"
       }
     },
     "Livelo -> Latam Pass": {
@@ -1111,7 +1112,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 60,
-        "desde": 2,
+        "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -1476,6 +1477,38 @@
         "cadencia": 60,
         "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "azul fidelidade|50|clube|2026-11-26",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 50,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 35,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
+      "publicado": "2026-11-26T12:59:51.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau/",
+          "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
+          "publicado": "2026-11-26T12:59:51.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -2228,6 +2261,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau",
+      "titulo": "Oferta relâmpago! Clube Azul com 50% de desconto + 12% OFF com cartão Azul Itaú",
+      "link": "https://pontospravoar.com/oferta-relampago-clube-azul-50-porcento-desconto-mais-12-porcento-off-cartao-azul-itau/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-26T12:59:51.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Itau -> Azul Fidelidade",
+      "percentual": 50,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Azul Fidelidade lançou uma oferta relâmpago que oferece 50% de desconto na adesão a todos os planos anuais do Clube Azul. Além disso, clientes que utilizarem o cartão Azul Itaú como forma de pagamento garantem mais 12% de desconto. A promoção é válida somente hoje, 26 de novembro. Confira os detalhes a seguir! Desconto…",
+      "coletadoEm": "2026-11-26T13:14:33.137Z",
+      "nota": 35
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
       "titulo": "Muito bom! Voos diretos da Latam de São Paulo para Jericoacoara por 11 mil milhas o trecho",
