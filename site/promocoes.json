@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T18:24:30.488Z",
+  "atualizadoEm": "2026-11-26T18:34:30.649Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1072,6 +1072,23 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119",
+      "titulo": "LATAM Friday oferece passagens promocionais a partir de R$ 119",
+      "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-26T18:30:00.000Z",
+      "ate": "2026-11-29T18:30:00.000Z",
+      "dinheiro": 119,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Promocionais Partir R",
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas",
       "titulo": "Alerta PPV! Voos internacionais a partir de 22 mil milhas Smiles + taxas",
       "link": "https://pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas/",
@@ -1461,22 +1478,6 @@
       "programa": "Smiles",
       "origem": null,
       "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
-      "titulo": "Lençóis Maranhenses! Voos para São Luís a partir de R$ 273 ou 11 mil milhas o trecho mais taxas",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-sao-luis-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-23T20:27:22.000Z",
-      "ate": "2026-11-26T20:27:22.000Z",
-      "dinheiro": 273,
-      "milhas": 11000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "São Luís",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
