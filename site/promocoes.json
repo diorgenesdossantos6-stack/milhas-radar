@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T14:34:36.313Z",
+  "atualizadoEm": "2026-11-26T14:44:32.157Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -945,6 +945,38 @@
       }
     },
     {
+      "id": "livelo|x|acumulo|2026-11-26",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-26T17:00:37.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Méqui Friday! McDonald's oferece 10 pontos Livelo por real gasto em combo promocional",
+      "publicado": "2026-11-23T17:00:37.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/mequi-friday-mcdonalds-oferece-10-pontos-livelo-real-gasto-combo-promocional/",
+          "titulo": "Méqui Friday! McDonald's oferece 10 pontos Livelo por real gasto em combo promocional",
+          "publicado": "2026-11-23T17:00:37.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "smiles|x|clube|2026-11-26",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -971,47 +1003,6 @@
         "min": 14,
         "max": 20.77,
         "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|acumulo|2026-11-26",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-26T17:00:37.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 10,
-        "loja": "McDonald's"
-      },
-      "clube": null,
-      "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
-      "publicado": "2026-11-23T14:41:07.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/mequi-friday-mcdonalds-oferece-10-pontos-livelo-real-gasto-combo-promocional/",
-          "titulo": "Méqui Friday! McDonald's oferece 10 pontos Livelo por real gasto em combo promocional",
-          "publicado": "2026-11-23T17:00:37.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/compre-combo-mcdonalds-acumule-ate-10-pontos-por-real-gasto-livelo/",
-          "titulo": "Compre um combo no McDonald's e acumule até 10 pontos por real gasto na Livelo",
-          "publicado": "2026-11-23T14:41:07.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     }
