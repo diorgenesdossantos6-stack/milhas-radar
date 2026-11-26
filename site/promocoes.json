@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T14:24:33.578Z",
+  "atualizadoEm": "2026-11-26T14:34:36.313Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1014,43 +1014,6 @@
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
-    },
-    {
-      "id": "latam pass|x|pontos_dinheiro|2026-11-26",
-      "tipo": "pontos_dinheiro",
-      "tipoNome": "Pontos + dinheiro",
-      "destino": "Latam Pass",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-26T14:30:20.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": 23.55,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Milheiro LATAM a partir de R$ 23,55! Transfira pontos Livelo para o LATAM Pass usando pontos + dinheiro",
-      "publicado": "2026-11-23T14:30:20.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/milheiro-latam-a-partir-de-r-2355-transfira-pontos-livelo-para-o-latam-pass-usando-pontos-dinheiro/",
-          "titulo": "Milheiro LATAM a partir de R$ 23,55! Transfira pontos Livelo para o LATAM Pass usando pontos + dinheiro",
-          "publicado": "2026-11-23T14:30:20.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "No limite",
-      "motivo": "R$ 23,55 contra R$ 23,80 de comprar pronto: diferença pequena",
-      "baseVeredito": "compra",
-      "teto": null
     }
   ],
   "combinacoes": [],
