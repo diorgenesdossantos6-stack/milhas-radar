@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T22:44:30.479Z",
+  "atualizadoEm": "2026-11-26T22:54:33.188Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1177,6 +1177,22 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
+      "titulo": "Estados Unidos! Latam Pass tem voos para Miami ou Nova York a partir de 50 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T22:51:33.000Z",
+      "ate": "2026-11-29T22:51:33.000Z",
+      "dinheiro": null,
+      "milhas": 50000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Miami",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
       "titulo": "Nova Zelândia! Voos para Auckland por 102 mil milhas Latam Pass o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
@@ -1562,23 +1578,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas",
-      "titulo": "Voe de São Paulo para Dubai a partir de R$ 2.295 ou 153 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-24T21:10:50.000Z",
-      "ate": "2026-11-27T21:10:50.000Z",
-      "dinheiro": 2295,
-      "milhas": 153000,
-      "programa": "Azul Fidelidade",
-      "origem": "Sao Paulo",
-      "destino": "Dubai",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "regua": {

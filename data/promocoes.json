@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-26T22:44:30.479Z",
+  "atualizadoEm": "2026-11-26T22:54:33.188Z",
   "totalAtivas": 55,
   "totalCampanhasAtivas": 31,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
+      "titulo": "Estados Unidos! Latam Pass tem voos para Miami ou Nova York a partir de 50 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T22:51:33.000Z",
+      "ate": "2026-11-29T22:51:33.000Z",
+      "dinheiro": null,
+      "milhas": 50000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Miami",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
       "titulo": "Nova Zelândia! Voos para Auckland por 102 mil milhas Latam Pass o trecho",
@@ -390,23 +406,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas",
-      "titulo": "Voe de São Paulo para Dubai a partir de R$ 2.295 ou 153 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-24T21:10:50.000Z",
-      "ate": "2026-11-27T21:10:50.000Z",
-      "dinheiro": 2295,
-      "milhas": 153000,
-      "programa": "Azul Fidelidade",
-      "origem": "Sao Paulo",
-      "destino": "Dubai",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -2193,6 +2192,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
+      "titulo": "Estados Unidos! Latam Pass tem voos para Miami ou Nova York a partir de 50 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-26T22:51:33.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 50000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Miami",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T22:51:33.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Mega Promo Latam Pass está com passagens aéreas para os Estados Unidos a partir de 50 mil milhas o trecho, mais taxas aeroportuárias. O menor valor é para Miami, mas também tem bons preços para Nova York. Nossa pesquisa não foi exaustiva, então pode haver outras origens e datas com valores interessantes. Vale a… O post Estados Unidos! Latam Pass tem voos para Miami ou Nova York a partir de 50 mi",
+      "coletadoEm": "2026-11-26T22:54:33.188Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404",
       "titulo": "Últimas horas para assinar assinar o Clube Livelo Premium e receber até 390.000 pontos- CPM a partir de R$ 24,04",
