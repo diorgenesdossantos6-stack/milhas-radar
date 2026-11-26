@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T14:14:38.225Z",
+  "atualizadoEm": "2026-11-26T14:24:33.578Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -213,38 +213,6 @@
           "publicado": "2026-11-24T11:45:00.000Z"
         }
       ]
-    },
-    {
-      "id": "azul fidelidade|76|clube|2026-11-26",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Itau"
-      ],
-      "percentual": 76,
-      "ate": "2026-11-26T14:15:55.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 56,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Oferta relâmpago! Assine o Clube Azul 5.000 com até 76% de desconto – CPM a partir de R$ 9",
-      "publicado": "2026-11-23T14:15:55.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/oferta-relampago-assine-o-clube-azul-5-000-com-ate-76-de-desconto-cpm-a-partir-de-r-9/",
-          "titulo": "Oferta relâmpago! Assine o Clube Azul 5.000 com até 76% de desconto – CPM a partir de R$ 9",
-          "publicado": "2026-11-23T14:15:55.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "smiles|70|transferencia_bonificada|2026-11-28",
@@ -1083,56 +1051,6 @@
       "motivo": "R$ 23,55 contra R$ 23,80 de comprar pronto: diferença pequena",
       "baseVeredito": "compra",
       "teto": null
-    },
-    {
-      "id": "azul fidelidade|x|clube|2026-11-26",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Itau"
-      ],
-      "percentual": null,
-      "ate": "2026-11-26T14:22:58.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": 45,
-      "acumulo": null,
-      "clube": {
-        "milheiro": 45,
-        "origem": "publicado na matéria",
-        "veredito": "nao vale",
-        "rotulo": "Caro",
-        "motivo": "milheiro a R$ 45,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
-        "base": "clube",
-        "regua": {
-          "valor": 14.95,
-          "base": "mercado",
-          "texto": "o que o mercado paga pelo milheiro Azul Fidelidade"
-        },
-        "programa": "Azul Fidelidade"
-      },
-      "titulo": "Oferta relâmpago! Clube Azul 5.000 anual a partir de R$ 45 por mês com milheiro a partir de R$ 9",
-      "publicado": "2026-11-23T14:22:58.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/oferta-relampago-clube-azul-5-000-anual-a-partir-de-r-45-por-mes-milheiro-a-partir-de-r-9/",
-          "titulo": "Oferta relâmpago! Clube Azul 5.000 anual a partir de R$ 45 por mês com milheiro a partir de R$ 9",
-          "publicado": "2026-11-23T14:22:58.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Caro",
-      "motivo": "milheiro a R$ 45,00 contra uma régua de R$ 14,95, o que o mercado paga pelo milheiro Azul Fidelidade",
-      "baseVeredito": "clube",
-      "teto": null
     }
   ],
   "combinacoes": [],
@@ -1343,18 +1261,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Argentina",
-      "idaEVolta": false,
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
