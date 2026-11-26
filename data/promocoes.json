@@ -1,9 +1,25 @@
 {
-  "atualizadoEm": "2026-11-26T23:14:31.791Z",
+  "atualizadoEm": "2026-11-26T23:24:30.312Z",
   "totalAtivas": 55,
   "totalCampanhasAtivas": 31,
   "combinacoes": [],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-jnb-latam-bf-nov26",
+      "titulo": "África do Sul! Latam tem voos diretos de São Paulo para Joanesburgo por 47 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-jnb-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T23:17:37.000Z",
+      "ate": "2026-11-29T23:17:37.000Z",
+      "dinheiro": null,
+      "milhas": 47000,
+      "programa": "Latam Pass",
+      "origem": "São Paulo",
+      "destino": "Joanesburgo",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-cun-latam-bf-nov26",
       "titulo": "Cancún! Voos da Latam saindo de São Paulo por 49 mil milhas o trecho",
@@ -387,22 +403,6 @@
       "programa": "Smiles",
       "origem": "São Paulo",
       "destino": "Belo Horizonte",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo",
-      "titulo": "Alerta PPV! Passagens internacionais a partir de 42.500 pontos no Azul pelo Mundo",
-      "link": "https://pontospravoar.com/alerta-ppv-passagens-internacionais-42500-pontos-azul-pelo-mundo/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-25T17:00:05.000Z",
-      "ate": "2026-11-28T17:00:05.000Z",
-      "dinheiro": null,
-      "milhas": 42500,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": null,
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
@@ -2192,6 +2192,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-jnb-latam-bf-nov26",
+      "titulo": "África do Sul! Latam tem voos diretos de São Paulo para Joanesburgo por 47 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-jnb-latam-bf-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-26T23:17:37.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 47000,
+        "programa": "Latam Pass",
+        "origem": "São Paulo",
+        "destino": "Joanesburgo",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-29T23:17:37.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Mega Promo Latam Pass está com passagens aéreas de São Paulo para Joanesburgo, na África do Sul, por 47 mil milhas o trecho, mais taxas aeroportuárias. Nossa pesquisa não foi exaustiva, então pode haver outras origens e datas com valores interessantes. Vale a pena pesquisar! O post África do Sul! Latam tem voos diretos de São Paulo para Joanesburgo por 47 mil milhas o trecho apareceu primeiro em",
+      "coletadoEm": "2026-11-26T23:24:30.312Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-cun-latam-bf-nov26",
       "titulo": "Cancún! Voos da Latam saindo de São Paulo por 49 mil milhas o trecho",
