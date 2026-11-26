@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T22:55:09.478Z",
+  "atualizadoEm": "2026-11-26T23:04:30.637Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1177,6 +1177,22 @@
   "combinacoes": [],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-cun-latam-bf-nov26",
+      "titulo": "Cancún! Voos da Latam saindo de São Paulo por 49 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-cun-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T23:04:13.000Z",
+      "ate": "2026-11-29T23:04:13.000Z",
+      "dinheiro": null,
+      "milhas": 49000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
       "titulo": "Estados Unidos! Latam Pass tem voos para Miami ou Nova York a partir de 50 mil milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
@@ -1559,22 +1575,6 @@
       "programa": "Azul Fidelidade",
       "origem": null,
       "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
-      "titulo": "Arraial do Cabo! Voos de São Paulo ou de BH para Cabo Frio a partir de 5 mil milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-cnf-cfb-latam-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-25T14:41:59.000Z",
-      "ate": "2026-11-28T14:41:59.000Z",
-      "dinheiro": null,
-      "milhas": 5000,
-      "programa": "Latam Pass",
-      "origem": "BH",
-      "destino": "Cabo Frio",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
