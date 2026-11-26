@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T23:54:34.047Z",
-  "totalAtivas": 61,
-  "totalCampanhasAtivas": 35,
+  "atualizadoEm": "2026-11-26T00:04:31.036Z",
+  "totalAtivas": 48,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -209,23 +209,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas",
-      "titulo": "LATAM tem passagens para destinos de Carnaval a partir de R$ 117 ou 4 mil milhas + taxas",
-      "link": "https://passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-24T22:10:21.000Z",
-      "ate": "2026-11-25T23:59:00.000Z",
-      "dinheiro": 117,
-      "milhas": 4000,
-      "programa": "Latam Pass",
-      "origem": "Latam Tem",
-      "destino": "Destinos de Carnaval",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     },
     {
       "id": "passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas",
@@ -464,6 +447,23 @@
       "programa": "Latam Pass",
       "origem": "Latam Disponibiliza",
       "destino": "Lisboa",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
+      "id": "passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas",
+      "titulo": "Ótimo preço! Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
+      "link": "https://passageirodeprimeira.com/otimo-preco-voe-para-nova-york-a-partir-66-mil-milhas-smiles-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-23T18:40:17.000Z",
+      "ate": "2026-11-26T18:40:17.000Z",
+      "dinheiro": null,
+      "milhas": 66000,
+      "programa": "Smiles",
+      "origem": "Otimo Preco",
+      "destino": "Nova York",
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
@@ -1108,160 +1108,6 @@
         "cadencia": 60,
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-25",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Inter"
-      ],
-      "percentual": 120,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 95,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
-      "publicado": "2026-11-24T12:16:45.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
-          "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos do Inter Loop",
-          "publicado": "2026-11-24T14:23:29.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade/",
-          "titulo": "Azul Friday! Ganhe até 120% de bônus na transferência de pontos do Inter Loop para o Azul Fidelidade",
-          "publicado": "2026-11-24T12:33:56.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/azul-friday-inter-loop-120-bonus-nov26.html",
-          "titulo": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos do Inter Loop",
-          "publicado": "2026-11-24T12:16:45.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 1,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "azul fidelidade|90|transferencia_bonificada|2026-11-25",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": 90,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 89,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul e Inter oferecem até 90% de bônus nas transferências",
-      "publicado": "2026-11-24T13:42:29.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/azul-e-inter-oferecem-ate-90-de-bonus-nas-transferencias-4/",
-          "titulo": "Azul e Inter oferecem até 90% de bônus nas transferências",
-          "publicado": "2026-11-24T13:42:29.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "90% contra um teto de 100% nessa rota",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 1,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "smiles|80|transferencia_bonificada|2026-11-25",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 88,
-      "custoMilheiro": 15.3,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Smiles e Livelo oferecem até 80% de bônus nas transferências",
-      "publicado": "2026-11-25T13:38:48.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/smiles-e-livelo-oferecem-ate-80-de-bonus-nas-transferencias-4/",
-          "titulo": "Smiles e Livelo oferecem até 80% de bônus nas transferências",
-          "publicado": "2026-11-25T14:19:00.000Z"
-        },
-        {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/pontos-dinheiro-livelo-smiles-bonus-25nov26",
-          "titulo": "Milheiro Smiles a partir de R$ 15,30 enviando pontos Livelo mais dinheiro com bônus",
-          "publicado": "2026-11-25T14:03:23.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/black-friday-smiles-livelo-bonus-80-nov26.html",
-          "titulo": "Orange Friday Smiles! Ganhe até 80% de bônus na transferência de pontos Livelo",
-          "publicado": "2026-11-25T13:38:48.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/apenas-hoje-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
-          "titulo": "Apenas hoje! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
-          "publicado": "2026-11-25T13:38:48.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Vale a pena",
-      "motivo": "milheiro R$ 15,30 contra R$ 17,54 de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 0,
-        "texto": "costuma repetir a cada 90 dias"
       }
     },
     {
@@ -1914,119 +1760,6 @@
       "teto": null
     },
     {
-      "id": "azul fidelidade|x|clube|2026-11-25",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 5,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Acaba rápido! Azul oferece resgate de mala de viagem, robô aspirador, TV e mais produtos a partir de 11.000 pontos",
-      "publicado": "2026-11-25T17:59:25.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/azul-resgate-favorito-produtos-11k-nov26.html",
-          "titulo": "Acaba rápido! Azul oferece resgate de mala de viagem, robô aspirador, TV e mais produtos a partir de 11.000 pontos",
-          "publicado": "2026-11-25T17:59:25.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|compra_pontos|2026-11-25",
-      "tipo": "compra_pontos",
-      "tipoNome": "Compra de pontos com desconto",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 5,
-      "custoMilheiro": 29,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo",
-      "publicado": "2026-11-25T16:46:38.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/turbo-livelo-29-milheiro-25nov26.html",
-          "titulo": "Só hoje! Compre pontos a partir de R$ 29 com o Turbo Livelo",
-          "publicado": "2026-11-25T16:46:38.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "sai mais caro do que a referência de mercado",
-      "baseVeredito": "cotacao",
-      "teto": null
-    },
-    {
-      "id": "livelo|x|acumulo|2026-11-25",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 5,
-      "custoMilheiro": 29,
-      "acumulo": {
-        "porReal": 10,
-        "loja": "McDonald"
-      },
-      "clube": null,
-      "titulo": "Até 23h59! Multiplique seus pontos em até 25x com o Turbo Livelo - milheiro a partir de R$ 29",
-      "publicado": "2026-11-23T17:31:49.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/ate-23h59-multipliquepontos-ate-25x-turbo-livelo-milheiro-a-partir-r-29/",
-          "titulo": "Até 23h59! Multiplique seus pontos em até 25x com o Turbo Livelo - milheiro a partir de R$ 29",
-          "publicado": "2026-11-25T17:00:13.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/livelo-mcdonalds-10-pontos-nov26.html",
-          "titulo": "Hora do lanche! Livelo oferece 10 pontos por real no McDonald’s",
-          "publicado": "2026-11-23T17:31:49.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "sai mais caro do que a referência de mercado",
-      "baseVeredito": "cotacao",
-      "teto": null
-    },
-    {
       "id": "azul fidelidade|x|acumulo|2026-11-28",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2088,38 +1821,6 @@
           "publicado": "2026-11-25T12:10:47.000Z"
         }
       ]
-    },
-    {
-      "id": "latam pass|x|clube|2026-11-25",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Latam Pass",
-      "origens": [
-        "Itau"
-      ],
-      "percentual": null,
-      "ate": "2026-11-25T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
-      "publicado": "2026-11-24T22:20:58.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/latam-pass-magalu-12-milhas-nov26.html",
-          "titulo": "Latam Pass oferece até 12 milhas por real em compras no Magalu",
-          "publicado": "2026-11-24T22:20:58.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "livelo|x|acumulo|2026-11-27",
