@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T12:04:30.378Z",
-  "totalAtivas": 51,
-  "totalCampanhasAtivas": 30,
+  "atualizadoEm": "2026-11-26T12:14:36.505Z",
+  "totalAtivas": 52,
+  "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -1853,6 +1853,39 @@
       "teto": null
     },
     {
+      "id": "azul fidelidade|x|acumulo|2026-11-29",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-29T12:00:53.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": "Netshoes"
+      },
+      "clube": null,
+      "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
+      "publicado": "2026-11-26T12:00:53.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-18-pontos-real-netshoes/",
+          "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
+          "publicado": "2026-11-26T12:00:53.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "azul fidelidade|x|acumulo|2026-11-28",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2205,6 +2238,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-18-pontos-real-netshoes",
+      "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
+      "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-18-pontos-real-netshoes/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-26T12:00:53.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": "Netshoes"
+      },
+      "clube": null,
+      "ate": "2026-11-29T12:00:53.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Partiu aproveitar o Azul Friday? O Azul Fidelidade, em parceria com a Netshoes, está oferecendo até 18 pontos por real gasto na compra de produtos vendidos e entregues pela própria loja. A campanha é uma ótima oportunidade para aproveitar as compras da Black Friday e turbinar seu saldo de pontos. A oferta é válida até…",
+      "coletadoEm": "2026-11-26T12:14:36.505Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/gere-euro-a-partir-de-r-385-ao-transferir-milhas-latam-pass-para-o-all-accor",
       "titulo": "Gere euro a partir de R$ 3,85 ao transferir milhas LATAM Pass para o ALL Accor",

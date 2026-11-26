@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T12:04:30.378Z",
+  "atualizadoEm": "2026-11-26T12:14:36.505Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -786,6 +786,39 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|acumulo|2026-11-29",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-29T12:00:53.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": "Netshoes"
+      },
+      "clube": null,
+      "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
+      "publicado": "2026-11-26T12:00:53.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-18-pontos-real-netshoes/",
+          "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
+          "publicado": "2026-11-26T12:00:53.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "azul fidelidade|x|acumulo|2026-11-28",
