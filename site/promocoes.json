@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T12:24:30.064Z",
+  "atualizadoEm": "2026-11-26T12:34:31.217Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -453,6 +453,38 @@
         "cadencia": 60,
         "desde": 0,
         "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "latam pass|50|clube|2026-12-31",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Latam Pass",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 50,
+      "ate": "2026-12-31T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 30,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ganhe até 100.000 milhas!",
+      "publicado": "2026-11-26T12:33:46.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/cartao-latam-pass-itau-50-bonus-prorrogado-100k-pontos-bonus-nov26.html",
+          "titulo": "50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ganhe até 100.000 milhas!",
+          "publicado": "2026-11-26T12:33:46.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -2111,17 +2143,18 @@
     },
     "Itau -> Latam Pass": {
       "maxPercentual": 66,
-      "campanhas": 1,
+      "campanhas": 2,
       "inicios": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-20T15:00:02.000Z",
-      "mediaPercentual": 66,
+      "ultimaEm": "2026-11-26T12:33:46.000Z",
+      "mediaPercentual": 58,
       "previsao": {
         "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-20"
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-26"
       }
     },
     "Inter -> Latam Pass": {

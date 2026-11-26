@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T12:24:30.064Z",
-  "totalAtivas": 52,
-  "totalCampanhasAtivas": 31,
+  "atualizadoEm": "2026-11-26T12:34:31.217Z",
+  "totalAtivas": 53,
+  "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-26",
@@ -720,17 +720,18 @@
     },
     "Itau -> Latam Pass": {
       "maxPercentual": 66,
-      "campanhas": 1,
+      "campanhas": 2,
       "inicios": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-26"
       ],
-      "ultimaEm": "2026-11-20T15:00:02.000Z",
-      "mediaPercentual": 66,
+      "ultimaEm": "2026-11-26T12:33:46.000Z",
+      "mediaPercentual": 58,
       "previsao": {
         "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-20"
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-26"
       }
     },
     "Inter -> Latam Pass": {
@@ -1521,6 +1522,38 @@
       }
     },
     {
+      "id": "latam pass|50|clube|2026-12-31",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Latam Pass",
+      "origens": [
+        "Itau"
+      ],
+      "percentual": 50,
+      "ate": "2026-12-31T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 30,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ganhe até 100.000 milhas!",
+      "publicado": "2026-11-26T12:33:46.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/cartao-latam-pass-itau-50-bonus-prorrogado-100k-pontos-bonus-nov26.html",
+          "titulo": "50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ganhe até 100.000 milhas!",
+          "publicado": "2026-11-26T12:33:46.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 18,
+        "max": 29.18,
+        "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "latam pass|25|transferencia_bonificada|2026-11-29",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -2238,6 +2271,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/cartao-latam-pass-itau-50-bonus-prorrogado-100k-pontos-bonus-nov26.html",
+      "titulo": "50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ganhe até 100.000 milhas!",
+      "link": "https://www.melhorescartoes.com.br/cartao-latam-pass-itau-50-bonus-prorrogado-100k-pontos-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-26T12:33:46.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Itau"
+      ],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Itau -> Latam Pass",
+      "percentual": 50,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-31T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Boa notícia para quem tem o cartão Latam Pass Itaú e também é assinante do Clube Latam Pass! A promoção de pontuação turbinada dos cartões foi prorrogada. Agora, é possível acumular 50% de milhas extras em todas as compras (até 5,25 milhas por dólar gasto) até o dia 31 de dezembro de 2026. A nova… O post 50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ga",
+      "coletadoEm": "2026-11-26T12:34:31.217Z",
+      "nota": 30
+    },
     {
       "id": "pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-18-pontos-real-netshoes",
       "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
