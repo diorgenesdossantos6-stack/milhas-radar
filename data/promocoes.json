@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-26T21:24:30.316Z",
-  "totalAtivas": 54,
+  "atualizadoEm": "2026-11-26T21:34:32.305Z",
+  "totalAtivas": 55,
   "totalCampanhasAtivas": 31,
   "combinacoes": [],
   "passagens": [
@@ -1735,9 +1735,9 @@
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/receba-ate-390-000-pontos-ao-assinar-o-clube-livelo-premium-cpm-a-partir-de-r-2404/",
-          "titulo": "Receba até 390.000 pontos ao assinar o Clube Livelo Premium - CPM a partir de R$ 24,04",
-          "publicado": "2026-11-25T15:05:20.000Z"
+          "link": "https://passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404/",
+          "titulo": "Últimas horas para assinar assinar o Clube Livelo Premium e receber até 390.000 pontos- CPM a partir de R$ 24,04",
+          "publicado": "2026-11-26T21:30:12.000Z"
         },
         {
           "fonte": "Pontos pra Voar",
@@ -2193,6 +2193,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404",
+      "titulo": "Últimas horas para assinar assinar o Clube Livelo Premium e receber até 390.000 pontos- CPM a partir de R$ 24,04",
+      "link": "https://passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-26T21:30:12.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-26T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Últimas horas! O Clube Livelo está oferecendo até 390.000 pontos em novas assinaturas do Clube Premium, com CPM a partir de R$ 24,04. A promoção é válida até hoje (26) e contempla planos mensais e anuais. O post Últimas horas para assinar assinar o Clube Livelo Premium e receber até 390.000 pontos- CPM a partir de R$ 24,04 apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-26T21:34:32.305Z",
+      "nota": 5
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
       "titulo": "Nova Zelândia! Voos para Auckland por 102 mil milhas Latam Pass o trecho",
