@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T15:54:32.697Z",
+  "atualizadoEm": "2026-11-26T16:04:31.837Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1247,18 +1247,23 @@
       "id": "pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass",
       "titulo": "Alerta PPV! Passagens para Argentina a partir de 16 mil milhas LATAM Pass",
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
-      "fonte": "Pontos pra Voar",
+      "fonte": "companhia",
       "publicado": "2026-11-24T21:00:21.000Z",
       "ate": "2026-11-27T21:00:21.000Z",
       "dinheiro": null,
       "milhas": 16000,
       "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Argentina",
-      "idaEVolta": false,
+      "origem": "Florianópolis",
+      "destino": "Buenos Aires",
+      "idaEVolta": true,
       "taxas": true,
       "ehLista": false,
-      "trechoDe": "endereco"
+      "trechoDe": "companhia",
+      "iataOrigem": "FLN",
+      "iataDestino": "EZE",
+      "data": "2027-02-17",
+      "comMilhas": true,
+      "cabine": "Economy"
     },
     {
       "id": "passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas",
