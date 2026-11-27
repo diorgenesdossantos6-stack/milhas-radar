@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T17:04:32.048Z",
+  "atualizadoEm": "2026-11-27T17:14:32.928Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -14,12 +14,18 @@
       "ate": "2026-11-27T23:59:00.000Z",
       "confiancaPrazo": "media",
       "nota": 100,
-      "custoMilheiro": null,
+      "custoMilheiro": 12.21,
       "acumulo": null,
       "clube": null,
       "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
       "publicado": "2026-11-24T19:30:26.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Destinos",
+          "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+          "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+          "publicado": "2026-11-27T17:09:45.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
@@ -46,10 +52,10 @@
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
       "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 12,21 contra R$ 14,95 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -1519,6 +1525,12 @@
           "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
           "fontes": [
             {
+              "fonte": "Melhores Destinos",
+              "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+              "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+              "publicado": "2026-11-27T17:09:45.000Z"
+            },
+            {
               "fonte": "Passageiro de Primeira",
               "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
               "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
@@ -2490,6 +2502,15 @@
       "titulo": "Orange Friday! Clube Smiles 1.000 oferece 14 mil milhas na adesão com milheiro a partir de R$ 13,07",
       "link": "https://pontospravoar.com/orange-friday-clube-smiles-1000-oferece-14-mil-milhas-adesao-milheiro-13-reais-07-centavos/",
       "fonte": "Pontos pra Voar"
+    },
+    {
+      "em": "2026-11-27T17:09:45.000Z",
+      "valor": 12.21,
+      "tipo": "transferencia_bonificada",
+      "destino": "Azul Fidelidade",
+      "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+      "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+      "fonte": "Melhores Destinos"
     }
   ],
   "historico": {

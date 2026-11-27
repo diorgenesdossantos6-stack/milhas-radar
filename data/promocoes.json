@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T17:04:32.048Z",
-  "totalAtivas": 72,
+  "atualizadoEm": "2026-11-27T17:14:32.928Z",
+  "totalAtivas": 73,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
     {
@@ -45,6 +45,12 @@
           "papel": "transferência",
           "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
           "fontes": [
+            {
+              "fonte": "Melhores Destinos",
+              "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+              "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+              "publicado": "2026-11-27T17:09:45.000Z"
+            },
             {
               "fonte": "Passageiro de Primeira",
               "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
@@ -1353,6 +1359,17 @@
       "link": "https://pontospravoar.com/orange-friday-clube-smiles-1000-oferece-14-mil-milhas-adesao-milheiro-13-reais-07-centavos/",
       "fonte": "Pontos pra Voar",
       "id": "pontospravoar.com/orange-friday-clube-smiles-1000-oferece-14-mil-milhas-adesao-milheiro-13-reais-07-centavos"
+    },
+    {
+      "em": "2026-11-27T17:09:45.000Z",
+      "valor": 12.21,
+      "tipo": "transferencia_bonificada",
+      "programa": "Esfera",
+      "destino": "Azul Fidelidade",
+      "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+      "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+      "fonte": "Melhores Destinos",
+      "id": "melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26"
     }
   ],
   "regua": {
@@ -1445,12 +1462,18 @@
       "ate": "2026-11-27T23:59:00.000Z",
       "confiancaPrazo": "media",
       "nota": 100,
-      "custoMilheiro": null,
+      "custoMilheiro": 12.21,
       "acumulo": null,
       "clube": null,
       "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
       "publicado": "2026-11-24T19:30:26.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Destinos",
+          "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+          "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+          "publicado": "2026-11-27T17:09:45.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
@@ -1477,10 +1500,10 @@
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
       "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "120% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 120,
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 12,21 contra R$ 14,95 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -2907,6 +2930,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+      "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
+      "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-27T17:09:45.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Esfera -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": 12.21,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A Esfera e o Azul Fidelidade estão com uma nova oferta de Black Friday - válida somente HOJE (27/11) - que oferece até 120% de bônus na transferência de pontos entre os programas. E usando a opção “Pontos &Dinheiro”, é possível conseguir o milheiro da Azul a partir de R$ 12,21, abaixo do valor-alvo para… O post Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus apare",
+      "coletadoEm": "2026-11-27T17:14:32.928Z",
+      "nota": 100
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-amsterdam-a-partir-de-52-393-milhas-latam-pass-taxas-o-trecho",
       "titulo": "Voe para Amsterdam a partir de 52.393 milhas LATAM Pass + taxas o trecho",
