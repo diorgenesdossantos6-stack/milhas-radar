@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T19:34:31.729Z",
+  "atualizadoEm": "2026-11-27T19:44:30.471Z",
   "totalAtivas": 78,
   "totalCampanhasAtivas": 40,
   "combinacoes": [
@@ -394,6 +394,23 @@
   ],
   "passagens": [
     {
+      "id": "passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas",
+      "titulo": "Alerta de disponibilidade! Trecho para Orlando a partir de 42 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-27T19:40:23.000Z",
+      "ate": "2026-11-30T19:40:23.000Z",
+      "dinheiro": null,
+      "milhas": 42000,
+      "programa": "Latam Pass",
+      "origem": "De Disponibilidade",
+      "destino": "Orlando",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas",
       "titulo": "Alerta de passagens PPV: Smiles tem resgates a partir de apenas 3.400 milhas!",
       "link": "https://pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas/",
@@ -768,23 +785,6 @@
       "idaEVolta": true,
       "taxas": false,
       "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-para-nova-york-a-partir-de-66-mil-milhas-smiles-taxas",
-      "titulo": "Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
-      "link": "https://passageirodeprimeira.com/voe-para-nova-york-a-partir-de-66-mil-milhas-smiles-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-26T19:50:26.000Z",
-      "ate": "2026-11-29T19:50:26.000Z",
-      "dinheiro": null,
-      "milhas": 66000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": "Nova York",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -3111,6 +3111,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas",
+      "titulo": "Alerta de disponibilidade! Trecho para Orlando a partir de 42 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T19:40:23.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 42000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Orlando",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T19:40:23.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Alerta] Alerta direto dos Grupos do PP no WhatsApp! Encontramos disponibilidade de bilhetes de ida e volta entre São Paulo (GRU) e Orlando (MCO) a partir de 42.900 milhas LATAM Pass + taxas. Aproveite essa oportunidade para garantir sua viagem dos sonhos! O post Alerta de disponibilidade! Trecho para Orlando a partir de 42 mil milhas LATAM + taxas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-27T19:44:30.471Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/pink-friday-faca-upgrade-clube-livelo-especial-acumule-104-mil-pontos",
       "titulo": "Pink Friday! Faça o upgrade para o Clube Livelo Especial e acumule 104 mil pontos",

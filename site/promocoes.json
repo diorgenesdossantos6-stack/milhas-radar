@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T19:34:31.729Z",
+  "atualizadoEm": "2026-11-27T19:44:30.471Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1995,6 +1995,23 @@
   ],
   "passagens": [
     {
+      "id": "passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas",
+      "titulo": "Alerta de disponibilidade! Trecho para Orlando a partir de 42 mil milhas LATAM + taxas",
+      "link": "https://passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-27T19:40:23.000Z",
+      "ate": "2026-11-30T19:40:23.000Z",
+      "dinheiro": null,
+      "milhas": 42000,
+      "programa": "Latam Pass",
+      "origem": "De Disponibilidade",
+      "destino": "Orlando",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas",
       "titulo": "Alerta de passagens PPV: Smiles tem resgates a partir de apenas 3.400 milhas!",
       "link": "https://pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas/",
@@ -2369,23 +2386,6 @@
       "idaEVolta": true,
       "taxas": false,
       "ehLista": false
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-para-nova-york-a-partir-de-66-mil-milhas-smiles-taxas",
-      "titulo": "Voe para Nova York a partir de 66 mil milhas Smiles + taxas",
-      "link": "https://passageirodeprimeira.com/voe-para-nova-york-a-partir-de-66-mil-milhas-smiles-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-26T19:50:26.000Z",
-      "ate": "2026-11-29T19:50:26.000Z",
-      "dinheiro": null,
-      "milhas": 66000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": "Nova York",
-      "idaEVolta": true,
-      "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "regua": {
