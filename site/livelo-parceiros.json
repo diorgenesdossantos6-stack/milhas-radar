@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T14:44:33.808Z",
-  "lidoEm": "2026-11-27T14:44:33.808Z",
+  "atualizadoEm": "2026-11-27T14:54:32.443Z",
+  "lidoEm": "2026-11-27T14:54:32.443Z",
   "fonte": "https://www.livelo.com.br/ofertas",
   "ok": true,
   "total": 103,
@@ -332,8 +332,8 @@
       "multiplicador": 8,
       "emCampanha": true,
       "de": "2026-11-27T03:00:00.000Z",
-      "ate": "2026-11-27T15:00:00.000Z",
-      "regras": "Campanha válida da 00h00 às 12h00, horário de Brasília, do dia 27/11/2026. 8 pontos por real para clientes Clube e 06 pontos por real demais, gasto com diárias de hotéis, mediante uso do cupom \"LIVELO68X\", com check-out até 31/03/2027. Consulte condições. Imagem Ilustrativa, taxas não inclusas."
+      "ate": "2026-11-28T02:59:59.000Z",
+      "regras": "Campanha válida da 12h às 23h59, horário de Brasília, do dia 27/11/2026. 8 pontos por real para clientes Clube e 06 pontos por real demais, gasto com diárias de hotéis, mediante uso do cupom \"LIVELO68X\", com check-out até 31/03/2027. Consulte condições. Imagem Ilustrativa, taxas não inclusas."
     },
     {
       "id": "LGR",
