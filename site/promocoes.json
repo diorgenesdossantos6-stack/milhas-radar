@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T04:24:30.354Z",
+  "atualizadoEm": "2026-11-27T04:34:30.563Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -745,6 +745,48 @@
       "teto": null
     },
     {
+      "id": "livelo|x|acumulo|2026-11-27",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo",
+        "Bradesco"
+      ],
+      "percentual": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 21,
+        "loja": "Insider"
+      },
+      "clube": null,
+      "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
+      "publicado": "2026-11-24T14:00:17.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/pink-hour-livelo-acumule-ate-21-pontos-por-real-gasto-na-insider-olympikus-e-mais-parceiros/",
+          "titulo": "Pink Hour Livelo! Acumule até 21 pontos por real gasto na Insider, Olympikus e mais parceiros",
+          "publicado": "2026-11-27T04:30:36.000Z"
+        },
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",
+          "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
+          "publicado": "2026-11-24T14:00:17.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "livelo|x|compra_pontos|2026-11-30",
       "tipo": "compra_pontos",
       "tipoNome": "Compra de pontos com desconto",
@@ -1095,48 +1137,6 @@
           "publicado": "2026-11-25T12:10:47.000Z"
         }
       ]
-    },
-    {
-      "id": "livelo|x|acumulo|2026-11-27",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo",
-        "Bradesco"
-      ],
-      "percentual": null,
-      "ate": "2026-11-27T19:47:02.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 15,
-        "loja": null
-      },
-      "clube": null,
-      "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
-      "publicado": "2026-11-24T14:00:17.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar/",
-          "titulo": "Bradesco lança nova versão do Amex The Platinum Card em metal com até 4 pontos por dólar",
-          "publicado": "2026-11-24T19:47:02.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",
-          "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
-          "publicado": "2026-11-24T14:00:17.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "azul fidelidade|x|acumulo|2027-12-31",
