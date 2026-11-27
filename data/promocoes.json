@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T13:24:29.953Z",
-  "totalAtivas": 64,
-  "totalCampanhasAtivas": 35,
+  "atualizadoEm": "2026-11-27T13:34:33.335Z",
+  "totalAtivas": 65,
+  "totalCampanhasAtivas": 36,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -154,6 +154,58 @@
               "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
               "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
               "publicado": "2026-11-26T10:54:46.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combo|esfera|55|compra_pontos|2026-11-30|connectmiles|80|transferencia_bonificada|2026-11-27",
+      "origem": "Esfera",
+      "destino": "ConnectMiles",
+      "descontoCompra": 55,
+      "bonusTransferencia": 80,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "partes": [
+        {
+          "papel": "compra",
+          "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
+          "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
+              "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
+              "publicado": "2026-11-24T15:40:19.000Z"
+            },
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-24T14:59:17.000Z"
+            },
+            {
+              "fonte": "Cartões de Crédito",
+              "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-24T11:45:00.000Z"
+            }
+          ]
+        },
+        {
+          "papel": "transferência",
+          "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
+          "fontes": [
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles/",
+              "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
+              "publicado": "2026-11-27T13:30:36.000Z"
             }
           ]
         }
@@ -743,6 +795,21 @@
         "campanhas": 1,
         "faltam": 4,
         "ultima": "2026-11-19"
+      }
+    },
+    "Esfera -> ConnectMiles": {
+      "maxPercentual": 80,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-27"
+      ],
+      "ultimaEm": "2026-11-27T13:30:36.000Z",
+      "mediaPercentual": 80,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-27"
       }
     },
     "Premmia -> Latam Pass": {
@@ -1422,6 +1489,42 @@
         "cadencia": 90,
         "desde": 0,
         "texto": "costuma repetir a cada 90 dias"
+      }
+    },
+    {
+      "id": "connectmiles|80|transferencia_bonificada|2026-11-27",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "ConnectMiles",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 80,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 73,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
+      "publicado": "2026-11-27T13:30:36.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles/",
+          "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
+          "publicado": "2026-11-27T13:30:36.000Z"
+        }
+      ],
+      "veredito": "vale",
+      "rotulo": "Melhor momento",
+      "motivo": "80% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 80,
+      "esperar": {
+        "cadencia": 120,
+        "desde": 0,
+        "texto": "costuma repetir a cada 120 dias"
       }
     },
     {
@@ -2652,6 +2755,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles",
+      "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
+      "link": "https://passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T13:30:36.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "ConnectMiles"
+      ],
+      "par": "Esfera -> ConnectMiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "[Oferta] Muito bom! A Esfera está oferecendo 80% de bônus nas transferências para o ConnectMiles, programa da Copa Airlines, válido apenas hoje (27). Para participar, transfira no mínimo 30.000 pontos até às 23h59 e garanta suas milhas bônus! O post Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-27T13:34:33.335Z",
+      "nota": 73
+    },
     {
       "id": "passageirodeprimeira.com/portugal-por-apenas-r-1-017-ou-25-914-pontos-livelo-taxas-com-desconto-e-40-de-pointsback",
       "titulo": "Portugal por apenas R$ 1.017 ou 25.914 pontos Livelo + taxas com desconto e 40% de pointsback",
