@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T20:54:34.900Z",
-  "totalAtivas": 81,
-  "totalCampanhasAtivas": 41,
+  "atualizadoEm": "2026-11-27T21:04:34.753Z",
+  "totalAtivas": 82,
+  "totalCampanhasAtivas": 42,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -787,18 +787,20 @@
       "ehLista": false
     }
   ],
-  "erros": [],
+  "erros": [
+    "HTTP 504"
+  ],
   "historico": {
     "Esfera -> Azul Fidelidade": {
       "maxPercentual": 120,
-      "campanhas": 4,
+      "campanhas": 5,
       "inicios": [
         "2026-11-19",
         "2026-11-24",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T17:16:54.000Z",
-      "mediaPercentual": 105,
+      "ultimaEm": "2026-11-27T21:00:17.000Z",
+      "mediaPercentual": 89,
       "previsao": {
         "pronta": false,
         "campanhas": 3,
@@ -2424,6 +2426,43 @@
       }
     },
     {
+      "id": "azul fidelidade|25|pontos_dinheiro|2026-11-30",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-30T21:00:17.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 15,
+      "custoMilheiro": 11.67,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",
+      "publicado": "2026-11-27T21:00:17.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/transamerica-resort-comandatuba-all-inclusive-com-mais-de-25-de-desconto-na-azul-viagens/",
+          "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",
+          "publicado": "2026-11-27T21:00:17.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 11,67 contra R$ 14,95 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null
+    },
+    {
       "id": "marriott bonvoy|x|acumulo|2027-01-15",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -3149,6 +3188,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/transamerica-resort-comandatuba-all-inclusive-com-mais-de-25-de-desconto-na-azul-viagens",
+      "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",
+      "link": "https://passageirodeprimeira.com/transamerica-resort-comandatuba-all-inclusive-com-mais-de-25-de-desconto-na-azul-viagens/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T21:00:17.000Z",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Esfera -> Azul Fidelidade",
+      "percentual": 25,
+      "passagem": null,
+      "custoMilheiro": 11.67,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T21:00:17.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Imperdível! O Azul Fidelidade e o Passageiro de Primeira se uniram para oferecer um cupom exclusivo de 22% de desconto em reservas pagantes ou com pontos de qualquer hotel, aluguéis de carros e pacotes na Azul Viagens! Além disso, é possível gerar o milheiro Azul a partir de R$ 11,67 transferindo pontos Esfera com bônus na modalidade Pontos + Dinheiro. O post Transamerica Resort Comandatuba All In",
+      "coletadoEm": "2026-11-27T21:04:34.753Z",
+      "nota": 15
+    },
     {
       "id": "passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner",
       "titulo": "Somente hoje! Azul Fidelidade oferece até 14 pontos por real na Renner",

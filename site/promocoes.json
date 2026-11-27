@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T20:54:34.900Z",
+  "atualizadoEm": "2026-11-27T21:04:34.753Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -915,6 +915,43 @@
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
+    },
+    {
+      "id": "azul fidelidade|25|pontos_dinheiro|2026-11-30",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 25,
+      "ate": "2026-11-30T21:00:17.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 15,
+      "custoMilheiro": 11.67,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",
+      "publicado": "2026-11-27T21:00:17.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/transamerica-resort-comandatuba-all-inclusive-com-mais-de-25-de-desconto-na-azul-viagens/",
+          "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",
+          "publicado": "2026-11-27T21:00:17.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 11,67 contra R$ 14,95 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null
     },
     {
       "id": "marriott bonvoy|x|acumulo|2027-01-15",
@@ -2732,14 +2769,14 @@
   "historico": {
     "Esfera -> Azul Fidelidade": {
       "maxPercentual": 120,
-      "campanhas": 4,
+      "campanhas": 5,
       "inicios": [
         "2026-11-19",
         "2026-11-24",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T17:16:54.000Z",
-      "mediaPercentual": 105,
+      "ultimaEm": "2026-11-27T21:00:17.000Z",
+      "mediaPercentual": 89,
       "previsao": {
         "pronta": false,
         "campanhas": 3,
