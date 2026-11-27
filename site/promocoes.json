@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T19:44:30.471Z",
+  "atualizadoEm": "2026-11-27T19:54:31.618Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1064,8 +1064,7 @@
       "tipoNome": "Acúmulo em loja parceira",
       "destino": "Livelo",
       "origens": [
-        "Livelo",
-        "Bradesco"
+        "Livelo"
       ],
       "percentual": null,
       "ate": "2026-11-27T23:59:00.000Z",
@@ -1077,8 +1076,8 @@
         "loja": "Insider"
       },
       "clube": null,
-      "titulo": "Bradesco lança nova versão do Amex The Platinum Card em metal com até 4 pontos por dólar",
-      "publicado": "2026-11-24T19:47:02.000Z",
+      "titulo": "Pink Hour Livelo! Acumule até 21 pontos por real gasto na Insider, Olympikus e mais parceiros",
+      "publicado": "2026-11-27T04:30:36.000Z",
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
