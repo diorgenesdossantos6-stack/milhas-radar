@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T11:34:31.225Z",
-  "totalAtivas": 55,
-  "totalCampanhasAtivas": 31,
+  "atualizadoEm": "2026-11-27T11:44:31.073Z",
+  "totalAtivas": 56,
+  "totalCampanhasAtivas": 32,
   "combinacoes": [
     {
       "id": "combo|livelo|57|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-29",
@@ -1957,6 +1957,35 @@
       }
     },
     {
+      "id": "esfera|x|acumulo|2026-11-30",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-30T11:30:21.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
+      "publicado": "2026-11-27T11:30:21.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas/",
+          "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
+          "publicado": "2026-11-27T11:30:21.000Z"
+        }
+      ]
+    },
+    {
       "id": "livelo|x|compra_pontos|2026-11-30",
       "tipo": "compra_pontos",
       "tipoNome": "Compra de pontos com desconto",
@@ -2343,6 +2372,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas",
+      "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
+      "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T11:30:21.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-30T11:30:21.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Blackíssima da Esfera! O programa está com uma série de ofertas especiais de Black Friday, permitindo que os clientes acumulem até 18 pontos por real gasto em mais de 40 lojas parceiras, incluindo marcas de diferentes categorias. Essa é uma excelente oportunidade para aproveitar as compras da Black Friday e turbinar seu saldo de pontos.…",
+      "coletadoEm": "2026-11-27T11:44:31.073Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/voe-lima-a-partir-29-mil-milhas-latam-pass-taxas-trecho",
       "titulo": "Voe para Lima a partir de 29 mil milhas LATAM Pass + taxas o trecho",

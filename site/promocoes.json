@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T11:34:31.225Z",
+  "atualizadoEm": "2026-11-27T11:44:31.073Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -809,6 +809,35 @@
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
+    },
+    {
+      "id": "esfera|x|acumulo|2026-11-30",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Esfera",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": null,
+      "ate": "2026-11-30T11:30:21.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 18,
+        "loja": null
+      },
+      "clube": null,
+      "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
+      "publicado": "2026-11-27T11:30:21.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas/",
+          "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
+          "publicado": "2026-11-27T11:30:21.000Z"
+        }
+      ]
     },
     {
       "id": "livelo|x|compra_pontos|2026-11-30",
