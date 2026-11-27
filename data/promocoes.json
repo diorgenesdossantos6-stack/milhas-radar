@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T12:44:30.468Z",
-  "totalAtivas": 59,
+  "atualizadoEm": "2026-11-27T12:54:31.394Z",
+  "totalAtivas": 60,
   "totalCampanhasAtivas": 33,
   "combinacoes": [
     {
@@ -43,8 +43,14 @@
         },
         {
           "papel": "transferência",
-          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
+          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
           "fontes": [
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
+              "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
+              "publicado": "2026-11-27T12:45:42.000Z"
+            },
             {
               "fonte": "Melhores Cartões",
               "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
@@ -1222,9 +1228,15 @@
       "custoMilheiro": 12.23,
       "acumulo": null,
       "clube": null,
-      "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
+      "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
       "publicado": "2026-11-24T13:40:42.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
+          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
+          "publicado": "2026-11-27T12:45:42.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
@@ -2463,6 +2475,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera",
+      "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
+      "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T12:45:42.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Esfera -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "[Oferta] Só hoje! O Azul Fidelidade está oferecendo até 90% de bônus nas transferências de pontos Esfera para assinantes do Clube Azul, além de até 30% extras conforme o tempo de adesão. A promoção é válida até às 23h59 de hoje (27) e pode render até 300.000 pontos bônus por CPF. O post Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera apareceu primeiro em Passageiro ",
+      "coletadoEm": "2026-11-27T12:54:31.394Z",
+      "nota": 100
+    },
     {
       "id": "melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
       "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
