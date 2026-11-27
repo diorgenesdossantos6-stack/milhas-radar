@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T13:04:31.077Z",
-  "totalAtivas": 62,
-  "totalCampanhasAtivas": 34,
+  "atualizadoEm": "2026-11-27T13:14:30.448Z",
+  "totalAtivas": 63,
+  "totalCampanhasAtivas": 35,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -814,13 +814,13 @@
     },
     "Livelo": {
       "maxPercentual": 57,
-      "campanhas": 3,
+      "campanhas": 4,
       "inicios": [
         "2026-11-20",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T12:00:45.000Z",
-      "mediaPercentual": 29,
+      "ultimaEm": "2026-11-27T13:08:37.000Z",
+      "mediaPercentual": 32,
       "previsao": {
         "pronta": false,
         "campanhas": 2,
@@ -1887,6 +1887,38 @@
       }
     },
     {
+      "id": "livelo|40|clube|2026-11-30",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 40,
+      "ate": "2026-11-30T13:08:37.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 24,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Oferta relâmpago na Livelo: voos para Portugal com 30% OFF e 40% de Points Back",
+      "publicado": "2026-11-27T13:08:37.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/oferta-relampago-na-livelo-voos-para-portugal-com-30-off-e-40-de-points-back/",
+          "titulo": "Oferta relâmpago na Livelo: voos para Portugal com 30% OFF e 40% de Points Back",
+          "publicado": "2026-11-27T13:08:37.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "latam pass|15|transferencia_bonificada|2026-11-29",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -2595,6 +2627,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/oferta-relampago-na-livelo-voos-para-portugal-com-30-off-e-40-de-points-back",
+      "titulo": "Oferta relâmpago na Livelo: voos para Portugal com 30% OFF e 40% de Points Back",
+      "link": "https://pontospravoar.com/oferta-relampago-na-livelo-voos-para-portugal-com-30-off-e-40-de-points-back/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T13:08:37.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": 40,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T13:08:37.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo lançou uma oferta especial para Portugal nesta Pink Friday, com 30% de desconto nas emissões de passagens aéreas e mais 40% dos pontos de volta para reservas realizadas pela CVC. A promoção é exclusiva para assinantes do Clube Livelo, utiliza o cupom PORTUGAL30 e fica disponível somente até o meio dia de hoje,…",
+      "coletadoEm": "2026-11-27T13:14:30.448Z",
+      "nota": 24
+    },
     {
       "id": "melhorescartoes.com.br/smiles-parceiros-80-bonus-nov26-2.html",
       "titulo": "Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
