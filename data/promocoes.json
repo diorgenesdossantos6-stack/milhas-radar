@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T20:24:31.847Z",
-  "totalAtivas": 79,
+  "atualizadoEm": "2026-11-27T20:34:31.350Z",
+  "totalAtivas": 80,
   "totalCampanhasAtivas": 41,
   "combinacoes": [
     {
@@ -2815,9 +2815,9 @@
       "fontes": [
         {
           "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/pink-friday-faca-upgrade-clube-livelo-especial-acumule-104-mil-pontos/",
-          "titulo": "Pink Friday! Faça o upgrade para o Clube Livelo Especial e acumule 104 mil pontos",
-          "publicado": "2026-11-27T19:30:29.000Z"
+          "link": "https://pontospravoar.com/pink-friday-clube-livelo-essencial-oferece-13-mil-pontos-primeiro-mes-assinatura/",
+          "titulo": "Pink Friday! Clube Livelo Essencial oferece 13 mil pontos no 1° mês de assinatura",
+          "publicado": "2026-11-27T20:30:53.000Z"
         },
         {
           "fonte": "Passageiro de Primeira",
@@ -3143,6 +3143,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/pink-friday-clube-livelo-essencial-oferece-13-mil-pontos-primeiro-mes-assinatura",
+      "titulo": "Pink Friday! Clube Livelo Essencial oferece 13 mil pontos no 1° mês de assinatura",
+      "link": "https://pontospravoar.com/pink-friday-clube-livelo-essencial-oferece-13-mil-pontos-primeiro-mes-assinatura/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T20:30:53.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Mais uma oferta de Pink Friday! A Livelo está com uma campanha especial de adesão ao Clube Livelo Essencial, permitindo que novos assinantes acumulem 24 mil pontos na modalidade anual, sendo 13 mil pontos creditados logo no primeiro mês de assinatura. A condição promocional é válida somente até 30 de novembro. Confira os valores, as…",
+      "coletadoEm": "2026-11-27T20:34:31.350Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/so-hoje-ganhe-ate-14-pontos-azul-fidelidade-por-real-gasto-na-renner",
       "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
