@@ -1,8 +1,66 @@
 {
-  "atualizadoEm": "2026-11-27T12:34:30.049Z",
-  "totalAtivas": 57,
+  "atualizadoEm": "2026-11-27T12:44:30.468Z",
+  "totalAtivas": 59,
   "totalCampanhasAtivas": 33,
   "combinacoes": [
+    {
+      "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
+      "origem": "Esfera",
+      "destino": "Azul Fidelidade",
+      "descontoCompra": 55,
+      "bonusTransferencia": 120,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "partes": [
+        {
+          "papel": "compra",
+          "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
+          "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
+              "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
+              "publicado": "2026-11-24T15:40:19.000Z"
+            },
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-24T14:59:17.000Z"
+            },
+            {
+              "fonte": "Cartões de Crédito",
+              "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-24T11:45:00.000Z"
+            }
+          ]
+        },
+        {
+          "papel": "transferência",
+          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
+          "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
+              "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
+              "publicado": "2026-11-27T12:35:46.000Z"
+            },
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/so-hoje-azul-fidelidade-ate-120-porcento-bonus-transferencia-pontos-esfera-azul-friday/",
+              "titulo": "Só hoje! Azul Fidelidade com até 120% de bônus na transferência de pontos Esfera na Azul Friday",
+              "publicado": "2026-11-27T12:33:12.000Z"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "combo|livelo|57|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-29",
       "origem": "Livelo",
@@ -493,11 +551,11 @@
   ],
   "erros": [],
   "historico": {
-    "Premmia -> Azul Fidelidade": {
+    "Esfera -> Azul Fidelidade": {
       "maxPercentual": 120,
       "campanhas": 2,
       "inicios": [
-        "2026-11-23",
+        "2026-11-19",
         "2026-11-24"
       ],
       "ultimaEm": "2026-11-24T13:40:42.000Z",
@@ -595,19 +653,19 @@
         "ultima": "2026-11-23"
       }
     },
-    "Esfera -> Azul Fidelidade": {
+    "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
       "campanhas": 1,
       "inicios": [
-        "2026-11-19"
+        "2026-11-23"
       ],
-      "ultimaEm": "2026-11-19T11:32:50.000Z",
+      "ultimaEm": "2026-11-23T19:03:49.000Z",
       "mediaPercentual": 120,
       "previsao": {
         "pronta": false,
         "campanhas": 1,
         "faltam": 4,
-        "ultima": "2026-11-19"
+        "ultima": "2026-11-23"
       }
     },
     "Premmia -> Smiles": {
@@ -1153,30 +1211,31 @@
       "tipoNome": "Transferência bonificada",
       "destino": "Azul Fidelidade",
       "origens": [
+        "Esfera",
         "Premmia",
         "Inter"
       ],
       "percentual": 120,
-      "ate": "2026-11-27T19:30:26.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 95,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 100,
       "custoMilheiro": 12.23,
       "acumulo": null,
       "clube": null,
-      "titulo": "Transfira pontos do Premmia para o Azul Fidelidade com até 120% de bônus",
+      "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
       "publicado": "2026-11-24T13:40:42.000Z",
       "fontes": [
         {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/transfira-pontos-premmia-azul-fidelidade-ate-120-porcento-bonus/",
-          "titulo": "Transfira pontos do Premmia para o Azul Fidelidade com até 120% de bônus",
-          "publicado": "2026-11-24T19:30:26.000Z"
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
+          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
+          "publicado": "2026-11-27T12:35:46.000Z"
         },
         {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/inter-azul-pontos-dinheiro-120-bonus-nov26.html",
-          "titulo": "Inter e Azul – envie pontos mais dinheiro com bônus e consiga milheiro a partir de R$ 12,23",
-          "publicado": "2026-11-24T13:40:42.000Z"
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/so-hoje-azul-fidelidade-ate-120-porcento-bonus-transferencia-pontos-esfera-azul-friday/",
+          "titulo": "Só hoje! Azul Fidelidade com até 120% de bônus na transferência de pontos Esfera na Azul Friday",
+          "publicado": "2026-11-27T12:33:12.000Z"
         }
       ],
       "referencia": {
@@ -2404,6 +2463,60 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
+      "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
+      "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-27T12:35:46.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Esfera -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "O Azul Fidelidade está oferecendo até 120% de bônus nas transferências de pontos Esfera. A promoção vale somente hoje, 27 de novembro. Para aproveitar, você precisa fazer o cadastro na página da promoção (clique aqui) antes de fazer a transferência. Confira como o bônus está sendo distribuído: O bônus adicional por tempo de clube (até… O post Só hoje! Azul Fidelidade oferece até 120% de bônus na t",
+      "coletadoEm": "2026-11-27T12:44:30.468Z",
+      "nota": 100
+    },
+    {
+      "id": "pontospravoar.com/so-hoje-azul-fidelidade-ate-120-porcento-bonus-transferencia-pontos-esfera-azul-friday",
+      "titulo": "Só hoje! Azul Fidelidade com até 120% de bônus na transferência de pontos Esfera na Azul Friday",
+      "link": "https://pontospravoar.com/so-hoje-azul-fidelidade-ate-120-porcento-bonus-transferencia-pontos-esfera-azul-friday/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T12:33:12.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Esfera -> Azul Fidelidade",
+      "percentual": 120,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "Apenas hoje! Em mais uma oferta da Azul Friday, o Azul Fidelidade está oferecendo aos seus clientes até 120% de bônus na transferência de pontos da Esfera. Abaixo, confira os principais detalhes e não deixe para a última hora. Promoção Azul Fidelidade e Esfera com até 120% de bônus Para esta campanha, a bonificação está…",
+      "coletadoEm": "2026-11-27T12:44:30.468Z",
+      "nota": 100
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
       "titulo": "Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho",
