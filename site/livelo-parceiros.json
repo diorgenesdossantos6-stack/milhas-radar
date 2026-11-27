@@ -1,10 +1,10 @@
 {
-  "atualizadoEm": "2026-11-27T16:54:30.370Z",
-  "lidoEm": "2026-11-27T16:54:30.370Z",
+  "atualizadoEm": "2026-11-27T17:04:32.328Z",
+  "lidoEm": "2026-11-27T17:04:32.328Z",
   "fonte": "https://www.livelo.com.br/ofertas",
   "ok": true,
-  "total": 103,
-  "emCampanha": 103,
+  "total": 102,
+  "emCampanha": 102,
   "parceiros": [
     {
       "id": "ALB",
@@ -656,27 +656,6 @@
       "de": "2026-11-27T03:00:00.000Z",
       "ate": "2026-11-30T02:59:00.000Z",
       "regras": "Campanha válida de 27 a 29/11/2026. Ganhe 10 pontos por real gasto, exclusivo para assinantes do Clube Livelo e 6 pontos por real demais clientes. Utilize o cupom LIVELO. Consulte o regulamento."
-    },
-    {
-      "id": "CEA",
-      "loja": "CEA",
-      "link": "https://livelo.com.br/juntar-pontos/parceiros/cea/CEA",
-      "categorias": [
-        "saudeebeleza",
-        "modaebeleza",
-        "casa",
-        "modaeacessorios",
-        "infantil",
-        "esporteelazer"
-      ],
-      "pontosPorReal": 10,
-      "pontosClube": 10,
-      "pontosNormal": 2,
-      "multiplicador": 5,
-      "emCampanha": true,
-      "de": "2026-11-27T15:30:00.000Z",
-      "ate": "2026-11-27T17:00:00.000Z",
-      "regras": "Campanha válida da 00h00 às 14h00, horário de Brasília, do dia 27/11/2026. Ganhe 10 pontos por real gasto. Pontuação elegível a utilização de cupons promocionais. Consulte o regulamento."
     },
     {
       "id": "ABC",
