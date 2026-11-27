@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T21:14:29.506Z",
-  "totalAtivas": 82,
-  "totalCampanhasAtivas": 42,
+  "atualizadoEm": "2026-11-27T21:24:29.201Z",
+  "totalAtivas": 83,
+  "totalCampanhasAtivas": 43,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1152,6 +1152,21 @@
         "faltam": 3,
         "ultima": "2026-11-20"
       }
+    },
+    "Livelo -> Azul Fidelidade": {
+      "maxPercentual": 22,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-27"
+      ],
+      "ultimaEm": "2026-11-27T21:20:16.000Z",
+      "mediaPercentual": 22,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-27"
+      }
     }
   },
   "observacoes": [
@@ -2209,6 +2224,38 @@
       }
     },
     {
+      "id": "azul fidelidade|22|acumulo|2026-11-27",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 22,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 28,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
+      "publicado": "2026-11-27T21:20:16.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/confira-as-melhores-ofertas-da-black-friday-que-seguem-valendo/",
+          "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
+          "publicado": "2026-11-27T21:20:16.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "latam pass|25|transferencia_bonificada|2026-11-29",
       "tipo": "transferencia_bonificada",
       "tipoNome": "Transferência bonificada",
@@ -3186,6 +3233,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/confira-as-melhores-ofertas-da-black-friday-que-seguem-valendo",
+      "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
+      "link": "https://passageirodeprimeira.com/confira-as-melhores-ofertas-da-black-friday-que-seguem-valendo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T21:20:16.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Livelo -> Azul Fidelidade",
+      "percentual": 22,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Black Friday do PP continua com ofertas imperdíveis! A Livelo está oferecendo até 16 pontos por real gasto na Centauro até 27/11/2026, e a Azul Viagens prorrogou o desconto de 22% com o cupom ESPECIALPP para reservas até 26/11/2026. Além disso, ao assinar o Clube Livelo Premium, você pode acumular até 392.000 pontos em um ano. O post Confira as melhores ofertas da Black Friday que seguem valendo",
+      "coletadoEm": "2026-11-27T21:24:29.201Z",
+      "nota": 28
+    },
     {
       "id": "passageirodeprimeira.com/transamerica-resort-comandatuba-all-inclusive-com-mais-de-25-de-desconto-na-azul-viagens",
       "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",

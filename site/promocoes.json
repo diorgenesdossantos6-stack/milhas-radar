@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T21:14:29.506Z",
+  "atualizadoEm": "2026-11-27T21:24:29.201Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -698,6 +698,38 @@
         "min": 18,
         "max": 29.18,
         "mediana": 24.3,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "azul fidelidade|22|acumulo|2026-11-27",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 22,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 28,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
+      "publicado": "2026-11-27T21:20:16.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/confira-as-melhores-ofertas-da-black-friday-que-seguem-valendo/",
+          "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
+          "publicado": "2026-11-27T21:20:16.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
@@ -3129,6 +3161,21 @@
         "campanhas": 2,
         "faltam": 3,
         "ultima": "2026-11-20"
+      }
+    },
+    "Livelo -> Azul Fidelidade": {
+      "maxPercentual": 22,
+      "campanhas": 1,
+      "inicios": [
+        "2026-11-27"
+      ],
+      "ultimaEm": "2026-11-27T21:20:16.000Z",
+      "mediaPercentual": 22,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 1,
+        "faltam": 4,
+        "ultima": "2026-11-27"
       }
     }
   },
