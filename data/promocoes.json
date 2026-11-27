@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T02:04:31.342Z",
+  "atualizadoEm": "2026-11-27T02:14:30.176Z",
   "totalAtivas": 46,
   "totalCampanhasAtivas": 27,
   "combinacoes": [],
@@ -408,9 +408,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "This operation was aborted"
-  ],
+  "erros": [],
   "historico": {
     "Premmia -> Azul Fidelidade": {
       "maxPercentual": 120,
