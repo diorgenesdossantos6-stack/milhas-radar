@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T20:34:31.350Z",
-  "totalAtivas": 80,
+  "atualizadoEm": "2026-11-27T20:44:35.622Z",
+  "totalAtivas": 81,
   "totalCampanhasAtivas": 41,
   "combinacoes": [
     {
@@ -2577,13 +2577,19 @@
       "nota": 5,
       "custoMilheiro": null,
       "acumulo": {
-        "porReal": null,
+        "porReal": 14,
         "loja": "Renner"
       },
       "clube": null,
       "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
       "publicado": "2026-11-27T20:00:54.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner/",
+          "titulo": "Somente hoje! Azul Fidelidade oferece até 14 pontos por real na Renner",
+          "publicado": "2026-11-27T20:40:37.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/so-hoje-ganhe-ate-14-pontos-azul-fidelidade-por-real-gasto-na-renner/",
@@ -3143,6 +3149,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner",
+      "titulo": "Somente hoje! Azul Fidelidade oferece até 14 pontos por real na Renner",
+      "link": "https://passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T20:40:37.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": "Renner"
+      },
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "[Oferta] Muito bom! O Azul Fidelidade está oferecendo até 14 pontos por real gasto em compras na Renner, mas atenção: a promoção é válida somente até 23h59 de hoje (27). Assinantes do Clube Azul acumulam 14 pontos, enquanto os clientes comuns ganham 8 pontos por real. O post Somente hoje! Azul Fidelidade oferece até 14 pontos por real na Renner apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-27T20:44:35.622Z",
+      "nota": 5
+    },
     {
       "id": "pontospravoar.com/pink-friday-clube-livelo-essencial-oferece-13-mil-pontos-primeiro-mes-assinatura",
       "titulo": "Pink Friday! Clube Livelo Essencial oferece 13 mil pontos no 1° mês de assinatura",

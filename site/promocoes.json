@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T20:34:31.350Z",
+  "atualizadoEm": "2026-11-27T20:44:35.622Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1070,13 +1070,19 @@
       "nota": 5,
       "custoMilheiro": null,
       "acumulo": {
-        "porReal": null,
+        "porReal": 14,
         "loja": "Renner"
       },
       "clube": null,
       "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
       "publicado": "2026-11-27T20:00:54.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner/",
+          "titulo": "Somente hoje! Azul Fidelidade oferece até 14 pontos por real na Renner",
+          "publicado": "2026-11-27T20:40:37.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/so-hoje-ganhe-ate-14-pontos-azul-fidelidade-por-real-gasto-na-renner/",
