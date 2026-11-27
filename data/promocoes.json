@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T03:34:32.489Z",
-  "totalAtivas": 49,
-  "totalCampanhasAtivas": 29,
+  "atualizadoEm": "2026-11-27T03:44:35.279Z",
+  "totalAtivas": 50,
+  "totalCampanhasAtivas": 30,
   "combinacoes": [
     {
       "id": "combo|livelo|57|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-29",
@@ -1056,6 +1056,17 @@
       "link": "https://www.melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html",
       "fonte": "Melhores Cartões",
       "id": "melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html"
+    },
+    {
+      "em": "2026-11-27T03:40:55.000Z",
+      "valor": 29.13,
+      "tipo": "compra_pontos",
+      "programa": "Livelo",
+      "destino": null,
+      "titulo": "Livelo oferece até 57,1 % de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,13",
+      "link": "https://passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913/",
+      "fonte": "Passageiro de Primeira",
+      "id": "passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913"
     }
   ],
   "regua": {
@@ -1879,6 +1890,43 @@
       "teto": null
     },
     {
+      "id": "livelo|x|compra_pontos|2026-11-30",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-30T03:40:55.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": 29.13,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Livelo oferece até 57,1 % de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,13",
+      "publicado": "2026-11-27T03:40:55.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913/",
+          "titulo": "Livelo oferece até 57,1 % de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,13",
+          "publicado": "2026-11-27T03:40:55.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Não vale",
+      "motivo": "sai mais caro do que a referência de mercado",
+      "baseVeredito": "cotacao",
+      "teto": null
+    },
+    {
       "id": "livelo|x|clube|2026-11-30",
       "tipo": "clube",
       "tipoNome": "Clube / assinatura",
@@ -2261,6 +2309,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913",
+      "titulo": "Livelo oferece até 57,1 % de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,13",
+      "link": "https://passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T03:40:55.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": 29.13,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T03:40:55.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Oportunidade para quem está precisando completar o saldo na Livelo 💳 Até 4h desta sexta-feira (27), o programa está oferecendo até 57,1% de desconto na compra de pontos para assinantes do Clube. A campanha conta com o parcelamento em até 12x sem juros para compras acima de R$ 240,00 e também oferta 3% de desconto extra no pagamento feito via Pix. O post Livelo oferece até 57,1 % de desconto na co",
+      "coletadoEm": "2026-11-27T03:44:35.279Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html",
       "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
