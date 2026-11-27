@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T19:24:31.505Z",
+  "atualizadoEm": "2026-11-27T19:34:31.729Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -7,8 +7,7 @@
       "tipoNome": "Transferência bonificada",
       "destino": "Azul Fidelidade",
       "origens": [
-        "Esfera",
-        "Premmia"
+        "Esfera"
       ],
       "percentual": 120,
       "ate": "2026-11-27T23:59:00.000Z",
@@ -18,7 +17,7 @@
       "acumulo": null,
       "clube": null,
       "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-      "publicado": "2026-11-24T19:30:26.000Z",
+      "publicado": "2026-11-27T12:33:12.000Z",
       "fontes": [
         {
           "fonte": "Melhores Destinos",
@@ -1158,6 +1157,12 @@
       "publicado": "2026-11-27T18:00:33.000Z",
       "fontes": [
         {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-magalu-renner-14-pontos-nov26.html",
+          "titulo": "Azul Fidelidade oferece até 14 pontos por real em compras no Magalu e Renner",
+          "publicado": "2026-11-27T19:25:00.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-14-pontos-real-gasto-magalu/",
           "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
@@ -1269,6 +1274,12 @@
       "titulo": "Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92",
       "publicado": "2026-11-27T03:04:00.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-faca-upgrade-clube-livelo-especial-acumule-104-mil-pontos/",
+          "titulo": "Pink Friday! Faça o upgrade para o Clube Livelo Especial e acumule 104 mil pontos",
+          "publicado": "2026-11-27T19:30:29.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/receba-10-000-pontos-livelo-ao-assinar-o-clube-mini-por-apenas-r-2490-por-mes/",

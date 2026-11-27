@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T19:24:31.505Z",
-  "totalAtivas": 77,
+  "atualizadoEm": "2026-11-27T19:34:31.729Z",
+  "totalAtivas": 78,
   "totalCampanhasAtivas": 40,
   "combinacoes": [
     {
@@ -1514,8 +1514,7 @@
       "tipoNome": "Transferência bonificada",
       "destino": "Azul Fidelidade",
       "origens": [
-        "Esfera",
-        "Premmia"
+        "Esfera"
       ],
       "percentual": 120,
       "ate": "2026-11-27T23:59:00.000Z",
@@ -1525,7 +1524,7 @@
       "acumulo": null,
       "clube": null,
       "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-      "publicado": "2026-11-24T19:30:26.000Z",
+      "publicado": "2026-11-27T12:33:12.000Z",
       "fontes": [
         {
           "fonte": "Melhores Destinos",
@@ -2665,6 +2664,12 @@
       "publicado": "2026-11-27T18:00:33.000Z",
       "fontes": [
         {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/azul-magalu-renner-14-pontos-nov26.html",
+          "titulo": "Azul Fidelidade oferece até 14 pontos por real em compras no Magalu e Renner",
+          "publicado": "2026-11-27T19:25:00.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-14-pontos-real-gasto-magalu/",
           "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
@@ -2776,6 +2781,12 @@
       "titulo": "Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92",
       "publicado": "2026-11-27T03:04:00.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-faca-upgrade-clube-livelo-especial-acumule-104-mil-pontos/",
+          "titulo": "Pink Friday! Faça o upgrade para o Clube Livelo Especial e acumule 104 mil pontos",
+          "publicado": "2026-11-27T19:30:29.000Z"
+        },
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/receba-10-000-pontos-livelo-ao-assinar-o-clube-mini-por-apenas-r-2490-por-mes/",
@@ -3100,6 +3111,59 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/pink-friday-faca-upgrade-clube-livelo-especial-acumule-104-mil-pontos",
+      "titulo": "Pink Friday! Faça o upgrade para o Clube Livelo Especial e acumule 104 mil pontos",
+      "link": "https://pontospravoar.com/pink-friday-faca-upgrade-clube-livelo-especial-acumule-104-mil-pontos/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T19:30:29.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T19:30:29.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo está com uma oferta especial de upgrade para o Clube Livelo Especial, permitindo que os clientes acumulem 104 mil pontos, tanto na modalidade anual quanto na mensal. A campanha é uma oportunidade para quem deseja migrar de plano e turbinar seu saldo de pontos durante a Black Friday. Confira os valores, as condições…",
+      "coletadoEm": "2026-11-27T19:34:31.729Z",
+      "nota": 0
+    },
+    {
+      "id": "melhorescartoes.com.br/azul-magalu-renner-14-pontos-nov26.html",
+      "titulo": "Azul Fidelidade oferece até 14 pontos por real em compras no Magalu e Renner",
+      "link": "https://www.melhorescartoes.com.br/azul-magalu-renner-14-pontos-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-27T19:25:00.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": "Magalu"
+      },
+      "clube": null,
+      "ate": "2026-11-30T19:25:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Fidelidade está com duas ofertas para turbinar o saldo de pontos em compras nas lojas Magalu e Renner. Boa oportunidade para garantir os presentes de Natal e amigo secreto. Confira os detalhes a seguir. Importante! Para receber a pontuação máxima, a adesão ao Clube Azul deve ter sido feita até 24 horas antes… O post Azul Fidelidade oferece até 14 pontos por real em compras no Magalu e Renne",
+      "coletadoEm": "2026-11-27T19:34:31.729Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas",
       "titulo": "Alerta de passagens PPV: Smiles tem resgates a partir de apenas 3.400 milhas!",
