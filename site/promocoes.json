@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:54:28.483Z",
+  "atualizadoEm": "2026-11-27T19:04:35.484Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1984,6 +1984,23 @@
   ],
   "passagens": [
     {
+      "id": "pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas",
+      "titulo": "Alerta de passagens PPV: Smiles tem resgates a partir de apenas 3.400 milhas!",
+      "link": "https://pontospravoar.com/alerta-passagens-ppv-smiles-resgates-apenas-3400-milhas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-27T19:00:23.000Z",
+      "ate": "2026-11-30T19:00:23.000Z",
+      "dinheiro": null,
+      "milhas": 3400,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Smiles Resgates Apenas",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-taag-joanesburgo-pontos-azul-nov26",
       "titulo": "África com bagagem! Passagens para Joanesburgo a partir de R$ 824 ou 67 mil pontos Azul o trecho mais taxas",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-taag-joanesburgo-pontos-azul-nov26",
@@ -2358,22 +2375,6 @@
       "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-sao-rio-ssa-latam-bf-nov26",
-      "titulo": "Mega Promo Latam Pass tem voos de São Paulo ou do Rio para Salvador a partir de 9 mil milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-rio-ssa-latam-bf-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T19:22:47.000Z",
-      "ate": "2026-11-29T19:22:47.000Z",
-      "dinheiro": null,
-      "milhas": 9000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Salvador",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "regua": {
