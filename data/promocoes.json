@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T02:54:30.153Z",
-  "totalAtivas": 46,
-  "totalCampanhasAtivas": 27,
+  "atualizadoEm": "2026-11-27T03:04:30.828Z",
+  "totalAtivas": 47,
+  "totalCampanhasAtivas": 28,
   "combinacoes": [],
   "passagens": [
     {
@@ -941,6 +941,17 @@
       "link": "https://www.melhorescartoes.com.br/clube-smiles-14k-milhas-hora-cupom-bf-nov26.html",
       "fonte": "Melhores Cartões",
       "id": "melhorescartoes.com.br/clube-smiles-14k-milhas-hora-cupom-bf-nov26.html"
+    },
+    {
+      "em": "2026-11-27T03:04:00.000Z",
+      "valor": 23.92,
+      "tipo": "clube",
+      "programa": "Livelo",
+      "destino": null,
+      "titulo": "Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92",
+      "link": "https://passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392/",
+      "fonte": "Passageiro de Primeira",
+      "id": "passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392"
     }
   ],
   "regua": {
@@ -1727,6 +1738,57 @@
       "teto": null
     },
     {
+      "id": "livelo|x|clube|2026-11-30",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": null,
+      "ate": "2026-11-30T03:04:00.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 0,
+      "custoMilheiro": 23.92,
+      "acumulo": null,
+      "clube": {
+        "milheiro": 23.92,
+        "origem": "publicado na matéria",
+        "veredito": "nao vale",
+        "rotulo": "Caro",
+        "motivo": "milheiro a R$ 23,92 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+        "base": "clube",
+        "regua": {
+          "valor": 18.9,
+          "base": "mercado",
+          "amostras": 0,
+          "texto": "base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%"
+        },
+        "programa": "Livelo"
+      },
+      "titulo": "Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92",
+      "publicado": "2026-11-27T03:04:00.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392/",
+          "titulo": "Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92",
+          "publicado": "2026-11-27T03:04:00.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Caro",
+      "motivo": "milheiro a R$ 23,92 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+      "baseVeredito": "clube",
+      "teto": null
+    },
+    {
       "id": "livelo|x|acumulo|2026-11-29",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2052,6 +2114,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392",
+      "titulo": "Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92",
+      "link": "https://passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T03:04:00.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": 23.92,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T03:04:00.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Oferta] Muito bom! O Clube Livelo Premium está oferecendo até 112.000 pontos bônus em novas assinaturas, totalizando até 392.000 pontos ao longo de 12 meses, com milheiro a partir de R$ 23,92. A promoção é válida até segunda-feira (30) e inclui planos mensais e anuais. O post Receba até 392.000 pontos ao assinar o Clube Livelo Premium - Milheiro a partir de R$ 23,92 apareceu primeiro em Passageir",
+      "coletadoEm": "2026-11-27T03:04:30.828Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-jnb-latam-bf-nov26",
       "titulo": "África do Sul! Latam tem voos diretos de São Paulo para Joanesburgo por 47 mil milhas o trecho",
