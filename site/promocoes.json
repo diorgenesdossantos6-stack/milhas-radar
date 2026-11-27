@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T17:34:31.713Z",
+  "atualizadoEm": "2026-11-27T17:44:32.405Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -853,6 +853,38 @@
         "cadencia": 60,
         "desde": 1,
         "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "livelo|30|clube|2026-11-30",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 30,
+      "ate": "2026-11-30T17:37:24.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 18,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Livelo oferece 30% de desconto no resgate de passagens em Classe Executiva",
+      "publicado": "2026-11-27T17:37:24.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/livelo-oferece-30-de-desconto-no-resgate-de-passagens-em-classe-executiva-4/",
+          "titulo": "Livelo oferece 30% de desconto no resgate de passagens em Classe Executiva",
+          "publicado": "2026-11-27T17:37:24.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
     {
@@ -1915,6 +1947,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/smiles-orange-friday-resgate-nov26",
+      "titulo": "Orange Friday! Smiles tem voos promocionais a partir de 3.500 milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/smiles-orange-friday-resgate-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-27T17:44:23.000Z",
+      "ate": "2026-11-30T17:44:23.000Z",
+      "dinheiro": null,
+      "milhas": 3500,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "passageirodeprimeira.com/voe-para-amsterdam-a-partir-de-52-393-milhas-latam-pass-taxas-o-trecho",
       "titulo": "Voe para Amsterdam a partir de 52.393 milhas LATAM Pass + taxas o trecho",
       "link": "https://passageirodeprimeira.com/voe-para-amsterdam-a-partir-de-52-393-milhas-latam-pass-taxas-o-trecho/",
@@ -2295,22 +2343,6 @@
       "comMilhas": false,
       "cabine": "Economy",
       "trechoDe": "companhia"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/black-friday-latam-passagens-nacionais-267",
-      "titulo": "Black Friday Latam no ar! Passagens aéreas nacionais a partir de R$ 267 ida e volta – opções para 55 destinos",
-      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-passagens-nacionais-267",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T18:55:23.000Z",
-      "ate": "2026-11-29T18:55:23.000Z",
-      "dinheiro": 267,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": true
     }
   ],
   "regua": {
@@ -2838,12 +2870,12 @@
     },
     "Livelo": {
       "maxPercentual": 57,
-      "campanhas": 4,
+      "campanhas": 5,
       "inicios": [
         "2026-11-20",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T13:08:37.000Z",
+      "ultimaEm": "2026-11-27T17:37:24.000Z",
       "mediaPercentual": 32,
       "previsao": {
         "pronta": false,
