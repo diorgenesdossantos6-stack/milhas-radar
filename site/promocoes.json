@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T03:54:32.681Z",
+  "atualizadoEm": "2026-11-27T04:04:31.561Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -934,11 +934,20 @@
       "confiancaPrazo": "alta",
       "nota": 0,
       "custoMilheiro": null,
-      "acumulo": null,
+      "acumulo": {
+        "porReal": 21,
+        "loja": null
+      },
       "clube": null,
       "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
       "publicado": "2026-11-26T18:00:55.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/pink-friday-livelo-black-friday-nov26.html",
+          "titulo": "Festival de Pontos! Pink Friday Livelo tem ofertas de até 21 pontos por real em mais de 60 lojas parceiras",
+          "publicado": "2026-11-27T03:59:42.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds/",

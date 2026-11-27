@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T03:54:32.681Z",
-  "totalAtivas": 50,
+  "atualizadoEm": "2026-11-27T04:04:31.561Z",
+  "totalAtivas": 51,
   "totalCampanhasAtivas": 30,
   "combinacoes": [
     {
@@ -2079,11 +2079,20 @@
       "confiancaPrazo": "alta",
       "nota": 0,
       "custoMilheiro": null,
-      "acumulo": null,
+      "acumulo": {
+        "porReal": 21,
+        "loja": null
+      },
       "clube": null,
       "titulo": "Prorrogou! Ganhe 10 pontos Livelo por real gasto em combo promocional do McDonald's",
       "publicado": "2026-11-26T18:00:55.000Z",
       "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/pink-friday-livelo-black-friday-nov26.html",
+          "titulo": "Festival de Pontos! Pink Friday Livelo tem ofertas de até 21 pontos por real em mais de 60 lojas parceiras",
+          "publicado": "2026-11-27T03:59:42.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/prorrogou-ganhe-10-pontos-livelo-real-gasto-combo-promocional-mcdonalds/",
@@ -2309,6 +2318,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/pink-friday-livelo-black-friday-nov26.html",
+      "titulo": "Festival de Pontos! Pink Friday Livelo tem ofertas de até 21 pontos por real em mais de 60 lojas parceiras",
+      "link": "https://www.melhorescartoes.com.br/pink-friday-livelo-black-friday-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-27T03:59:42.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 21,
+        "loja": null
+      },
+      "clube": null,
+      "ate": "2026-11-30T03:59:42.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Boa noite para quem é de boa noite! A Black Friday oficial finalmente chegou e já tem oferta de Pink Friday para você acumular pontos! Começou o Festival de Pontos Livelo com ofertas que oferecem até 21 pontos por real em mais de 60 parceiros. A campanha acontece até o próximo domingo, 29 de novembro.… O post Festival de Pontos! Pink Friday Livelo tem ofertas de até 21 pontos por real em mais de 6",
+      "coletadoEm": "2026-11-27T04:04:31.561Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913",
       "titulo": "Livelo oferece até 57,1 % de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,13",
