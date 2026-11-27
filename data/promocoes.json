@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T15:54:32.114Z",
-  "totalAtivas": 70,
+  "atualizadoEm": "2026-11-27T16:04:30.812Z",
+  "totalAtivas": 71,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
     {
@@ -2713,6 +2713,12 @@
       "publicado": "2026-11-26T18:00:55.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/festival-pontos-livelo-ganhe-ate-16-pontos-por-real-gasto-centauro-mais-parceiros/",
+          "titulo": "Festival de Pontos Livelo! Ganhe até 16 pontos por real gasto na Centauro e mais parceiros",
+          "publicado": "2026-11-27T16:03:26.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-21-pontos-real-gasto-mais-130-parceiros/",
           "titulo": "Pink Friday! Livelo oferece até 21 pontos por real gasto em mais de 130 parceiros",
@@ -2901,6 +2907,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/festival-pontos-livelo-ganhe-ate-16-pontos-por-real-gasto-centauro-mais-parceiros",
+      "titulo": "Festival de Pontos Livelo! Ganhe até 16 pontos por real gasto na Centauro e mais parceiros",
+      "link": "https://passageirodeprimeira.com/festival-pontos-livelo-ganhe-ate-16-pontos-por-real-gasto-centauro-mais-parceiros/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T16:03:26.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 16,
+        "loja": "Centauro"
+      },
+      "clube": null,
+      "ate": "2026-11-30T16:03:26.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo está oferecendo até 16 pontos por real gasto na Centauro e mais parceiros para assinantes do Clube Livelo. As ofertas contam com pontuações e validades diferentes. Confira! O post Festival de Pontos Livelo! Ganhe até 16 pontos por real gasto na Centauro e mais parceiros apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-27T16:04:30.812Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/orange-friday-smiles-confira-as-principais-ofertas-de-milhas-passagens-e-bonus",
       "titulo": "Orange Friday Smiles: confira as principais ofertas de milhas, passagens e bônus",
