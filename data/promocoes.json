@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T22:24:31.163Z",
+  "atualizadoEm": "2026-11-27T22:34:31.293Z",
   "totalAtivas": 85,
   "totalCampanhasAtivas": 43,
   "combinacoes": [
@@ -394,6 +394,23 @@
   ],
   "passagens": [
     {
+      "id": "pontospravoar.com/alerta-de-passagens-ppv-confira-10-resgates-a-partir-de-3-500-pontos-azul-fidelidade",
+      "titulo": "Alerta de passagens PPV: Confira 10 resgates a partir de 3.500 pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-de-passagens-ppv-confira-10-resgates-a-partir-de-3-500-pontos-azul-fidelidade/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-27T22:30:14.000Z",
+      "ate": "2026-11-30T22:30:14.000Z",
+      "dinheiro": null,
+      "milhas": 3500,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Confira",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-bh-minas-nov26",
       "titulo": "BH na Mega Promo! Voos da Latam para Belo Horizonte a partir de 3.893 milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-bh-minas-nov26",
@@ -766,23 +783,6 @@
       "destino": "Barbados No Caribe",
       "idaEVolta": true,
       "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
-      "titulo": "África do Sul 🇿🇦 Mega Promo Latam tem voos para Joanesburgo ou Cidade do Cabo a partir de R$ 3.564 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T21:02:37.000Z",
-      "ate": "2026-11-29T21:02:37.000Z",
-      "dinheiro": 3564,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Mega Promo Latam Africa do Sul",
-      "idaEVolta": true,
-      "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
     }
@@ -3244,6 +3244,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-de-passagens-ppv-confira-10-resgates-a-partir-de-3-500-pontos-azul-fidelidade",
+      "titulo": "Alerta de passagens PPV: Confira 10 resgates a partir de 3.500 pontos Azul Fidelidade",
+      "link": "https://pontospravoar.com/alerta-de-passagens-ppv-confira-10-resgates-a-partir-de-3-500-pontos-azul-fidelidade/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T22:30:14.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 3500,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T22:30:14.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Alerta de passagens PPV encerrando esta sexta-feira com as melhores ofertas da Azul Friday. Trouxemos 10 sugestões de resgate no programa Azul Fidelidade a partir de 3.500 pontos + taxas. Confira! Passagens nacionais com pontos Azul Fidelidade Atenção: A busca dessas emissões foi realizada no momento da produção do artigo, podendo haver alteração no valor…",
+      "coletadoEm": "2026-11-27T22:34:31.293Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/compre-pontos-blackissima-esfera-ate-55-porcento-desconto-cupom-ppv",
       "titulo": "Compre pontos na Blackíssima da Esfera com até 55% de desconto com o cupom do PPV",
