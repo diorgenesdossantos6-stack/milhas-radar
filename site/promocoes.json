@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T17:14:32.928Z",
+  "atualizadoEm": "2026-11-27T17:24:32.365Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -362,6 +362,48 @@
       "motivo": "90% contra um teto de 120% nessa rota",
       "baseVeredito": "teto",
       "teto": 120,
+      "esperar": {
+        "cadencia": 60,
+        "desde": 0,
+        "texto": "costuma repetir a cada 60 dias"
+      }
+    },
+    {
+      "id": "azul fidelidade|90|transferencia_bonificada|2026-11-30",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "destino": "Azul Fidelidade",
+      "origens": [
+        "Esfera"
+      ],
+      "percentual": 90,
+      "ate": "2026-11-30T17:16:54.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 64,
+      "custoMilheiro": 11.67,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Transfira pontos Esfera + dinheiro para Azul - milheiro a partir de R$ 11,67",
+      "publicado": "2026-11-27T17:16:54.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/transfira-pontos-esfera-dinheiro-para-azul-milheiro-a-partir-de-r-1167/",
+          "titulo": "Transfira pontos Esfera + dinheiro para Azul - milheiro a partir de R$ 11,67",
+          "publicado": "2026-11-27T17:16:54.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "vale",
+      "rotulo": "Vale a pena",
+      "motivo": "milheiro R$ 11,67 contra R$ 14,95 de referência",
+      "baseVeredito": "cotacao",
+      "teto": null,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -1773,6 +1815,58 @@
       ]
     },
     {
+      "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|90|transferencia_bonificada|2026-11-30",
+      "origem": "Esfera",
+      "destino": "Azul Fidelidade",
+      "descontoCompra": 55,
+      "bonusTransferencia": 90,
+      "ate": "2026-11-30T17:16:54.000Z",
+      "partes": [
+        {
+          "papel": "compra",
+          "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
+          "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
+              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
+              "publicado": "2026-11-24T18:36:27.000Z"
+            },
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
+              "titulo": "Blackíssima! Compre pontos Esfera com até 55% de desconto com o cupom do PPV",
+              "publicado": "2026-11-24T15:40:19.000Z"
+            },
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-24T14:59:17.000Z"
+            },
+            {
+              "fonte": "Cartões de Crédito",
+              "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+              "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
+              "publicado": "2026-11-24T11:45:00.000Z"
+            }
+          ]
+        },
+        {
+          "papel": "transferência",
+          "titulo": "Transfira pontos Esfera + dinheiro para Azul - milheiro a partir de R$ 11,67",
+          "fontes": [
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/transfira-pontos-esfera-dinheiro-para-azul-milheiro-a-partir-de-r-1167/",
+              "titulo": "Transfira pontos Esfera + dinheiro para Azul - milheiro a partir de R$ 11,67",
+              "publicado": "2026-11-27T17:16:54.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "combo|livelo|57|compra_pontos|2026-11-30|latam pass|25|transferencia_bonificada|2026-11-28",
       "origem": "Livelo",
       "destino": "Latam Pass",
@@ -2511,19 +2605,28 @@
       "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
       "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
       "fonte": "Melhores Destinos"
+    },
+    {
+      "em": "2026-11-27T17:16:54.000Z",
+      "valor": 11.67,
+      "tipo": "transferencia_bonificada",
+      "destino": "Azul Fidelidade",
+      "titulo": "Transfira pontos Esfera + dinheiro para Azul - milheiro a partir de R$ 11,67",
+      "link": "https://passageirodeprimeira.com/transfira-pontos-esfera-dinheiro-para-azul-milheiro-a-partir-de-r-1167/",
+      "fonte": "Passageiro de Primeira"
     }
   ],
   "historico": {
     "Esfera -> Azul Fidelidade": {
       "maxPercentual": 120,
-      "campanhas": 3,
+      "campanhas": 4,
       "inicios": [
         "2026-11-19",
         "2026-11-24",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T14:03:11.000Z",
-      "mediaPercentual": 110,
+      "ultimaEm": "2026-11-27T17:16:54.000Z",
+      "mediaPercentual": 105,
       "previsao": {
         "pronta": false,
         "campanhas": 3,
