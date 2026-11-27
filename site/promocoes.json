@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T22:04:31.026Z",
+  "atualizadoEm": "2026-11-27T22:14:35.191Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -44,17 +44,11 @@
           "publicado": "2026-11-27T12:33:12.000Z"
         }
       ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "vale",
-      "rotulo": "Vale a pena",
-      "motivo": "milheiro R$ 12,21 contra R$ 14,95 de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
+      "rotulo": "Melhor momento",
+      "motivo": "120% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 120,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -146,12 +140,6 @@
           "publicado": "2026-11-27T13:02:40.000Z"
         }
       ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "limite",
       "rotulo": "Razoável",
       "motivo": "80% contra um teto de 100% nessa rota",
@@ -194,12 +182,6 @@
           "publicado": "2026-11-26T10:54:46.000Z"
         }
       ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "limite",
       "rotulo": "Razoável",
       "motivo": "80% contra um teto de 100% nessa rota",
@@ -236,12 +218,6 @@
           "publicado": "2026-11-26T20:00:46.000Z"
         }
       ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "vale",
       "rotulo": "Melhor momento",
       "motivo": "60% é o topo do que essa rota costuma dar",
@@ -284,12 +260,6 @@
           "publicado": "2026-11-25T14:49:10.000Z"
         }
       ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Não vale",
       "motivo": "R$ 24,06 sai mais caro que comprar pronto a R$ 23,80",
@@ -350,12 +320,6 @@
           "publicado": "2026-11-27T14:03:11.000Z"
         }
       ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "limite",
       "rotulo": "Razoável",
       "motivo": "90% contra um teto de 120% nessa rota",
@@ -392,17 +356,11 @@
           "publicado": "2026-11-27T17:16:54.000Z"
         }
       ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Vale a pena",
-      "motivo": "milheiro R$ 11,67 contra R$ 14,95 de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
+      "veredito": "limite",
+      "rotulo": "Razoável",
+      "motivo": "90% contra um teto de 120% nessa rota",
+      "baseVeredito": "teto",
+      "teto": 120,
       "esperar": {
         "cadencia": 60,
         "desde": 0,
@@ -433,18 +391,7 @@
           "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
           "publicado": "2026-11-27T03:23:13.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "sai mais caro do que a referência de mercado",
-      "baseVeredito": "cotacao",
-      "teto": null
+      ]
     },
     {
       "id": "esfera|55|compra_pontos|2026-11-30",
@@ -537,12 +484,6 @@
           "publicado": "2026-11-25T12:00:26.000Z"
         }
       ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Dá para esperar",
       "motivo": "essa rota já chegou a 100%",
@@ -606,13 +547,7 @@
           "titulo": "Resgate produtos no Shopping Azul com até 80% de desconto",
           "publicado": "2026-11-27T17:57:20.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-28",
@@ -652,12 +587,6 @@
           "publicado": "2026-11-25T13:21:22.000Z"
         }
       ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Dá para esperar",
       "motivo": "essa rota já chegou a 40%",
@@ -693,13 +622,7 @@
           "titulo": "50% de bônus! Cartão Latam Pass Itaú terá pontuação turbinada por mais tempo – peça o seu e ganhe até 100.000 milhas!",
           "publicado": "2026-11-26T12:33:46.000Z"
         }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "azul fidelidade|22|acumulo|2026-11-27",
@@ -725,13 +648,7 @@
           "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
           "publicado": "2026-11-27T21:20:16.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-29",
@@ -756,12 +673,6 @@
           "publicado": "2026-11-25T14:16:42.000Z"
         }
       ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Dá para esperar",
       "motivo": "essa rota já chegou a 40%",
@@ -802,12 +713,6 @@
           "publicado": "2026-11-25T11:10:51.000Z"
         }
       ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Dá para esperar",
       "motivo": "essa rota já chegou a 40%",
@@ -838,13 +743,13 @@
         "origem": "calculado da mensalidade e do total de pontos",
         "veredito": "vale",
         "rotulo": "Bom preço",
-        "motivo": "milheiro a R$ 0,46 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+        "motivo": "milheiro a R$ 0,46 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
         "base": "clube",
         "regua": {
-          "valor": 18.9,
-          "base": "mercado",
+          "valor": 19,
+          "base": "padrao",
           "amostras": 0,
-          "texto": "base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%"
+          "texto": "sem base ainda, usando um valor de partida"
         },
         "programa": "Livelo"
       },
@@ -864,15 +769,9 @@
           "publicado": "2026-11-27T13:08:37.000Z"
         }
       ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "vale",
       "rotulo": "Bom preço",
-      "motivo": "milheiro a R$ 0,46 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+      "motivo": "milheiro a R$ 0,46 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
       "baseVeredito": "clube",
       "teto": null
     },
@@ -899,12 +798,6 @@
           "publicado": "2026-11-26T11:40:21.000Z"
         }
       ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Dá para esperar",
       "motivo": "essa rota já chegou a 40%",
@@ -940,13 +833,7 @@
           "titulo": "Ida e volta entre São Paulo e Buenos Aires em Executiva por R$ 3.595 + taxas com a Livelo",
           "publicado": "2026-11-27T20:00:09.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "azul fidelidade|25|pontos_dinheiro|2026-11-30",
@@ -972,18 +859,7 @@
           "titulo": "Transamerica Resort Comandatuba All Inclusive com mais de 25% de desconto na Azul Viagens",
           "publicado": "2026-11-27T21:00:17.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Vale a pena",
-      "motivo": "milheiro R$ 11,67 contra R$ 14,95 de referência",
-      "baseVeredito": "cotacao",
-      "teto": null
+      ]
     },
     {
       "id": "marriott bonvoy|x|acumulo|2027-01-15",
@@ -1033,13 +909,7 @@
           "titulo": "Missão Latam Pass: ganhe 1.500 milhas bônus",
           "publicado": "2026-11-20T18:04:32.000Z"
         }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "azul fidelidade|x|clube|2026-11-29",
@@ -1065,13 +935,7 @@
           "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
           "publicado": "2026-11-21T13:00:05.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "smiles|x|clube|2026-11-30",
@@ -1090,12 +954,13 @@
         "origem": "publicado na matéria",
         "veredito": "vale",
         "rotulo": "Bom preço",
-        "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
+        "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
         "base": "clube",
         "regua": {
-          "valor": 17.54,
-          "base": "mercado",
-          "texto": "o que o mercado paga pelo milheiro Smiles"
+          "valor": 19,
+          "base": "padrao",
+          "amostras": 0,
+          "texto": "sem base ainda, usando um valor de partida"
         },
         "programa": "Smiles"
       },
@@ -1115,15 +980,9 @@
           "publicado": "2026-11-27T14:30:08.000Z"
         }
       ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "vale",
       "rotulo": "Bom preço",
-      "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
+      "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
       "baseVeredito": "clube",
       "teto": null
     },
@@ -1158,13 +1017,7 @@
           "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
           "publicado": "2026-11-27T20:00:54.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "livelo|x|acumulo|2026-11-27",
@@ -1193,13 +1046,7 @@
           "titulo": "Pink Hour Livelo! Acumule até 21 pontos por real gasto na Insider, Olympikus e mais parceiros",
           "publicado": "2026-11-27T04:30:36.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "livelo|6|compra_pontos|2026-11-30",
@@ -1231,18 +1078,7 @@
           "titulo": "Pink Friday! Livelo oferece 56,6% de desconto na compra de pontos + 3% no Pix",
           "publicado": "2026-11-27T12:00:45.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "sai mais caro do que a referência de mercado",
-      "baseVeredito": "cotacao",
-      "teto": null
+      ]
     },
     {
       "id": "azul fidelidade|x|acumulo|2026-11-30",
@@ -1275,13 +1111,7 @@
           "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
           "publicado": "2026-11-27T18:00:33.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "esfera|x|acumulo|2026-11-30",
@@ -1336,18 +1166,7 @@
           "titulo": "Livelo oferece até 57,1 % de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,13",
           "publicado": "2026-11-27T03:40:55.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "sai mais caro do que a referência de mercado",
-      "baseVeredito": "cotacao",
-      "teto": null
+      ]
     },
     {
       "id": "livelo|x|clube|2026-11-30",
@@ -1368,13 +1187,13 @@
         "origem": "publicado na matéria",
         "veredito": "nao vale",
         "rotulo": "Caro",
-        "motivo": "milheiro a R$ 21,60 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+        "motivo": "milheiro a R$ 21,60 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
         "base": "clube",
         "regua": {
-          "valor": 18.9,
-          "base": "mercado",
+          "valor": 19,
+          "base": "padrao",
           "amostras": 0,
-          "texto": "base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%"
+          "texto": "sem base ainda, usando um valor de partida"
         },
         "programa": "Livelo"
       },
@@ -1400,15 +1219,9 @@
           "publicado": "2026-11-27T03:08:04.000Z"
         }
       ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "nao vale",
       "rotulo": "Caro",
-      "motivo": "milheiro a R$ 21,60 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+      "motivo": "milheiro a R$ 21,60 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
       "baseVeredito": "clube",
       "teto": null
     },
@@ -1439,13 +1252,7 @@
           "titulo": "Segue valendo a oferta da Livelo de até 10 pontos por real gasto na compra de um combo McDonald's",
           "publicado": "2026-11-26T20:50:20.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "smiles|x|clube|2026-12-10",
@@ -1464,12 +1271,13 @@
         "origem": "publicado na matéria",
         "veredito": "vale",
         "rotulo": "Bom preço",
-        "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
+        "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
         "base": "clube",
         "regua": {
-          "valor": 17.54,
-          "base": "mercado",
-          "texto": "o que o mercado paga pelo milheiro Smiles"
+          "valor": 19,
+          "base": "padrao",
+          "amostras": 0,
+          "texto": "sem base ainda, usando um valor de partida"
         },
         "programa": "Smiles"
       },
@@ -1483,15 +1291,9 @@
           "publicado": "2026-11-26T20:43:03.000Z"
         }
       ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
       "veredito": "vale",
       "rotulo": "Bom preço",
-      "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
+      "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 19,00, sem base ainda, usando um valor de partida",
       "baseVeredito": "clube",
       "teto": null
     },
@@ -1534,13 +1336,7 @@
           "titulo": "Festival de Pontos! Pink Friday Livelo tem ofertas de até 21 pontos por real em mais de 60 lojas parceiras",
           "publicado": "2026-11-27T03:59:42.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "livelo|x|clube|2026-11-29",
@@ -1566,13 +1362,7 @@
           "titulo": "Pink Friday! Ganhe até 390 mil pontos no upgrade para o Clube Livelo Premium",
           "publicado": "2026-11-26T15:00:47.000Z"
         }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "azul fidelidade|x|acumulo|2026-11-29",
@@ -1605,13 +1395,7 @@
           "titulo": "Azul Friday! Azul Fidelidade oferece até 18 pontos por real na Netshoes",
           "publicado": "2026-11-26T12:00:53.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "azul fidelidade|x|acumulo|2026-11-28",
@@ -1644,13 +1428,7 @@
           "titulo": "Azul Fidelidade oferece até 25 pontos por real na Insider e Netshoes",
           "publicado": "2026-11-25T15:18:03.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     },
     {
       "id": "accor all|x|clube|2026-11-28",
@@ -1701,13 +1479,7 @@
           "titulo": "Ganhe até 5 pontos por real gasto ao reservar hotéis do Universal Orlando Resort pela Azul Viagens",
           "publicado": "2026-11-23T20:02:01.000Z"
         }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      ]
     }
   ],
   "combinacoes": [
@@ -2497,10 +2269,10 @@
   ],
   "regua": {
     "Livelo": {
-      "valor": 18.9,
-      "base": "mercado",
+      "valor": 19,
+      "base": "padrao",
       "amostras": 0,
-      "texto": "base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%"
+      "texto": "sem base ainda, usando um valor de partida"
     },
     "Esfera": {
       "valor": 19,
