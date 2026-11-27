@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T16:24:36.767Z",
-  "totalAtivas": 71,
+  "atualizadoEm": "2026-11-27T16:34:30.776Z",
+  "totalAtivas": 72,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
     {
@@ -2493,7 +2493,7 @@
         "Esfera"
       ],
       "percentual": null,
-      "ate": "2026-11-30T11:30:21.000Z",
+      "ate": "2026-11-30T16:30:09.000Z",
       "confiancaPrazo": "baixa",
       "nota": 0,
       "custoMilheiro": null,
@@ -2507,9 +2507,9 @@
       "fontes": [
         {
           "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas/",
-          "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
-          "publicado": "2026-11-27T11:30:21.000Z"
+          "link": "https://pontospravoar.com/tem-video-novo-no-youtube-como-aproveitar-a-blackissima-esfera-para-acumular-muitos-pontos/",
+          "titulo": "Tem vídeo novo no YouTube: Como aproveitar a Blackíssima Esfera para acumular muitos pontos",
+          "publicado": "2026-11-27T16:30:09.000Z"
         }
       ]
     },
@@ -2906,6 +2906,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/tem-video-novo-no-youtube-como-aproveitar-a-blackissima-esfera-para-acumular-muitos-pontos",
+      "titulo": "Tem vídeo novo no YouTube: Como aproveitar a Blackíssima Esfera para acumular muitos pontos",
+      "link": "https://pontospravoar.com/tem-video-novo-no-youtube-como-aproveitar-a-blackissima-esfera-para-acumular-muitos-pontos/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T16:30:09.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [],
+      "par": "Esfera",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": null,
+        "loja": "YouTube"
+      },
+      "clube": null,
+      "ate": "2026-11-30T16:30:09.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Tem vídeo novo do Pontos pra Voar no YouTube! No vídeo de hoje, a Laís Roani mostra na prática como usar as ofertas turbinadas da Blackíssima Esfera para trocar de celular, comprar eletrônicos ou garantir os presentes de Natal, acumulando até 10 pontos por real gasto. Como aproveitar a Blackíssima Esfera para acumular mais pontos…",
+      "coletadoEm": "2026-11-27T16:34:30.776Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-gol-salvador-nov26",
       "titulo": "Bahia bom demais! Voos da Gol para Salvador a partir de 7 mil milhas Smiles o trecho",
