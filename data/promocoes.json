@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T21:04:34.753Z",
+  "atualizadoEm": "2026-11-27T21:14:29.506Z",
   "totalAtivas": 82,
   "totalCampanhasAtivas": 42,
   "combinacoes": [
@@ -787,9 +787,7 @@
       "ehLista": false
     }
   ],
-  "erros": [
-    "HTTP 504"
-  ],
+  "erros": [],
   "historico": {
     "Esfera -> Azul Fidelidade": {
       "maxPercentual": 120,
