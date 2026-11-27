@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T10:54:31.227Z",
-  "totalAtivas": 53,
-  "totalCampanhasAtivas": 30,
+  "atualizadoEm": "2026-11-27T11:04:30.604Z",
+  "totalAtivas": 54,
+  "totalCampanhasAtivas": 31,
   "combinacoes": [
     {
       "id": "combo|livelo|57|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-29",
@@ -757,6 +757,22 @@
         "ultima": "2026-11-25"
       }
     },
+    "Accor ALL": {
+      "maxPercentual": 50,
+      "campanhas": 2,
+      "inicios": [
+        "2026-11-23",
+        "2026-11-27"
+      ],
+      "ultimaEm": "2026-11-27T11:00:21.000Z",
+      "mediaPercentual": 45,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-27"
+      }
+    },
     "Itau -> Latam Pass": {
       "maxPercentual": 66,
       "campanhas": 2,
@@ -787,21 +803,6 @@
         "campanhas": 2,
         "faltam": 3,
         "ultima": "2026-11-20"
-      }
-    },
-    "Accor ALL": {
-      "maxPercentual": 40,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-23"
-      ],
-      "ultimaEm": "2026-11-23T12:00:34.000Z",
-      "mediaPercentual": 40,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
-        "ultima": "2026-11-23"
       }
     },
     "C6 Bank -> Latam Pass": {
@@ -1435,6 +1436,30 @@
           "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
           "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
           "publicado": "2026-11-24T11:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "accor all|50|clube|2026-11-30",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "destino": "Accor ALL",
+      "origens": [],
+      "percentual": 50,
+      "ate": "2026-11-30T11:00:21.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 55,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "ALL Signature: veja como a assinatura pode se pagar já na primeira hospedagem com a Black Friday Accor",
+      "publicado": "2026-11-27T11:00:21.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/all-signature-veja-como-a-assinatura-pode-se-pagar-ja-na-primeira-hospedagem-com-a-black-friday-accor/",
+          "titulo": "ALL Signature: veja como a assinatura pode se pagar já na primeira hospedagem com a Black Friday Accor",
+          "publicado": "2026-11-27T11:00:21.000Z"
         }
       ]
     },
@@ -2318,6 +2343,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/all-signature-veja-como-a-assinatura-pode-se-pagar-ja-na-primeira-hospedagem-com-a-black-friday-accor",
+      "titulo": "ALL Signature: veja como a assinatura pode se pagar já na primeira hospedagem com a Black Friday Accor",
+      "link": "https://passageirodeprimeira.com/all-signature-veja-como-a-assinatura-pode-se-pagar-ja-na-primeira-hospedagem-com-a-black-friday-accor/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T11:00:21.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Accor ALL"
+      ],
+      "par": "Accor ALL",
+      "percentual": 50,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T11:00:21.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Black Friday do ALL Accor oferece até 50% de desconto em hotéis selecionados nas Américas, e os assinantes do ALL Signature podem garantir 5% adicionais nas reservas. Com uma simulação, é possível economizar mais do que o valor da assinatura já na primeira hospedagem. Não perca a chance de maximizar suas economias nesta promoção! O post ALL Signature: veja como a assinatura pode se pagar já na p",
+      "coletadoEm": "2026-11-27T11:04:30.604Z",
+      "nota": 55
+    },
     {
       "id": "passageirodeprimeira.com/pink-hour-livelo-acumule-ate-21-pontos-por-real-gasto-na-insider-olympikus-e-mais-parceiros",
       "titulo": "Pink Hour Livelo! Acumule até 21 pontos por real gasto na Insider, Olympikus e mais parceiros",
