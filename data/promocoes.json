@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:24:30.990Z",
+  "atualizadoEm": "2026-11-27T18:34:36.005Z",
   "totalAtivas": 78,
   "totalCampanhasAtivas": 41,
   "combinacoes": [
@@ -394,6 +394,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-taag-joanesburgo-pontos-azul-nov26",
+      "titulo": "África com bagagem! Passagens para Joanesburgo a partir de R$ 824 ou 67 mil pontos Azul o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-taag-joanesburgo-pontos-azul-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-27T18:28:31.000Z",
+      "ate": "2026-11-30T18:28:31.000Z",
+      "dinheiro": 824,
+      "milhas": 67000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Joanesburgo",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-mco-latam-bf-nov26",
       "titulo": "Latam Pass tem voos de São Paulo para Orlando por 42 mil milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-mco-latam-bf-nov26",
@@ -765,22 +781,6 @@
       "programa": "Latam Pass",
       "origem": null,
       "destino": "Salvador",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/mega-promo-latam-pass-bf-2026",
-      "titulo": "Mega Promo Latam Pass tem voos promocionais a partir de 2.535 milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/mega-promo-latam-pass-bf-2026",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T19:17:18.000Z",
-      "ate": "2026-11-29T19:17:18.000Z",
-      "dinheiro": null,
-      "milhas": 2535,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": null,
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
@@ -3125,6 +3125,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-taag-joanesburgo-pontos-azul-nov26",
+      "titulo": "África com bagagem! Passagens para Joanesburgo a partir de R$ 824 ou 67 mil pontos Azul o trecho mais taxas",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-taag-joanesburgo-pontos-azul-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-27T18:28:31.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 824,
+        "milhas": 67000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Joanesburgo",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T18:28:31.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Pelo Mundo está com bons preços de passagens aéreas para Joanesburgo, na África do Sul, por 67.500 pontos Azul ou R$ 824,17 o trecho + taxas aeroportuárias, com saída do Aeroporto de Guarulhos, em São Paulo. São opções para voar com a TAAG, com escala em Luanda, com datas em abril de 2027.… O post África com bagagem! Passagens para Joanesburgo a partir de R$ 824 ou 67 mil pontos Azul o trec",
+      "coletadoEm": "2026-11-27T18:34:36.005Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/livelo-oferece-ida-e-volta-para-lisboa-em-executiva-por-r-6-273-taxas",
       "titulo": "Livelo oferece ida e volta para Lisboa em Executiva por R$ 6.273 + taxas",
