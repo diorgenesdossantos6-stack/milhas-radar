@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T11:54:33.714Z",
+  "atualizadoEm": "2026-11-27T12:04:30.809Z",
   "totalAtivas": 56,
   "totalCampanhasAtivas": 32,
   "combinacoes": [
@@ -91,6 +91,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
+      "titulo": "Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-27T12:04:07.000Z",
+      "ate": "2026-11-30T12:04:07.000Z",
+      "dinheiro": null,
+      "milhas": 28000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Lima",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "passageirodeprimeira.com/voe-lima-a-partir-29-mil-milhas-latam-pass-taxas-trecho",
       "titulo": "Voe para Lima a partir de 29 mil milhas LATAM Pass + taxas o trecho",
@@ -473,22 +489,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas",
-      "titulo": "Alerta PPV! Voos internacionais a partir de 22 mil milhas Smiles + taxas",
-      "link": "https://pontospravoar.com/alerta-ppv-voos-internacionais-22-mil-milhas-smiles-taxas/",
-      "fonte": "Pontos pra Voar",
-      "publicado": "2026-11-26T14:00:11.000Z",
-      "ate": "2026-11-29T14:00:11.000Z",
-      "dinheiro": null,
-      "milhas": 22000,
-      "programa": "Smiles",
-      "origem": null,
-      "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -2372,6 +2372,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
+      "titulo": "Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-27T12:04:07.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 28000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Lima",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T12:04:07.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Mega Promo Latam Pass está com passagens aéreas de São Paulo para Lima, no Peru, por 28 mil milhas o trecho, mais taxas aeroportuárias. Nossa pesquisa não foi exaustiva, então pode haver outras origens e datas com valores interessantes. Vale a pena pesquisar! O post Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho apareceu primeiro em Melhores Cartões .",
+      "coletadoEm": "2026-11-27T12:04:30.809Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas",
       "titulo": "Blackíssima! Esfera oferece até 18 pontos por real gasto em mais de 40 lojas",
