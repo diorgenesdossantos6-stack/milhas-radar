@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T12:04:30.809Z",
-  "totalAtivas": 56,
-  "totalCampanhasAtivas": 32,
+  "atualizadoEm": "2026-11-27T12:14:30.215Z",
+  "totalAtivas": 57,
+  "totalCampanhasAtivas": 33,
   "combinacoes": [
     {
       "id": "combo|livelo|57|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-29",
@@ -694,13 +694,13 @@
     },
     "Livelo": {
       "maxPercentual": 57,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
         "2026-11-20",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T03:23:13.000Z",
-      "mediaPercentual": 41,
+      "ultimaEm": "2026-11-27T12:00:45.000Z",
+      "mediaPercentual": 29,
       "previsao": {
         "pronta": false,
         "campanhas": 2,
@@ -1957,6 +1957,38 @@
       }
     },
     {
+      "id": "livelo|6|compra_pontos|2026-11-30",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 6,
+      "ate": "2026-11-30T12:00:45.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 4,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Pink Friday! Livelo oferece 56,6% de desconto na compra de pontos + 3% no Pix",
+      "publicado": "2026-11-27T12:00:45.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-livelo-oferece-56-6-porcento-desconto-compra-pontos-3-porcento-pix/",
+          "titulo": "Pink Friday! Livelo oferece 56,6% de desconto na compra de pontos + 3% no Pix",
+          "publicado": "2026-11-27T12:00:45.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "esfera|x|acumulo|2026-11-30",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -2405,6 +2437,31 @@
       "resumo": "A Mega Promo Latam Pass está com passagens aéreas de São Paulo para Lima, no Peru, por 28 mil milhas o trecho, mais taxas aeroportuárias. Nossa pesquisa não foi exaustiva, então pode haver outras origens e datas com valores interessantes. Vale a pena pesquisar! O post Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho apareceu primeiro em Melhores Cartões .",
       "coletadoEm": "2026-11-27T12:04:30.809Z",
       "nota": 0
+    },
+    {
+      "id": "pontospravoar.com/pink-friday-livelo-oferece-56-6-porcento-desconto-compra-pontos-3-porcento-pix",
+      "titulo": "Pink Friday! Livelo oferece 56,6% de desconto na compra de pontos + 3% no Pix",
+      "link": "https://pontospravoar.com/pink-friday-livelo-oferece-56-6-porcento-desconto-compra-pontos-3-porcento-pix/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T12:00:45.000Z",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": 6,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T12:00:45.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Começou a Pink Friday! Precisando reforçar seu saldo de pontos? A Livelo está com uma promoção de compra de pontos, oferecendo 56,6% de desconto e a possibilidade de parcelamento em até 12 vezes sem juros. Além disso, os clientes que optarem pelo pagamento via Pix garantem mais 3% de desconto. Confira as condições da campanha…",
+      "coletadoEm": "2026-11-27T12:14:30.215Z",
+      "nota": 4
     },
     {
       "id": "pontospravoar.com/blackissima-esfera-oferece-ate-18-pontos-real-gasto-mais-40-lojas",

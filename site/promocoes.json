@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T12:04:30.809Z",
+  "atualizadoEm": "2026-11-27T12:14:30.215Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -801,6 +801,38 @@
           "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",
           "titulo": "Pink Friday! Livelo oferece até 15 pontos por real em lojas parceiras",
           "publicado": "2026-11-24T14:00:17.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
+      "id": "livelo|6|compra_pontos|2026-11-30",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 6,
+      "ate": "2026-11-30T12:00:45.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 4,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Pink Friday! Livelo oferece 56,6% de desconto na compra de pontos + 3% no Pix",
+      "publicado": "2026-11-27T12:00:45.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/pink-friday-livelo-oferece-56-6-porcento-desconto-compra-pontos-3-porcento-pix/",
+          "titulo": "Pink Friday! Livelo oferece 56,6% de desconto na compra de pontos + 3% no Pix",
+          "publicado": "2026-11-27T12:00:45.000Z"
         }
       ],
       "referencia": {
@@ -2183,13 +2215,13 @@
     },
     "Livelo": {
       "maxPercentual": 57,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
         "2026-11-20",
         "2026-11-27"
       ],
-      "ultimaEm": "2026-11-27T03:23:13.000Z",
-      "mediaPercentual": 41,
+      "ultimaEm": "2026-11-27T12:00:45.000Z",
+      "mediaPercentual": 29,
       "previsao": {
         "pronta": false,
         "campanhas": 2,
