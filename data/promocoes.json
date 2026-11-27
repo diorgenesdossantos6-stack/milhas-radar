@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T14:04:31.639Z",
-  "totalAtivas": 67,
+  "atualizadoEm": "2026-11-27T14:14:32.617Z",
+  "totalAtivas": 68,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
     {
@@ -109,6 +109,12 @@
           "papel": "transferência",
           "titulo": "Esfera e ConnectMiles oferecem 80% de bônus nas transferências",
           "fontes": [
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles/",
+              "titulo": "Apenas hoje! Esfera oferece 80% de bônus na transferência de pontos para o ConnectMiles",
+              "publicado": "2026-11-27T14:00:53.000Z"
+            },
             {
               "fonte": "Cartões de Crédito",
               "link": "https://www.cartoesdecredito.me/noticia/esfera-e-connectmiles-oferecem-80-de-bonus-nas-transferencias/",
@@ -1488,6 +1494,12 @@
       "titulo": "Esfera e ConnectMiles oferecem 80% de bônus nas transferências",
       "publicado": "2026-11-27T13:30:36.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles/",
+          "titulo": "Apenas hoje! Esfera oferece 80% de bônus na transferência de pontos para o ConnectMiles",
+          "publicado": "2026-11-27T14:00:53.000Z"
+        },
         {
           "fonte": "Cartões de Crédito",
           "link": "https://www.cartoesdecredito.me/noticia/esfera-e-connectmiles-oferecem-80-de-bonus-nas-transferencias/",
@@ -2904,6 +2916,33 @@
       "resumo": "A promoção é válida apenas hoje, dia 27 de novembro de 2026. The post Azul e Esfera oferecem até 90% de bônus nas transferências appeared first on Cartões, Milhas e Viagens .",
       "coletadoEm": "2026-11-27T14:04:31.639Z",
       "nota": 69
+    },
+    {
+      "id": "pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles",
+      "titulo": "Apenas hoje! Esfera oferece 80% de bônus na transferência de pontos para o ConnectMiles",
+      "link": "https://pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T14:00:53.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "ConnectMiles"
+      ],
+      "par": "Esfera -> ConnectMiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Na Blackíssima da Esfera, o programa está oferecendo aos seus clientes 80% de bônus na transferência de pontos para o ConnectMiles, programa de fidelidade da Copa Airlines. Abaixo, veja os detalhes desta oferta válida apenas hoje, dia 27 de novembro, ou até durar o estoque de pontos. Esfera e ConnectMiles com até 80% de bônus…",
+      "coletadoEm": "2026-11-27T14:14:32.617Z",
+      "nota": 88
     },
     {
       "id": "cartoesdecredito.me/noticia/smiles-oferece-ate-80-de-bonus-nas-transferencias-11",
