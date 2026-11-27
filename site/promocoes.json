@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T03:14:33.678Z",
+  "atualizadoEm": "2026-11-27T03:24:32.713Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -211,6 +211,43 @@
           "publicado": "2026-11-22T19:22:41.000Z"
         }
       ]
+    },
+    {
+      "id": "livelo|57|compra_pontos|2026-11-30",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 57,
+      "ate": "2026-11-30T03:23:13.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 59,
+      "custoMilheiro": 29.13,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+      "publicado": "2026-11-27T03:23:13.000Z",
+      "fontes": [
+        {
+          "fonte": "Melhores Cartões",
+          "link": "https://www.melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html",
+          "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+          "publicado": "2026-11-27T03:23:13.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      },
+      "veredito": "nao vale",
+      "rotulo": "Não vale",
+      "motivo": "sai mais caro do que a referência de mercado",
+      "baseVeredito": "cotacao",
+      "teto": null
     },
     {
       "id": "esfera|55|compra_pontos|2026-11-30",
@@ -1089,8 +1126,111 @@
       }
     }
   ],
-  "combinacoes": [],
+  "combinacoes": [
+    {
+      "id": "combo|livelo|57|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-29",
+      "origem": "Livelo",
+      "destino": "Smiles",
+      "descontoCompra": 57,
+      "bonusTransferencia": 80,
+      "ate": "2026-11-29T11:00:41.000Z",
+      "partes": [
+        {
+          "papel": "compra",
+          "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+          "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html",
+              "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+              "publicado": "2026-11-27T03:23:13.000Z"
+            }
+          ]
+        },
+        {
+          "papel": "transferência",
+          "titulo": "Prorrogou! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
+          "fontes": [
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/prorrogou-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-livelo/",
+              "titulo": "Prorrogou! Smiles oferece até 80% de bônus na transferência de pontos Livelo",
+              "publicado": "2026-11-26T11:00:41.000Z"
+            },
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
+              "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
+              "publicado": "2026-11-26T10:54:46.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combo|livelo|57|compra_pontos|2026-11-30|latam pass|25|transferencia_bonificada|2026-11-28",
+      "origem": "Livelo",
+      "destino": "Latam Pass",
+      "descontoCompra": 57,
+      "bonusTransferencia": 25,
+      "ate": "2026-11-28T14:00:14.000Z",
+      "partes": [
+        {
+          "papel": "compra",
+          "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+          "fontes": [
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html",
+              "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+              "publicado": "2026-11-27T03:23:13.000Z"
+            }
+          ]
+        },
+        {
+          "papel": "transferência",
+          "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
+          "fontes": [
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/latam-pass-oferece-25-porcento-bonus-transferencia-parceiros-selecionados/",
+              "titulo": "LATAM Pass oferece 25% de bônus na transferência de parceiros selecionados",
+              "publicado": "2026-11-25T14:00:14.000Z"
+            },
+            {
+              "fonte": "Passageiro de Primeira",
+              "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+              "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito",
+              "publicado": "2026-11-25T13:51:38.000Z"
+            },
+            {
+              "fonte": "Melhores Cartões",
+              "link": "https://www.melhorescartoes.com.br/latam-pass-bancos-25-bonus-nov26.html",
+              "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
+              "publicado": "2026-11-25T13:21:22.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/azul-tem-passagens-a-partir-de-r-176-por-trecho",
+      "titulo": "Azul tem passagens a partir de R$ 176 por trecho",
+      "link": "https://passageirodeprimeira.com/azul-tem-passagens-a-partir-de-r-176-por-trecho/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-27T03:20:34.000Z",
+      "ate": "2026-11-30T03:20:34.000Z",
+      "dinheiro": 176,
+      "milhas": null,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": false,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-jnb-latam-bf-nov26",
       "titulo": "África do Sul! Latam tem voos diretos de São Paulo para Joanesburgo por 47 mil milhas o trecho",
@@ -1473,28 +1613,6 @@
       "idaEVolta": true,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149",
-      "titulo": "Alerta PPV! Confira ofertas de voos nacionais da LATAM a partir de R$ 149",
-      "link": "https://pontospravoar.com/alerta-ppv-confira-ofertas-de-voos-nacionais-da-latam-a-partir-de-r-149/",
-      "fonte": "companhia",
-      "publicado": "2026-11-25T22:00:11.000Z",
-      "ate": "2026-11-28T22:00:11.000Z",
-      "dinheiro": 149,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": "Macapá",
-      "destino": "Belém",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false,
-      "iataOrigem": "MCP",
-      "iataDestino": "BEL",
-      "data": "2027-02-15",
-      "comMilhas": false,
-      "cabine": "Economy",
-      "trechoDe": "companhia"
     }
   ],
   "regua": {
@@ -1744,6 +1862,15 @@
       "titulo": "Pink Friday Livelo! Assine o Clube e acumule 105.000 pontos em um ano com nosso cupom exclusivo - milheiro a partir de R$ 21,60",
       "link": "https://www.melhoresdestinos.com.br/milhas/black-friday-clube-livelo-especial-105k-nov26",
       "fonte": "Melhores Destinos"
+    },
+    {
+      "em": "2026-11-27T03:23:13.000Z",
+      "valor": 29.13,
+      "tipo": "compra_pontos",
+      "destino": null,
+      "titulo": "Só até as 4h! Compre pontos Livelo com até 57% de desconto e mais 3% OFF no Pix – milheiro a partir de R$ 29,13",
+      "link": "https://www.melhorescartoes.com.br/compra-pontos-livelo-57-3-off-pix-nov26.html",
+      "fonte": "Melhores Cartões"
     }
   ],
   "historico": {
@@ -1946,6 +2073,22 @@
         "ate": "2026-12-01"
       }
     },
+    "Livelo": {
+      "maxPercentual": 57,
+      "campanhas": 2,
+      "inicios": [
+        "2026-11-20",
+        "2026-11-27"
+      ],
+      "ultimaEm": "2026-11-27T03:23:13.000Z",
+      "mediaPercentual": 41,
+      "previsao": {
+        "pronta": false,
+        "campanhas": 2,
+        "faltam": 3,
+        "ultima": "2026-11-27"
+      }
+    },
     "Esfera": {
       "maxPercentual": 55,
       "campanhas": 2,
@@ -2070,21 +2213,6 @@
         "pronta": false,
         "campanhas": 2,
         "faltam": 3,
-        "ultima": "2026-11-20"
-      }
-    },
-    "Livelo": {
-      "maxPercentual": 25,
-      "campanhas": 1,
-      "inicios": [
-        "2026-11-20"
-      ],
-      "ultimaEm": "2026-11-20T13:00:57.000Z",
-      "mediaPercentual": 25,
-      "previsao": {
-        "pronta": false,
-        "campanhas": 1,
-        "faltam": 4,
         "ultima": "2026-11-20"
       }
     }
