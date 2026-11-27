@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T11:24:31.083Z",
+  "atualizadoEm": "2026-11-27T11:34:31.225Z",
   "totalAtivas": 55,
   "totalCampanhasAtivas": 31,
   "combinacoes": [
@@ -91,6 +91,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-lima-a-partir-29-mil-milhas-latam-pass-taxas-trecho",
+      "titulo": "Voe para Lima a partir de 29 mil milhas LATAM Pass + taxas o trecho",
+      "link": "https://passageirodeprimeira.com/voe-lima-a-partir-29-mil-milhas-latam-pass-taxas-trecho/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-27T11:30:12.000Z",
+      "ate": "2026-11-30T11:30:12.000Z",
+      "dinheiro": null,
+      "milhas": 29000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Lima",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "passageirodeprimeira.com/azul-tem-passagens-a-partir-de-r-176-por-trecho",
       "titulo": "Azul tem passagens a partir de R$ 176 por trecho",
@@ -471,22 +487,6 @@
       "origem": null,
       "destino": null,
       "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
-      "titulo": "Muito bom! Voos diretos da Latam de São Paulo para Jericoacoara por 11 mil milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-jjd-latam-bf-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T12:36:00.000Z",
-      "ate": "2026-11-29T12:36:00.000Z",
-      "dinheiro": null,
-      "milhas": 11000,
-      "programa": "Latam Pass",
-      "origem": "São Paulo",
-      "destino": "Jericoacoara",
-      "idaEVolta": true,
       "taxas": true,
       "ehLista": false
     }
@@ -2343,6 +2343,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voe-lima-a-partir-29-mil-milhas-latam-pass-taxas-trecho",
+      "titulo": "Voe para Lima a partir de 29 mil milhas LATAM Pass + taxas o trecho",
+      "link": "https://passageirodeprimeira.com/voe-lima-a-partir-29-mil-milhas-latam-pass-taxas-trecho/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T11:30:12.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 29000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Lima",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T11:30:12.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Alerta direto dos Grupos do PP no WhatsApp! 🚨 Encontramos disponibilidade de bilhetes de ida e volta entre São Paulo (GRU) e Lima (LIM). Os voos são operados pela LATAM a partir de 29.004 milhas LATAM Pass + taxas o trecho. Confira! O post Voe para Lima a partir de 29 mil milhas LATAM Pass + taxas o trecho apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-27T11:34:31.225Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/all-signature-veja-como-a-assinatura-pode-se-pagar-ja-na-primeira-hospedagem-com-a-black-friday-accor",
       "titulo": "ALL Signature: veja como a assinatura pode se pagar já na primeira hospedagem com a Black Friday Accor",
