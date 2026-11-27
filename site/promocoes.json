@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T14:24:30.251Z",
+  "atualizadoEm": "2026-11-27T14:34:35.484Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -951,16 +951,16 @@
       "publicado": "2026-11-17T14:30:57.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/orange-friday-smiles-confira-as-principais-ofertas-de-milhas-passagens-e-bonus/",
+          "titulo": "Orange Friday Smiles: confira as principais ofertas de milhas, passagens e bônus",
+          "publicado": "2026-11-27T14:30:30.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/segue-valendo-clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
           "titulo": "Segue valendo: Clube Smiles com até 50.000 milhas na hora para novos assinantes",
           "publicado": "2026-11-24T20:30:12.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
-          "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
-          "publicado": "2026-11-21T12:00:37.000Z"
         }
       ],
       "referencia": {

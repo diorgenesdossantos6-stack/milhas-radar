@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T14:24:30.251Z",
-  "totalAtivas": 68,
+  "atualizadoEm": "2026-11-27T14:34:35.484Z",
+  "totalAtivas": 69,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
     {
@@ -2371,16 +2371,16 @@
       "publicado": "2026-11-17T14:30:57.000Z",
       "fontes": [
         {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/orange-friday-smiles-confira-as-principais-ofertas-de-milhas-passagens-e-bonus/",
+          "titulo": "Orange Friday Smiles: confira as principais ofertas de milhas, passagens e bônus",
+          "publicado": "2026-11-27T14:30:30.000Z"
+        },
+        {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/segue-valendo-clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
           "titulo": "Segue valendo: Clube Smiles com até 50.000 milhas na hora para novos assinantes",
           "publicado": "2026-11-24T20:30:12.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
-          "titulo": "Gere o milheiro Smiles a partir de R$ 13,07 assinando o Clube Smiles 1.000",
-          "publicado": "2026-11-21T12:00:37.000Z"
         }
       ],
       "referencia": {
@@ -2890,6 +2890,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/orange-friday-smiles-confira-as-principais-ofertas-de-milhas-passagens-e-bonus",
+      "titulo": "Orange Friday Smiles: confira as principais ofertas de milhas, passagens e bônus",
+      "link": "https://passageirodeprimeira.com/orange-friday-smiles-confira-as-principais-ofertas-de-milhas-passagens-e-bonus/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T14:30:30.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "A Smiles está com a Orange Friday, oferecendo bônus de até 15.000 milhas na adesão ao Clube Smiles e passagens promocionais com taxas a partir de R$ 68,61. As ofertas vão até 30/11, com descontos em hospedagens e produtos no Shopping Smiles. Fique atento ao cronograma para não perder as melhores oportunidades! O post Orange Friday Smiles: confira as principais ofertas de milhas, passagens e bônus ",
+      "coletadoEm": "2026-11-27T14:34:35.484Z",
+      "nota": 0
+    },
     {
       "id": "cartoesdecredito.me/noticia/azul-e-esfera-oferecem-ate-90-de-bonus-nas-transferencias-2",
       "titulo": "Azul e Esfera oferecem até 90% de bônus nas transferências",
