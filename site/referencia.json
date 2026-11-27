@@ -1,7 +1,46 @@
 {
-  "atualizadoEm": "2026-11-27T22:44:31.973Z",
-  "erros": [
-    "iDinheiro: tabela de cotacao nao encontrada"
-  ],
-  "programas": {}
+  "atualizadoEm": "2026-11-27T22:54:30.069Z",
+  "erros": [],
+  "programas": {
+    "Azul Fidelidade": {
+      "programa": "Azul Fidelidade",
+      "min": 12.5,
+      "max": 18,
+      "mediana": 14.95,
+      "amostras": 4,
+      "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
+      "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
+      "coletadoEm": "2026-11-27T22:54:30.068Z"
+    },
+    "Latam Pass": {
+      "programa": "Latam Pass",
+      "min": 18,
+      "max": 29.18,
+      "mediana": 24.3,
+      "amostras": 4,
+      "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
+      "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
+      "coletadoEm": "2026-11-27T22:54:30.068Z"
+    },
+    "Smiles": {
+      "programa": "Smiles",
+      "min": 14,
+      "max": 20.77,
+      "mediana": 17.54,
+      "amostras": 4,
+      "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
+      "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
+      "coletadoEm": "2026-11-27T22:54:30.068Z"
+    },
+    "Livelo": {
+      "programa": "Livelo",
+      "min": 21,
+      "max": 21,
+      "mediana": 21,
+      "amostras": 1,
+      "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)",
+      "fonteUrl": "https://www.idinheiro.com.br/cartao-de-credito/milhas/quanto-vale-uma-milha/",
+      "coletadoEm": "2026-11-27T22:54:30.068Z"
+    }
+  }
 }
