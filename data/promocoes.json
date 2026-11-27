@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T18:04:30.098Z",
-  "totalAtivas": 76,
-  "totalCampanhasAtivas": 40,
+  "atualizadoEm": "2026-11-27T18:14:30.479Z",
+  "totalAtivas": 77,
+  "totalCampanhasAtivas": 41,
   "combinacoes": [
     {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -2671,6 +2671,39 @@
       "teto": null
     },
     {
+      "id": "azul fidelidade|x|acumulo|2026-11-30",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": "Magalu"
+      },
+      "clube": null,
+      "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
+      "publicado": "2026-11-27T18:00:33.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-14-pontos-real-gasto-magalu/",
+          "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
+          "publicado": "2026-11-27T18:00:33.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
+    },
+    {
       "id": "esfera|x|acumulo|2026-11-30",
       "tipo": "acumulo",
       "tipoNome": "Acúmulo em loja parceira",
@@ -3092,6 +3125,34 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-14-pontos-real-gasto-magalu",
+      "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
+      "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-14-pontos-real-gasto-magalu/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T18:00:33.000Z",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": "Magalu"
+      },
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Está de olho em algum produto para comprar nesta Black Friday? Então vale a pena conferir a nova campanha do Azul Fidelidade, em parceria com o Magalu, que oferece até 14 pontos por real gasto em categorias selecionadas. A promoção é válida até 30 de novembro e é uma ótima oportunidade para turbinar seu saldo…",
+      "coletadoEm": "2026-11-27T18:14:30.479Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/resgate-produtos-shopping-azul-com-ate-80-desconto",
       "titulo": "Resgate produtos no Shopping Azul com até 80% de desconto",

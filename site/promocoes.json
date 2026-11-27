@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:04:30.098Z",
+  "atualizadoEm": "2026-11-27T18:14:30.479Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1163,6 +1163,39 @@
       "motivo": "sai mais caro do que a referência de mercado",
       "baseVeredito": "cotacao",
       "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|acumulo|2026-11-30",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 0,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": 14,
+        "loja": "Magalu"
+      },
+      "clube": null,
+      "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
+      "publicado": "2026-11-27T18:00:33.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-14-pontos-real-gasto-magalu/",
+          "titulo": "Azul Friday! Azul Fidelidade oferece até 14 pontos por real gasto no Magalu",
+          "publicado": "2026-11-27T18:00:33.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "esfera|x|acumulo|2026-11-30",
