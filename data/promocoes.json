@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T13:14:30.448Z",
-  "totalAtivas": 63,
+  "atualizadoEm": "2026-11-27T13:24:29.953Z",
+  "totalAtivas": 64,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
     {
@@ -1895,15 +1895,35 @@
         "Livelo"
       ],
       "percentual": 40,
-      "ate": "2026-11-30T13:08:37.000Z",
+      "ate": "2026-11-30T13:14:32.000Z",
       "confiancaPrazo": "baixa",
       "nota": 24,
       "custoMilheiro": null,
       "acumulo": null,
-      "clube": null,
-      "titulo": "Oferta relâmpago na Livelo: voos para Portugal com 30% OFF e 40% de Points Back",
+      "clube": {
+        "milheiro": 0.46,
+        "origem": "calculado da mensalidade e do total de pontos",
+        "veredito": "vale",
+        "rotulo": "Bom preço",
+        "motivo": "milheiro a R$ 0,46 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+        "base": "clube",
+        "regua": {
+          "valor": 18.9,
+          "base": "mercado",
+          "amostras": 0,
+          "texto": "base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%"
+        },
+        "programa": "Livelo"
+      },
+      "titulo": "Portugal por apenas R$ 1.017 ou 25.914 pontos Livelo + taxas com desconto e 40% de pointsback",
       "publicado": "2026-11-27T13:08:37.000Z",
       "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/portugal-por-apenas-r-1-017-ou-25-914-pontos-livelo-taxas-com-desconto-e-40-de-pointsback/",
+          "titulo": "Portugal por apenas R$ 1.017 ou 25.914 pontos Livelo + taxas com desconto e 40% de pointsback",
+          "publicado": "2026-11-27T13:14:32.000Z"
+        },
         {
           "fonte": "Pontos pra Voar",
           "link": "https://pontospravoar.com/oferta-relampago-na-livelo-voos-para-portugal-com-30-off-e-40-de-points-back/",
@@ -1916,7 +1936,12 @@
         "max": 21,
         "mediana": 21,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
+      },
+      "veredito": "vale",
+      "rotulo": "Bom preço",
+      "motivo": "milheiro a R$ 0,46 contra uma régua de R$ 18,90, base fraca, 0 preço(s) de Livelo visto(s); por ora uso o que o mercado paga menos 10%",
+      "baseVeredito": "clube",
+      "teto": null
     },
     {
       "id": "latam pass|15|transferencia_bonificada|2026-11-29",
@@ -2627,6 +2652,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/portugal-por-apenas-r-1-017-ou-25-914-pontos-livelo-taxas-com-desconto-e-40-de-pointsback",
+      "titulo": "Portugal por apenas R$ 1.017 ou 25.914 pontos Livelo + taxas com desconto e 40% de pointsback",
+      "link": "https://passageirodeprimeira.com/portugal-por-apenas-r-1-017-ou-25-914-pontos-livelo-taxas-com-desconto-e-40-de-pointsback/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T13:14:32.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": 40,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T13:14:32.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Livelo está com uma promoção imperdível para quem quer viajar para Portugal, oferecendo 30% de desconto na emissão de passagens com o cupom \"PORTUGAL30\" e 40% de pointsback em voos comprados com a CVC. Com isso, é possível garantir passagens a partir de 25.914 pontos Livelo, considerando o retorno dos pontos. A oferta é exclusiva para assinantes do Clube Livelo e é válida até hoje às 12h. O post",
+      "coletadoEm": "2026-11-27T13:24:29.953Z",
+      "nota": 24
+    },
     {
       "id": "pontospravoar.com/oferta-relampago-na-livelo-voos-para-portugal-com-30-off-e-40-de-points-back",
       "titulo": "Oferta relâmpago na Livelo: voos para Portugal com 30% OFF e 40% de Points Back",
