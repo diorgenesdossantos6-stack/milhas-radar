@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T13:34:33.335Z",
+  "atualizadoEm": "2026-11-27T13:44:33.856Z",
   "totalAtivas": 65,
   "totalCampanhasAtivas": 36,
   "combinacoes": [
@@ -73,7 +73,7 @@
       "destino": "Smiles",
       "descontoCompra": 55,
       "bonusTransferencia": 80,
-      "ate": "2026-11-30T13:02:40.000Z",
+      "ate": "2026-11-30T23:59:00.000Z",
       "partes": [
         {
           "papel": "compra",
@@ -109,6 +109,12 @@
           "papel": "transferência",
           "titulo": "Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
           "fontes": [
+            {
+              "fonte": "Pontos pra Voar",
+              "link": "https://pontospravoar.com/orange-friday-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros/",
+              "titulo": "Orange Friday! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros + 79% OFF na compra de milhas",
+              "publicado": "2026-11-27T13:30:51.000Z"
+            },
             {
               "fonte": "Melhores Cartões",
               "link": "https://www.melhorescartoes.com.br/smiles-parceiros-80-bonus-nov26-2.html",
@@ -1352,18 +1358,17 @@
       "destino": "Azul Fidelidade",
       "origens": [
         "Esfera",
-        "Premmia",
-        "Inter"
+        "Premmia"
       ],
       "percentual": 120,
       "ate": "2026-11-27T23:59:00.000Z",
       "confiancaPrazo": "media",
       "nota": 100,
-      "custoMilheiro": 12.23,
+      "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
       "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-      "publicado": "2026-11-24T13:40:42.000Z",
+      "publicado": "2026-11-24T19:30:26.000Z",
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
@@ -1391,10 +1396,10 @@
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
       "veredito": "vale",
-      "rotulo": "Vale a pena",
-      "motivo": "milheiro R$ 12,23 contra R$ 14,95 de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
+      "rotulo": "Melhor momento",
+      "motivo": "120% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 120,
       "esperar": {
         "cadencia": 60,
         "desde": 1,
@@ -1410,8 +1415,8 @@
         "Esfera"
       ],
       "percentual": 80,
-      "ate": "2026-11-30T13:02:40.000Z",
-      "confiancaPrazo": "baixa",
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
       "nota": 83,
       "custoMilheiro": null,
       "acumulo": null,
@@ -1419,6 +1424,12 @@
       "titulo": "Smiles oferece até 80% de bônus na transferência de pontos do cartão de crédito",
       "publicado": "2026-11-27T13:02:40.000Z",
       "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/orange-friday-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros/",
+          "titulo": "Orange Friday! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros + 79% OFF na compra de milhas",
+          "publicado": "2026-11-27T13:30:51.000Z"
+        },
         {
           "fonte": "Melhores Cartões",
           "link": "https://www.melhorescartoes.com.br/smiles-parceiros-80-bonus-nov26-2.html",
@@ -2755,6 +2766,33 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/orange-friday-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros",
+      "titulo": "Orange Friday! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros + 79% OFF na compra de milhas",
+      "link": "https://pontospravoar.com/orange-friday-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T13:30:51.000Z",
+      "tipo": "transferencia_bonificada",
+      "tipoNome": "Transferência bonificada",
+      "origem": [
+        "Esfera"
+      ],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Esfera -> Smiles",
+      "percentual": 80,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Precisando de umas milhas? A Smiles lançou uma nova campanha de transferência bonificada, oferecendo até 80% de bônus aos clientes que transferirem pontos dos programas parceiros, com exceção da Esfera. Além disso, clientes elegíveis podem receber um cupom de 79% de desconto na compra de milhas A promoção é válida até 30 de novembro e é…",
+      "coletadoEm": "2026-11-27T13:44:33.856Z",
+      "nota": 83
+    },
     {
       "id": "passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles",
       "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
