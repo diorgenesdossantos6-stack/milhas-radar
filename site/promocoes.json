@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T14:34:35.484Z",
+  "atualizadoEm": "2026-11-27T14:44:32.941Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -958,9 +958,9 @@
         },
         {
           "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/segue-valendo-clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
-          "titulo": "Segue valendo: Clube Smiles com até 50.000 milhas na hora para novos assinantes",
-          "publicado": "2026-11-24T20:30:12.000Z"
+          "link": "https://pontospravoar.com/orange-friday-clube-smiles-1000-oferece-14-mil-milhas-adesao-milheiro-13-reais-07-centavos/",
+          "titulo": "Orange Friday! Clube Smiles 1.000 oferece 14 mil milhas na adesão com milheiro a partir de R$ 13,07",
+          "publicado": "2026-11-27T14:30:08.000Z"
         }
       ],
       "referencia": {
@@ -2475,6 +2475,15 @@
       "titulo": "Livelo oferece até 56,6% de desconto na compra de pontos para assinantes do Clube - milheiro a partir de R$ 29,47",
       "link": "https://passageirodeprimeira.com/livelo-oferece-ate-566-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2947/",
       "fonte": "Passageiro de Primeira"
+    },
+    {
+      "em": "2026-11-27T14:30:08.000Z",
+      "valor": 13.07,
+      "tipo": "clube",
+      "destino": "Smiles",
+      "titulo": "Orange Friday! Clube Smiles 1.000 oferece 14 mil milhas na adesão com milheiro a partir de R$ 13,07",
+      "link": "https://pontospravoar.com/orange-friday-clube-smiles-1000-oferece-14-mil-milhas-adesao-milheiro-13-reais-07-centavos/",
+      "fonte": "Pontos pra Voar"
     }
   ],
   "historico": {
