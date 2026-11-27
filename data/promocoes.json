@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T16:14:31.698Z",
+  "atualizadoEm": "2026-11-27T16:24:36.767Z",
   "totalAtivas": 71,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
@@ -335,6 +335,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-gol-salvador-nov26",
+      "titulo": "Bahia bom demais! Voos da Gol para Salvador a partir de 7 mil milhas Smiles o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-gol-salvador-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-27T16:23:03.000Z",
+      "ate": "2026-11-30T16:23:03.000Z",
+      "dinheiro": null,
+      "milhas": 7000,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Salvador",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo",
       "titulo": "Até 12h! Voe para Portugal em Executiva por R$ 2.476 + taxas com a Livelo – confira o passo a passo",
@@ -715,23 +731,6 @@
       "idaEVolta": true,
       "taxas": false,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/black-friday-latam-eua-passagens-nova-york-orlando-miami-2868",
-      "titulo": "Black Friday Latam EUA! Voos para Nova York, Orlando e Miami a partir de R$ 2.828 ida e volta, em 10x sem juros",
-      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-eua-passagens-nova-york-orlando-miami-2868",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T18:45:57.000Z",
-      "ate": "2026-11-29T18:45:57.000Z",
-      "dinheiro": 2828,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Nova York Orlando Miami",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -2907,6 +2906,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-gol-salvador-nov26",
+      "titulo": "Bahia bom demais! Voos da Gol para Salvador a partir de 7 mil milhas Smiles o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-gol-salvador-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-27T16:23:03.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 7000,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": "Salvador",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T16:23:03.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "A Smiles está com ótimos preços de passagens aéreas para a Bahia! Encontramos voos para Salvador a partir de 7.700 milhas o trecho + taxas, para viajar entre fevereiro e junho de 2027. O menor preço é saindo de Brasília, mas também tem ótimos preços com saídas de Belo Horizonte, Fortaleza e São Paulo. Para… O post Bahia bom demais! Voos da Gol para Salvador a partir de 7 mil milhas Smiles o trecho",
+      "coletadoEm": "2026-11-27T16:24:36.767Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/festival-pontos-livelo-ganhe-ate-16-pontos-por-real-gasto-centauro-mais-parceiros",
       "titulo": "Festival de Pontos Livelo! Ganhe até 16 pontos por real gasto na Centauro e mais parceiros",
