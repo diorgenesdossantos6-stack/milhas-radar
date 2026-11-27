@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T13:44:33.856Z",
+  "atualizadoEm": "2026-11-27T13:54:32.181Z",
   "totalAtivas": 65,
   "totalCampanhasAtivas": 36,
   "combinacoes": [
@@ -265,6 +265,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo",
+      "titulo": "Até 12h! Voe para Portugal em Executiva por R$ 2.476 + taxas com a Livelo – confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-27T13:45:14.000Z",
+      "ate": "2026-11-27T23:59:00.000Z",
+      "dinheiro": 2476,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Portugal",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
       "titulo": "Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho",
@@ -643,23 +659,6 @@
       "origem": null,
       "destino": "Nova York Orlando Miami",
       "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119",
-      "titulo": "LATAM Friday oferece passagens promocionais a partir de R$ 119",
-      "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-26T18:30:00.000Z",
-      "ate": "2026-11-29T18:30:00.000Z",
-      "dinheiro": 119,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Promocionais Partir R",
-      "idaEVolta": false,
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
@@ -2766,6 +2765,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo",
+      "titulo": "Até 12h! Voe para Portugal em Executiva por R$ 2.476 + taxas com a Livelo – confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-27T13:45:14.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 2476,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Portugal",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "resumo": "A Livelo está oferecendo uma oportunidade imperdível para quem quer viajar para Portugal. Até às 12h de hoje (27), você pode emitir passagens em Classe Executiva com 30% de desconto e 40% de pointsback, pagando apenas R$ 2.476 + taxas. Não perca a chance de garantir sua viagem com essa promoção exclusiva para assinantes do Clube Livelo! O post Até 12h! Voe para Portugal em Executiva por R$ 2.476 +",
+      "coletadoEm": "2026-11-27T13:54:32.181Z",
+      "nota": 5
+    },
     {
       "id": "pontospravoar.com/orange-friday-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros",
       "titulo": "Orange Friday! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros + 79% OFF na compra de milhas",

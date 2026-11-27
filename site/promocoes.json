@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T13:44:33.856Z",
+  "atualizadoEm": "2026-11-27T13:54:32.181Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -1679,6 +1679,22 @@
   ],
   "passagens": [
     {
+      "id": "passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo",
+      "titulo": "Até 12h! Voe para Portugal em Executiva por R$ 2.476 + taxas com a Livelo – confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-27T13:45:14.000Z",
+      "ate": "2026-11-27T23:59:00.000Z",
+      "dinheiro": 2476,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Portugal",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
       "titulo": "Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
@@ -2056,23 +2072,6 @@
       "origem": null,
       "destino": "Nova York Orlando Miami",
       "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119",
-      "titulo": "LATAM Friday oferece passagens promocionais a partir de R$ 119",
-      "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-26T18:30:00.000Z",
-      "ate": "2026-11-29T18:30:00.000Z",
-      "dinheiro": 119,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Promocionais Partir R",
-      "idaEVolta": false,
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
