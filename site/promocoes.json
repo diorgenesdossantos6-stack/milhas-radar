@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T19:54:31.618Z",
+  "atualizadoEm": "2026-11-27T20:04:30.981Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -893,7 +893,7 @@
         "Livelo"
       ],
       "percentual": 30,
-      "ate": "2026-11-30T18:20:46.000Z",
+      "ate": "2026-11-30T20:00:09.000Z",
       "confiancaPrazo": "baixa",
       "nota": 18,
       "custoMilheiro": null,
@@ -904,9 +904,9 @@
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/livelo-oferece-ida-e-volta-para-lisboa-em-executiva-por-r-6-273-taxas/",
-          "titulo": "Livelo oferece ida e volta para Lisboa em Executiva por R$ 6.273 + taxas",
-          "publicado": "2026-11-27T18:20:46.000Z"
+          "link": "https://passageirodeprimeira.com/ida-e-volta-entre-sao-paulo-e-buenos-aires-em-executiva-por-r-3-595-taxas-com-a-livelo/",
+          "titulo": "Ida e volta entre São Paulo e Buenos Aires em Executiva por R$ 3.595 + taxas com a Livelo",
+          "publicado": "2026-11-27T20:00:09.000Z"
         }
       ],
       "referencia": {
@@ -1057,6 +1057,39 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "azul fidelidade|x|acumulo|2026-11-27",
+      "tipo": "acumulo",
+      "tipoNome": "Acúmulo em loja parceira",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": null,
+      "ate": "2026-11-27T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "nota": 5,
+      "custoMilheiro": null,
+      "acumulo": {
+        "porReal": null,
+        "loja": "Renner"
+      },
+      "clube": null,
+      "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
+      "publicado": "2026-11-27T20:00:54.000Z",
+      "fontes": [
+        {
+          "fonte": "Pontos pra Voar",
+          "link": "https://pontospravoar.com/so-hoje-ganhe-ate-14-pontos-azul-fidelidade-por-real-gasto-na-renner/",
+          "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
+          "publicado": "2026-11-27T20:00:54.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "livelo|x|acumulo|2026-11-27",
@@ -1994,6 +2027,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-sao-luis-bf-nov26",
+      "titulo": "Lençóis Maranhenses barato! Voos da Latam para São Luís a partir de 6 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-sao-luis-bf-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-27T19:58:55.000Z",
+      "ate": "2026-11-30T19:58:55.000Z",
+      "dinheiro": null,
+      "milhas": 6000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "São Luís",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas",
       "titulo": "Alerta de disponibilidade! Trecho para Orlando a partir de 42 mil milhas LATAM + taxas",
       "link": "https://passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas/",
@@ -2368,22 +2417,6 @@
       "destino": "Europa",
       "idaEVolta": false,
       "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
-      "titulo": "Black Friday Chile! Passagens Latam para Santiago desde R$ 1.597 ida e volta, em 10x sem juros – incluindo inverno 2027",
-      "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T19:50:57.000Z",
-      "ate": "2026-11-29T19:50:57.000Z",
-      "dinheiro": 1597,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Santiago",
-      "idaEVolta": true,
-      "taxas": false,
       "ehLista": false
     }
   ],
