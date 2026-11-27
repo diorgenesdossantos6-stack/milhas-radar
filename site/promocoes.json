@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T17:54:30.737Z",
+  "atualizadoEm": "2026-11-27T18:04:30.098Z",
   "campanhasAtivas": [
     {
       "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
@@ -584,6 +584,36 @@
           "publicado": "2026-11-23T12:00:34.000Z"
         }
       ]
+    },
+    {
+      "id": "azul fidelidade|80|pontos_dinheiro|2026-11-30",
+      "tipo": "pontos_dinheiro",
+      "tipoNome": "Pontos + dinheiro",
+      "destino": "Azul Fidelidade",
+      "origens": [],
+      "percentual": 80,
+      "ate": "2026-11-30T17:57:20.000Z",
+      "confiancaPrazo": "baixa",
+      "nota": 48,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Resgate produtos no Shopping Azul com até 80% de desconto",
+      "publicado": "2026-11-27T17:57:20.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/resgate-produtos-shopping-azul-com-ate-80-desconto/",
+          "titulo": "Resgate produtos no Shopping Azul com até 80% de desconto",
+          "publicado": "2026-11-27T17:57:20.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 12.5,
+        "max": 18,
+        "mediana": 14.95,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "latam pass|25|transferencia_bonificada|2026-11-28",
@@ -2693,18 +2723,19 @@
     },
     "Azul Fidelidade": {
       "maxPercentual": 90,
-      "campanhas": 2,
+      "campanhas": 3,
       "inicios": [
         "2026-11-19",
-        "2026-11-24"
+        "2026-11-24",
+        "2026-11-27"
       ],
-      "ultimaEm": "2026-11-24T13:42:29.000Z",
-      "mediaPercentual": 60,
+      "ultimaEm": "2026-11-27T17:57:20.000Z",
+      "mediaPercentual": 67,
       "previsao": {
         "pronta": false,
-        "campanhas": 2,
-        "faltam": 3,
-        "ultima": "2026-11-24"
+        "campanhas": 3,
+        "faltam": 2,
+        "ultima": "2026-11-27"
       }
     },
     "Esfera -> ConnectMiles": {
