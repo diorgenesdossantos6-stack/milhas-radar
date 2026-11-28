@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T11:54:31.100Z",
+  "atualizadoEm": "2026-11-28T12:04:28.833Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -363,46 +363,6 @@
           "publicado": "2026-11-27T11:00:21.000Z"
         }
       ]
-    },
-    {
-      "id": "smiles|70|transferencia_bonificada|2026-11-28",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Smiles",
-      "origens": [],
-      "percentual": 70,
-      "ate": "2026-11-28T12:00:26.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 52,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "BB Empresas e Smiles: transfira pontos com até 70% de bônus",
-      "publicado": "2026-11-25T12:00:26.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/bb-empresas-smiles-transfira-pontos-ate-70-porcento-bonus/",
-          "titulo": "BB Empresas e Smiles: transfira pontos com até 70% de bônus",
-          "publicado": "2026-11-25T12:00:26.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 14,
-        "max": 20.77,
-        "mediana": 17.54,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 100%",
-      "baseVeredito": "teto",
-      "teto": 100,
-      "esperar": {
-        "cadencia": 90,
-        "desde": 1,
-        "texto": "costuma repetir a cada 90 dias"
-      }
     },
     {
       "id": "accor all|40|clube|2026-12-02",
