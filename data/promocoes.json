@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T14:34:29.546Z",
+  "atualizadoEm": "2026-11-28T14:44:30.576Z",
   "totalAtivas": 69,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -161,6 +161,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
+      "titulo": "Suíça na Mega Promo! Novos voos da Latam para Genebra por 61 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-28T14:39:47.000Z",
+      "ate": "2026-12-01T14:39:47.000Z",
+      "dinheiro": null,
+      "milhas": 61000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Mega Promo",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "pontospravoar.com/latam-friday-resgate-passagens-119-reais-2-mil-milhas",
       "titulo": "LATAM Friday! Resgate passagens a partir de R$ 119 ou 2 mil milhas",
@@ -536,22 +552,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
-      "titulo": "Nova Zelândia! Voos para Auckland por 102 mil milhas Latam Pass o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T21:19:23.000Z",
-      "ate": "2026-11-29T21:19:23.000Z",
-      "dinheiro": null,
-      "milhas": 102000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Auckland",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -2680,6 +2680,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
+      "titulo": "Suíça na Mega Promo! Novos voos da Latam para Genebra por 61 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-28T14:39:47.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 61000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": "Mega Promo",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T14:39:47.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Bom preço para garantir sua próxima viagem para a Europa na nova rota da Latam! Encontramos passagens aéreas para Genebra, na Suíça, a partir de 61.189 milhas o trecho + taxas, com saídas do Aeroporto de Guarulhos, em São Paulo. As tarifas promocionais são para viajar em junho de 2027. Para aproveitar, confira a lista… O post Suíça na Mega Promo! Novos voos da Latam para Genebra por 61 mil milhas ",
+      "coletadoEm": "2026-11-28T14:44:30.576Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/latam-friday-resgate-passagens-119-reais-2-mil-milhas",
       "titulo": "LATAM Friday! Resgate passagens a partir de R$ 119 ou 2 mil milhas",

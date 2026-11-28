@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T14:34:29.546Z",
+  "atualizadoEm": "2026-11-28T14:44:30.576Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -1527,6 +1527,22 @@
   ],
   "passagens": [
     {
+      "id": "melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
+      "titulo": "Suíça na Mega Promo! Novos voos da Latam para Genebra por 61 mil milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-28T14:39:47.000Z",
+      "ate": "2026-12-01T14:39:47.000Z",
+      "dinheiro": null,
+      "milhas": 61000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Mega Promo",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "pontospravoar.com/latam-friday-resgate-passagens-119-reais-2-mil-milhas",
       "titulo": "LATAM Friday! Resgate passagens a partir de R$ 119 ou 2 mil milhas",
       "link": "https://pontospravoar.com/latam-friday-resgate-passagens-119-reais-2-mil-milhas/",
@@ -1901,22 +1917,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
-      "titulo": "Nova Zelândia! Voos para Auckland por 102 mil milhas Latam Pass o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/nova-zelandia-latam-pass-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T21:19:23.000Z",
-      "ate": "2026-11-29T21:19:23.000Z",
-      "dinheiro": null,
-      "milhas": 102000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Auckland",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
     }
   ],
   "regua": {
