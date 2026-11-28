@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T16:04:35.043Z",
+  "atualizadoEm": "2026-11-28T16:14:30.725Z",
   "totalAtivas": 67,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -161,6 +161,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-resgate-passagens-smiles-apenas-3400-milhas-taxas",
+      "titulo": "Alerta PPV! Resgate passagens na Smiles a partir de apenas 3.400 milhas + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-smiles-apenas-3400-milhas-taxas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-28T16:05:48.000Z",
+      "ate": "2026-12-01T16:05:48.000Z",
+      "dinheiro": null,
+      "milhas": 3400,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Smiles Apenas",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/rio-selecao-voos-latam-smiles-azul-nov26",
       "titulo": "Cidade Maravilhosa! Passagens aéreas para o Rio de Janeiro a partir de 2.624 milhas o trecho",
@@ -536,23 +553,6 @@
       "programa": "Latam Pass",
       "origem": null,
       "destino": "Mega Promo Latam Executiva Europa",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-caribe-mexico-26-11-26",
-      "titulo": "México e Caribe! Mega Promo Latam tem voos para Costa Rica, Cancún e mais a partir de R$ 2.348 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-caribe-mexico-26-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T22:24:20.000Z",
-      "ate": "2026-11-29T22:24:20.000Z",
-      "dinheiro": 2348,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Mega Promo Latam Caribe Mexico",
       "idaEVolta": true,
       "taxas": false,
       "ehLista": false,
@@ -2673,6 +2673,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "pontospravoar.com/alerta-ppv-resgate-passagens-smiles-apenas-3400-milhas-taxas",
+      "titulo": "Alerta PPV! Resgate passagens na Smiles a partir de apenas 3.400 milhas + taxas",
+      "link": "https://pontospravoar.com/alerta-ppv-resgate-passagens-smiles-apenas-3400-milhas-taxas/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-28T16:05:48.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 3400,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T16:05:48.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Ainda dá tempo de aproveitar a Orange Friday na Smiles! Nossa equipe reuniu diversas dicas de passagens nacionais a partir de apenas 3.400 milhas + taxas. A seguir, confira as disponibilidades e aproveite antes que os preços mudem. Passagens nacionais com milhas Smiles Atenção: A busca dessas emissões foi realizada no momento da produção do…",
+      "coletadoEm": "2026-11-28T16:14:30.725Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/rio-selecao-voos-latam-smiles-azul-nov26",
       "titulo": "Cidade Maravilhosa! Passagens aéreas para o Rio de Janeiro a partir de 2.624 milhas o trecho",
