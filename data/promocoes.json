@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T15:04:34.246Z",
+  "atualizadoEm": "2026-11-28T15:14:31.288Z",
   "totalAtivas": 68,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
@@ -161,6 +161,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/rio-selecao-voos-latam-smiles-azul-nov26",
+      "titulo": "Cidade Maravilhosa! Passagens aéreas para o Rio de Janeiro a partir de 2.624 milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/rio-selecao-voos-latam-smiles-azul-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-28T15:06:52.000Z",
+      "ate": "2026-12-01T15:06:52.000Z",
+      "dinheiro": null,
+      "milhas": 2624,
+      "programa": "Smiles",
+      "origem": null,
+      "destino": "Rio",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
       "titulo": "Suíça na Mega Promo! Novos voos da Latam para Genebra por 61 mil milhas o trecho",
@@ -541,22 +557,6 @@
       "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/cupom-decolar-500-off-black-friday",
-      "titulo": "Corre! 20 cupons exclusivos com R$ 500 OFF na Decolar para passagem, pacote, hotel ou passeio",
-      "link": "https://www.melhoresdestinos.com.br/promocao/cupom-decolar-500-off-black-friday",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T22:09:35.000Z",
-      "ate": "2026-11-29T22:09:35.000Z",
-      "dinheiro": 1000,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Decolar",
-      "idaEVolta": false,
-      "taxas": false,
-      "ehLista": false
     }
   ],
   "erros": [],
@@ -2679,6 +2679,42 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/rio-selecao-voos-latam-smiles-azul-nov26",
+      "titulo": "Cidade Maravilhosa! Passagens aéreas para o Rio de Janeiro a partir de 2.624 milhas o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/rio-selecao-voos-latam-smiles-azul-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-28T15:06:52.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Smiles",
+        "Latam Pass",
+        "Azul Fidelidade"
+      ],
+      "par": "Smiles",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 2624,
+        "programa": "Smiles",
+        "origem": null,
+        "destino": "Rio",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T15:06:52.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Visitar a Cidade Maravilhosa é sempre uma boa ideia, melhor ainda quando as passagens aéreas estão baratas! Preparamos uma seleção de voos para o Rio de Janeiro a partir de 2.624 milhas o trecho + taxas, com opções de resgate no Latam Pass, Azul Fidelidade e Smiles. O menor preço é para voar com a… O post Cidade Maravilhosa! Passagens aéreas para o Rio de Janeiro a partir de 2.624 milhas o trecho ",
+      "coletadoEm": "2026-11-28T15:14:31.288Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/voos-latam-genebra-suica-nov26",
       "titulo": "Suíça na Mega Promo! Novos voos da Latam para Genebra por 61 mil milhas o trecho",
