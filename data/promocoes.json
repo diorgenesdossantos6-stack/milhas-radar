@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T17:34:30.567Z",
+  "atualizadoEm": "2026-11-28T17:44:32.109Z",
   "totalAtivas": 67,
   "totalCampanhasAtivas": 34,
   "combinacoes": [
@@ -161,6 +161,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/otimo-preco-voe-para-madri-a-partir-53-mil-pontos-azul-taxas",
+      "titulo": "Ótimo preço! Voe para Madri a partir 53 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/otimo-preco-voe-para-madri-a-partir-53-mil-pontos-azul-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-28T17:40:34.000Z",
+      "ate": "2026-12-01T17:40:34.000Z",
+      "dinheiro": null,
+      "milhas": 53000,
+      "programa": "Azul Fidelidade",
+      "origem": "Otimo Preco",
+      "destino": "Madri",
+      "idaEVolta": true,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "passageirodeprimeira.com/voe-para-barcelona-em-executiva-por-r-3-874-taxas-com-a-livelo",
       "titulo": "Voe para Barcelona em Executiva por R$ 3.874 + taxas com a Livelo – confira o passo a passo",
@@ -538,22 +555,6 @@
       "programa": "Latam Pass",
       "origem": null,
       "destino": null,
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
-      "titulo": "Estados Unidos! Latam Pass tem voos para Miami ou Nova York a partir de 50 mil milhas o trecho",
-      "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-nyc-latam-bf-nov26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T22:51:33.000Z",
-      "ate": "2026-11-29T22:51:33.000Z",
-      "dinheiro": null,
-      "milhas": 50000,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Miami",
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
@@ -2631,6 +2632,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/otimo-preco-voe-para-madri-a-partir-53-mil-pontos-azul-taxas",
+      "titulo": "Ótimo preço! Voe para Madri a partir 53 mil pontos Azul + taxas",
+      "link": "https://passageirodeprimeira.com/otimo-preco-voe-para-madri-a-partir-53-mil-pontos-azul-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-28T17:40:34.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 53000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Madri",
+        "idaEVolta": true,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T17:40:34.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Alerta] Alerta direto dos Grupos do PP no WhatsApp! Encontramos disponibilidade de bilhetes ida e volta entre São Paulo - Campinas (VCP) e Madri (MAD) a partir de 53.550 pontos Azul Fidelidade + taxas por trecho com a Azul. Não perca essa oportunidade de explorar a capital espanhola! O post Ótimo preço! Voe para Madri a partir 53 mil pontos Azul + taxas apareceu primeiro em Passageiro de Primeira",
+      "coletadoEm": "2026-11-28T17:44:32.109Z",
+      "nota": 0
+    },
     {
       "id": "melhorescartoes.com.br/livelo-mcdonalds-prorrogado-nov26.html",
       "titulo": "Fome de Méqui! Ganhe 10 pontos Livelo por real na compra de combos do McDonald’s",
