@@ -1,114 +1,6 @@
 {
-  "atualizadoEm": "2026-11-27T23:54:31.421Z",
+  "atualizadoEm": "2026-11-28T00:04:31.088Z",
   "campanhasAtivas": [
-    {
-      "id": "azul fidelidade|120|transferencia_bonificada|2026-11-27",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 120,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 100,
-      "custoMilheiro": 12.21,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-      "publicado": "2026-11-27T12:33:12.000Z",
-      "fontes": [
-        {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
-          "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
-          "publicado": "2026-11-27T17:09:45.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
-          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-          "publicado": "2026-11-27T12:45:42.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
-          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
-          "publicado": "2026-11-27T12:35:46.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/so-hoje-azul-fidelidade-ate-120-porcento-bonus-transferencia-pontos-esfera-azul-friday/",
-          "titulo": "Só hoje! Azul Fidelidade com até 120% de bônus na transferência de pontos Esfera na Azul Friday",
-          "publicado": "2026-11-27T12:33:12.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "vale",
-      "rotulo": "Vale a pena",
-      "motivo": "milheiro R$ 12,21 contra R$ 14,95 de referência",
-      "baseVeredito": "cotacao",
-      "teto": null,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "connectmiles|80|transferencia_bonificada|2026-11-27",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "ConnectMiles",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 80,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 88,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Esfera e ConnectMiles oferecem 80% de bônus nas transferências",
-      "publicado": "2026-11-27T13:30:36.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles/",
-          "titulo": "Apenas hoje! Esfera oferece 80% de bônus na transferência de pontos para o ConnectMiles",
-          "publicado": "2026-11-27T14:00:53.000Z"
-        },
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/esfera-e-connectmiles-oferecem-80-de-bonus-nas-transferencias/",
-          "titulo": "Esfera e ConnectMiles oferecem 80% de bônus nas transferências",
-          "publicado": "2026-11-27T13:53:41.000Z"
-        },
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles/",
-          "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
-          "publicado": "2026-11-27T13:30:36.000Z"
-        }
-      ],
-      "veredito": "vale",
-      "rotulo": "Melhor momento",
-      "motivo": "80% é o topo do que essa rota costuma dar",
-      "baseVeredito": "teto",
-      "teto": 80,
-      "esperar": {
-        "cadencia": 120,
-        "desde": 0,
-        "texto": "costuma repetir a cada 120 dias"
-      }
-    },
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
       "tipo": "transferencia_bonificada",
@@ -324,48 +216,6 @@
           "publicado": "2026-11-22T19:22:41.000Z"
         }
       ]
-    },
-    {
-      "id": "azul fidelidade|90|transferencia_bonificada|2026-11-27",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Esfera"
-      ],
-      "percentual": 90,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 69,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Azul e Esfera oferecem até 90% de bônus nas transferências",
-      "publicado": "2026-11-27T14:03:11.000Z",
-      "fontes": [
-        {
-          "fonte": "Cartões de Crédito",
-          "link": "https://www.cartoesdecredito.me/noticia/azul-e-esfera-oferecem-ate-90-de-bonus-nas-transferencias-2/",
-          "titulo": "Azul e Esfera oferecem até 90% de bônus nas transferências",
-          "publicado": "2026-11-27T14:03:11.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "limite",
-      "rotulo": "Razoável",
-      "motivo": "90% contra um teto de 120% nessa rota",
-      "baseVeredito": "teto",
-      "teto": 120,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 0,
-        "texto": "costuma repetir a cada 60 dias"
-      }
     },
     {
       "id": "azul fidelidade|90|transferencia_bonificada|2026-11-30",
@@ -698,38 +548,6 @@
         "min": 18,
         "max": 29.18,
         "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "azul fidelidade|22|acumulo|2026-11-27",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": 22,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 28,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
-      "publicado": "2026-11-27T21:20:16.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/confira-as-melhores-ofertas-da-black-friday-que-seguem-valendo/",
-          "titulo": "Confira as melhores ofertas da Black Friday que seguem valendo!",
-          "publicado": "2026-11-27T21:20:16.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
     },
@@ -1126,80 +944,6 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
-    },
-    {
-      "id": "azul fidelidade|x|acumulo|2026-11-27",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Azul Fidelidade",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "confiancaPrazo": "alta",
-      "nota": 5,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 14,
-        "loja": "Renner"
-      },
-      "clube": null,
-      "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
-      "publicado": "2026-11-27T20:00:54.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner/",
-          "titulo": "Somente hoje! Azul Fidelidade oferece até 14 pontos por real na Renner",
-          "publicado": "2026-11-27T20:40:37.000Z"
-        },
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/so-hoje-ganhe-ate-14-pontos-azul-fidelidade-por-real-gasto-na-renner/",
-          "titulo": "Só hoje! Ganhe até 14 pontos Azul Fidelidade por real gasto na Renner",
-          "publicado": "2026-11-27T20:00:54.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 12.5,
-        "max": 18,
-        "mediana": 14.95,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
-    },
-    {
-      "id": "livelo|x|acumulo|2026-11-27",
-      "tipo": "acumulo",
-      "tipoNome": "Acúmulo em loja parceira",
-      "destino": "Livelo",
-      "origens": [
-        "Livelo"
-      ],
-      "percentual": null,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "confiancaPrazo": "media",
-      "nota": 5,
-      "custoMilheiro": null,
-      "acumulo": {
-        "porReal": 21,
-        "loja": "Insider"
-      },
-      "clube": null,
-      "titulo": "Pink Hour Livelo! Acumule até 21 pontos por real gasto na Insider, Olympikus e mais parceiros",
-      "publicado": "2026-11-27T04:30:36.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/pink-hour-livelo-acumule-ate-21-pontos-por-real-gasto-na-insider-olympikus-e-mais-parceiros/",
-          "titulo": "Pink Hour Livelo! Acumule até 21 pontos por real gasto na Insider, Olympikus e mais parceiros",
-          "publicado": "2026-11-27T04:30:36.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 21,
-        "max": 21,
-        "mediana": 21,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      }
     },
     {
       "id": "livelo|6|compra_pontos|2026-11-30",
@@ -1712,140 +1456,6 @@
   ],
   "combinacoes": [
     {
-      "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|120|transferencia_bonificada|2026-11-27",
-      "origem": "Esfera",
-      "destino": "Azul Fidelidade",
-      "descontoCompra": 55,
-      "bonusTransferencia": 120,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/compre-pontos-blackissima-esfera-ate-55-porcento-desconto-cupom-ppv/",
-              "titulo": "Compre pontos na Blackíssima da Esfera com até 55% de desconto com o cupom do PPV",
-              "publicado": "2026-11-27T22:00:39.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
-              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
-              "publicado": "2026-11-24T18:36:27.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-24T14:59:17.000Z"
-            },
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-24T11:45:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-          "fontes": [
-            {
-              "fonte": "Melhores Destinos",
-              "link": "https://www.melhoresdestinos.com.br/milhas/azul-esfera-pontos-dinheiro-120-bonus-27nov26",
-              "titulo": "Milheiro Azul a partir de R$ 12,21 enviando pontos Esfera mais dinheiro com bônus",
-              "publicado": "2026-11-27T17:09:45.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
-              "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-              "publicado": "2026-11-27T12:45:42.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/azul-esfera-120-bonus-nov26.html",
-              "titulo": "Só hoje! Azul Fidelidade oferece até 120% de bônus na transferência de pontos Esfera",
-              "publicado": "2026-11-27T12:35:46.000Z"
-            },
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/so-hoje-azul-fidelidade-ate-120-porcento-bonus-transferencia-pontos-esfera-azul-friday/",
-              "titulo": "Só hoje! Azul Fidelidade com até 120% de bônus na transferência de pontos Esfera na Azul Friday",
-              "publicado": "2026-11-27T12:33:12.000Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "combo|esfera|55|compra_pontos|2026-11-30|connectmiles|80|transferencia_bonificada|2026-11-27",
-      "origem": "Esfera",
-      "destino": "ConnectMiles",
-      "descontoCompra": 55,
-      "bonusTransferencia": 80,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/compre-pontos-blackissima-esfera-ate-55-porcento-desconto-cupom-ppv/",
-              "titulo": "Compre pontos na Blackíssima da Esfera com até 55% de desconto com o cupom do PPV",
-              "publicado": "2026-11-27T22:00:39.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
-              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
-              "publicado": "2026-11-24T18:36:27.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-24T14:59:17.000Z"
-            },
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-24T11:45:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Esfera e ConnectMiles oferecem 80% de bônus nas transferências",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles/",
-              "titulo": "Apenas hoje! Esfera oferece 80% de bônus na transferência de pontos para o ConnectMiles",
-              "publicado": "2026-11-27T14:00:53.000Z"
-            },
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/esfera-e-connectmiles-oferecem-80-de-bonus-nas-transferencias/",
-              "titulo": "Esfera e ConnectMiles oferecem 80% de bônus nas transferências",
-              "publicado": "2026-11-27T13:53:41.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/apenas-hoje-esfera-oferece-80-de-bonus-nas-transferencias-para-o-connectmiles/",
-              "titulo": "Apenas hoje! Esfera oferece 80% de bônus nas transferências para o ConnectMiles",
-              "publicado": "2026-11-27T13:30:36.000Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "combo|esfera|55|compra_pontos|2026-11-30|smiles|80|transferencia_bonificada|2026-11-30",
       "origem": "Esfera",
       "destino": "Smiles",
@@ -1944,58 +1554,6 @@
               "link": "https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-nov26.html",
               "titulo": "Prorrogado! Ganhe até 80% de bônus na transferência de pontos Livelo para a Smiles",
               "publicado": "2026-11-26T10:54:46.000Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "combo|esfera|55|compra_pontos|2026-11-30|azul fidelidade|90|transferencia_bonificada|2026-11-27",
-      "origem": "Esfera",
-      "destino": "Azul Fidelidade",
-      "descontoCompra": 55,
-      "bonusTransferencia": 90,
-      "ate": "2026-11-27T23:59:00.000Z",
-      "partes": [
-        {
-          "papel": "compra",
-          "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
-          "fontes": [
-            {
-              "fonte": "Pontos pra Voar",
-              "link": "https://pontospravoar.com/compre-pontos-blackissima-esfera-ate-55-porcento-desconto-cupom-ppv/",
-              "titulo": "Compre pontos na Blackíssima da Esfera com até 55% de desconto com o cupom do PPV",
-              "publicado": "2026-11-27T22:00:39.000Z"
-            },
-            {
-              "fonte": "Melhores Cartões",
-              "link": "https://www.melhorescartoes.com.br/desconto-compra-pontos-esfera-55-nov26.html",
-              "titulo": "Cupom exclusivo! Compre pontos Esfera com até 55% de desconto parcelado no cartão de crédito",
-              "publicado": "2026-11-24T18:36:27.000Z"
-            },
-            {
-              "fonte": "Passageiro de Primeira",
-              "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Black do PP! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-24T14:59:17.000Z"
-            },
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/voltou-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
-              "titulo": "Voltou! Esfera oferece até 55% de desconto na compra de pontos",
-              "publicado": "2026-11-24T11:45:00.000Z"
-            }
-          ]
-        },
-        {
-          "papel": "transferência",
-          "titulo": "Azul e Esfera oferecem até 90% de bônus nas transferências",
-          "fontes": [
-            {
-              "fonte": "Cartões de Crédito",
-              "link": "https://www.cartoesdecredito.me/noticia/azul-e-esfera-oferecem-ate-90-de-bonus-nas-transferencias-2/",
-              "titulo": "Azul e Esfera oferecem até 90% de bônus nas transferências",
-              "publicado": "2026-11-27T14:03:11.000Z"
             }
           ]
         }
@@ -2266,22 +1824,6 @@
       "ehLista": false
     },
     {
-      "id": "passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo",
-      "titulo": "Até 12h! Voe para Portugal em Executiva por R$ 2.476 + taxas com a Livelo – confira o passo a passo",
-      "link": "https://passageirodeprimeira.com/ate-12h-voe-para-portugal-em-executiva-por-r-2-476-taxas-com-a-livelo-confira-o-passo-a-passo/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-27T13:45:14.000Z",
-      "ate": "2026-11-27T23:59:00.000Z",
-      "dinheiro": 2476,
-      "milhas": null,
-      "programa": null,
-      "origem": null,
-      "destino": "Portugal",
-      "idaEVolta": false,
-      "taxas": true,
-      "ehLista": false
-    },
-    {
       "id": "melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
       "titulo": "Mega Promo Latam Pass tem voos para Lima por 28 mil milhas o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-sao-lim-latam-bf-nov26",
@@ -2491,6 +2033,23 @@
       "destino": "Barbados No Caribe",
       "idaEVolta": true,
       "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
+    {
+      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
+      "titulo": "África do Sul 🇿🇦 Mega Promo Latam tem voos para Joanesburgo ou Cidade do Cabo a partir de R$ 3.564 ida e volta!",
+      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-26T21:02:37.000Z",
+      "ate": "2026-11-29T21:02:37.000Z",
+      "dinheiro": 3564,
+      "milhas": null,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Mega Promo Latam Africa do Sul",
+      "idaEVolta": true,
+      "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
     }
