@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-28T14:44:30.576Z",
-  "totalAtivas": 69,
+  "atualizadoEm": "2026-11-28T14:54:31.790Z",
+  "totalAtivas": 68,
   "totalCampanhasAtivas": 35,
   "combinacoes": [
     {
@@ -358,6 +358,28 @@
       "ehLista": false
     },
     {
+      "id": "pontospravoar.com/alerta-pasagens-ppv-trechos-internacionais-14960-milhas-latam-pass",
+      "titulo": "Alerta de passagens PPV: Trechos internacionais a partir de 14.960 milhas LATAM Pass",
+      "link": "https://pontospravoar.com/alerta-pasagens-ppv-trechos-internacionais-14960-milhas-latam-pass/",
+      "fonte": "companhia",
+      "publicado": "2026-11-27T17:30:31.000Z",
+      "ate": "2026-11-30T17:30:31.000Z",
+      "dinheiro": null,
+      "milhas": 14960,
+      "programa": "Latam Pass",
+      "origem": "RIO",
+      "destino": "Montevidéu",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "iataOrigem": "RIO",
+      "iataDestino": "MVD",
+      "data": "2027-02-25",
+      "comMilhas": true,
+      "cabine": "Economy",
+      "trechoDe": "companhia"
+    },
+    {
       "id": "passageirodeprimeira.com/voe-para-amsterdam-a-partir-de-52-393-milhas-latam-pass-taxas-o-trecho",
       "titulo": "Voe para Amsterdam a partir de 52.393 milhas LATAM Pass + taxas o trecho",
       "link": "https://passageirodeprimeira.com/voe-para-amsterdam-a-partir-de-52-393-milhas-latam-pass-taxas-o-trecho/",
@@ -535,23 +557,6 @@
       "idaEVolta": false,
       "taxas": false,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-america-do-sul-26-11-26",
-      "titulo": "América do Sul! Latam, Jetsmart e Sky têm voos para Argentina, Chile, Uruguai e mais destinos a partir de R$ 940 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-america-do-sul-26-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T21:38:23.000Z",
-      "ate": "2026-11-29T21:38:23.000Z",
-      "dinheiro": 940,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Mega Promo Latam America do Sul",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -1469,23 +1474,17 @@
       "ate": "2026-11-28T16:20:06.000Z",
       "confiancaPrazo": "baixa",
       "nota": 71,
-      "custoMilheiro": 24.06,
+      "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
-      "publicado": "2026-11-25T14:49:10.000Z",
+      "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia - CPM a partir de R$ 24,06",
+      "publicado": "2026-11-25T16:20:06.000Z",
       "fontes": [
         {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406/",
           "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia - CPM a partir de R$ 24,06",
           "publicado": "2026-11-25T16:20:06.000Z"
-        },
-        {
-          "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/latam-pass-premmia-60-bonus-nov26.html",
-          "titulo": "Latam Pass oferece 60% de bônus na transferência de pontos Premmia – milheiro a partir de R$ 24,06",
-          "publicado": "2026-11-25T14:49:10.000Z"
         }
       ],
       "referencia": {
@@ -1494,11 +1493,11 @@
         "mediana": 24.3,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       },
-      "veredito": "nao vale",
-      "rotulo": "Não vale",
-      "motivo": "R$ 24,06 sai mais caro que comprar pronto a R$ 23,80",
-      "baseVeredito": "compra",
-      "teto": null,
+      "veredito": "vale",
+      "rotulo": "Melhor momento",
+      "motivo": "60% é o topo do que essa rota costuma dar",
+      "baseVeredito": "teto",
+      "teto": 60,
       "esperar": {
         "cadencia": 60,
         "desde": 2,
@@ -3528,6 +3527,40 @@
       "resumo": "A Livelo lançou uma promoção imperdível com até 30% de desconto no resgate de passagens em Classe Executiva para assinantes do Clube Livelo, válida até domingo (29). Utilize o código \"EXECUTIVA30\" para garantir o desconto e aproveite essa oportunidade de viajar com mais conforto. Lembre-se que as taxas são cobradas à parte e a oferta está sujeita à disponibilidade. O post Livelo oferece 30% de des",
       "coletadoEm": "2026-11-27T17:44:32.405Z",
       "nota": 18
+    },
+    {
+      "id": "pontospravoar.com/alerta-pasagens-ppv-trechos-internacionais-14960-milhas-latam-pass",
+      "titulo": "Alerta de passagens PPV: Trechos internacionais a partir de 14.960 milhas LATAM Pass",
+      "link": "https://pontospravoar.com/alerta-pasagens-ppv-trechos-internacionais-14960-milhas-latam-pass/",
+      "fonte": "pontospravoar",
+      "fonteNome": "Pontos pra Voar",
+      "publicado": "2026-11-27T17:30:31.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 14960,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-11-30T17:30:31.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "Que tal aproveitar esta Black Friday para planejar sua próxima viagem internacional usando milhas LATAM Pass? O alerta de passagens PPV traz novas oportunidades pelo LATAM Pass, com passagens para diferentes destinos na América do Sul, Caribe e Estados Unidos, a partir de 14 mil milhas + taxas. Confira as opções selecionadas e aproveite para…",
+      "coletadoEm": "2026-11-28T14:54:31.790Z",
+      "nota": 0
     },
     {
       "id": "passageirodeprimeira.com/transfira-pontos-esfera-dinheiro-para-azul-milheiro-a-partir-de-r-1167",
