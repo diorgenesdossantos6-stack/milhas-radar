@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T07:54:29.287Z",
+  "atualizadoEm": "2026-11-28T08:04:29.365Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -141,7 +141,7 @@
       "teto": 60,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -189,7 +189,7 @@
       "teto": null,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -515,7 +515,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -587,7 +587,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -633,7 +633,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
@@ -730,7 +730,7 @@
       "teto": 40,
       "esperar": {
         "cadencia": 60,
-        "desde": 1,
+        "desde": 2,
         "texto": "costuma repetir a cada 60 dias"
       }
     },
