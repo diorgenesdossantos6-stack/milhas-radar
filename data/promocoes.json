@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T00:54:29.609Z",
+  "atualizadoEm": "2026-11-28T01:04:29.138Z",
   "totalAtivas": 73,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
@@ -1399,7 +1399,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1447,7 +1447,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
@@ -1748,7 +1748,7 @@
       "teto": 100,
       "esperar": {
         "cadencia": 90,
-        "desde": 0,
+        "desde": 1,
         "texto": "costuma repetir a cada 90 dias"
       }
     },
