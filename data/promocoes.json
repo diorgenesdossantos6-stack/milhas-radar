@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-28T09:54:30.087Z",
-  "totalAtivas": 73,
+  "atualizadoEm": "2026-11-28T10:04:32.177Z",
+  "totalAtivas": 74,
   "totalCampanhasAtivas": 37,
   "combinacoes": [
     {
@@ -1765,14 +1765,14 @@
       "custoMilheiro": null,
       "acumulo": null,
       "clube": null,
-      "titulo": "Melhor oferta do ano! Assine o ALL Signature com até 40% de desconto – incluindo ex-assinantes",
+      "titulo": "Economize no hotel! Assine o ALL Signature com até 40% OFF – o maior desconto do ano!",
       "publicado": "2026-11-23T12:00:34.000Z",
       "fontes": [
         {
           "fonte": "Melhores Cartões",
-          "link": "https://www.melhorescartoes.com.br/oferta-all-signature-black-friday-40-off-nov26.html",
-          "titulo": "Melhor desconto do ano! ALL Signature oferece até 40% OFF na assinatura – vale para quem já foi assinante!",
-          "publicado": "2026-11-23T14:34:43.000Z"
+          "link": "https://www.melhorescartoes.com.br/all-signature-40-off-cupom-bf-nov26.html",
+          "titulo": "Economize no hotel! Assine o ALL Signature com até 40% OFF – o maior desconto do ano!",
+          "publicado": "2026-11-28T10:00:00.000Z"
         },
         {
           "fonte": "Passageiro de Primeira",
@@ -2803,6 +2803,31 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhorescartoes.com.br/all-signature-40-off-cupom-bf-nov26.html",
+      "titulo": "Economize no hotel! Assine o ALL Signature com até 40% OFF – o maior desconto do ano!",
+      "link": "https://www.melhorescartoes.com.br/all-signature-40-off-cupom-bf-nov26.html",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Cartões",
+      "publicado": "2026-11-28T10:00:00.000Z",
+      "tipo": "clube",
+      "tipoNome": "Clube / assinatura",
+      "origem": [],
+      "destino": [
+        "Accor ALL"
+      ],
+      "par": "Accor ALL",
+      "percentual": 40,
+      "passagem": null,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-02T23:59:00.000Z",
+      "confiancaPrazo": "alta",
+      "resumo": "Ainda dá tempo de assinar o ALL Signature, clube de pontos da rede de hotéis ALL Accor, com até 40% de desconto! A oferta é válida para novos e ex-assinantes e vai até o próximo dia 2 de dezembro. Para aproveitar, acesse o link da promoção e use o cupom correspondente antes de finalizar a… O post Economize no hotel! Assine o ALL Signature com até 40% OFF – o maior desconto do ano! apareceu primeir",
+      "coletadoEm": "2026-11-28T10:04:32.177Z",
+      "nota": 24
+    },
     {
       "id": "pontospravoar.com/alerta-de-passagens-ppv-confira-10-resgates-a-partir-de-3-500-pontos-azul-fidelidade",
       "titulo": "Alerta de passagens PPV: Confira 10 resgates a partir de 3.500 pontos Azul Fidelidade",
