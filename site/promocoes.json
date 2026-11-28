@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T12:04:28.833Z",
+  "atualizadoEm": "2026-11-28T12:14:29.479Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -1387,30 +1387,6 @@
         "mediana": 14.95,
         "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
       }
-    },
-    {
-      "id": "accor all|x|clube|2026-11-28",
-      "tipo": "clube",
-      "tipoNome": "Clube / assinatura",
-      "destino": "Accor ALL",
-      "origens": [],
-      "percentual": null,
-      "ate": "2026-11-28T12:10:47.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 0,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo",
-      "publicado": "2026-11-25T12:10:47.000Z",
-      "fontes": [
-        {
-          "fonte": "Passageiro de Primeira",
-          "link": "https://passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-383-para-gastar-em-hoteis-accor-no-mundo/",
-          "titulo": "Assine o ALL Signature com até R$ 2.462 de desconto e gere euros a partir de R$ 3,83 para gastar em hotéis Accor no mundo",
-          "publicado": "2026-11-25T12:10:47.000Z"
-        }
-      ]
     },
     {
       "id": "azul fidelidade|x|acumulo|2027-12-31",
