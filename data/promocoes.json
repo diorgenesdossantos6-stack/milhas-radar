@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T12:34:31.550Z",
+  "atualizadoEm": "2026-11-28T12:44:29.608Z",
   "totalAtivas": 71,
   "totalCampanhasAtivas": 36,
   "combinacoes": [
@@ -207,6 +207,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas",
+      "titulo": "LATAM Friday oferece passagens promocionais a partir de 2 mil milhas + taxas",
+      "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-28T12:40:20.000Z",
+      "ate": "2026-12-01T12:40:20.000Z",
+      "dinheiro": null,
+      "milhas": 2000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": "Promocionais",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "pontospravoar.com/alerta-de-passagens-ppv-confira-10-resgates-a-partir-de-3-500-pontos-azul-fidelidade",
       "titulo": "Alerta de passagens PPV: Confira 10 resgates a partir de 3.500 pontos Azul Fidelidade",
@@ -581,23 +598,6 @@
       "destino": "Barbados No Caribe",
       "idaEVolta": true,
       "taxas": true,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
-      "titulo": "África do Sul 🇿🇦 Mega Promo Latam tem voos para Joanesburgo ou Cidade do Cabo a partir de R$ 3.564 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T21:02:37.000Z",
-      "ate": "2026-11-29T21:02:37.000Z",
-      "dinheiro": 3564,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Mega Promo Latam Africa do Sul",
-      "idaEVolta": true,
-      "taxas": false,
       "ehLista": false,
       "trechoDe": "endereco"
     }
@@ -2772,6 +2772,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas",
+      "titulo": "LATAM Friday oferece passagens promocionais a partir de 2 mil milhas + taxas",
+      "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-28T12:40:20.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Latam Pass"
+      ],
+      "par": "Latam Pass",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 2000,
+        "programa": "Latam Pass",
+        "origem": null,
+        "destino": null,
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T12:40:20.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Oferta] A LATAM Friday está com passagens promocionais a partir de 2.066 milhas + taxas para voos nacionais e internacionais. Não perca a chance de garantir o seu próximo destino com essa oportunidade imperdível! O post LATAM Friday oferece passagens promocionais a partir de 2 mil milhas + taxas apareceu primeiro em Passageiro de Primeira .",
+      "coletadoEm": "2026-11-28T12:44:29.608Z",
+      "nota": 0
+    },
     {
       "id": "passageirodeprimeira.com/assine-o-clube-livelo-e-turbine-seu-acumulo-no-festival-de-pontos-2",
       "titulo": "Assine o Clube Livelo e turbine seu acúmulo no Festival de Pontos",
