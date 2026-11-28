@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T13:34:30.565Z",
+  "atualizadoEm": "2026-11-28T13:44:32.003Z",
   "totalAtivas": 71,
   "totalCampanhasAtivas": 36,
   "combinacoes": [
@@ -161,6 +161,22 @@
     }
   ],
   "passagens": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-lisboa-bagagem-taag-nov26",
+      "titulo": "Portugal! Voos para Lisboa com bagagem por 76 mil pontos Azul o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-lisboa-bagagem-taag-nov26",
+      "fonte": "Melhores Destinos",
+      "publicado": "2026-11-28T13:37:57.000Z",
+      "ate": "2026-12-01T13:37:57.000Z",
+      "dinheiro": null,
+      "milhas": 76000,
+      "programa": "Azul Fidelidade",
+      "origem": null,
+      "destino": "Lisboa",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
     {
       "id": "passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas",
       "titulo": "LATAM Friday oferece passagens promocionais a partir de 2 mil milhas + taxas",
@@ -535,23 +551,6 @@
       "destino": "Mega Promo Latam Oceania",
       "idaEVolta": true,
       "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
-    },
-    {
-      "id": "passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas",
-      "titulo": "Voe para Barbados no Caribe a partir de 76 mil pontos Azul + taxas",
-      "link": "https://passageirodeprimeira.com/voe-para-barbados-no-caribe-a-partir-de-76-mil-pontos-azul-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "publicado": "2026-11-26T21:10:00.000Z",
-      "ate": "2026-11-29T21:10:00.000Z",
-      "dinheiro": null,
-      "milhas": 76000,
-      "programa": "Azul Fidelidade",
-      "origem": null,
-      "destino": "Barbados No Caribe",
-      "idaEVolta": true,
-      "taxas": true,
       "ehLista": false,
       "trechoDe": "endereco"
     }
@@ -2728,6 +2727,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "melhoresdestinos.com.br/milhas/voos-lisboa-bagagem-taag-nov26",
+      "titulo": "Portugal! Voos para Lisboa com bagagem por 76 mil pontos Azul o trecho",
+      "link": "https://www.melhoresdestinos.com.br/milhas/voos-lisboa-bagagem-taag-nov26",
+      "fonte": "melhorescartoes",
+      "fonteNome": "Melhores Destinos",
+      "publicado": "2026-11-28T13:37:57.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [],
+      "destino": [
+        "Azul Fidelidade"
+      ],
+      "par": "Azul Fidelidade",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": null,
+        "milhas": 76000,
+        "programa": "Azul Fidelidade",
+        "origem": null,
+        "destino": "Lisboa",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T13:37:57.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "O Azul Pelo Mundo está com bons preços de passagens aéreas para Lisboa, em Portugal, por 76.500 pontos Azul + taxas aeroportuárias, com saídas do Aeroporto de Guarulhos, em São Paulo. São opções para voar com a TAAG, com escala em Luanda, com datas entre fevereiro e junho de 2027. A tarifa ainda inclui uma… O post Portugal! Voos para Lisboa com bagagem por 76 mil pontos Azul o trecho apareceu prim",
+      "coletadoEm": "2026-11-28T13:44:32.003Z",
+      "nota": 0
+    },
     {
       "id": "melhoresdestinos.com.br/milhas/prorrogado-clube-livelo-105k-pontos-nov26",
       "titulo": "Prorrogado! Assine o Clube Livelo e acumule 105.000 pontos em 1 ano com nosso cupom exclusivo – milheiro a partir de R$ 21,60",
