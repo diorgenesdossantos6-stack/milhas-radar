@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T14:04:29.992Z",
+  "atualizadoEm": "2026-11-28T14:14:31.904Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -1527,6 +1527,22 @@
   ],
   "passagens": [
     {
+      "id": "pontospravoar.com/latam-friday-resgate-passagens-119-reais-2-mil-milhas",
+      "titulo": "LATAM Friday! Resgate passagens a partir de R$ 119 ou 2 mil milhas",
+      "link": "https://pontospravoar.com/latam-friday-resgate-passagens-119-reais-2-mil-milhas/",
+      "fonte": "Pontos pra Voar",
+      "publicado": "2026-11-28T14:04:05.000Z",
+      "ate": "2026-12-01T14:04:05.000Z",
+      "dinheiro": 119,
+      "milhas": 2000,
+      "programa": "Latam Pass",
+      "origem": null,
+      "destino": null,
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false
+    },
+    {
       "id": "melhoresdestinos.com.br/milhas/voos-lisboa-bagagem-taag-nov26",
       "titulo": "Portugal! Voos para Lisboa com bagagem por 76 mil pontos Azul o trecho",
       "link": "https://www.melhoresdestinos.com.br/milhas/voos-lisboa-bagagem-taag-nov26",
@@ -1901,23 +1917,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-oceania-26-11-26",
-      "titulo": "Oceania! Mega Promo Latam tem voos para Austrália ou Nova Zelândia a partir de R$ 6.044 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-oceania-26-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T21:16:07.000Z",
-      "ate": "2026-11-29T21:16:07.000Z",
-      "dinheiro": 6044,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Mega Promo Latam Oceania",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "regua": {
