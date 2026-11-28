@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T10:54:29.710Z",
+  "atualizadoEm": "2026-11-28T11:04:33.602Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -481,7 +481,7 @@
       "acumulo": null,
       "clube": null,
       "titulo": "Ganhe 25% de bônus na transferência de pontos do cartão para o Latam Pass",
-      "publicado": "2026-11-25T11:00:51.000Z",
+      "publicado": "2026-11-25T13:21:22.000Z",
       "fontes": [
         {
           "fonte": "Pontos pra Voar",
@@ -944,6 +944,38 @@
       "motivo": "milheiro a R$ 13,07 contra uma régua de R$ 17,54, o que o mercado paga pelo milheiro Smiles",
       "baseVeredito": "clube",
       "teto": null
+    },
+    {
+      "id": "livelo|6|compra_pontos|2026-11-28",
+      "tipo": "compra_pontos",
+      "tipoNome": "Compra de pontos com desconto",
+      "destino": "Livelo",
+      "origens": [
+        "Livelo"
+      ],
+      "percentual": 6,
+      "ate": "2026-11-28T23:59:00.000Z",
+      "confiancaPrazo": "media",
+      "nota": 9,
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "titulo": "Assine o Clube Livelo e turbine seu acúmulo no Festival de Pontos",
+      "publicado": "2026-11-28T11:00:13.000Z",
+      "fontes": [
+        {
+          "fonte": "Passageiro de Primeira",
+          "link": "https://passageirodeprimeira.com/assine-o-clube-livelo-e-turbine-seu-acumulo-no-festival-de-pontos-2/",
+          "titulo": "Assine o Clube Livelo e turbine seu acúmulo no Festival de Pontos",
+          "publicado": "2026-11-28T11:00:13.000Z"
+        }
+      ],
+      "referencia": {
+        "min": 21,
+        "max": 21,
+        "mediana": 21,
+        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
+      }
     },
     {
       "id": "livelo|6|compra_pontos|2026-11-30",
@@ -2589,18 +2621,19 @@
     },
     "Livelo": {
       "maxPercentual": 57,
-      "campanhas": 5,
+      "campanhas": 6,
       "inicios": [
         "2026-11-20",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-28"
       ],
-      "ultimaEm": "2026-11-27T17:37:24.000Z",
-      "mediaPercentual": 32,
+      "ultimaEm": "2026-11-28T11:00:13.000Z",
+      "mediaPercentual": 27,
       "previsao": {
         "pronta": false,
-        "campanhas": 2,
-        "faltam": 3,
-        "ultima": "2026-11-27"
+        "campanhas": 3,
+        "faltam": 2,
+        "ultima": "2026-11-28"
       }
     },
     "Esfera": {
