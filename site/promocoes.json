@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T13:04:29.331Z",
+  "atualizadoEm": "2026-11-28T13:14:31.068Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -1118,6 +1118,12 @@
       "publicado": "2026-11-27T03:04:00.000Z",
       "fontes": [
         {
+          "fonte": "Melhores Destinos",
+          "link": "https://www.melhoresdestinos.com.br/milhas/prorrogado-clube-livelo-105k-pontos-nov26",
+          "titulo": "Prorrogado! Assine o Clube Livelo e acumule 105.000 pontos em 1 ano com nosso cupom exclusivo – milheiro a partir de R$ 21,60",
+          "publicado": "2026-11-28T13:13:38.000Z"
+        },
+        {
           "fonte": "Passageiro de Primeira",
           "link": "https://passageirodeprimeira.com/receba-24-mil-pontos-assinar-clube-livelo-essencial-milheiro-a-partir-r-2245/",
           "titulo": "Receba 24 mil pontos ao assinar o Clube Livelo Essencial - Milheiro a partir de R$ 22,45",
@@ -1128,12 +1134,6 @@
           "link": "https://pontospravoar.com/pink-friday-clube-livelo-essencial-oferece-13-mil-pontos-primeiro-mes-assinatura/",
           "titulo": "Pink Friday! Clube Livelo Essencial oferece 13 mil pontos no 1° mês de assinatura",
           "publicado": "2026-11-27T20:30:53.000Z"
-        },
-        {
-          "fonte": "Melhores Destinos",
-          "link": "https://www.melhoresdestinos.com.br/milhas/black-friday-clube-livelo-especial-105k-nov26",
-          "titulo": "Pink Friday Livelo! Assine o Clube e acumule 105.000 pontos em um ano com nosso cupom exclusivo - milheiro a partir de R$ 21,60",
-          "publicado": "2026-11-27T03:08:04.000Z"
         }
       ],
       "referencia": {
@@ -2332,6 +2332,15 @@
       "titulo": "Receba 24 mil pontos ao assinar o Clube Livelo Essencial - Milheiro a partir de R$ 22,45",
       "link": "https://passageirodeprimeira.com/receba-24-mil-pontos-assinar-clube-livelo-essencial-milheiro-a-partir-r-2245/",
       "fonte": "Passageiro de Primeira"
+    },
+    {
+      "em": "2026-11-28T13:13:38.000Z",
+      "valor": 21.6,
+      "tipo": "clube",
+      "destino": null,
+      "titulo": "Prorrogado! Assine o Clube Livelo e acumule 105.000 pontos em 1 ano com nosso cupom exclusivo – milheiro a partir de R$ 21,60",
+      "link": "https://www.melhoresdestinos.com.br/milhas/prorrogado-clube-livelo-105k-pontos-nov26",
+      "fonte": "Melhores Destinos"
     }
   ],
   "historico": {
