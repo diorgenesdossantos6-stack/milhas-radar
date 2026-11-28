@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T13:54:31.139Z",
+  "atualizadoEm": "2026-11-28T14:03:27.469Z",
   "campanhasAtivas": [
     {
       "id": "smiles|80|transferencia_bonificada|2026-11-30",
@@ -477,46 +477,6 @@
           "link": "https://www.cartoesdecredito.me/noticia/latam-pass-oferece-25-de-bonus-nas-transferencias-6/",
           "titulo": "LATAM Pass oferece 25% de bônus nas transferências",
           "publicado": "2026-11-25T14:16:42.000Z"
-        }
-      ],
-      "referencia": {
-        "min": 18,
-        "max": 29.18,
-        "mediana": 24.3,
-        "fonte": "iDinheiro (tabela comparativa MaxMilhas/HotMilhas/BankMilhas)"
-      },
-      "veredito": "nao vale",
-      "rotulo": "Dá para esperar",
-      "motivo": "essa rota já chegou a 40%",
-      "baseVeredito": "teto",
-      "teto": 40,
-      "esperar": {
-        "cadencia": 60,
-        "desde": 2,
-        "texto": "costuma repetir a cada 60 dias"
-      }
-    },
-    {
-      "id": "latam pass|25|transferencia_bonificada|2026-11-28",
-      "tipo": "transferencia_bonificada",
-      "tipoNome": "Transferência bonificada",
-      "destino": "Latam Pass",
-      "origens": [],
-      "percentual": 25,
-      "ate": "2026-11-28T14:00:14.000Z",
-      "confiancaPrazo": "baixa",
-      "nota": 25,
-      "custoMilheiro": null,
-      "acumulo": null,
-      "clube": null,
-      "titulo": "LATAM Pass oferece 25% de bônus na transferência de parceiros selecionados",
-      "publicado": "2026-11-25T14:00:14.000Z",
-      "fontes": [
-        {
-          "fonte": "Pontos pra Voar",
-          "link": "https://pontospravoar.com/latam-pass-oferece-25-porcento-bonus-transferencia-parceiros-selecionados/",
-          "titulo": "LATAM Pass oferece 25% de bônus na transferência de parceiros selecionados",
-          "publicado": "2026-11-25T14:00:14.000Z"
         }
       ],
       "referencia": {
