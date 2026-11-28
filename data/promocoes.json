@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-28T16:34:32.859Z",
+  "atualizadoEm": "2026-11-28T16:44:31.297Z",
   "totalAtivas": 66,
   "totalCampanhasAtivas": 34,
   "combinacoes": [
@@ -161,6 +161,23 @@
     }
   ],
   "passagens": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-barcelona-em-executiva-por-r-3-874-taxas-com-a-livelo",
+      "titulo": "Voe para Barcelona em Executiva por R$ 3.874 + taxas com a Livelo – confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/voe-para-barcelona-em-executiva-por-r-3-874-taxas-com-a-livelo/",
+      "fonte": "Passageiro de Primeira",
+      "publicado": "2026-11-28T16:40:44.000Z",
+      "ate": "2026-12-01T16:40:44.000Z",
+      "dinheiro": 3874,
+      "milhas": null,
+      "programa": null,
+      "origem": null,
+      "destino": "Barcelona Em Executiva",
+      "idaEVolta": false,
+      "taxas": true,
+      "ehLista": false,
+      "trechoDe": "endereco"
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-resgate-passagens-smiles-apenas-3400-milhas-taxas",
       "titulo": "Alerta PPV! Resgate passagens na Smiles a partir de apenas 3.400 milhas + taxas",
@@ -540,23 +557,6 @@
       "idaEVolta": false,
       "taxas": true,
       "ehLista": false
-    },
-    {
-      "id": "melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-executiva-europa-26-11-26",
-      "titulo": "Europa de Executiva! Mega Promo Latam tem voos para Lisboa, Madri e outras cidades a partir de R$ 10.070 ida e volta!",
-      "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-executiva-europa-26-11-26",
-      "fonte": "Melhores Destinos",
-      "publicado": "2026-11-26T22:33:23.000Z",
-      "ate": "2026-11-29T22:33:23.000Z",
-      "dinheiro": 10070,
-      "milhas": null,
-      "programa": "Latam Pass",
-      "origem": null,
-      "destino": "Mega Promo Latam Executiva Europa",
-      "idaEVolta": true,
-      "taxas": false,
-      "ehLista": false,
-      "trechoDe": "endereco"
     }
   ],
   "erros": [],
@@ -2631,6 +2631,40 @@
     }
   ],
   "promocoes": [
+    {
+      "id": "passageirodeprimeira.com/voe-para-barcelona-em-executiva-por-r-3-874-taxas-com-a-livelo",
+      "titulo": "Voe para Barcelona em Executiva por R$ 3.874 + taxas com a Livelo – confira o passo a passo",
+      "link": "https://passageirodeprimeira.com/voe-para-barcelona-em-executiva-por-r-3-874-taxas-com-a-livelo/",
+      "fonte": "passageirodeprimeira",
+      "fonteNome": "Passageiro de Primeira",
+      "publicado": "2026-11-28T16:40:44.000Z",
+      "tipo": "passagem",
+      "tipoNome": "Oportunidade de passagem",
+      "origem": [
+        "Livelo"
+      ],
+      "destino": [],
+      "par": "Livelo",
+      "percentual": null,
+      "passagem": {
+        "dinheiro": 3874,
+        "milhas": null,
+        "programa": null,
+        "origem": null,
+        "destino": "Barcelona",
+        "idaEVolta": false,
+        "taxas": true,
+        "ehLista": false
+      },
+      "custoMilheiro": null,
+      "acumulo": null,
+      "clube": null,
+      "ate": "2026-12-01T16:40:44.000Z",
+      "confiancaPrazo": "baixa",
+      "resumo": "[Oferta] Muito bom! A Livelo está oferecendo 30% de desconto na emissão de passagens aéreas em Classe Executiva para Barcelona com a TAP, saindo por apenas R$ 3.874,12 + taxas. A promoção é válida até as 10h de domingo (29) e requer o uso do cupom \"EXECUTIVA30\". O post Voe para Barcelona em Executiva por R$ 3.874 + taxas com a Livelo – confira o passo a passo apareceu primeiro em Passageiro de Pri",
+      "coletadoEm": "2026-11-28T16:44:31.297Z",
+      "nota": 0
+    },
     {
       "id": "pontospravoar.com/alerta-ppv-resgate-passagens-smiles-apenas-3400-milhas-taxas",
       "titulo": "Alerta PPV! Resgate passagens na Smiles a partir de apenas 3.400 milhas + taxas",
